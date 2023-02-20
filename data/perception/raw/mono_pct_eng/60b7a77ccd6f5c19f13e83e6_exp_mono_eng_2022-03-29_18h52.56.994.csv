@@ -1,0 +1,17 @@
+﻿check.keys,check.rt,key_resp_7.keys,key_resp_7.rt,key_resp_2.keys,key_resp_2.rt,slider.response,slider.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stim,participant,session,date,expName,psychopyVersion,OS,frameRate,key_resp_5.keys,key_resp_5.rt,key_resp.keys,key_resp.rt,slider_2.response,slider_2.rt,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials_2.ran
+2,2.317,space,11.836,2,6.202,3.107288666,7.867,0,0,0,3,1,stim/p_schwa_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,4,7.391,2.013824376,2.663,0,1,1,2,1,stim/peuf_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,3,2.169,3.914159493,1.695,0,2,2,5,1,stim/fief_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,4,8.985,3.984705576,1.345,0,3,3,0,1,stim/pof_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,3,4.851,3.085243015,1.733,0,4,4,1,1,stim/pief_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,4,4.591,2.154916542,2.764,0,5,5,6,1,stim/feuf_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,1,4.001,3.834795149,1.229,0,6,6,7,1,stim/f_schwa_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,4,2.504,2.98383302,1.29,0,7,7,4,1,stim/fof_g.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,,,,,,,,,
+,,,,,,,,,,,,,stim/p_schwa_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,space,1.712,1,6.593,3.049969973,1.39,0,0,0,3,1
+,,,,,,,,,,,,,stim/peuf_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,4,2.967,3.781885587,1.031,0,1,1,2,1
+,,,,,,,,,,,,,stim/fof_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,1,2.286,3.962659925,1.331,0,2,2,4,1
+,,,,,,,,,,,,,stim/feuf_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,4,4.548,3.971478186,1.463,0,3,3,6,1
+,,,,,,,,,,,,,stim/fif_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,3,2.487,3.993523837,1.062,0,4,4,5,1
+,,,,,,,,,,,,,stim/pif_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,3,3.32,3.931796014,1.235,0,5,5,1,1
+,,,,,,,,,,,,,stim/pof_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,1,4.421,2.935332588,1.081,0,6,6,0,1
+,,,,,,,,,,,,,stim/f_schwa_f.wav,60b7a77ccd6f5c19f13e83e6,001,2022-03-29_18h52.56.994,exp_mono_eng,2021.2.3,Win32,60.0240096,,,3,6.133,2.027051767,1.28,0,7,7,7,1

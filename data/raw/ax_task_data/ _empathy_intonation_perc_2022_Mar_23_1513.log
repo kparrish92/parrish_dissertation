@@ -1,0 +1,569 @@
+0.7293 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.9645 	INFO 	Loaded monitor calibration from ['2021_05_25 17:40']
+5.9800 	WARNING 	User requested fullscreen with size [1920 1200], but screen is actually [1440, 900]. Using actual size
+6.6664 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbf8becdb00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fbf8af7f5f8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6666 	EXP 	window1: mouseVisible = True
+6.6666 	EXP 	window1: recordFrameIntervals = False
+6.8322 	EXP 	window1: recordFrameIntervals = True
+7.0160 	DEBUG 	Screen (0) actual frame rate measured at 59.80
+7.0161 	EXP 	window1: recordFrameIntervals = False
+7.9557 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9972 	EXP 	Created text_2afc_check = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2afc_check', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2287 	INFO 	keyboard.Keyboard is using ptb backend.
+8.2417 	EXP 	Sound sound_2afc_stim_trial set volume 1.000
+8.2463 	EXP 	Created text_2afc_response_yes_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_yes_trial', opacity=1, ori=0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='Yes', units='height', win=Window(...), wrapWidth=1)
+8.2485 	EXP 	Created text_2afc_response_no_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_no_trial', opacity=1, ori=0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='No', units='height', win=Window(...), wrapWidth=1)
+8.4773 	INFO 	keyboard.Keyboard is using ptb backend.
+8.4831 	EXP 	Created text_2afc_question_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_question_trial', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Is this a question?', units='height', win=Window(...), wrapWidth=1)
+8.7090 	INFO 	keyboard.Keyboard is using ptb backend.
+8.7201 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='‘Space’ to continue', units='height', win=Window(...), wrapWidth=1)
+8.7201 	EXP 	Sound sound_2afc_stim_trial_2 set volume 1.000
+8.7221 	EXP 	Created text_2afc_response_yes_trial_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_yes_trial_2', opacity=1, ori=0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='Yes', units='height', win=Window(...), wrapWidth=1)
+8.7238 	EXP 	Created text_2afc_response_no_trial_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_no_trial_2', opacity=1, ori=0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='No', units='height', win=Window(...), wrapWidth=1)
+8.9514 	INFO 	keyboard.Keyboard is using ptb backend.
+8.9547 	EXP 	Created text_2afc_question_trial_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_question_trial_2', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Is this a question?', units='height', win=Window(...), wrapWidth=1)
+8.9715 	EXP 	text_2afc_check: autoDraw = True
+9.8396 	DEBUG 	Read csv file with pandas: conditions/conditions_german.csv
+9.8414 	DEBUG 	Clearing unnamed columns from conditions/conditions_german.csv
+9.8432 	EXP 	Imported conditions/conditions_german.csv as conditions, 49 conditions, 6 params
+9.8438 	EXP 	Created sequence: random, trialTypes=49, nReps=1, seed=None
+9.8441 	EXP 	New trial (rep=0, index=0): OrderedDict([('pisch', 'conditions/german/pisch_2_1.wav'), ('fisch', 'conditions/german/fisch_2_1.wav'), ('pake', 'conditions/german/pake_2_1.wav'), ('pike', 'conditions/german/pike_2_1.wav'), ('item_num', 8), ('correct_response', 0)])
+9.8606 	DATA 	Keypress: space
+9.8648 	EXP 	text_2afc_check: autoDraw = False
+9.8648 	EXP 	text_2afc_question_trial: autoDraw = True
+10.0986 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+10.0986 	EXP 	text_2afc_response_no_trial: autoDraw = True
+12.2681 	EXP 	New trial (rep=0, index=1): OrderedDict([('pisch', 'conditions/german/pisch_1_2.wav'), ('fisch', 'conditions/german/fisch_1_2.wav'), ('pake', 'conditions/german/pake_1_2.wav'), ('pike', 'conditions/german/pike_1_2.wav'), ('item_num', 2), ('correct_response', 0)])
+12.2784 	DATA 	Keypress: 1
+12.2856 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+12.2856 	EXP 	text_2afc_response_no_trial: autoDraw = False
+12.2856 	EXP 	text_2afc_question_trial: autoDraw = False
+12.2856 	EXP 	text_2afc_question_trial: autoDraw = True
+12.5158 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+12.5158 	EXP 	text_2afc_response_no_trial: autoDraw = True
+14.3536 	EXP 	New trial (rep=0, index=2): OrderedDict([('pisch', 'conditions/german/pisch_1_6.wav'), ('fisch', 'conditions/german/fisch_1_6.wav'), ('pake', 'conditions/german/pake_1_6.wav'), ('pike', 'conditions/german/pike_1_6.wav'), ('item_num', 6), ('correct_response', 0)])
+14.3689 	DATA 	Keypress: 1
+14.3730 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+14.3730 	EXP 	text_2afc_response_no_trial: autoDraw = False
+14.3730 	EXP 	text_2afc_question_trial: autoDraw = False
+14.3730 	EXP 	text_2afc_question_trial: autoDraw = True
+14.5997 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+14.5997 	EXP 	text_2afc_response_no_trial: autoDraw = True
+16.2672 	EXP 	New trial (rep=0, index=3): OrderedDict([('pisch', 'conditions/german/pisch_7_6.wav'), ('fisch', 'conditions/german/fisch_7_6.wav'), ('pake', 'conditions/german/pake_7_6.wav'), ('pike', 'conditions/german/pike_7_6.wav'), ('item_num', 48), ('correct_response', 0)])
+16.2775 	DATA 	Keypress: 1
+16.2847 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+16.2847 	EXP 	text_2afc_response_no_trial: autoDraw = False
+16.2847 	EXP 	text_2afc_question_trial: autoDraw = False
+16.2847 	EXP 	text_2afc_question_trial: autoDraw = True
+16.5167 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+16.5167 	EXP 	text_2afc_response_no_trial: autoDraw = True
+18.3344 	EXP 	New trial (rep=0, index=4): OrderedDict([('pisch', 'conditions/german/pisch_3_1.wav'), ('fisch', 'conditions/german/fisch_3_1.wav'), ('pake', 'conditions/german/pake_3_1.wav'), ('pike', 'conditions/german/pike_3_1.wav'), ('item_num', 15), ('correct_response', 0)])
+18.3437 	DATA 	Keypress: 1
+18.3494 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+18.3494 	EXP 	text_2afc_response_no_trial: autoDraw = False
+18.3494 	EXP 	text_2afc_question_trial: autoDraw = False
+18.3494 	EXP 	text_2afc_question_trial: autoDraw = True
+18.5831 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+18.5831 	EXP 	text_2afc_response_no_trial: autoDraw = True
+19.7659 	EXP 	New trial (rep=0, index=5): OrderedDict([('pisch', 'conditions/german/pisch_4_1.wav'), ('fisch', 'conditions/german/fisch_4_1.wav'), ('pake', 'conditions/german/pake_4_1.wav'), ('pike', 'conditions/german/pike_4_1.wav'), ('item_num', 22), ('correct_response', 0)])
+19.7771 	DATA 	Keypress: 1
+19.7825 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+19.7825 	EXP 	text_2afc_response_no_trial: autoDraw = False
+19.7825 	EXP 	text_2afc_question_trial: autoDraw = False
+19.7825 	EXP 	text_2afc_question_trial: autoDraw = True
+20.0165 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+20.0165 	EXP 	text_2afc_response_no_trial: autoDraw = True
+20.8506 	EXP 	New trial (rep=0, index=6): OrderedDict([('pisch', 'conditions/german/pisch_7_2.wav'), ('fisch', 'conditions/german/fisch_7_2.wav'), ('pake', 'conditions/german/pake_7_2.wav'), ('pike', 'conditions/german/pike_7_2.wav'), ('item_num', 44), ('correct_response', 0)])
+20.8598 	DATA 	Keypress: 1
+20.8654 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+20.8654 	EXP 	text_2afc_response_no_trial: autoDraw = False
+20.8654 	EXP 	text_2afc_question_trial: autoDraw = False
+20.8654 	EXP 	text_2afc_question_trial: autoDraw = True
+21.0999 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+21.0999 	EXP 	text_2afc_response_no_trial: autoDraw = True
+22.1537 	EXP 	New trial (rep=0, index=7): OrderedDict([('pisch', 'conditions/german/pisch_1_1.wav'), ('fisch', 'conditions/german/fisch_1_1.wav'), ('pake', 'conditions/german/pake_1_1.wav'), ('pike', 'conditions/german/pike_1_1.wav'), ('item_num', 1), ('correct_response', 1)])
+22.1631 	DATA 	Keypress: 1
+22.1670 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+22.1670 	EXP 	text_2afc_response_no_trial: autoDraw = False
+22.1670 	EXP 	text_2afc_question_trial: autoDraw = False
+22.1670 	EXP 	text_2afc_question_trial: autoDraw = True
+22.4000 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+22.4000 	EXP 	text_2afc_response_no_trial: autoDraw = True
+23.2510 	EXP 	New trial (rep=0, index=8): OrderedDict([('pisch', 'conditions/german/pisch_4_6.wav'), ('fisch', 'conditions/german/fisch_4_6.wav'), ('pake', 'conditions/german/pake_4_6.wav'), ('pike', 'conditions/german/pike_4_6.wav'), ('item_num', 27), ('correct_response', 0)])
+23.2610 	DATA 	Keypress: 1
+23.2660 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+23.2660 	EXP 	text_2afc_response_no_trial: autoDraw = False
+23.2660 	EXP 	text_2afc_question_trial: autoDraw = False
+23.2660 	EXP 	text_2afc_question_trial: autoDraw = True
+23.4981 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+23.4981 	EXP 	text_2afc_response_no_trial: autoDraw = True
+24.1994 	EXP 	New trial (rep=0, index=9): OrderedDict([('pisch', 'conditions/german/pisch_2_5.wav'), ('fisch', 'conditions/german/fisch_2_5.wav'), ('pake', 'conditions/german/pake_2_5.wav'), ('pike', 'conditions/german/pike_2_5.wav'), ('item_num', 12), ('correct_response', 0)])
+24.2086 	DATA 	Keypress: 1
+24.2173 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+24.2173 	EXP 	text_2afc_response_no_trial: autoDraw = False
+24.2173 	EXP 	text_2afc_question_trial: autoDraw = False
+24.2173 	EXP 	text_2afc_question_trial: autoDraw = True
+24.4498 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+24.4498 	EXP 	text_2afc_response_no_trial: autoDraw = True
+25.2010 	EXP 	New trial (rep=0, index=10): OrderedDict([('pisch', 'conditions/german/pisch_6_2.wav'), ('fisch', 'conditions/german/fisch_6_2.wav'), ('pake', 'conditions/german/pake_6_2.wav'), ('pike', 'conditions/german/pike_6_2.wav'), ('item_num', 37), ('correct_response', 0)])
+25.2106 	DATA 	Keypress: 1
+25.2188 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+25.2188 	EXP 	text_2afc_response_no_trial: autoDraw = False
+25.2188 	EXP 	text_2afc_question_trial: autoDraw = False
+25.2188 	EXP 	text_2afc_question_trial: autoDraw = True
+25.4501 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+25.4501 	EXP 	text_2afc_response_no_trial: autoDraw = True
+26.2208 	EXP 	New trial (rep=0, index=11): OrderedDict([('pisch', 'conditions/german/pisch_3_5.wav'), ('fisch', 'conditions/german/fisch_3_5.wav'), ('pake', 'conditions/german/pake_3_5.wav'), ('pike', 'conditions/german/pike_3_5.wav'), ('item_num', 19), ('correct_response', 0)])
+26.2304 	DATA 	Keypress: 1
+26.2343 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+26.2343 	EXP 	text_2afc_response_no_trial: autoDraw = False
+26.2343 	EXP 	text_2afc_question_trial: autoDraw = False
+26.2343 	EXP 	text_2afc_question_trial: autoDraw = True
+26.4659 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+26.4659 	EXP 	text_2afc_response_no_trial: autoDraw = True
+27.1842 	EXP 	New trial (rep=0, index=12): OrderedDict([('pisch', 'conditions/german/pisch_1_4.wav'), ('fisch', 'conditions/german/fisch_1_4.wav'), ('pake', 'conditions/german/pake_1_4.wav'), ('pike', 'conditions/german/pike_1_4.wav'), ('item_num', 4), ('correct_response', 0)])
+27.1934 	DATA 	Keypress: 1
+27.1991 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+27.1991 	EXP 	text_2afc_response_no_trial: autoDraw = False
+27.1991 	EXP 	text_2afc_question_trial: autoDraw = False
+27.1991 	EXP 	text_2afc_question_trial: autoDraw = True
+27.4317 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+27.4317 	EXP 	text_2afc_response_no_trial: autoDraw = True
+28.1499 	EXP 	New trial (rep=0, index=13): OrderedDict([('pisch', 'conditions/german/pisch_4_2.wav'), ('fisch', 'conditions/german/fisch_4_2.wav'), ('pake', 'conditions/german/pake_4_2.wav'), ('pike', 'conditions/german/pike_4_2.wav'), ('item_num', 23), ('correct_response', 0)])
+28.1578 	DATA 	Keypress: 1
+28.1659 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+28.1659 	EXP 	text_2afc_response_no_trial: autoDraw = False
+28.1659 	EXP 	text_2afc_question_trial: autoDraw = False
+28.1659 	EXP 	text_2afc_question_trial: autoDraw = True
+28.4000 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+28.4000 	EXP 	text_2afc_response_no_trial: autoDraw = True
+29.0506 	EXP 	New trial (rep=0, index=14): OrderedDict([('pisch', 'conditions/german/pisch_2_3.wav'), ('fisch', 'conditions/german/fisch_2_3.wav'), ('pake', 'conditions/german/pake_2_3.wav'), ('pike', 'conditions/german/pike_2_3.wav'), ('item_num', 10), ('correct_response', 0)])
+29.0607 	DATA 	Keypress: 1
+29.0661 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+29.0661 	EXP 	text_2afc_response_no_trial: autoDraw = False
+29.0661 	EXP 	text_2afc_question_trial: autoDraw = False
+29.0661 	EXP 	text_2afc_question_trial: autoDraw = True
+29.2994 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+29.2994 	EXP 	text_2afc_response_no_trial: autoDraw = True
+29.3226 	DATA 	Keypress: 1
+29.4911 	DATA 	Keypress: 1
+29.7171 	EXP 	New trial (rep=0, index=15): OrderedDict([('pisch', 'conditions/german/pisch_5_4.wav'), ('fisch', 'conditions/german/fisch_5_4.wav'), ('pake', 'conditions/german/pake_5_4.wav'), ('pike', 'conditions/german/pike_5_4.wav'), ('item_num', 32), ('correct_response', 0)])
+29.7258 	DATA 	Keypress: 1
+29.7323 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+29.7323 	EXP 	text_2afc_response_no_trial: autoDraw = False
+29.7323 	EXP 	text_2afc_question_trial: autoDraw = False
+29.7323 	EXP 	text_2afc_question_trial: autoDraw = True
+29.8916 	DATA 	Keypress: 1
+29.9660 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+29.9660 	EXP 	text_2afc_response_no_trial: autoDraw = True
+30.0723 	DATA 	Keypress: 1
+30.2337 	EXP 	New trial (rep=0, index=16): OrderedDict([('pisch', 'conditions/german/pisch_4_4.wav'), ('fisch', 'conditions/german/fisch_4_4.wav'), ('pake', 'conditions/german/pake_4_4.wav'), ('pike', 'conditions/german/pike_4_4.wav'), ('item_num', 25), ('correct_response', 1)])
+30.2421 	DATA 	Keypress: 1
+30.2488 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+30.2488 	EXP 	text_2afc_response_no_trial: autoDraw = False
+30.2488 	EXP 	text_2afc_question_trial: autoDraw = False
+30.2488 	EXP 	text_2afc_question_trial: autoDraw = True
+30.4066 	DATA 	Keypress: 1
+30.4848 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+30.4848 	EXP 	text_2afc_response_no_trial: autoDraw = True
+30.6265 	DATA 	Keypress: 1
+30.8002 	EXP 	New trial (rep=0, index=17): OrderedDict([('pisch', 'conditions/german/pisch_3_6.wav'), ('fisch', 'conditions/german/fisch_3_6.wav'), ('pake', 'conditions/german/pake_3_6.wav'), ('pike', 'conditions/german/pike_3_6.wav'), ('item_num', 20), ('correct_response', 0)])
+30.8088 	DATA 	Keypress: 1
+30.8183 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+30.8183 	EXP 	text_2afc_response_no_trial: autoDraw = False
+30.8183 	EXP 	text_2afc_question_trial: autoDraw = False
+30.8183 	EXP 	text_2afc_question_trial: autoDraw = True
+31.0256 	DATA 	Keypress: 1
+31.0500 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+31.0500 	EXP 	text_2afc_response_no_trial: autoDraw = True
+31.1384 	DATA 	Keypress: 1
+31.4867 	EXP 	New trial (rep=0, index=18): OrderedDict([('pisch', 'conditions/german/pisch_7_1.wav'), ('fisch', 'conditions/german/fisch_7_1.wav'), ('pake', 'conditions/german/pake_7_1.wav'), ('pike', 'conditions/german/pike_7_1.wav'), ('item_num', 43), ('correct_response', 0)])
+31.4955 	DATA 	Keypress: 1
+31.4997 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+31.4997 	EXP 	text_2afc_response_no_trial: autoDraw = False
+31.4997 	EXP 	text_2afc_question_trial: autoDraw = False
+31.4997 	EXP 	text_2afc_question_trial: autoDraw = True
+31.6712 	DATA 	Keypress: 1
+31.7324 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+31.7324 	EXP 	text_2afc_response_no_trial: autoDraw = True
+31.8399 	DATA 	Keypress: 1
+32.0011 	EXP 	New trial (rep=0, index=19): OrderedDict([('pisch', 'conditions/german/pisch_4_3.wav'), ('fisch', 'conditions/german/fisch_4_3.wav'), ('pake', 'conditions/german/pake_4_3.wav'), ('pike', 'conditions/german/pike_4_3.wav'), ('item_num', 24), ('correct_response', 0)])
+32.0110 	DATA 	Keypress: 1
+32.0180 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+32.0180 	EXP 	text_2afc_response_no_trial: autoDraw = False
+32.0180 	EXP 	text_2afc_question_trial: autoDraw = False
+32.0180 	EXP 	text_2afc_question_trial: autoDraw = True
+32.1720 	DATA 	Keypress: 1
+32.2505 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+32.2505 	EXP 	text_2afc_response_no_trial: autoDraw = True
+32.3224 	DATA 	Keypress: 1
+32.4564 	DATA 	Keypress: 1
+32.6517 	EXP 	New trial (rep=0, index=20): OrderedDict([('pisch', 'conditions/german/pisch_2_7.wav'), ('fisch', 'conditions/german/fisch_2_7.wav'), ('pake', 'conditions/german/pake_2_7.wav'), ('pike', 'conditions/german/pike_2_7.wav'), ('item_num', 14), ('correct_response', 0)])
+32.6608 	DATA 	Keypress: 1
+32.6660 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+32.6660 	EXP 	text_2afc_response_no_trial: autoDraw = False
+32.6660 	EXP 	text_2afc_question_trial: autoDraw = False
+32.6660 	EXP 	text_2afc_question_trial: autoDraw = True
+32.8224 	DATA 	Keypress: 1
+32.9002 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+32.9002 	EXP 	text_2afc_response_no_trial: autoDraw = True
+33.0060 	DATA 	Keypress: 1
+33.1671 	EXP 	New trial (rep=0, index=21): OrderedDict([('pisch', 'conditions/german/pisch_6_7.wav'), ('fisch', 'conditions/german/fisch_6_7.wav'), ('pake', 'conditions/german/pake_6_7.wav'), ('pike', 'conditions/german/pike_6_7.wav'), ('item_num', 42), ('correct_response', 0)])
+33.1768 	DATA 	Keypress: 1
+33.1826 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+33.1826 	EXP 	text_2afc_response_no_trial: autoDraw = False
+33.1826 	EXP 	text_2afc_question_trial: autoDraw = False
+33.1826 	EXP 	text_2afc_question_trial: autoDraw = True
+33.3398 	DATA 	Keypress: 1
+33.4165 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+33.4165 	EXP 	text_2afc_response_no_trial: autoDraw = True
+33.5400 	DATA 	Keypress: 1
+33.6553 	DATA 	Keypress: 1
+33.8177 	EXP 	New trial (rep=0, index=22): OrderedDict([('pisch', 'conditions/german/pisch_2_6.wav'), ('fisch', 'conditions/german/fisch_2_6.wav'), ('pake', 'conditions/german/pake_2_6.wav'), ('pike', 'conditions/german/pike_2_6.wav'), ('item_num', 13), ('correct_response', 0)])
+33.8261 	DATA 	Keypress: 1
+33.8325 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+33.8325 	EXP 	text_2afc_response_no_trial: autoDraw = False
+33.8325 	EXP 	text_2afc_question_trial: autoDraw = False
+33.8325 	EXP 	text_2afc_question_trial: autoDraw = True
+34.0248 	DATA 	Keypress: 1
+34.0660 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+34.0660 	EXP 	text_2afc_response_no_trial: autoDraw = True
+34.2274 	DATA 	Keypress: 1
+34.4010 	EXP 	New trial (rep=0, index=23): OrderedDict([('pisch', 'conditions/german/pisch_1_3.wav'), ('fisch', 'conditions/german/fisch_1_3.wav'), ('pake', 'conditions/german/pake_1_3.wav'), ('pike', 'conditions/german/pike_1_3.wav'), ('item_num', 3), ('correct_response', 0)])
+34.4118 	DATA 	Keypress: 1
+34.4194 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+34.4194 	EXP 	text_2afc_response_no_trial: autoDraw = False
+34.4194 	EXP 	text_2afc_question_trial: autoDraw = False
+34.4194 	EXP 	text_2afc_question_trial: autoDraw = True
+34.6242 	DATA 	Keypress: 1
+34.6506 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+34.6506 	EXP 	text_2afc_response_no_trial: autoDraw = True
+34.8260 	DATA 	Keypress: 1
+35.0186 	EXP 	New trial (rep=0, index=24): OrderedDict([('pisch', 'conditions/german/pisch_3_3.wav'), ('fisch', 'conditions/german/fisch_3_3.wav'), ('pake', 'conditions/german/pake_3_3.wav'), ('pike', 'conditions/german/pike_3_3.wav'), ('item_num', 17), ('correct_response', 1)])
+35.0285 	DATA 	Keypress: 1
+35.0333 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+35.0333 	EXP 	text_2afc_response_no_trial: autoDraw = False
+35.0333 	EXP 	text_2afc_question_trial: autoDraw = False
+35.0333 	EXP 	text_2afc_question_trial: autoDraw = True
+35.1895 	DATA 	Keypress: 1
+35.2668 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+35.2668 	EXP 	text_2afc_response_no_trial: autoDraw = True
+35.5539 	EXP 	New trial (rep=0, index=25): OrderedDict([('pisch', 'conditions/german/pisch_7_5.wav'), ('fisch', 'conditions/german/fisch_7_5.wav'), ('pake', 'conditions/german/pake_7_5.wav'), ('pike', 'conditions/german/pike_7_5.wav'), ('item_num', 47), ('correct_response', 0)])
+35.5622 	DATA 	Keypress: 1
+35.5665 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+35.5665 	EXP 	text_2afc_response_no_trial: autoDraw = False
+35.5665 	EXP 	text_2afc_question_trial: autoDraw = False
+35.5665 	EXP 	text_2afc_question_trial: autoDraw = True
+35.7401 	DATA 	Keypress: 1
+35.8001 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+35.8001 	EXP 	text_2afc_response_no_trial: autoDraw = True
+36.1677 	EXP 	New trial (rep=0, index=26): OrderedDict([('pisch', 'conditions/german/pisch_5_1.wav'), ('fisch', 'conditions/german/fisch_5_1.wav'), ('pake', 'conditions/german/pake_5_1.wav'), ('pike', 'conditions/german/pike_5_1.wav'), ('item_num', 29), ('correct_response', 0)])
+36.1771 	DATA 	Keypress: 1
+36.1827 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+36.1827 	EXP 	text_2afc_response_no_trial: autoDraw = False
+36.1827 	EXP 	text_2afc_question_trial: autoDraw = False
+36.1827 	EXP 	text_2afc_question_trial: autoDraw = True
+36.3592 	DATA 	Keypress: 1
+36.4167 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+36.4167 	EXP 	text_2afc_response_no_trial: autoDraw = True
+36.5730 	DATA 	Keypress: 1
+36.8343 	EXP 	New trial (rep=0, index=27): OrderedDict([('pisch', 'conditions/german/pisch_4_7.wav'), ('fisch', 'conditions/german/fisch_4_7.wav'), ('pake', 'conditions/german/pake_4_7.wav'), ('pike', 'conditions/german/pike_4_7.wav'), ('item_num', 28), ('correct_response', 0)])
+36.8428 	DATA 	Keypress: 1
+36.8491 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+36.8491 	EXP 	text_2afc_response_no_trial: autoDraw = False
+36.8491 	EXP 	text_2afc_question_trial: autoDraw = False
+36.8491 	EXP 	text_2afc_question_trial: autoDraw = True
+37.0555 	DATA 	Keypress: 1
+37.0826 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+37.0826 	EXP 	text_2afc_response_no_trial: autoDraw = True
+37.2751 	DATA 	Keypress: 1
+37.4512 	EXP 	New trial (rep=0, index=28): OrderedDict([('pisch', 'conditions/german/pisch_6_4.wav'), ('fisch', 'conditions/german/fisch_6_4.wav'), ('pake', 'conditions/german/pake_6_4.wav'), ('pike', 'conditions/german/pike_6_4.wav'), ('item_num', 39), ('correct_response', 0)])
+37.4604 	DATA 	Keypress: 1
+37.4659 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+37.4659 	EXP 	text_2afc_response_no_trial: autoDraw = False
+37.4659 	EXP 	text_2afc_question_trial: autoDraw = False
+37.4659 	EXP 	text_2afc_question_trial: autoDraw = True
+37.6559 	DATA 	Keypress: 1
+37.7003 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+37.7003 	EXP 	text_2afc_response_no_trial: autoDraw = True
+37.8736 	DATA 	Keypress: 1
+38.0500 	EXP 	New trial (rep=0, index=29): OrderedDict([('pisch', 'conditions/german/pisch_2_4.wav'), ('fisch', 'conditions/german/fisch_2_4.wav'), ('pake', 'conditions/german/pake_2_4.wav'), ('pike', 'conditions/german/pike_2_4.wav'), ('item_num', 11), ('correct_response', 0)])
+38.0597 	DATA 	Keypress: 1
+38.0651 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+38.0651 	EXP 	text_2afc_response_no_trial: autoDraw = False
+38.0651 	EXP 	text_2afc_question_trial: autoDraw = False
+38.0651 	EXP 	text_2afc_question_trial: autoDraw = True
+38.2992 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+38.2992 	EXP 	text_2afc_response_no_trial: autoDraw = True
+38.3908 	DATA 	Keypress: 1
+38.5841 	EXP 	New trial (rep=0, index=30): OrderedDict([('pisch', 'conditions/german/pisch_7_3.wav'), ('fisch', 'conditions/german/fisch_7_3.wav'), ('pake', 'conditions/german/pake_7_3.wav'), ('pike', 'conditions/german/pike_7_3.wav'), ('item_num', 45), ('correct_response', 0)])
+38.5934 	DATA 	Keypress: 1
+38.5994 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+38.5994 	EXP 	text_2afc_response_no_trial: autoDraw = False
+38.5994 	EXP 	text_2afc_question_trial: autoDraw = False
+38.5994 	EXP 	text_2afc_question_trial: autoDraw = True
+38.7558 	DATA 	Keypress: 1
+38.8333 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+38.8333 	EXP 	text_2afc_response_no_trial: autoDraw = True
+38.9575 	DATA 	Keypress: 1
+39.2877 	EXP 	New trial (rep=0, index=31): OrderedDict([('pisch', 'conditions/german/pisch_7_7.wav'), ('fisch', 'conditions/german/fisch_7_7.wav'), ('pake', 'conditions/german/pake_7_7.wav'), ('pike', 'conditions/german/pike_7_7.wav'), ('item_num', 49), ('correct_response', 1)])
+39.2970 	DATA 	Keypress: 1
+39.3009 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+39.3009 	EXP 	text_2afc_response_no_trial: autoDraw = False
+39.3009 	EXP 	text_2afc_question_trial: autoDraw = False
+39.3009 	EXP 	text_2afc_question_trial: autoDraw = True
+39.4545 	DATA 	Keypress: 1
+39.5339 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+39.5339 	EXP 	text_2afc_response_no_trial: autoDraw = True
+39.6392 	DATA 	Keypress: 1
+39.8169 	EXP 	New trial (rep=0, index=32): OrderedDict([('pisch', 'conditions/german/pisch_5_7.wav'), ('fisch', 'conditions/german/fisch_5_7.wav'), ('pake', 'conditions/german/pake_5_7.wav'), ('pike', 'conditions/german/pike_5_7.wav'), ('item_num', 35), ('correct_response', 0)])
+39.8262 	DATA 	Keypress: 1
+39.8323 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+39.8323 	EXP 	text_2afc_response_no_trial: autoDraw = False
+39.8323 	EXP 	text_2afc_question_trial: autoDraw = False
+39.8323 	EXP 	text_2afc_question_trial: autoDraw = True
+40.0231 	DATA 	Keypress: 1
+40.0654 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+40.0654 	EXP 	text_2afc_response_no_trial: autoDraw = True
+40.2564 	DATA 	Keypress: 1
+40.5067 	DATA 	Keypress: 1
+40.5172 	EXP 	New trial (rep=0, index=33): OrderedDict([('pisch', 'conditions/german/pisch_6_3.wav'), ('fisch', 'conditions/german/fisch_6_3.wav'), ('pake', 'conditions/german/pake_6_3.wav'), ('pike', 'conditions/german/pike_6_3.wav'), ('item_num', 38), ('correct_response', 0)])
+40.5328 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+40.5328 	EXP 	text_2afc_response_no_trial: autoDraw = False
+40.5328 	EXP 	text_2afc_question_trial: autoDraw = False
+40.5328 	EXP 	text_2afc_question_trial: autoDraw = True
+40.7671 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+40.7671 	EXP 	text_2afc_response_no_trial: autoDraw = True
+41.3183 	EXP 	New trial (rep=0, index=34): OrderedDict([('pisch', 'conditions/german/pisch_1_5.wav'), ('fisch', 'conditions/german/fisch_1_5.wav'), ('pake', 'conditions/german/pake_1_5.wav'), ('pike', 'conditions/german/pike_1_5.wav'), ('item_num', 5), ('correct_response', 0)])
+41.3269 	DATA 	Keypress: 1
+41.3321 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+41.3321 	EXP 	text_2afc_response_no_trial: autoDraw = False
+41.3321 	EXP 	text_2afc_question_trial: autoDraw = False
+41.3321 	EXP 	text_2afc_question_trial: autoDraw = True
+41.5672 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+41.5672 	EXP 	text_2afc_response_no_trial: autoDraw = True
+42.3519 	EXP 	New trial (rep=0, index=35): OrderedDict([('pisch', 'conditions/german/pisch_3_7.wav'), ('fisch', 'conditions/german/fisch_3_7.wav'), ('pake', 'conditions/german/pake_3_7.wav'), ('pike', 'conditions/german/pike_3_7.wav'), ('item_num', 21), ('correct_response', 0)])
+42.3614 	DATA 	Keypress: 1
+42.3662 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+42.3662 	EXP 	text_2afc_response_no_trial: autoDraw = False
+42.3662 	EXP 	text_2afc_question_trial: autoDraw = False
+42.3662 	EXP 	text_2afc_question_trial: autoDraw = True
+42.6006 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+42.6006 	EXP 	text_2afc_response_no_trial: autoDraw = True
+43.2501 	EXP 	New trial (rep=0, index=36): OrderedDict([('pisch', 'conditions/german/pisch_3_2.wav'), ('fisch', 'conditions/german/fisch_3_2.wav'), ('pake', 'conditions/german/pake_3_2.wav'), ('pike', 'conditions/german/pike_3_2.wav'), ('item_num', 16), ('correct_response', 0)])
+43.2590 	DATA 	Keypress: 1
+43.2660 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+43.2660 	EXP 	text_2afc_response_no_trial: autoDraw = False
+43.2660 	EXP 	text_2afc_question_trial: autoDraw = False
+43.2660 	EXP 	text_2afc_question_trial: autoDraw = True
+43.5004 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+43.5004 	EXP 	text_2afc_response_no_trial: autoDraw = True
+44.2510 	EXP 	New trial (rep=0, index=37): OrderedDict([('pisch', 'conditions/german/pisch_5_5.wav'), ('fisch', 'conditions/german/fisch_5_5.wav'), ('pake', 'conditions/german/pake_5_5.wav'), ('pike', 'conditions/german/pike_5_5.wav'), ('item_num', 33), ('correct_response', 1)])
+44.2600 	DATA 	Keypress: 1
+44.2662 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+44.2662 	EXP 	text_2afc_response_no_trial: autoDraw = False
+44.2662 	EXP 	text_2afc_question_trial: autoDraw = False
+44.2662 	EXP 	text_2afc_question_trial: autoDraw = True
+44.5001 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+44.5001 	EXP 	text_2afc_response_no_trial: autoDraw = True
+46.2684 	EXP 	New trial (rep=0, index=38): OrderedDict([('pisch', 'conditions/german/pisch_5_3.wav'), ('fisch', 'conditions/german/fisch_5_3.wav'), ('pake', 'conditions/german/pake_5_3.wav'), ('pike', 'conditions/german/pike_5_3.wav'), ('item_num', 31), ('correct_response', 0)])
+46.2767 	DATA 	Keypress: 1
+46.2862 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+46.2862 	EXP 	text_2afc_response_no_trial: autoDraw = False
+46.2862 	EXP 	text_2afc_question_trial: autoDraw = False
+46.2862 	EXP 	text_2afc_question_trial: autoDraw = True
+46.5168 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+46.5168 	EXP 	text_2afc_response_no_trial: autoDraw = True
+46.6400 	DATA 	Keypress: 1
+46.9013 	EXP 	New trial (rep=0, index=39): OrderedDict([('pisch', 'conditions/german/pisch_2_2.wav'), ('fisch', 'conditions/german/fisch_2_2.wav'), ('pake', 'conditions/german/pake_2_2.wav'), ('pike', 'conditions/german/pike_2_2.wav'), ('item_num', 9), ('correct_response', 1)])
+46.9101 	DATA 	Keypress: 1
+46.9161 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+46.9161 	EXP 	text_2afc_response_no_trial: autoDraw = False
+46.9161 	EXP 	text_2afc_question_trial: autoDraw = False
+46.9161 	EXP 	text_2afc_question_trial: autoDraw = True
+47.1512 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+47.1512 	EXP 	text_2afc_response_no_trial: autoDraw = True
+47.1580 	DATA 	Keypress: 1
+47.4352 	EXP 	New trial (rep=0, index=40): OrderedDict([('pisch', 'conditions/german/pisch_6_1.wav'), ('fisch', 'conditions/german/fisch_6_1.wav'), ('pake', 'conditions/german/pake_6_1.wav'), ('pike', 'conditions/german/pike_6_1.wav'), ('item_num', 36), ('correct_response', 0)])
+47.4459 	DATA 	Keypress: 1
+47.4507 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+47.4507 	EXP 	text_2afc_response_no_trial: autoDraw = False
+47.4507 	EXP 	text_2afc_question_trial: autoDraw = False
+47.4507 	EXP 	text_2afc_question_trial: autoDraw = True
+47.6856 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+47.6856 	EXP 	text_2afc_response_no_trial: autoDraw = True
+47.6920 	DATA 	Keypress: 1
+47.9518 	EXP 	New trial (rep=0, index=41): OrderedDict([('pisch', 'conditions/german/pisch_5_6.wav'), ('fisch', 'conditions/german/fisch_5_6.wav'), ('pake', 'conditions/german/pake_5_6.wav'), ('pike', 'conditions/german/pike_5_6.wav'), ('item_num', 34), ('correct_response', 0)])
+47.9607 	DATA 	Keypress: 1
+47.9661 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+47.9661 	EXP 	text_2afc_response_no_trial: autoDraw = False
+47.9661 	EXP 	text_2afc_question_trial: autoDraw = False
+47.9661 	EXP 	text_2afc_question_trial: autoDraw = True
+48.1900 	DATA 	Keypress: 1
+48.2004 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+48.2004 	EXP 	text_2afc_response_no_trial: autoDraw = True
+48.4245 	DATA 	Keypress: 1
+48.6682 	EXP 	New trial (rep=0, index=42): OrderedDict([('pisch', 'conditions/german/pisch_7_4.wav'), ('fisch', 'conditions/german/fisch_7_4.wav'), ('pake', 'conditions/german/pake_7_4.wav'), ('pike', 'conditions/german/pike_7_4.wav'), ('item_num', 46), ('correct_response', 0)])
+48.6771 	DATA 	Keypress: 1
+48.6838 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+48.6838 	EXP 	text_2afc_response_no_trial: autoDraw = False
+48.6838 	EXP 	text_2afc_question_trial: autoDraw = False
+48.6838 	EXP 	text_2afc_question_trial: autoDraw = True
+48.9174 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+48.9174 	EXP 	text_2afc_response_no_trial: autoDraw = True
+48.9253 	DATA 	Keypress: 1
+49.1412 	DATA 	Keypress: 1
+49.3008 	EXP 	New trial (rep=0, index=43): OrderedDict([('pisch', 'conditions/german/pisch_6_6.wav'), ('fisch', 'conditions/german/fisch_6_6.wav'), ('pake', 'conditions/german/pake_6_6.wav'), ('pike', 'conditions/german/pike_6_6.wav'), ('item_num', 41), ('correct_response', 1)])
+49.3090 	DATA 	Keypress: 1
+49.3160 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+49.3160 	EXP 	text_2afc_response_no_trial: autoDraw = False
+49.3160 	EXP 	text_2afc_question_trial: autoDraw = False
+49.3160 	EXP 	text_2afc_question_trial: autoDraw = True
+49.5526 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+49.5526 	EXP 	text_2afc_response_no_trial: autoDraw = True
+49.5593 	DATA 	Keypress: 1
+49.7912 	DATA 	Keypress: 1
+50.0514 	EXP 	New trial (rep=0, index=44): OrderedDict([('pisch', 'conditions/german/pisch_4_5.wav'), ('fisch', 'conditions/german/fisch_4_5.wav'), ('pake', 'conditions/german/pake_4_5.wav'), ('pike', 'conditions/german/pike_4_5.wav'), ('item_num', 26), ('correct_response', 0)])
+50.0609 	DATA 	Keypress: 1
+50.0663 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+50.0663 	EXP 	text_2afc_response_no_trial: autoDraw = False
+50.0663 	EXP 	text_2afc_question_trial: autoDraw = False
+50.0663 	EXP 	text_2afc_question_trial: autoDraw = True
+50.2990 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+50.2990 	EXP 	text_2afc_response_no_trial: autoDraw = True
+50.3069 	DATA 	Keypress: 1
+50.5402 	DATA 	Keypress: 1
+50.8017 	EXP 	New trial (rep=0, index=45): OrderedDict([('pisch', 'conditions/german/pisch_3_4.wav'), ('fisch', 'conditions/german/fisch_3_4.wav'), ('pake', 'conditions/german/pake_3_4.wav'), ('pike', 'conditions/german/pike_3_4.wav'), ('item_num', 18), ('correct_response', 0)])
+50.8102 	DATA 	Keypress: 1
+50.8195 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+50.8195 	EXP 	text_2afc_response_no_trial: autoDraw = False
+50.8195 	EXP 	text_2afc_question_trial: autoDraw = False
+50.8195 	EXP 	text_2afc_question_trial: autoDraw = True
+51.0503 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+51.0503 	EXP 	text_2afc_response_no_trial: autoDraw = True
+51.0573 	DATA 	Keypress: 1
+51.2725 	DATA 	Keypress: 1
+51.5012 	EXP 	New trial (rep=0, index=46): OrderedDict([('pisch', 'conditions/german/pisch_6_5.wav'), ('fisch', 'conditions/german/fisch_6_5.wav'), ('pake', 'conditions/german/pake_6_5.wav'), ('pike', 'conditions/german/pike_6_5.wav'), ('item_num', 40), ('correct_response', 0)])
+51.5107 	DATA 	Keypress: 1
+51.5162 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+51.5162 	EXP 	text_2afc_response_no_trial: autoDraw = False
+51.5162 	EXP 	text_2afc_question_trial: autoDraw = False
+51.5162 	EXP 	text_2afc_question_trial: autoDraw = True
+51.7509 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+51.7509 	EXP 	text_2afc_response_no_trial: autoDraw = True
+51.8072 	DATA 	Keypress: 1
+52.0682 	EXP 	New trial (rep=0, index=47): OrderedDict([('pisch', 'conditions/german/pisch_5_2.wav'), ('fisch', 'conditions/german/fisch_5_2.wav'), ('pake', 'conditions/german/pake_5_2.wav'), ('pike', 'conditions/german/pike_5_2.wav'), ('item_num', 30), ('correct_response', 0)])
+52.0768 	DATA 	Keypress: 1
+52.0838 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+52.0838 	EXP 	text_2afc_response_no_trial: autoDraw = False
+52.0838 	EXP 	text_2afc_question_trial: autoDraw = False
+52.0838 	EXP 	text_2afc_question_trial: autoDraw = True
+52.3069 	DATA 	Keypress: 1
+52.3163 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+52.3163 	EXP 	text_2afc_response_no_trial: autoDraw = True
+52.5421 	DATA 	Keypress: 1
+52.8018 	EXP 	New trial (rep=0, index=48): OrderedDict([('pisch', 'conditions/german/pisch_1_7.wav'), ('fisch', 'conditions/german/fisch_1_7.wav'), ('pake', 'conditions/german/pake_1_7.wav'), ('pike', 'conditions/german/pike_1_7.wav'), ('item_num', 7), ('correct_response', 0)])
+52.8108 	DATA 	Keypress: 1
+52.8199 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+52.8199 	EXP 	text_2afc_response_no_trial: autoDraw = False
+52.8199 	EXP 	text_2afc_question_trial: autoDraw = False
+52.8199 	EXP 	text_2afc_question_trial: autoDraw = True
+53.0504 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+53.0504 	EXP 	text_2afc_response_no_trial: autoDraw = True
+53.0745 	DATA 	Keypress: 1
+53.3254 	DATA 	Keypress: 1
+53.3333 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+53.3333 	EXP 	text_2afc_response_no_trial: autoDraw = False
+53.3333 	EXP 	text_2afc_question_trial: autoDraw = False
+53.3333 	EXP 	text: autoDraw = True
+53.5397 	DATA 	Keypress: 1
+53.8067 	DATA 	Keypress: 1
+54.0569 	DATA 	Keypress: 1
+54.5394 	DATA 	Keypress: 1
+56.0908 	DEBUG 	Read csv file with pandas: conditions/conditions_french.csv
+56.0915 	DEBUG 	Clearing unnamed columns from conditions/conditions_french.csv
+56.0935 	EXP 	Imported conditions/conditions_french.csv as conditions, 49 conditions, 6 params
+56.0940 	EXP 	Created sequence: random, trialTypes=49, nReps=1, seed=None
+56.0942 	EXP 	New trial (rep=0, index=0): OrderedDict([('fat', 'conditions/french/fat_6_4.wav'), ('fit', 'conditions/french/fit_6_4.wav'), ('pat', 'conditions/french/pat_6_4.wav'), ('pic', 'conditions/french/pic_6_4.wav'), ('item_num', 39), ('correct_response', 0)])
+56.1008 	DATA 	Keypress: space
+56.1048 	EXP 	text: autoDraw = False
+56.1048 	EXP 	text_2afc_question_trial_2: autoDraw = True
+56.3521 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+56.3521 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+60.1345 	EXP 	New trial (rep=0, index=1): OrderedDict([('fat', 'conditions/french/fat_6_1.wav'), ('fit', 'conditions/french/fit_6_1.wav'), ('pat', 'conditions/french/pat_6_1.wav'), ('pic', 'conditions/french/pic_6_1.wav'), ('item_num', 36), ('correct_response', 0)])
+60.1414 	DATA 	Keypress: 1
+60.1503 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+60.1503 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+60.1503 	EXP 	text_2afc_question_trial_2: autoDraw = False
+60.1503 	EXP 	text_2afc_question_trial_2: autoDraw = True
+60.3834 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+60.3834 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+62.3188 	EXP 	New trial (rep=0, index=2): OrderedDict([('fat', 'conditions/french/fat_2_7.wav'), ('fit', 'conditions/french/fit_2_7.wav'), ('pat', 'conditions/french/pat_2_7.wav'), ('pic', 'conditions/french/pic_2_7.wav'), ('item_num', 14), ('correct_response', 0)])
+62.3266 	DATA 	Keypress: 1
+62.3332 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+62.3332 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+62.3332 	EXP 	text_2afc_question_trial_2: autoDraw = False
+62.3332 	EXP 	text_2afc_question_trial_2: autoDraw = True
+62.5679 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+62.5679 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+64.4694 	EXP 	New trial (rep=0, index=3): OrderedDict([('fat', 'conditions/french/fat_3_6.wav'), ('fit', 'conditions/french/fit_3_6.wav'), ('pat', 'conditions/french/pat_3_6.wav'), ('pic', 'conditions/french/pic_3_6.wav'), ('item_num', 20), ('correct_response', 0)])
+64.4767 	DATA 	Keypress: 1
+64.4849 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+64.4849 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+64.4849 	EXP 	text_2afc_question_trial_2: autoDraw = False
+64.4849 	EXP 	text_2afc_question_trial_2: autoDraw = True
+64.7169 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+64.7169 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+66.5853 	EXP 	New trial (rep=0, index=4): OrderedDict([('fat', 'conditions/french/fat_6_7.wav'), ('fit', 'conditions/french/fit_6_7.wav'), ('pat', 'conditions/french/pat_6_7.wav'), ('pic', 'conditions/french/pic_6_7.wav'), ('item_num', 42), ('correct_response', 0)])
+66.5925 	DATA 	Keypress: 1
+66.5999 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+66.5999 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+66.5999 	EXP 	text_2afc_question_trial_2: autoDraw = False
+66.5999 	EXP 	text_2afc_question_trial_2: autoDraw = True
+66.8336 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+66.8336 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+68.6020 	EXP 	New trial (rep=0, index=5): OrderedDict([('fat', 'conditions/french/fat_5_7.wav'), ('fit', 'conditions/french/fit_5_7.wav'), ('pat', 'conditions/french/pat_5_7.wav'), ('pic', 'conditions/french/pic_5_7.wav'), ('item_num', 35), ('correct_response', 0)])
+68.6088 	DATA 	Keypress: 1
+68.6168 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+68.6168 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+68.6168 	EXP 	text_2afc_question_trial_2: autoDraw = False
+68.6168 	EXP 	text_2afc_question_trial_2: autoDraw = True
+68.8507 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+68.8507 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+69.8211 	EXP 	New trial (rep=0, index=6): OrderedDict([('fat', 'conditions/french/fat_6_5.wav'), ('fit', 'conditions/french/fit_6_5.wav'), ('pat', 'conditions/french/pat_6_5.wav'), ('pic', 'conditions/french/pic_6_5.wav'), ('item_num', 40), ('correct_response', 0)])
+69.8286 	DATA 	Keypress: 1
+69.8334 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+69.8334 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+69.8334 	EXP 	text_2afc_question_trial_2: autoDraw = False
+69.8334 	EXP 	text_2afc_question_trial_2: autoDraw = True
+70.0678 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+70.0678 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+71.0524 	EXP 	New trial (rep=0, index=7): OrderedDict([('fat', 'conditions/french/fat_3_2.wav'), ('fit', 'conditions/french/fit_3_2.wav'), ('pat', 'conditions/french/pat_3_2.wav'), ('pic', 'conditions/french/pic_3_2.wav'), ('item_num', 16), ('correct_response', 0)])
+71.0595 	DATA 	Keypress: 1
+71.0669 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+71.0669 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+71.0669 	EXP 	text_2afc_question_trial_2: autoDraw = False
+71.0669 	EXP 	text_2afc_question_trial_2: autoDraw = True
+71.3008 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+71.3008 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+72.3351 	EXP 	New trial (rep=0, index=8): OrderedDict([('fat', 'conditions/french/fat_2_1.wav'), ('fit', 'conditions/french/fit_2_1.wav'), ('pat', 'conditions/french/pat_2_1.wav'), ('pic', 'conditions/french/pic_2_1.wav'), ('item_num', 8), ('correct_response', 0)])
+72.3422 	DATA 	Keypress: 1
+72.3508 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+72.3508 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+72.3508 	EXP 	text_2afc_question_trial_2: autoDraw = False
+72.3508 	EXP 	text_2afc_question_trial_2: autoDraw = True
+72.5843 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+72.5843 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+73.3394 	DATA 	Keypress: 1
+73.3522 	EXP 	New trial (rep=0, index=9): OrderedDict([('fat', 'conditions/french/fat_2_6.wav'), ('fit', 'conditions/french/fit_2_6.wav'), ('pat', 'conditions/french/pat_2_6.wav'), ('pic', 'conditions/french/pic_2_6.wav'), ('item_num', 13), ('correct_response', 0)])
+73.3672 	EXP 	text_2afc_response_yes_trial_2: autoDraw = False
+73.3672 	EXP 	text_2afc_response_no_trial_2: autoDraw = False
+73.3672 	EXP 	text_2afc_question_trial_2: autoDraw = False
+73.3672 	EXP 	text_2afc_question_trial_2: autoDraw = True
+73.6015 	EXP 	text_2afc_response_yes_trial_2: autoDraw = True
+73.6015 	EXP 	text_2afc_response_no_trial_2: autoDraw = True
+74.6246 	DATA 	Keypress: escape
+74.8627 	EXP 	window1: mouseVisible = True
+74.8628 	DEBUG 	Saving data for empathy_intonation_perc ExperimentHandler
+74.8665 	INFO 	saved data to /Users/kyleparrish/Documents/exp/data/ _empathy_intonation_perc_2022_Mar_23_1513.psydat
+74.8737 	INFO 	saved data to '/Users/kyleparrish/Documents/exp/data/ _empathy_intonation_perc_2022_Mar_23_1513.csv'

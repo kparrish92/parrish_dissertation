@@ -1,0 +1,4 @@
+﻿the_col,key_resp_2afc_trial.keys,key_resp_2afc_trial.corr,key_resp_2afc_trial.rt,trials_2afc_loop.thisRepN,trials_2afc_loop.thisTrialN,trials_2afc_loop.thisN,trials_2afc_loop.thisIndex,trials_2afc_loop.ran,pisch,fisch,pake,pike,item_num,correct_response,id,Variety of Spanish that is most familiar to you?,date,expName,psychopyVersion,OS,frameRate
+pike,1,0,1.398,0,0,0,20,1,conditions/german/pisch_3_7.wav,conditions/german/fisch_3_7.wav,conditions/german/pake_3_7.wav,conditions/german/pike_3_7.wav,21,0,,,2022-07-09_16h27.17,german,2021.2.3,MacIntel,62.5
+pake,1,0,0.075,0,1,1,38,1,conditions/german/pisch_6_4.wav,conditions/german/fisch_6_4.wav,conditions/german/pake_6_4.wav,conditions/german/pike_6_4.wav,39,0,,,2022-07-09_16h27.17,german,2021.2.3,MacIntel,62.5
+pake,1,0,0.011,0,2,2,23,1,conditions/german/pisch_4_3.wav,conditions/german/fisch_4_3.wav,conditions/german/pake_4_3.wav,conditions/german/pike_4_3.wav,24,0,,,2022-07-09_16h27.17,german,2021.2.3,MacIntel,62.5

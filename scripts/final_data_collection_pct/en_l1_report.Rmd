@@ -1,0 +1,204 @@
+---
+title: "Report VCT/PCT task results"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r, include=FALSE}
+library(bayesplot)
+source(here::here("scripts", "final_data_collection_pct", "00_libs.R"))
+source(here::here("scripts", "final_data_collection_pct", "03_load_data.R"))
+
+
+
+
+all_pct = read.csv(here("scripts", "final_data_collection_pct", 
+                 "data", "tidy", "all_pct.tidy,csv"))
+
+mod = read_rds(here("scripts", "final_data_collection_pct", "models",
+                 "bayesian_log.RDS"))
+
+
+df_bayesian = data.frame(fixef(mod))
+
+
+report_df = read.csv(here("scripts", "final_data_collection_pct", 
+               "data", "tidy",
+               "report_bilabial_eng_l1.csv"))
+```
+
+# Statistical Analysis
+
+This is a document that converts the results of the PCT (so far) to prose. 
+
+A Bayesian logistic regression was run `language ~ stim_language*phoneme*frame + (1 | participant), data = all_pct)`, where the outcome was language (either English or Spanish, coded as 1 and 0). The preditors were `stim_language` (either French or German), `phoneme` (i, o, schwa or y) and `frame` (fricative or bilabial). 
+
+The priors were the default (weakly informative priors), and the model was run using brms using all other defaults. 
+
+
+# Results 
+
+A forest plot of the model can be seen below and is reported prior to further interpretation (the conversion of the log odds parameter estimates to probability).
+Overall, there was a preference for English categories in this group.
+The probability of choosing an English word when the French stimulus contained /i/ was `est`, probability of choosing an English category when the stimulus contained /i/ in German were `est` 
+
+```{r}
+
+mod_posterior <- as.matrix(mod)
+plot_title <- ggtitle("Plot Title")
+
+mcmc_areas(mod_posterior,
+           pars = c("b_Intercept", 
+                    "b_stim_languageGerman", 
+                    "b_phonemeo",
+                    "b_phonemeschwa",
+                    "b_phonemey",
+                    "b_framefricative",
+                    "b_stim_languageGerman:phonemeo",
+                    "b_stim_languageGerman:phonemeschwa",
+                    "b_stim_languageGerman:phonemey",
+                    "b_stim_languageGerman:framefricative",
+                    "b_phonemeo:framefricative",
+                    "b_phonemeschwa:framefricative",
+                    "b_phonemey:framefricative",
+                    "b_stim_languageGerman:phonemeo:framefricative",
+                    "b_stim_languageGerman:phonemeschwa:framefricative",
+                    "b_stim_languageGerman:phonemey:framefricative"),
+           prob = 0.8) + plot_title
+
+```
+
+```{r}
+report_df = read.csv(here("scripts", "final_data_collection_pct", 
+               "data", "tidy",
+               "report_bilabial_eng_l1.csv"))
+```
+
+
+Number of participants
+```{r}
+length(unique(all_pct$participant))
+```
+
+List of each participant with number of trials each
+```{r}
+all_pct %>% 
+  group_by(participant) %>% 
+  summarize(n = n()) %>% 
+  filter(n > 79) %>% 
+  knitr::kable()
+```
+
+
+Number of responses per language across all stimuli
+```{r}
+graph_df = all_pct %>% 
+  group_by(phoneme, word, stim_language, language) %>% 
+  summarise("response" = n(), rating_mean = mean(rating),
+            rating_sd = sd(rating)) %>% 
+  filter(response > 11)
+
+graph_df %>% 
+  ggplot(aes(x = language, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("Overall Responses") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79")) 
+```
+
+
+```{r}
+report_df %>% 
+  ggplot(aes(x = estimate, y = phoneme, color = language,
+             xmin=hdi_hi, xmax=hdi_lo)) + 
+  geom_pointrange(position = position_dodge(width = .5), 
+                  shape = 21, fill = "white") + 
+  geom_vline(xintercept = .5, linetype = "dashed") +
+  scale_color_manual(values=c("#1F9646", "darkgoldenrod3"))  + 
+  xlab("Probability") + ylab("Phoneme of stimulus") +
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"),
+        legend.position = "bottom") + 
+  theme(legend.position = "bottom") + 
+  ggtitle("Probability of choosing an English word")
+```
+
+# check how many phonemes total were presented
+```{r}
+all_pct %>% 
+  group_by(phoneme) %>% 
+  summarize(n = n())
+```
+
+```{r}
+graph_df %>% 
+  filter(phoneme == "i") %>% 
+  ggplot(aes(x = word, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("responses to /i/") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"))
+```
+
+```{r}
+graph_df %>% 
+  filter(phoneme == "o") %>% 
+  ggplot(aes(x = word, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("responses to /o/") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"))
+```
+
+```{r}
+graph_df %>% 
+  filter(phoneme == "o") %>% 
+  ggplot(aes(x = language, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("responses to o") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"))
+```
+
+```{r}
+graph_df %>% 
+  filter(phoneme == "schwa") %>% 
+  ggplot(aes(x = word, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("responses to schwa") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"))
+```  
+
+```{r}
+graph_df %>% 
+  filter(phoneme == "schwa") %>% 
+  ggplot(aes(x = language, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("responses to schwa") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"))
+```
+
+```{r}
+graph_df %>% 
+  filter(phoneme == "y") %>% 
+  ggplot(aes(x = word, y = response, fill = language)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("responses to y") + facet_grid(~stim_language) +
+  scale_fill_manual(values=c("#1F9646", "darkgoldenrod3")) + 
+  theme_bw() +
+  theme(panel.background = element_rect(fill = "grey79"))
+```
+
+
+

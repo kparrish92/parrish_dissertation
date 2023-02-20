@@ -1,0 +1,264 @@
+Timestamp,Nombre,Apellidos,Edad,Género,Lugar de residencia actual: ciudad,País,Nivel más alto de formación académica completada,¿A qué edad empezó a aprender ESPAÑOL?,¿A qué edad empezó a aprender INGLÉS?,¿A qué edad empezó a sentirse cómodo usando ESPAÑOL?    ,¿A qué edad empezó a sentirse cómodo usando INGLÉS?    ,"¿Cuántos años de clases (gramática, historia, matemáticas, etc.) ha tenido en ESPAÑOL?","¿Cuántos años de clases (gramática, historia, matemáticas, etc.) ha tenido en INGLÉS?",¿Cuántos años ha pasado en un país/región donde se habla ESPAÑOL? ,¿Cuántos años ha pasado en un país/región donde se habla INGLÉS? ,¿Cuántos años ha pasado en familia hablando ESPAÑOL?     ,¿Cuántos años ha pasado en familia hablando INGLÉS?   ,¿Cuántos años ha pasado en un ambiente de trabajo donde se habla ESPAÑOL?     ,¿Cuántos años ha pasado en un ambiente de trabajo donde se habla INGLÉS?         ,"En una semana normal, ¿qué porcentaje del tiempo usa ESPAÑOL con sus amigos?","En una semana normal, ¿qué porcentaje del tiempo usa INGLÉS con sus amigos?","En una semana normal, ¿qué porcentaje del tiempo usa OTRAS LENGUAS con sus amigos?","En una semana normal, ¿qué porcentaje del tiempo usa ESPAÑOL con su familia?","En una semana normal, ¿qué porcentaje del tiempo usa INGLÉS con su familia?","En una semana normal, ¿qué porcentaje del tiempo usa OTRAS LENGUAS con su familia?","En una semana normal, ¿qué porcentaje del tiempo usa ESPAÑOL en la escuela/el trabajo? ","En una semana normal, ¿qué porcentaje del tiempo usa INGLÉS en la escuela/el trabajo? ","En una semana normal, ¿qué porcentaje del tiempo usa OTRAS LENGUAS en la escuela/el trabajo? ","Cuando se habla a usted mismo, ¿con qué frecuencia se habla a sí mismo en ESPAÑOL?","Cuando se habla a usted mismo, ¿con qué frecuencia se habla a sí mismo en INGLÉS?","Cuando se habla a usted mismo, ¿con qué frecuencia se habla a sí mismo en OTRAS LENGUAS?","Cuando hace cálculos contando, ¿con qué frecuencia cuenta en ESPAÑOL? ","Cuando hace cálculos contando, ¿con qué frecuencia cuenta en INGLÉS?","Cuando hace cálculos contando, ¿con qué frecuencia cuenta en OTRAS LENGUAS?",¿Cómo habla  en ESPAÑOL? ,¿Cómo habla  en INGLÉS? ,¿Cómo entiende  en ESPAÑOL?       ,¿Cómo entiende en INGLÉS?       ,¿Cómo lee en ESPAÑOL? ,¿Cómo lee en INGLÉS? ,¿Cómo escribe en  ESPAÑOL?,¿Cómo escribe en  INGLÉS?,Me siento “yo mismo” cuando hablo en ESPAÑOL.   ,Me siento “yo mismo” cuando hablo en INGLÉS.,Me identifico con una cultura HISPANOHABLANTE,Me identifico con una cultura ANGLOHABLANTE,Es importante para mi usar (o llegar a usar) ESPAÑOL como un hablante nativo.,Es importante para mi usar (o llegar a usar) INGLÉS como un hablante nativo.,Quiero que los demás piensen que soy un hablante nativo de ESPAÑOL,Quiero que los demás piensen que soy un hablante nativo de INGLÉS.,"¿Aparte del inglés y el español, hablas una tercera lengua?",Prolific ID
+3/17/2022 14:29:47,,,19,M,Hermosillo,Mexico,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:30:59,,,26,M,Ciudad de México,México,Máster,Desde el nacimiento,3,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:31:02,,,25,F,mexico,mexico,Universidad (diplomatura/licenciatura),1,4,6,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:31:12,,,19,F,Aguascalientes,México,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,5,6,3,6,3,,,,,,,,,no,
+3/17/2022 14:31:17,,,22,F,Culiacán,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:31:19,,,20,F,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,2,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,no,
+3/17/2022 14:31:27,,,20,M,Cd Madero,Mexico,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:31:38,,,22,F,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:31:53,,,22,F,mazatlan,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,14,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,5,4,,,,,,,,,no,
+3/17/2022 14:31:55,,,19,M,Puebla,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,5,6,5,6,6,,,,,,,,,sí,
+3/17/2022 14:31:57,,,22,M,Ciudad de Mexico,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,5,6,6,6,5,,,,,,,,,sí,
+3/17/2022 14:32:00,,,42,M,Toluca,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:32:04,,,30,F,ciudad de mexico,mexico,Máster,Desde el nacimiento,4,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:32:19,,,19,M,Monterrey,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:32:41,,,23,M,Pachuca,México,Un poco de universidad,Desde el nacimiento,14,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,3,6,2,,,,,,,,,no,
+3/17/2022 14:32:53,,,26,F,Guadalajara,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,1,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,6,6,6,6,5,,,,,,,,,sí,
+3/17/2022 14:33:04,,,21,M,Nuevo Leon,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,19,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,5,4,,,,,,,,,no,
+3/17/2022 14:33:16,,,22 años ,F,Puebla ,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:33:43,,,22,F,Ciudad de México ,México ,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:33:48,,,24,M,Tijuana,Mexico,Un poco de universidad,Desde el nacimiento,11,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,4,6,4,5,3,,,,,,,,,no,
+3/17/2022 14:34:00,,,28,M,Victoria,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:34:08,,,23,F,"Monterrey, Nuevo León, México",México,Un poco de universidad,Desde el nacimiento,3,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,5,,,,,,,,,no,
+3/17/2022 14:34:40,,,27,M,México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,16,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,4,6,4,5,3,,,,,,,,,no,
+3/17/2022 14:34:46,,,24,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,5,4,,,,,,,,,no,
+3/17/2022 14:34:48,,,40,M,Puebla,México,Máster,Desde el nacimiento,4,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:34:54,,,27,M,Hermosillo,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,sí,
+3/17/2022 14:35:05,,,24,F,Guadalajara,Mexico,Un poco de universidad,Desde el nacimiento,8,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,5,,,,,,,,,sí,
+3/17/2022 14:35:05,,,20,F,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,9,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:35:10,,,23,F,Hermosillo,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:35:10,,,22,M,Veracruz,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,4,4,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,
+3/17/2022 14:35:12,,,22,F,Puebla,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,19,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:35:16,,,31,M,Monterrey,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,5,3,6,5,6,4,4,3,,,,,,,,,no,
+3/17/2022 14:35:18,,,35,M,Puebla,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:35:24,,,25,M,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,4,5,4,,,,,,,,,sí,
+3/17/2022 14:35:45,,,21,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,8,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,
+3/17/2022 14:35:55,,,21,F,Celaya,Mexico,Un poco de universidad,Desde el nacimiento,4,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:35:57,,,30,M,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:36:04,,,26,M,Ciudad de México,México,Un poco de escuela graduada,Desde el nacimiento,10,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:36:08,,,19,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,5,6,6,5,3,,,,,,,,,no,
+3/17/2022 14:36:31,,,22,M,Zapopan,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,5,18,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,5,6,5,6,5,,,,,,,,,sí,
+3/17/2022 14:36:50,,,24,F,chihuahua,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:36:52,,,50,M,Ciudad de Mexico,Mexico,Un poco de universidad,2,20+,5,20+,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,4,6,4,6,4,,,,,,,,,no,
+3/17/2022 14:36:56,,,28,F,CdMx,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,13,7,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:36:59,,,30,F,Ciudad de México ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:37:04,,,25,M,Guadalajara,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:37:06,,,21,M,Merida,México,Universidad (diplomatura/licenciatura),3,5,3,8,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:37:09,,,24,F,los mochis,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,5,4,5,4,5,3,3,3,,,,,,,,,sí,
+3/17/2022 14:37:10,,,22,F,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,1,16,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:37:13,,,38,M,Mexico,Mexico,Máster,Desde el nacimiento,7,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,3,,,,,,,,,no,
+3/17/2022 14:37:22,,,26,M,"Torreón, Coahuila.",México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:37:24,,,29,M,puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,8,15,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,6,6,6,5,4,,,,,,,,,no,
+3/17/2022 14:37:27,,,29,M,Puebla ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,17,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:37:36,,,36,M,Guadalajara,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:37:41,,,24,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:38:13,,,23,F,MEXICO,MEXICO,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,5,,,,,,,,,sí,
+3/17/2022 14:38:16,,,24,M,Pachuca,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,4,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,3,,,,,,,,,no,
+3/17/2022 14:38:16,,,20,F,San Luis Potosí,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,4,6,4,,,,,,,,,no,
+3/17/2022 14:38:23,,,27,F,Ciudad de México ,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,6,13,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,5,4,,,,,,,,,no,
+3/17/2022 14:38:30,,,22,M,Ciudad de Mexico,Mexico,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:38:49,,,31,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:38:50,,,27,M,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,6,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,
+3/17/2022 14:39:00,,,24,F,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:39:04,,,27,F,Ciudad de México,México,Máster,Desde el nacimiento,5,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:39:14,,,25,F,Guadalajara ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,5,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:39:15,,,27,F,Ciudad de México,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,6,,,,,,,,,no,
+3/17/2022 14:39:25,,,30,M,Mexicali,México,Universidad (diplomatura/licenciatura),1,11,7,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,5,3,,,,,,,,,no,
+3/17/2022 14:39:47,,,36,M,Culiacán,México,Máster,Desde el nacimiento,6,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:39:53,,,21,M,Ciudad de Mexico,Mexico,Un poco de universidad,Desde el nacimiento,10,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:40:04,,,21,F,Puebla,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,5,3,5,4,6,5,6,5,,,,,,,,,no,
+3/17/2022 14:40:25,,,26,M,puebla,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,10,17,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,6,,,,,,,,,no,
+3/17/2022 14:40:31,,,21,F,Estado de Mexico,Mexico,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,5,,,5,5,5,5,,,,,,,,,no,
+3/17/2022 14:40:36,,,24,F,San Luis Potosí,México,Un poco de universidad,Desde el nacimiento,9,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:40:39,,,25,F,Los Mochis,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,5,6,5,,,,,,,,,no,
+3/17/2022 14:40:46,,,22,M,Xalapa,México,Un poco de universidad,Desde el nacimiento,7,5,12,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:40:54,,,22,F,Pachuca,México,Un poco de universidad,2,4,6,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,5,5,5,4,,,,,,,,,sí,
+3/17/2022 14:40:57,,,24,F,Morelia,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:41:04,,,26,F,Estado de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:41:09,,,29,F,Ciudad de México ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,5,,,,,,,,,sí,
+3/17/2022 14:41:15,,,26,M,Mexicali,México,Un poco de universidad,Desde el nacimiento,13,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,3,,,,,,,,,no,
+3/17/2022 14:41:23,,,23,M,Estado de México,México,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:41:27,,,38,M,Morelia,México,Máster,Desde el nacimiento,6,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:41:34,,,23,F,Nuevo Leon,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,4,6,5,,,,,,,,,no,
+3/17/2022 14:41:40,,,21,M,Monterrey,México,Un poco de universidad,Desde el nacimiento,4,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,3,6,5,,,,,,,,,no,
+3/17/2022 14:41:44,,,26,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:41:47,,,30,F,QUERETARO,MEXICO,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,5,,,,,,,,,sí,
+3/17/2022 14:41:55,,,42,M,Ciudad de México,Mexico,Un poco de escuela graduada,Desde el nacimiento,7,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,4,,,,,,,,,sí,
+3/17/2022 14:42:03,,,20,M,Ezequiel Montes,México,Un poco de escuela graduada,4,4,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,sí,
+3/17/2022 14:42:05,,,19,M,Tampico,Mexico,Un poco de universidad,Desde el nacimiento,4,5,17,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,5,,,,,,,,,no,
+3/17/2022 14:42:05,,,29,M,Mérida,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,13,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,2,6,4,6,3,6,2,,,,,,,,,no,
+3/17/2022 14:42:26,,,21,M,"Monclova, Coahuila",México,Un poco de universidad,Desde el nacimiento,8,Tan pronto como recuerdo.,17,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:42:26,,,21,F,Orizaba,México,Un poco de universidad,Desde el nacimiento,3,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,4,6,4,,,,,,,,,no,
+3/17/2022 14:42:38,,,28,M,Tequisquiapan,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,5,5,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:42:41,,,24,M,Aguascalientes,Mexico,Un poco de universidad,Desde el nacimiento,6,3,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,4,6,5,,,,,,,,,no,
+3/17/2022 14:42:42,,,21,F,Xalapa,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:43:01,,,34,M,Cancun,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,5,8,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,5,6,6,,,,,,,,,no,
+3/17/2022 14:43:04,,,20,F,Guadalajara,Mexico ,Un poco de universidad,Desde el nacimiento,8,Tan pronto como recuerdo.,17,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,3,6,5,6,3,,,,,,,,,no,
+3/17/2022 14:43:09,,,22,F,"San Luis Potosí, S.L.P",México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,2,6,4,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:43:47,,,25,F,"León, Gto.",México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,6,,,,,,,,,sí,
+3/17/2022 14:43:51,,,27,F,"Empalme, sonora",mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,2,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 14:44:00,,,34,M,Cancun,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,5,8,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,5,6,6,,,,,,,,,no,
+3/17/2022 14:44:18,,,24,F,San Luis Potosí,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,16,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,3,6,3,6,3,,,,,,,,,no,
+3/17/2022 14:44:50,,,22,F,Nogales,Mexico,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,5,,,,,,,,,no,
+3/17/2022 14:49:01,,,25,M,Huamantla ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,5,6,4,6,3,,,,,,,,,no,
+3/17/2022 14:49:09,,,30,M,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,6,4,,,,,,,,,no,
+3/17/2022 14:53:44,,,40,M,Puebla,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,5,,,,,,,,,,,,,,,,,,,,,,,,5,6,6,6,6,6,5,6,,,,,,,,,no,
+3/17/2022 14:56:26,,,28,M,Ciudad de Mexico,Mexico,Escuela secundaria,Desde el nacimiento,7,1,12,,,,,,,,,,,,,,,,,,,,,,,,5,6,5,6,4,6,5,6,,,,,,,,,no,
+3/17/2022 15:10:23,,,20,F,tampico,mexico,Un poco de universidad,2,5,5,8,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,6,,,,,,,,,no,
+3/17/2022 15:13:46,,,24,F,Morelia,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,
+3/17/2022 15:16:57,,,22,F,Ciudad de méxico,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,3,,,,,,,,,no,
+3/17/2022 15:47:59,,,22,F,Culiacán,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,61676f1a2848847e886d00c5
+3/17/2022 15:48:28,,,47,F,México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,6021916ac65df51a8532b8ed
+3/17/2022 15:48:54,,,24,M,Ciudad de Mexico,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,4,,,,,,,,,no,613a82fb8586386f1324e52a
+3/17/2022 15:49:04,,,23,F,Puebla,Mexico,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,4,,,,,,,,,no,61390220e2050f8b8bf41f27
+3/17/2022 15:49:30,,,26,M,Ciudad de México,México,Máster,Desde el nacimiento,3,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,no,60b805f47d6292141781c36e
+3/17/2022 15:49:31,,,23,M,torreon,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,6,5,5,5,5,,,,,,,,,no,613a4fe3a0971a14d7c0c8ab
+3/17/2022 15:49:45,,,20,M,Cd. Madero,Mexico,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,6144e07daad38d78db932d30
+3/17/2022 15:49:56,,,21,M,Monterrey,Mexico,Un poco de universidad,Desde el nacimiento,6,6,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,4,6,4,,,,,,,,,no,5eecf71ff9be240d72d2dddf
+3/17/2022 15:49:56,,,22,F,Mérida ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,613aa43181ce9b3a52924e8f
+3/17/2022 15:50:08,,,20,F,tampico,mexico,Un poco de universidad,2,5,4,8,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,5,,,,,,,,,no,60f4ada8ac902f28300ab7e0
+3/17/2022 15:50:12,,,20,F,Monterrey,México,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,6142883565f2f12724b5e613
+3/17/2022 15:50:46,,,24,F,guadalajara,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,5,4,,,,,,,,,no,61592063ab7696af5c9d4cb1
+3/17/2022 15:51:06,,,28,F,Estado de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,4,,,,,,,,,no,5f3cc983e81de700092fa67e
+3/17/2022 15:51:11,,,22,F,Tepic,México,Un poco de universidad,Desde el nacimiento,10,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,5,4,5,4,5,5,5,3,,,,,,,,,no,601584d717cbb906851646b7
+3/17/2022 15:51:45,,,21,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,8,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,613b8c9719c838f7c5e7297c
+3/17/2022 15:52:04,,,22,F,hermosillo,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,5,6,5,,,,,,,,,no,613e47b64838fce3c50627e2
+3/17/2022 15:52:13,,,22,F,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,615b4d67bd21e66571f5581b
+3/17/2022 15:52:30,,,24,F,San Luis Potosí,México,Un poco de universidad,Desde el nacimiento,9,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,4,,,,,,,,,no,6145448f8b3cd18fb19f0b0e
+3/17/2022 15:52:40,,,25,M,Tultitlan,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,5,4,5,5,5,5,4,5,,,,,,,,,no,613abdfce6575a7bc72a6b85
+3/17/2022 15:52:46,,,22,F,monterrey,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,sí,613cdc44e90da78d34e36cf9
+3/17/2022 15:53:01,,,22,M,Guadalajara,Mexico,Un poco de universidad,Desde el nacimiento,9,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,4,,,,,,,,,no,613a886056265d62028d15d2
+3/17/2022 15:53:23,,,24,F,Puebla,México,Un poco de universidad,Desde el nacimiento,15,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,6,6,5,,,,,,,,,no,613a3379edee9c64f31e9b23
+3/17/2022 15:53:25,,,22,F,Puebla,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,19,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,5f5065d2fd3fc11d40575ce7
+3/17/2022 15:53:26,,,18,M,Puebla,Mexico,Un poco de universidad,Desde el nacimiento,4,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,6,6,6,,,,,,,,,sí,615b97a3da8c221caa766b0d
+3/17/2022 15:53:32,,,28,M,Hermosillo,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,6,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,4,,,,,,,,,no,6142102f6c590438c4704e3f
+3/17/2022 15:53:33,,,24,M,Pachuca,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,4,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,3,,,,,,,,,no,613e7b7625623671947312c1
+3/17/2022 15:53:38,,,28,F,Tijuana,Mexico,Un poco de universidad,Desde el nacimiento,3,Tan pronto como recuerdo.,7,,,,,,,,,,,,,,,,,,,,,,,,5,5,5,5,5,5,5,5,,,,,,,,,no,61135eb097c6eb84381896ac
+3/17/2022 15:53:41,,,30,F,Ciudad de México ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,611023befc2052d878c7f50c
+3/17/2022 15:53:49,,,25,M,Zapopan,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,4,,,,,,,,,no,613b78e2750f5b572f00151a
+3/17/2022 15:53:51,,,19,M,Monterrey ,México,Un poco de universidad,Desde el nacimiento,6,8,15,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,5,6,6,6,6,,,,,,,,,sí,6153cd6d2d8ea888dc6248a3
+3/17/2022 15:54:00,,,45,F,CDMX,Mexico,Máster,Desde el nacimiento,12,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,5,,,,,,,,,sí,5c73477642a5070001a2f940
+3/17/2022 15:54:03,,,19,F,San Cristóbal de las Casas,México ,Un poco de universidad,Desde el nacimiento,10,5,13,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,6147e59cb48beb204aef2732
+3/17/2022 15:54:06,,,26,M,Ciudad de México,México,Un poco de escuela graduada,Desde el nacimiento,10,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,6,5,,,,,,,,,no,5ab33d98580b990001730708
+3/17/2022 15:54:12,,,19,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,5,3,,,,,,,,,no,6125cdf4d30d304d61650e6e
+3/17/2022 15:54:12,,,22,M,Altamira,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,2,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,4,,,,,,,,,no,60b3db45abbe2124a40638b8
+3/17/2022 15:54:48,,,31,M,Monterrey,México,Máster,Desde el nacimiento,11,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,5,,,,,,,,,no,6170415761bdcffcdda9c970
+3/17/2022 15:54:50,,,18,F,Puebla,Mexico,Un poco de universidad,Desde el nacimiento,4,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,6,6,6,,,,,,,,,sí,615b97a3da8c221caa766b0d
+3/17/2022 15:54:55,,,24,M,Torreón Coahuila,México,Un poco de universidad,Desde el nacimiento,15,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,4,6,3,,,,,,,,,no,614413848bec31a0e770cc25
+3/17/2022 15:54:57,,,41,F,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,Aún no me siento cómodo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,4,,,,,,,,,no,613af18151be953036664b9a
+3/17/2022 15:55:04,,,26,F,Veracruz,México,Universidad (diplomatura/licenciatura),2,13,6,18,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,4,5,4,5,3,,,,,,,,,no,613a9a79a177842985a94263
+3/17/2022 15:55:04,,,22,F,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,5,4,6,4,6,4,5,3,,,,,,,,,no,5ea7879b3fe336166da4a3f4
+3/17/2022 15:55:05,,,23,F,MEXICO,MEXICO,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,4,,,,,,,,,no,613a59b4554295dbdaa5dc24
+3/17/2022 15:55:09,,,24,F,Guadalajara,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,sí,613ab852250569021f9f7a04
+3/17/2022 15:55:09,,,24,M,Monterrey,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,5,5,,,,,,,,,no,614215e5a85111f66a9abbfc
+3/17/2022 15:55:20,,,20,F,Monterrey,México,Escuela secundaria,Desde el nacimiento,5,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,5,6,5,,,,,,,,,no,608886445a92c991daa8f03f
+3/17/2022 15:55:22,,,47,F,Torreon,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,5,,,,,,,,,no,6032a88a2b8e882a37cc2766
+3/17/2022 15:55:25,,,27,F,Monterrey ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,6,6,6,5,4,,,,,,,,,no,613a48f02d1d91d0ec28fb18
+3/17/2022 15:55:31,,,20,M,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,6,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,4,6,5,,,,,,,,,no,613bcc7803e6e071da0b7b3f
+3/17/2022 15:55:37,,,24,M,Queretaro,Mexico,Un poco de universidad,1,6,6,10,,,,,,,,,,,,,,,,,,,,,,,,4,5,5,5,5,5,5,5,,,,,,,,,no,5bd764370aac450001f94690
+3/17/2022 15:55:39,,,24,M,Yucatán,México,Un poco de universidad,Desde el nacimiento,6,3,7,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,3,,,,,,,,,no,614a6c398ca700d6d8d520d8
+3/17/2022 15:55:40,,,20,M,Nezahualcoyotl,Mexico,Un poco de universidad,Desde el nacimiento,14,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,5,1,6,4,6,6,6,3,,,,,,,,,no,60183e25b4423c05ee0ee791
+3/17/2022 15:55:49,,,21,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,17,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,5,,,,,,,,,no,606900a2db10bfa6260b0e8c
+3/17/2022 15:55:59,,,21,M,Monterrey,México,Un poco de universidad,Desde el nacimiento,7,9,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,5,6,4,,,,,,,,,no,614b6c8bab9d9b85f4522715
+3/17/2022 15:56:13,,,24,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,6156017fbad0983c816fbd7c
+3/17/2022 15:56:16,,,28,M,Actopan,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,6,20+,,,,,,,,,,,,,,,,,,,,,,,,5,4,5,4,6,5,5,4,,,,,,,,,no,5f5d6c3cbacc025bf0a03440
+3/17/2022 15:56:20,,,24 años,M,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,5,2,6,3,6,4,6,2,,,,,,,,,no,613ac3cd81c020346bb02434
+3/17/2022 15:56:37,,,26,F,Tehuacan Puebla,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,3,,,,,,,,,no,613a68a9f9bc0d833831eff0
+3/17/2022 15:56:43,,,55,F,Morelia,Mexico,Escuela secundaria,3,14,6,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,5,,,,,,,,,no,5c05922f4e1b7b00016af702
+3/17/2022 15:57:00,,,23,F,Chihuahua,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,4,6,5,,,,,,,,,no,616ed97200b22fa9725353b3
+3/17/2022 15:57:02,,,21,F,Toluca,México,Un poco de universidad,Desde el nacimiento,,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,3,6,3,5,3,,,,,,,,,no,5f2dcc3d77605910679e8959
+3/17/2022 15:57:04,,,27,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),1,8,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,6,,,,,,,,,no,61400425790ab5dbef568393
+3/17/2022 15:57:08,,,22,M,CDMX,MÉXICO,Un poco de universidad,Desde el nacimiento,3,5,12,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,sí,614524d773b290ab9eccd15a
+3/17/2022 15:57:08,,,26,M,Torreon,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,61528de53fd869850a876fa4
+3/17/2022 15:57:14,,,24,F,Culiacan,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,5,6,4,6,2,,,,,,,,,no,613a4182d75ec66fcd3292e9
+3/17/2022 15:57:15,,,36,M,Guadalajara,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,4,,,,,,,,,no,6151cfe3ba49dd3ad62708ee
+3/17/2022 15:57:22,,,22,F,Pachuca, México,Un poco de universidad,2,3,6,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,5,5,5,4,,,,,,,,,sí,613a802b5c0b64bb69295ff3
+3/17/2022 15:57:37,,,22,M,Ciudad de Mexico,Mexico,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,no,5bfb724acad1240001e8f657
+3/17/2022 15:57:39,,,23,F,Tampico,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,5,5,,,,,,,,,no,5fad55bc57e5f004b095ca80
+3/17/2022 15:57:40,,,26,M,puebla,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,12,17,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,6,,,,,,,,,no,5ec2a21d6053200957b486f9
+3/17/2022 15:57:44,,,23,M,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,613e41e32b283bcc973c4486
+3/17/2022 15:57:51,,,21,M,CDMX,Mexico,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,5,,,,,,,,,sí,614b6e4a03ded5acfe2ef9b0
+3/17/2022 15:57:54,,,25,M,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,15,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,5,,,,,,,,,no,5f320f52f0468e14718b7f7a
+3/17/2022 15:58:02,,,18,F,Zihuatanejo,Mexico,Preparatoria,Desde el nacimiento,9,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,4,4,6,5,5,4,5,4,,,,,,,,,no,615ccde70c1ce067fc831306
+3/17/2022 15:58:16,,,32,M,Puebla,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,19,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,5,,,,,,,,,no,613a69d8ed1c11f70b3d37c7
+3/17/2022 15:58:25,,,42,M,Ciudad de Mexico,Mexico,Un poco de escuela graduada,Desde el nacimiento,7,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,4,,,,,,,,,sí,611e8be405de1e23f7232157
+3/17/2022 15:58:27,,,33,F,Villahermosa,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,20+,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,5,,,,,,,,,no,5f2f5ffc7144073520501a57
+3/17/2022 15:58:28,,,22,M,Tampico,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,Desde el nacimiento,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,616db9d88fea0251b6e97e36
+3/17/2022 15:58:30,,,23,M,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,5,5,6,4,,,,,,,,,no,613a3838d8479f4bc5723974
+3/17/2022 15:58:36,,,19,M,Zapopan,Mexico,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,4,6,3,,,,,,,,,no,6170cb1baa56fafbeb3543fc
+3/17/2022 15:58:42,,,26,M,Torreon,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,12,5,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,5,,,,,,,,,no,5f46aa41d1c4910597680a40
+3/17/2022 15:58:42,,,21,M,Torreon,Mexico,Un poco de universidad,Desde el nacimiento,Desde el nacimiento,3,3,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,4,,,,,,,,,no,612f0b6e7e79ca1b544a064d
+3/17/2022 15:58:44,,,23,M,Celaya,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,60943427c11ddfd172f619e3
+3/17/2022 15:58:47,,,36,M,Puebla,Mexico,Máster,Desde el nacimiento,10,5,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,5fc86c1b2df6ff1ff7a51ea5
+3/17/2022 15:58:50,,,20,F,Culiacan,Mexico,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,5,,,,,,,,,no,613a8edf1dccc076d9b59330
+3/17/2022 15:58:51,,,24,M,Coacalco,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,18,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,6,,,,,,,,,no,5f68f02c41716709ee9be42d
+3/17/2022 15:59:02,,,21,F,San Luis Potosí, México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,4,,,,,,,,,sí,613a9193ed68e49209b471b7
+3/17/2022 15:59:20,,,25,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,5,4,12,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,5,,,,,,,,,no,5f66457793e8240d22e60ea3
+3/17/2022 15:59:21,,,27,F,"empalme, sonora",mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,8,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,613a445cfc64be0745ccd2ed
+3/17/2022 15:59:22,,,27,M,Culiacán,México,Máster,Desde el nacimiento,8,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,613a9a32098c4cfe776b69de
+3/17/2022 15:59:26,,,27,M,Fresnillo,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,5,5,6,5,6,6,6,6,,,,,,,,,sí,60dec770e794837d68214ae1
+3/17/2022 15:59:26,,,25,M,"Mazatlán, Sinaloa",México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,613a49ba0eae835719765d0d
+3/17/2022 15:59:46,,,25,M,Estado de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,19,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,6,6,6,6,4,,,,,,,,,no,5e9fdd5effe6a51855448d1b
+3/17/2022 15:59:50,,,27,F,MEXICO,MEXICO,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,sí,613b785e294ab26dccb24f39
+3/17/2022 16:00:16,,,22,F,Hermosillo ,México ,Un poco de universidad,Desde el nacimiento,14,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,no,61108a6b695212b842e7cfb1
+3/17/2022 16:00:28,,,23,F,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,8,14,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,614d05f9b577ed47c8b6db75
+3/17/2022 16:00:31,,,26,M,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,14,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,5,3,6,5,6,4,6,4,,,,,,,,,no,5f740f60b8a1e41acc020269
+3/17/2022 16:00:40,,,23,M,Mexico,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,Tan pronto como recuerdo.,19,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,5,,,,,,,,,no,6062d6036cdaef33b66e7f62
+3/17/2022 16:00:50,,,37,M,Cananea,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,4,6,4,,,,,,,,,no,613add879e40150ca89fd051
+3/17/2022 16:01:07,,,24,F,México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,9,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,5ee4273dba332e11f6e28676
+3/17/2022 16:01:25,,,25,M,Chapultenango,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,14,6,20+,,,,,,,,,,,,,,,,,,,,,,,,6,2,6,4,6,5,6,2,,,,,,,,,no,5f15db42d62e996fdc5429d8
+3/17/2022 16:02:03,,,51,F,chihuahua,mexico,Máster,3,12,5,18,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,3,6,5,6,4,,,,,,,,,no,5e792d23c826500d4c0ccec0
+3/17/2022 16:02:15,,,29,M,manzanillo,mexico,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,5,5,5,4,4,,,,,,,,,no,5e3f7b673ba9991dc9cabcfa
+3/17/2022 16:02:18,,,23,M,Gómez Palacio,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,1,Tan pronto como recuerdo.,6,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,6,,,,,,,,,no,6036e5c365451fffd2c800b2
+3/17/2022 16:02:31,,,26,M,Puebla,Mexico,Un poco de universidad,Desde el nacimiento,12,4,15,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,6,,,,,,,,,no,60a4cadc8c4109eeeb9fda14
+3/17/2022 16:02:48,,,22,F,San Miguel de Allende,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,14,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,6,6,6,,,,,,,,,no,5f30c06d1cdf4953b62ae475
+3/17/2022 16:02:48,,,22,F,Lerdo,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,4,,,,,,,,,sí,6151d44b37b6d4d1f414a2c6
+3/17/2022 16:03:35,,,25,M,Chapultenango,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,14,5,20+,,,,,,,,,,,,,,,,,,,,,,,,6,2,6,4,6,5,6,2,,,,,,,,,no,5f15db42d62e996fdc5429d8
+3/17/2022 16:09:40,,,24,F,Culiacan,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,5,6,4,6,3,,,,,,,,,no,613a4182d75ec66fcd3292e9
+3/17/2022 16:09:53,,,25,M,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,6176c86c754429f29f4e83ea
+3/17/2022 16:11:19,,,32,F,ciudad de mexico,mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,5,5,,,,,,,,,sí,5a874306f49c9a0001f39714
+3/17/2022 16:12:33,,,33,M,Merida,Mexico,Máster,Desde el nacimiento,9,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,603fdc2aa858e013dee57879
+3/17/2022 16:28:10,,,24,M,Tepic,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,5,,,,,,,,,no,5f38c9aa0c68ee3f7c72f7b4
+6/26/2022 18:50:10,,,23,F,Chihuahua,Mexico,Máster,Desde el nacimiento,3,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,5f2f8d1f71440737f85aeed8
+6/26/2022 18:50:42,,,25,M,Monterrey,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,5,,,,,,,,,sí,613e5f8850eae60e0e24d723
+6/26/2022 18:51:39,,,21,M,"Apodaca, Nuevo Leon",Mexico,Un poco de universidad,Desde el nacimiento,3,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,6,,,,,,,,,no,613fde254759385b5d464ee5
+6/26/2022 18:52:45,,,29,F,Puebla,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,9,18,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,no,613e9b08d2ffa0e074c21eb4
+6/26/2022 19:28:38,,,23,F,Ciudad de México ,Mexico ,Un poco de universidad,Desde el nacimiento,Desde el nacimiento,2,10,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,6,,,,,,,,,sí,613ad069b7f1de6a11fbf6b5
+6/26/2022 19:43:58,,,25,M,Torreon,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,4,10,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,6,6,5,,,,,,,,,no,5d9a74f72aae4c031a29af9b
+6/26/2022 19:44:25,,,21,M,Boca del Rio,México,Escuela secundaria,Desde el nacimiento,6,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,4,6,5,6,4,,,,,,,,,no,613a7d067a00c792ee41f36d
+6/26/2022 20:07:32,,,25,M,Tepic,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,4,,,,,,,,,no,5f38c9aa0c68ee3f7c72f7b4
+6/26/2022 20:10:55,,,26,F,CDMX,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,Tan pronto como recuerdo.,6,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,6143b2fcec68812bfc17fca6
+6/26/2022 20:14:39,,,29,M,Guanajuato,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,1,6,5,6,6,6,4,,,,,,,,,no,60c0fe89173c2b1f4fe2c578
+6/26/2022 20:24:58,,,19,M,Cuernavaca,México,Un poco de universidad,Desde el nacimiento,5,Tan pronto como recuerdo.,16,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,4,6,4,6,4,,,,,,,,,sí,613e18e92e4ed15176362aa2
+6/26/2022 20:49:32,,,22,M,Mérida,México,Un poco de universidad,Desde el nacimiento,12,Tan pronto como recuerdo.,13,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,4,,,,,,,,,no,5eb0cb5afb9e2418da928edb
+6/26/2022 20:53:39,,,24,M,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,17,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,no,5f6c343552bdce1aedca6ae1
+6/26/2022 21:06:02,,,21,F,Puebla ,México ,Un poco de universidad,Desde el nacimiento,7,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,3,6,4,6,4,,,,,,,,,no,5f4c1b5626199983e1285d83
+6/26/2022 21:07:38,,,20,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),1,7,5,11,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,5,,,,,,,,,no,6091c8c45595f158e17f0a0e
+6/26/2022 21:52:05,,,21,F,Hermosillo,México,Un poco de universidad,Desde el nacimiento,8,Tan pronto como recuerdo.,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,5,6,5,6,5,,,,,,,,,no,613a3f32a52f4d656d45bff7
+6/26/2022 21:54:06,,,22,M,Xalapa,México ,Un poco de universidad,Desde el nacimiento,12,3,18,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,5,6,4,,,,,,,,,sí,613923bfba966877e7764cd8
+6/26/2022 22:03:16,,,22,F,Xalapa ,México ,Universidad (diplomatura/licenciatura),Desde el nacimiento,9,Tan pronto como recuerdo.,9,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,5,,,,,,,,,sí,613908791cbd2f097b2f7707
+6/26/2022 22:04:00,,,24,M,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,7,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,5,6,2,,,,,,,,,no,613a5a785f9cc6cb102fcc00
+6/26/2022 22:18:06,,,24,F,Mérida,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,Tan pronto como recuerdo.,8,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,4,,,,,,,,,no,5eccb086d314a0887ac5c3b5
+6/26/2022 22:24:39,,,22,F,Puebla ,México ,Un poco de universidad,Desde el nacimiento,4,4,10,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,sí,6148baf1d5974f3958c332d2
+6/26/2022 23:14:49,,,30,M,Monterrey,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,6,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,6,5,,,,,,,,,no,614a2f8df39b9ec154e1f640
+6/26/2022 23:31:58,,,23,F,Aguascalientes,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,15,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,no,6115d9fa61078b29b8db91ff
+6/27/2022 0:28:28,,,20,F,Monterrey,México,Un poco de universidad,Desde el nacimiento,4,Tan pronto como recuerdo.,6,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,5,5,5,,,,,,,,,sí,5ffcda06813bad1d87f925d0
+6/27/2022 7:26:36,,,24,F,Cortazar,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,4,3,6,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,4,6,4,,,,,,,,,no,614a1e625dc267ba7fb33e91
+6/27/2022 8:10:37,,,26,M,Austin,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,6,12,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,614f2c8f26989c9393e41457
+6/27/2022 8:32:58,,,22,F,CDMX,México,Un poco de universidad,Desde el nacimiento,2,8,5,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,5ee6ad67f110e14399a888ee
+6/27/2022 9:12:54,,,22,M,Querétaro,México,Un poco de universidad,Desde el nacimiento,6,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,6,6,6,,,,,,,,,sí,614a65127dcd9777f0707cf4
+6/27/2022 9:26:26,,,25,F,Ciudad de México,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,2,Tan pronto como recuerdo.,4,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,6,6,5,6,3,,,,,,,,,sí,613abcc8a654d0ca925f9434
+6/27/2022 10:27:38,,,24,F,Ciudad de México,México,Máster,Desde el nacimiento,4,3,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,5,3,6,4,6,4,6,2,,,,,,,,,no,613a841903fdfa91319d424e
+6/27/2022 11:44:38,,,24,M,Ciudad de México,México,Un poco de universidad,Desde el nacimiento,5,4,8,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,sí,613f8d6600a918d57f57908b
+6/27/2022 12:54:01,,,33,M,Guadalajara,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,11,4,14,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,5,6,5,5,4,,,,,,,,,sí,5d4ba0be2fe36d00163e73db
+6/27/2022 13:09:37,,,21,F,Xalapa,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,10,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,3,6,5,6,5,6,5,,,,,,,,,no,61453be84f4fdcbe12189aea
+6/27/2022 17:52:37,,,23,M,CDMX,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,18,Tan pronto como recuerdo.,Aún no me siento cómodo.,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,5,6,4,,,,,,,,,sí,5f9371409b8ab214fb35c7e5
+6/27/2022 19:14:31,,,21,M,"Cuernavaca, Morelos",México,Un poco de universidad,Desde el nacimiento,11,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,4,,,,,,,,,sí,6092dee68abf98f0b677315d
+6/27/2022 20:09:54,,,28,M,Guadalajara,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,11,Tan pronto como recuerdo.,20+,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,3,6,3,,,,,,,,,no,60612657188e55012dfbe71f
+6/27/2022 21:50:36,,,31,F,Matamoros tamaulipas ,México ,Máster,Desde el nacimiento,Desde el nacimiento,Tan pronto como recuerdo.,Tan pronto como recuerdo.,,,,,,,,,,,,,,,,,,,,,,,,6,5,6,6,6,6,6,5,,,,,,,,,sí,5e18cc8f30626119a3998c31
+6/27/2022 21:58:12,,,24,F,Monterrey,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,11,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,4,6,6,6,5,,,,,,,,,no,613a82769f5da68de915153c
+6/28/2022 9:37:18,,,39,M,CDMX,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,17,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,5,,,,,,,,,sí,60fef403b3b6d8b4cbfa281a
+6/30/2022 20:49:19,,,25,F,Culiacan,Mexico,Universidad (diplomatura/licenciatura),Desde el nacimiento,5,Tan pronto como recuerdo.,14,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,5,,,,,,,,,sí,613b7bdaa7318ef4e18e41f4
+7/1/2022 0:25:55,,,21,M,Puebla,México,Un poco de universidad,Desde el nacimiento,7,3,14,,,,,,,,,,,,,,,,,,,,,,,,6,4,6,5,6,4,6,3,,,,,,,,,no,613a99cc4a787a8d30ddd7e8
+7/4/2022 13:24:01,,,22,F,Puebla,México,Universidad (diplomatura/licenciatura),Desde el nacimiento,3,Tan pronto como recuerdo.,10,,,,,,,,,,,,,,,,,,,,,,,,6,6,6,6,6,6,6,6,,,,,,,,,no,615b4d67bd21e66571f5581b

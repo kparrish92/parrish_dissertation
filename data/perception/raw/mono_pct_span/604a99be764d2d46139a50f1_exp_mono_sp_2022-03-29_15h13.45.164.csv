@@ -1,0 +1,2 @@
+﻿check.keys,check.rt,key_resp_7.keys,key_resp_7.rt,key_resp_2.keys,key_resp_2.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,trials.order,stim,participant,session,date,expName,psychopyVersion,OS,frameRate
+1,2.4686,space,26.5687,6,11.3183,0,0,0,3,1,23,stim/p_schwa_g.wav,604a99be764d2d46139a50f1,001,2022-03-29_15h13.45.164,exp_mono_sp,2021.2.3,Win32,60.02040694

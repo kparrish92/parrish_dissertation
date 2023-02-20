@@ -1,0 +1,40 @@
+0.7025 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.9487 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc0e7fbde10>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc0e6f10048>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.9490 	EXP 	window1: mouseVisible = True
+4.9491 	EXP 	window1: recordFrameIntervals = False
+5.1150 	EXP 	window1: recordFrameIntervals = True
+5.2988 	EXP 	window1: recordFrameIntervals = False
+5.9206 	EXP 	window1: mouseVisible = True
+5.9262 	EXP 	window1: mouseVisible = True
+5.9355 	EXP 	window1: mouseVisible = True
+5.9842 	EXP 	Sound stimulus set volume 1.000
+5.9876 	EXP 	window1: mouseVisible = True
+5.9956 	EXP 	window1: mouseVisible = True
+6.0295 	EXP 	Created ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ins', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.0325 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='cross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+6.0380 	EXP 	window1: mouseVisible = True
+6.0402 	EXP 	window1: mouseVisible = True
+6.0529 	EXP 	window1: mouseVisible = True
+6.0589 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=None, name='slider', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5, 6, 7]), units='height', win=Window(...))
+6.0674 	EXP 	Created top_ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='top_ins', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.0798 	EXP 	Created bottom_ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='bottom_ins', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.0845 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([ 0.45, -0.1 ]), rgb=UNKNOWN, text='Perfect fit', units='height', win=Window(...), wrapWidth=1)
+6.0883 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([-0.45, -0.1 ]), rgb=UNKNOWN, text='Does not fit at a all', units='height', win=Window(...), wrapWidth=1)
+6.2960 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks! Press SPACE to end.', units='height', win=Window(...), wrapWidth=1)
+6.3028 	EXP 	Imported stim/conditions.csv as conditions, 2 conditions, 2 params
+6.3033 	EXP 	Created sequence: random, trialTypes=2, nReps=5, seed=None
+6.3035 	EXP 	New trial (rep=0, index=0): OrderedDict([('stim', 'stim/o.wav'), ('phone', 'o')])
+6.3143 	EXP 	slider: autoLog = True
+6.3143 	EXP 	slider: markerPos = None
+6.3143 	EXP 	slider: rating = None
+6.3143 	EXP 	slider: markerPos = None
+6.3143 	EXP 	slider: contrast = 1.0
+6.3143 	EXP 	slider: autoLog = True
+6.3143 	EXP 	slider: styleTweaks = []
+6.3143 	EXP 	slider: style = 'rating'
+6.3143 	EXP 	slider: styleTweaks = ['triangleMarker']
+6.3143 	EXP 	cross: autoDraw = True
+6.8070 	EXP 	ins: autoDraw = True
+6.8226 	EXP 	cross: autoDraw = False
+16.4496 	DATA 	Keypress: escape
+16.6967 	EXP 	window1: mouseVisible = True

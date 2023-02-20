@@ -1,0 +1,40 @@
+0.7585 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.2136 	INFO 	Loaded monitor calibration from ['2021_05_25 17:40']
+7.2201 	WARNING 	User requested fullscreen with size [1920 1200], but screen is actually [1440, 900]. Using actual size
+7.7283 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb95153da20>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb95087f198>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7284 	EXP 	window1: mouseVisible = True
+7.7285 	EXP 	window1: recordFrameIntervals = False
+7.8946 	EXP 	window1: recordFrameIntervals = True
+8.0776 	DEBUG 	Screen (0) actual frame rate measured at 60.18
+8.0777 	EXP 	window1: recordFrameIntervals = False
+8.9904 	INFO 	keyboard.Keyboard is using ptb backend.
+9.0326 	EXP 	Created text_2afc_check = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2afc_check', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.2669 	INFO 	keyboard.Keyboard is using ptb backend.
+9.2844 	EXP 	Sound sound_2afc_stim_trial set volume 1.000
+9.2890 	EXP 	Created text_2afc_response_yes_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_yes_trial', opacity=1, ori=0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='Yes', units='height', win=Window(...), wrapWidth=1)
+9.2914 	EXP 	Created text_2afc_response_no_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_no_trial', opacity=1, ori=0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='No', units='height', win=Window(...), wrapWidth=1)
+9.5262 	INFO 	keyboard.Keyboard is using ptb backend.
+9.5321 	EXP 	Created text_2afc_question_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_question_trial', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Is this a question?', units='height', win=Window(...), wrapWidth=1)
+9.5465 	EXP 	text_2afc_check: autoDraw = True
+10.2113 	DEBUG 	Read excel file with openpyxl: trials/twoafc_trials.xlsx
+10.2226 	EXP 	Imported trials/twoafc_trials.xlsx as conditions, 64 conditions, 10 params
+10.2233 	EXP 	Created sequence: random, trialTypes=64, nReps=1, seed=None
+10.2237 	EXP 	New trial (rep=0, index=0): {'item_num': 30, 'correct_response': 1, 'andalusian': './stim/wavs/andalusian_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'argentine': './stim/wavs/argentine_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'castilian': './stim/wavs/castilian_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'chilean': './stim/wavs/chilean_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'cuban': './stim/wavs/cuban_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'mexican': './stim/wavs/mexican_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'peruvian': './stim/wavs/peruvian_match_interrogative-total-yn_Maria-bebe-el-vino.wav', 'puertorican': './stim/wavs/puertorican_match_interrogative-total-yn_Maria-bebe-el-vino.wav'}
+10.2398 	DATA 	Keypress: space
+10.2439 	EXP 	text_2afc_check: autoDraw = False
+10.2439 	EXP 	text_2afc_question_trial: autoDraw = True
+10.4787 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+10.4787 	EXP 	text_2afc_response_no_trial: autoDraw = True
+12.8636 	EXP 	New trial (rep=0, index=1): {'item_num': 41, 'correct_response': 0, 'andalusian': './stim/wavs/andalusian_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'argentine': './stim/wavs/argentine_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'castilian': './stim/wavs/castilian_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'chilean': './stim/wavs/chilean_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'cuban': './stim/wavs/cuban_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'mexican': './stim/wavs/mexican_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'peruvian': './stim/wavs/peruvian_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav', 'puertorican': './stim/wavs/puertorican_mismatch_declarative-narrow-focus_El-bebe-comia-muy-bien.wav'}
+12.8701 	DATA 	Keypress: 1
+12.8790 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+12.8790 	EXP 	text_2afc_response_no_trial: autoDraw = False
+12.8790 	EXP 	text_2afc_question_trial: autoDraw = False
+12.8790 	EXP 	text_2afc_question_trial: autoDraw = True
+13.1113 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+13.1113 	EXP 	text_2afc_response_no_trial: autoDraw = True
+14.3015 	DATA 	Keypress: escape
+14.6463 	EXP 	window1: mouseVisible = True
+14.6464 	DEBUG 	Saving data for empathy_intonation_perc ExperimentHandler
+14.6472 	INFO 	saved data to /Users/kyleparrish/Documents/exp/empathy_intonation_perc/data/_empathy_intonation_perc_2022_Mar_23_1416.psydat
+14.6476 	INFO 	saved data to '/Users/kyleparrish/Documents/exp/empathy_intonation_perc/data/_empathy_intonation_perc_2022_Mar_23_1416.csv'

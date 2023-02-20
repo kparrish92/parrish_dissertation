@@ -1,0 +1,30 @@
+0.6788 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.4363 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+6.0190 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7faa07ef8c18>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7faa06fafd68>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.0191 	EXP 	window1: mouseVisible = True
+6.0192 	EXP 	window1: recordFrameIntervals = False
+6.1850 	EXP 	window1: recordFrameIntervals = True
+6.3686 	EXP 	window1: recordFrameIntervals = False
+7.0148 	EXP 	window1: mouseVisible = True
+7.0267 	EXP 	window1: mouseVisible = True
+7.2523 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks! Press SPACE to end.', units='height', win=Window(...), wrapWidth=1)
+11.7019 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.7182 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.7184 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.7351 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.7519 	DATA 	Mouse: wheel shift=(0,1), pos=(578,230)
+11.7685 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.7851 	DATA 	Mouse: wheel shift=(0,1), pos=(578,230)
+11.8023 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.8184 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.8353 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.8381 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.8519 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.8547 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+11.8851 	DATA 	Mouse: wheel shift=(0,0), pos=(578,230)
+16.6695 	DATA 	Mouse: Left button down, pos=(534,435)
+16.7429 	EXP 	text: autoDraw = True
+16.7684 	DATA 	Mouse:  Left button up, pos=(534,435)
+17.7975 	DATA 	Keypress: space
+17.8025 	EXP 	text: autoDraw = False
+17.8219 	EXP 	window1: mouseVisible = True

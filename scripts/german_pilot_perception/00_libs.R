@@ -1,0 +1,7 @@
+library(here)
+library(fs)
+library(tidyverse)
+library(ggpubr)
+library(scales)
+library(HDInterval) 
+library(bayesplot)

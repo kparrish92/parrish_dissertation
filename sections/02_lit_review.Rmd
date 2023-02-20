@@ -1,0 +1,457 @@
+\chapter{Literature Review}
+
+# Models of third language acquisition
+
+Research in third language acquisition has attempted to model the interplay between L1 and L2 language systems and their cumulative influence in the process of the acquisition of a third. 
+Among questions asked by third language models is whether the L1 or L2, or a combination of both languages, serves as the basis in L3 acquisition. 
+This question is complicated in the context of multilingualism due to the widespread diversity in bilingual populations that include wide variation in ultimate attainment in adult L2 learners, and, in the case of phonological acquisition, wide variation in the production patterns of L2 segments. 
+To date, the models of L3 acquisition have largely focused on morphosyntax. <!-- of > have kp:fixed--> 
+
+## The Cumulative Enhancement Model 
+
+The Cumulative Enhancement Model (CEM) [@flynn_cumulative-enhancement_2004] was one of the first formal models of L3 acquisition in adulthood. 
+The authors argued that L3 acquisition can provide unique insights about language learning that is not possible in L1 or L2 research alone.
+The key question in the founding of the CEM was whether the properties of the L1 maintain a privileged status in L3 acquisition, or if L3 acquisition is cumulative process, in which all grammatical properties of previously known languages impact subsequent language acquisition, and, importantly, are helpful. <!-- given that you are focusing on models here, talk about the questions/studies as part of the model (evidence for/against/etc.) and not the article itself... this is still big picture kp: reworded to remove the emphasis on the article--> 
+@flynn_cumulative-enhancement_2004 conducted a study to provide evidence for the newly proposed CEM. <!-- Same idea here... you can get rid of "within this article" kp: changed --> 
+The study examined the production of restrictive relative clauses in adults and children who spoke L3 English (L1 Kazakh-L2 Russian).
+The results revealed similar performance on the experimental task by adults and children, and that the production of relative clauses was influenced by the participants' L2 Russian. 
+This influence was facilitative, since this syntactic structure is common in Russian and English, but not Kazakh.
+The authors note, however, that the results of this study could also be explained by a special status for the L2, rather than the L1. 
+
+@berkes_further_2012 conducted a further study to empirically test the predictions of the CEM. 
+German L1 and Hungarian L1-German L2 speakers were tested in English (their L2 and L3). 
+The authors found evidence that the L3 group performed better than the L2 group when the syntactic structure in question was L1-like, contrary to @flynn_cumulative-enhancement_2004, which found facilitation when L2 and L3 elements were similar. <!-- you can probably do better than "oppositely from"... think about Tom here kp: changed to "contrary to"--> 
+The authors argue that the results of these two studies taken together suggest that both the L1 and the L2 may influence the L3 grammar, and that these languages' influence help to produce target-like L3 productions, when the L3 has a common feature with either the L1 or the L2. 
+A proposed issue with this model is that it can not explain non-facilitative influence from previous languages in the L3 [@rothman_l3_2011]. <!-- Who proposed this issue? kp: rothman - added ref--> 
+Non-facilitation refers to when L3 performance is not target like and resembles performance in the L1 or L2. 
+Several empirical studies have found evidence for non-facilitation in L3 tasks and would underly the predictions of further L3 models.   
+
+## The L2 Status Factor Model
+
+In contrast to the CEM, the L2 Status Factor Model (L2SF) predicts that the L2 will influence the L3 by default.
+This prediction stems from the proposed cognitive similarity between the L2 and the L3. 
+These proposed cognitive similarities stem from the Declarative-Procedural model, which posits that the grammar of late learned languages are largely subserved by the declarative memory system, whereas early learned languages are subserved by procedural memory.
+Procedural and declarative memory are long term memory systems which serve distinct general cognitive functions.
+The declarative memory is largely used to store explicitly known knowledge, such as factual information. 
+The procedural memory, on the other hand, subserves implicit knowledge and procedures, such as riding a bike.
+During first language acquisition, learning is argued to be largely implicit and is seen as a procedure in this view.
+Alternatively, L2 learning is associated with declarative memory and explicit learning of a grammar, at least to a larger extent than L1 learning [@paradis_declarative_2009]
+As a result, the L2 Status Factor does not make predictions in L3 learning for simultaneous bilinguals, since it is argued that both of their languages are procedural. 
+In summary, the L2 Status Factor predicts that, due to the cognitive similarity between a late-learned L2 and L3, the L2 will influence the L3 by default. 
+Likewise, unlike the CEM, this influence will not always be facilitative, and is predicted to block access to the L1.
+
+Several studies have found L2 influence in L3 tasks. 
+In an early study @bardel_role_2007 examined two sets of participants learning Swedish as an L3 (n = 5), and either Dutch or Swedish as the L3 (n = 4). <!-- not sure you need to say "low-sample study"... i mean you are right, but you also five the Ns in the same sentence. kp: removed and replaced with "early" --> 
+The participants varied in their L1 and L2, and sometimes spoke three languages (which the authors classified as 2 L2s). 
+This design was chosen to vary the order of acquisition of V2 and non-V2 languages, which differ in their placement of negation.
+An inspection of individual language background by the participants in @bardel_role_2007 (p 471-472) reveals that 4 of the participants spoke a non-V2 L1 and a V2 L2, and the remaining 5 spoke a V2 L1 and non-V2 L2. 
+The researchers were investigating whether cross-linguistic similarity (the presence or absence of V2 in the L1 or L2) affected the production of V2 in the L3. 
+The results provided evidence that that the group with the V2 L2 outperformed the non-V2 L2 group.
+The authors took this result as evidence for a privileged status of the L2 in L3 production, despite its lack of facilitation. 
+These results contradict the predictions of the CEM, which suggested that L3 learning is a cumulative process that takes advantage both L1 and L2 grammars in L3 learning. 
+
+The L2 Status Factor model has seen further empirical support in studies examining L3 syntax.
+@bayona_acquisition_2009 examined the acquisition of middle and impersonal passive constructions in L2 and L3 Spanish. 
+The L2 group consisted on mostly English L1 speakers, and the L3 group consisted of English L1 and French L2 speakers. 
+The author found that the L3 Spanish group was more accurate in rejection or acceptance of target-like use of middle and passive constructions in L3 Spanish than the L2 group. 
+These results suggest that the L2 influenced that L3, and provided evidence for both the L2 Status Factor and the Cumulative Enhancement Model.
+In another early study, @leung_l2_2005 investigated the acquisition of determiner phrases and adjective word order in French as an L2 (L1 Vietnamese) and L3 (L1 Cantonese-L2 English). 
+Using a battery of tests, the authors concluded that the L3 group experienced influence from their L2 in both determiner phrases, which was facilitative in this case, and adjective order, which resulted in non-target like pre-nominal French adjectives. 
+In this case, the results could arguably be accounted for by the L2 Status Factor, while the CEM cannot explain non-facilitation. 
+However, the author's narrative conclusion of these results did not claim that there was sole access to the L2, or that the L1 was blocked. 
+Rather, they suggest that L3 learning is not simply another case of L2 learning, in which the L1 is the sole influence.
+
+This result was replicated in other studies. 
+For instance, @bohnacker_when_2006 found that L1 Swedish-L2 English-L3 German speakers showed evidence of English like word order in L3 German V2 constructions, rather than facilitative L1 Swedish,
+Additionally, @falk_object_2011 found that 44 L3 German learners with L1 English-L2 French or L1 French-L2 English behaved differently in tasks involving object pronoun placement.
+This distinct behavior was likened to L2 influence and suggested that order of acquisition was more deterministic in predicting CLI than typology. 
+Interestingly, later studies found that L1 access was possible when learners had higher metalinguistic awareness of cross-linguistic similarity between the L1 and the L3. 
+In a study of L3 learners of a V2 language who spoke a V2 L1 and non-V2 L2, @falk_role_2015, participants were given a survey which measured their awareness of cross-linguistic features in their known languages. 
+The results revealed that participants who scored higher on the metalinguistic survey also showed evidence of facilitative influence of their L1. 
+This outcome led the authors to revise the predictions of the L2SF to include the potential for L1 influence when metalinguistic awareness is high.
+
+
+## The Typological Primacy Model
+
+Later studies in L3 morphosyntax would first aim to demonstrate that influence of previously known languages in L3A is not always facilitative, and would then suggest an alternative explanation and methodology for the results found in previous studies supporting L2 influence in L3 acquisition. 
+In one such study, @rothman_what_2010 aimed to demonstrate that the influence of previously known languages is not always helpful, as the CEM predicts, by examining null subjects in L3 learners. 
+The study included two groups of Spanish-English bilinguals who were learning either L3 French or L3 Italian. 
+Importantly, all participants spoke L2 Spanish, which allows for null subjects, and spoke either L3 French (obligatory overt subjects) or L3 Italian (optional null subjects). 
+As a result, dropping a subject in L3 French would result in non-target like production, where the opposite would be true in L3 Italian.
+The authors found that the data from this study provided evidence that the L2 was the influence on L3 production in both L3 groups, and provided evidence against the CEM, since the French group experimented non-facilitative effects from a previously learned languages, and the L2 Status Factor, since neither group showed evidence of L1 influence. 
+Despite these results, the authors posited that it was possible that the perception of cross-linguistic structural similarity [@kellerman_now_1983] could also be a potential explanation for the results obtained in [@rothman_what_2010].
+
+Eventually, this perspective was formalized as The Typological Primacy Model [@baauw_cognitive_2013; @rothman_l3_2011; @rothman_linguistic_2015; @rothman_typological_2010] (TPM). 
+TPM, like the L2SF, predicts that a single language will influence the L3, but differs in that this language may be either the L1 or the L2, and that which language transfers to the L3 is determined by psychotypology after exposure to input. 
+@rothman_linguistic_2015 explains that L3 input is parsed in a hierarchical manners in which the lexicon is the primary cue parsed to determine cross-linguistic similarity between the L3 and the languages known by the L3 learner, followed by phonological or phonotactic cues, functional morphology and finally by syntactic structure. 
+Importantly, the transfer of one grammar holistically is predicted to occur during the initial stages of acquisition. 
+This idea of initial stages is described by Rothman as "very early in the L3 process" Rothman (2015, p. 180). 
+At what the TPM refers to the "absolute initial state", it suggests that both languages are in principle available to the L3 learner, but does not elaborate or make predictions as to how features of the L1 and L2 will affect absolute initial state perception and production.
+The present dissertation refers to the "absolute initial state" as "first exposure" to avoid potential misunderstandings regarding the amount of exposure that L3 learners have prior to the experimental tasks done in the present dissertation. <!-- This is quite good. Took me a few reads to parse the sentence though. Consider reorganizing. kp: made it into 2 sentences--> 
+As a result, the TPM does not make clear predictions in the context of the present dissertation, since the learners examined here are intended to perceive and produce the L3 at their very first exposure. 
+Nonetheless, the TPM would best be able to account for results in which L3 speakers produce and perceive the L3 in a practically equivalent manner to their L1 or L2 in a cross-sectional design, rather than solely the L2.
+
+Several published studies include conclusions in which the TPM is supported. 
+In the discussion of @rothman_what_2010, the authors suggested that it could not be determined whether L3 performance was due to L2 effects or psychotypology. 
+As a result, the authors suggested the use of language combinations in which the order of acquisition of L1 and L2 are reversed.
+These groups, sometimes referred to as mirror-image groups, would include groups such as L1 Spanish-L2 English and L1 English-L2 Spanish speakers who learned the same L3. 
+In this view, between-group performance should be similar if transfer is driven by psychotypology, and groups should behave differently if L2 status is deterministic. 
+For example, if mirror-image groups had been used in @rothman_what_2010 with L1 Spanish-L2 English and L1 English-L2 Spanish groups, the acceptance or rejection of L3 null subjects would allow for the examination of the predictive power of L2 status and psychotypology relative to one another.
+In a future study using this methodology, @rothman_l3_2011 aimed to investigate whether L3 Brazilian Portuguese would be influenced by Spanish both when it was and was not the L2. 
+The study examined adjective placement and meaning in the L3.
+The first group consisted of L1 Italian-L2 English speakers learning L3 Spanish, while the second group spoke L1 English and L2 Spanish and was learning L3 Brazilian Portuguese (BP).
+Based on the absence of a main effect for group in a one-way ANOVA, Rothman (2011) concluded that there was similar performance between groups and used this as evidence for the basis of the TPM.
+These results suggested that both groups performed in a target-like manner on the experimental task and also supported the Cumulative Enhancement Model. 
+
+Following the formal introduction of the TPM, further studies included mirror-image groups in their design and aimed to test the predictions of the model relative to the L2 Status Factor. 
+Several of these studies involve the acquisition of L3 Brazilian Portuguese (BP) by Spanish-English bilinguals in both orders of acquisition.
+@montrul_clitics_2011 examined the production of clitic and object expressions in L3 BP by mirror-image groups of Spanish-English bilinguals. 
+Using an oral production task and a written Acceptability Judgment Task, (AJT), it was found that L3 BP was influenced by Spanish whether it was the L1 or the L2 of the participants. 
+Examining the same language combination and using similar mirror-image groups, @giancaspro_transfer_2015 also found investigated the use of differential object marking (DOM) in L3 BP. 
+The results suggested that Spanish influenced L3 BP whether it was the L1 or the L2. 
+Like @montrul_clitics_2011, @parma_cross-linguistic_2017 also investigated L3 BP clitic development and expanded upon previous studies by including both a perception and production task.
+Another novelty of @parma_cross-linguistic_2017 was the inclusion of an online measure, a self-paced reading task, to measure comprehension, while the study also included a story-telling task to measure production. 
+The results of the comprehension task did not find a reliable difference between experimental conditions. <!-- inconclusive, could not be concluded... maybe reword this kp: reworded--> 
+The production task, on the other hand, found evidence of errors in clitic production in L3 BP by both L1 and L2 Spanish speakers that could be likened to Spanish influence. 
+The results of these studies provided evidence contrary to the predictions of the L2 Status Factor and suggest that Spanish influences L3 BP.
+
+Following these initial results in the language combination of L3 BP with English and Spanish, other studies aimed to test whether either the L1 or the L2 could influence performance on L3 tasks. 
+The evidence outside of the BP/Spanish/English triad has been more limited and controversial. 
+Some accounts in favor of the TPM's predictive power have aimed to accumulate evidence in its favor.
+For instance, in a recent systematic review of 92 studies in L3 acquisition, @puig-mayenco_systematic_2020 concluded that, in support of the TPM, that either the L1 or L2 influenced L3 performance in 59 out of 92 studies. 
+On the other hand, 29 of the studies out of 92 found that the L2 influenced the L3. 
+Importantly, the findings were not coded in a mutually exclusive manner, since the authors coded 25 total studies as being explained both by L2 status and typology, meaning that the results of these studies reported that the L2 transferred to the L3, but could not rule out the possibility that psycho-typological transfer could also explain the results, since the studies did not use mirror image groups (i.e., L3 groups with the same languages, but the opposite order of acquisition). 
+A closer examination of this systematic review reveals, however, that the coding procedure did not follow a clear objective criterion.
+That is, there are instances in which the coding provided by the authors in the appendix contradicts the narrative conclusions of the cited studies, and it is unclear how the authors of the systematic review determined when to depart from the conclusions of authors of studies and when they decided not to. <!-- Very good. kp: :)--> 
+
+Limitations of the TPM in addition to the lack of robust and cross-linguistic support include overstated predictive power and over-interpretation of results.
+The potential problem when it comes to the predictive power of the TPM is the vagueness associated with the term "initial stages" of L3 acquisition. 
+@puig-mayenco_systematic_2020 describes this as some 20-25 hours of instruction, before which time access to either language is possible. <!-- I think it sounds better if you remove "time" kp" removed -->
+This vague criterion makes it quite difficult to derive the predictions of the TPM in the case of learners who first encounter an L3. 
+The problem of over-interpretation can be seen in the use of single language properties and inappropriate statistical tests to justify narrative conclusions.
+For example, the TPM is rather explicit in its prediction that languages transfer holistically to the L3, rather than on a property-by-property basis that the CEM would suggest. 
+While, some of the evidence gathered to date provides counter-evidence to sole L2 influence on the L3, it is unclear how these studies support holistic transfer. 
+In other words, it does not seem that the body of evidence can rule out the influence of both languages within the property examined, since small samples which provide inconclusive results (non-significant p-values) do not entail equivalence within or between subjects. 
+Such small samples and choices of methods do not allow for potential gradient and small effects of co-activation to be observed.
+This is due to the idea that, on one hand, it is not possible to determine whether group results have to do with sampling issues, and, on the other, clear criteria for co-activation of both languages known by a bilingual was not explicitly included in predictions and design of these studies. <!-- I like it, but this should probably be two sentences kp: made 2 sentences--> 
+As a result, in the case of the L3 BP studies, it cannot be determined based on the results of studies to date that Spanish is solely activated and that English is not activated. <!-- Consider moving "in the case of the L3 BP studies" to right after "As a result" kp: moved --> 
+Telling this would require much larger samples and clear criteria for interpreting how results support models prior to data collection, which could include potential for non-binary interpretation of data. 
+
+## The Linguistic Proximity Model
+
+The prediction that a sole language will influence L3 production and perception is not shared by all models. 
+More recent models of L3 acquisition, like the CEM, predict that both the L1 and the L2 are available to influence an L3. 
+For example, the Linguistic Proximity Model (LPM) predicts that there is full transfer potential (FTP) of either linguistic system, but that this occurs in a gradient fashion and on a property-by-property basis [@westergaard_crosslinguistic_2017; @westergaard_microvariation_2021].
+In the founding article of the LPM, @westergaard_crosslinguistic_2017 posed several research questions. 
+In addition to investigating whether a sole language influences an L3, they also examined whether CLI comes from the more typologically similar language, and whether this influence is facilitative. 
+To provide evidence that could aid in answering these questions, the authors recruited 22 Norwegian-Russian simultaneous bilinguals who spoke English as an L3. 
+The participants completed a binary Grammaticality Judgment Task related to verb movement.
+The results of the tasks indicated that, compared to L1 Norwegian speaking children, bilingual children were able to benefit from their knowledge of Russian when learning L3 English. 
+At the same time, the bilingual participants did not perform as well as L1 Russian children learning English. 
+The authors interpreted these results, taken together, as influence from both the L1 and the L2 in the L3 English of the Russian-Norwegian bilingual children. 
+That is, the intermediate score of the Russian-Norwegian simultaneous bilingual children learning L3 English relative to the comparison groups was taken as evidence of the co-occurrence of facilitative influence from their Russian and non-facilitative influence from their Norwegian.
+
+The LPM, like the TPM and CEM, predicts that similarities between languages plays a major role in L3 acquisition, rather than order of acquisition, as the L2 Status Factor predicts. 
+The LPM departs from the TPM in that it predicts that abstract structural properties causes CLI, rather than the general perceived typological proximity. 
+In other words, it suggests that cross-linguistic influence is decided on a feature-by-feature basis, rather than generalizing whole language predictions. 
+Additionally, the LPM predicts that all languages are available to the L3 learner throughout the learning process, unlike the TPM. 
+
+A methodological consideration advocated for by the LPM is the use of subtractive groups. Unlike mirror image groups, which seek to compare two trilingual groups, subtractive groups compare L3 learners to L2 learners. In the case of the studies to date, L3 learners of English who speak Russian and Norwegian were compared to Russian L1/English L2 and Norwegian L1/English L2 groups. 
+It has been argued that this design allows for gradient effects of both the L1 and L2 to be observed.
+That is, intermediate values in L3 performance on experimental tasks relative to the L2 performance of the comparison groups is taken as evidence of co-activation of both languages.
+On the other hand, if no difference could be found between L2 and L3 learners of the same language, the LPM would consider this evidence for the influence of a single language on the L3. 
+
+Following the introduction of the model, several studies have tested the predictions of the LPM.
+In order to test whether bilinguals have access to two languages during L3 learning, @mitrofanova_wholesale_2018 conducted a study on Norwegian-Russian bilinguals and Norwegian monolinguals in which they taught them some of an artificial language which was designed to contain Norwegian-like lexical items, but also Russian like case marking to distinguish subjects from objects. <!-- I believe an "on" in missing after "study" kp: fixed--> 
+The results revealed that the bilingual group performed better than the monolingual group on a sentence/picture matching task, in which the monolinguals relied solely on word order when making decisions.
+These results suggested that the bilingual group was able to make use of both of their languages at first exposure. 
+In a series of studies, @stadt_influence_2016 examined L1 Dutch - L2 English - L3 French speakers in both English immersion and general Dutch-dominant educational settings. 
+In the first study, the results of a Grammaticality Judgment Task indicated that third year the immersion group showed signs of heavy L2 influence in the L3, where the regular group showed evidence of CLI from both the L1 and the L2. 
+
+In a follow up study, the authors recruited 4th year students from the same educational background to investigate whether L2 influence would differ between 3rd and 4th year students [@berns_role_2018]. 
+The results revealed that both 3rd and 4th year immersion groups behaved similarly and showed evidence of primarily English influence on their L3 judgments, though evidence for L1 influence was also found.
+In a second follow up study, the authors gave similar materials to the an L3 German group [@trotzke_l2_2020].
+In this case, L3 German judgments were concluded to have been influenced by the more typologically similar L1 Dutch, rather than L2 English as found in the previous cases.
+Taken together, the results of these studies suggest that both typology and L2 Status may play a role in modeling the patterns of cross linguistic influence in an L3.
+Finally, these authors also conducted longitudinal study [@stadt_influence_2018], again with L1 Dutch-L2 English-L3 French speakers.
+In this study, they found that the L1 was more influential in the beginning stages of L3 development, but that the L1 also maintained influence as L3 proficiency increased. 
+In a more recent study, @jensen_crosslinguistic_2021 investigated similar groups to Westergaard et al. (2017), in which simultaneous Russian-Norwegian bilinguals were compared to subtractive L1 Russian-L2 English and L1 Norwegian-L2 English groups, but included seven total linguistic properties. 
+The results indicated that the L3 group experienced facilitative influence in some cases, but non-facilitative influence in others. 
+Additionally, the sources of this influence could be likened to either Russian or Norwegian. 
+The results of studies, taken together, suggest that both languages are active in L3 learning, and it also appears that they remain active throughout L3 development. 
+
+Like other L3 models, the LPM has received criticism. Scholars have argued that the LPM makes vague predictions that create a problem in modeling L3 transfer acquisition [@bardel_l1_2021; @wrembel_multilingual_2021], since it is unclear when transfer of a particular structure occurs and when it does not. <!-- Word missing here... I think after "predictions" kp: added "that" --> 
+Likewise researchers have argued that, unlike the TPM and the L2SF, the LPM is not easily falsifiable [@bardel_l1_2021]. 
+However, @westergaard_microvariation_2021 argue that the LPM does make specific predictions, since it is predicted that accuracy should fall between L1 and L2 values on experimental tasks. 
+The authors state that, when using subtractive groups, if the L3 group performance falls above or below the one of the two L2 groups, then then model would be falsified. 
+
+Additionally, it is notable that the empirical studies that serve as the basis of the LPM [@westergaard_crosslinguistic_2017; @westergaard_microvariation_2021] utilize groups of simultaneous bilinguals, which do not allow for the examination of potential L2 status effects. 
+Following this idea, @westergaard_crosslinguistic_2017 suggest that an optimal design to examine both the individual contributions of languages, as well as potential language status effects, would be the so-called fully combined design. 
+This suggestion entails the use of both mirror-image groups, as seen in the TPM studies (e.g. L1 Spanish-L2 English-L3 BP and L1 English-L2 Spanish-L3 BP), and subtractive groups (e.g. L1 Spanish-L2 English-L3 BP, L1 Spanish-L2 BP and L1 English-L2 BP) used in the LPM studies.
+As a result, a fully combined design would result in the use of 6 total groups, in which a mirror image design contains L1 speakers of both background languages who learn the L3 as an L2. 
+
+## The Scalpel Model 
+
+The Scalpel Model [@slabakova_scalpel_2017] is an additional model of L3A which overlaps in many of its predictions with the LPM.
+Like the LPM, the Scalpel Model rejects the idea of wholesale transfer of either L1 or L2 proposed by the TPM. 
+Rather, it suggests that, given L3 input, the L1 and L2 combined grammar should successfully extract facilitative features from the input. 
+In this view, non-facilitation is driven by misleading, processing complexity, and frequency of a construction.
+That is, more complex constructions and less frequent constructions are predicted to be associated with non-facilitative CLI.  
+
+The major divergence of the Scalpel Model from other L3 modes lies in its focus on the role of input in driving non-facilitation. 
+Evidence for this claim comes from 2 empirical studies.
+Both studies examined three groups of participants L1 Basque-L2 Spanish-L3 English, L1 Spanish-L2 Basque-L3 English, and L1 Spanish-L2 English  [@garcia_mayo_object_2015; @slabakova_l3_2015].
+@garcia_mayo_object_2015 tested the use of null objects, which are not allowed in English, they are in Basque and sometimes in Spanish. 
+Using speaker judgments, the results showed that null objects were often correctly rejected in L3 English. 
+The second study, examining the same groups, focused on topicalization [@slabakova_l3_2015].
+In this case, L3 English speakers did not show evidence of target like behavior on grammaticality judgment tasks.
+The results of these studies suggest that one feature, topicalization, is difficult to acquire, where null objects was easier to acquire in L3 English. 
+The author suggests that this difficulty could be explained the likely lower frequency of topicalization in L3 English input relative to the lack of null objects. 
+Overall, the predictions of the Scalpel Model at first exposure might suggest that facilitation would occur in the event that the L3 stimulus has a clear bias to the L1 or the L2.
+That is, the Scalpel Model and the CEM should share similar predictions for the behavior of L3 learners at first exposure, but differ as the L3 develops. 
+The Scalpel Model does not seem to predict or concur with the prediction of the LPM that L3 performance on experimental task should fall between L1 and L2 performance. 
+
+
+# Models of L2 phonological acquisition
+
+Notably, much of the evidence for the L3 models to date come from studies which examine the acquisition of (morpho)syntactic features. <!-- acquisition "of" --> 
+The models do not always spell out specific predictions when it comes to L3 phonology. 
+In the case of the TPM, full transfer could be taken to mean the transfer of an entire language system to the L3, including phonology, but this stipulation is not explicitly spelled out in the recent articles articulating the predictions and motivations of the TPM [@baauw_cognitive_2013; @rothman_l3_2011; @rothman_linguistic_2015; @rothman_typological_2010].
+In the LPM, phonology is also not directly addressed, but there does not seem to be any reason why the same predictions should not apply to phonology as syntax.
+Specifically, the LPM should predict that L3 performance should be intermediate and fall between L1 and L2 performance on experimental tasks.
+Though a model of L3 phonological acquisition has yet to be proposed, the expansion of L2 models of phonological acquisition has been proposed [@wrembel_extending_2019].
+
+Many accounts for L2 phonological acquisition exist. 
+In general, these models all have in common that language-specific L1 categories drive L2 speech development. 
+It is still not well known how the predictions of these models apply to L3 speech development when L2 categories are also theoretically available to the L3. <!-- extra "of the predictions" kp: fixed--> 
+In the section that follows, a brief overview of each model, along with its evidence, will be covered. 
+Following the model introductions, its relationship and proposed expansion to L3 phonology will be discussed. 
+
+## The Speech Learning Model
+
+The original SLM [@flege_second_1995] focuses on the acquisition of segments in the L2 and emphasizes the importance of cross-linguistic similarity in L2 speech learning. <!-- I think you want the ref in parenthesis kp: fixed--> 
+In this view, new segments are predicted to be easier to learn, where segments which have close matches in the L2 will be much harder to acquire at a native-like level. 
+Essentially, the SLM proposes that L1 and L2 sounds are linked through a process referred to as "interlingual identification", in that the L2 sound encountered as first exposure are seen as either good or bad phonetic variants of a native category [@flege_second_1995].
+In this view, acquisition of L2 segments occurs after increased exposure to these segments, where segmental complexity modulates the rate of learning [@wayland_revised_2021].
+Additionally, the SLM posits that allophonic variation and segment position matter, as opposed to the learning of a phoneme generalizing across positions.
+For instance, @iverson_phonetic_2005 conducted a study in which they successfully trained Japanese speakers to better identify /r/ and /l/ in word initial position, but that this training was not effective for word-medial or word-initial clusters containing liquids.
+
+The original SLM also suggested that the age of first exposure (the younger the better), and L2 experience were important predictors to L2 learning success.
+The SLM makes a distinction between identification as opposed to categorization.
+The importance of this distinction involves the learning of phonetic variants during the learning process, which lead to new L2 phonetic category formations. 
+For example, using a two-alternative forced choice task, @bohn_production_1992 asked Spanish monolinguals to identify English stops and provided them with pre-voiced, short lag and long lag stops as tokens. 
+Importantly, Spanish monolinguals identified English stops as long lag /t/ as /t/, despite the lack of a long-lag category in their native inventory. <!-- extra "identified" kp:fixed --> 
+
+### The revised SLM
+
+The SLM was recently revised, and has updated some assumptions and predictions. 
+The revised model maintained many of the same assumptions as the original, and importantly focuses on sequential bilinguals, where speech learning begins when the phonetic categories of the L1 have been established. 
+According to @wayland_revised_2021, the updated tenets of the Revised Speech Learning Model (SLM-r) are that, first, phonetic categories are formed based on their statistical regularities in the input, such that greater exposure to a particular phonetic cue should be correlated with the re-tuning of that cue towards the input. 
+Second, all learners make use of the same learning mechanisms in L2 learning that they do in native language learning. 
+That is, the SLM-r refutes the idea of a critical period for speech learning, and suggests that non-native production and perception is due to differences the quality and quantity of input between native speakers and L2 learners and L1 effects. <!-- production AND perception, no? kp: fixed--> 
+Another important update to the SLM-r is the idea that perception and production co-evolve. 
+In other words, the SLM-r does not predict that perception will precede production. 
+
+The revised model has not yet received empirical support, due to its recent revision. 
+It is outside the scope of the present dissertation to evaluate the predictions of the SLM-r when it comes to statistically driven re-tuning of phonetic categories. 
+However, the phonetic categories that are in place in a bilingual at the first exposure to L3 learning could be treated as an integrated inventory when it comes to L3 learning. 
+Based on the idea that the same mechanisms are in place in L1 and L2 phonetic category formation, the same mechanisms should be in place for L3 phonetic category formation. 
+In this view, the acoustic similarity of an L3 segment to an L1 or L2 segment should predict how difficult learning an L3 segment will be.
+In this view, there is not reason to predict a blocking of one language system (L1 or L2) provided that these systems have well-established phonetic categories. <!-- very good kp: :) --> 
+
+## The Perceptual Assimilation Model
+
+Relative to the SLM, the Perceptual Assimilation Model (SLM) focuses on the perception of sound contrasts by L2 learners [@bohn_nonnative_2007].
+The PAM involves various scenarios in which the cross-linguistic inventories of specific languages predict how easily L2 sounds will be to acquire. 
+For instance, if a L2 learner's native language contains a contrast that also exists in the L2, then this contrast will be easily perceived in the L2 (two-category assimilation). 
+In the event that two native language categories correspond the a single L2 category (single category assimilation), discrimination is predicted to be intermediate. 
+In the event that two non-native sounds are equally good exemplars on an L1 category (uncategorized assimilation) discrimination is predicted to be poorer. 
+
+Evidence for the predictions of the PAM has been found in studies which involve the presentation of sounds to naive learners of an L2 (first exposure), or to more experienced L2 learners. 
+Experiments typically present the subjects with native-language vowel categories in written form and auditory stimuli of L2 vowel sounds and participants are tasked with choosing the closet matching native-language vowel category given the options, and to rate the goodness of fit of this decision. 
+
+This methodological paradigm has found evidence that two category assimilation is difficult for L2 learners. 
+For example, @escudero_spanish_2010 found that Spanish L1 speakers assimilated SSBE /ae/ and /a/ to Spanish /a/ (that discrimination of this contrast was difficult). 
+Additionally, @escudero_effect_2014 provided evidence that Salento Italian L1 speakers assimilated SSBE /ae/, /a/ and /^/ to Salento Italian /a/, while @escudero_cross-language_2011 Spanish speakers assimilated Canadian English /ae/ and /e/ to Spanish /a/.
+Finally, @escudero_perceptual_2011 found that Spanish listeners assimilated the two categories in Dutch /a/ and /a:/ to their single Spanish category /a/.
+
+The present dissertation tests whether assimilation acquired during second language acquisition apply to third language sound perception. 
+In other words, it tests whether L3 perception mirrors L2 perception in similar ways that has been observed in L3 production. 
+Specifically, it tests whether L3 speakers categorize L3 sounds similarly to L2 sounds, and whether phonetic discrimination of sounds that would be phonemic in the L1 is accessible in the perception of L3 words at first exposure, or whether there is an initial blocking or the L1 or L2 bias effect.
+
+## The Second Language Linguistic Perception Model
+
+The Second Language Linguistic Perception Model (L2LP) is a computational model of L2 speech learning and is similar to the PAM in that it focuses on sound contrasts as the basis for L2 speech learning, rather than single segments [@van_leussen_learning_2015].
+In this view, it is difficult for L2 learners to make contrasts which are not present in their L1.
+In their revision of the L2LP, van Leussen & Escudero support this claim with several empirical studies. 
+Namely, that these studies have provided evidence that L2 learners experience difficulty with the contrasts of /r/ and /l/ in Japanese, [@aoyama_perceived_2004] “beat” and “bit” in Spanish and Portuguese [@flege_amount_1997] "bet” and “bat” in Dutch [@broersma_perception_2005]. 
+The authors argue that these results suggest that linguistic experience is at the heart of L2 learning. 
+Specifically, cross-linguistic comparisons of L1 categories and L2 categories are thought to predict the ease of L2 category learning. 
+The L2LP, unlike the PAM and the SLM, also aims to model the entire learning process, rather than the beginning stages of L2 speech learning. 
+This entire learning process is predicted computationally and is based on Stochastic Optimality Theory (Boersma, 1998).
+
+An important postulate of the L2LP is the optimal perception hypothesis. <!-- tenet of the postulate? --> 
+Essentially, this proposal suggests that the initial perception of L2 sounds is the result of L1 acquisition. 
+The developmental of L2 learners is predicted similarly to PAM, where a single category assimilation from PAM, in which a native category must be split, is called a new category scenario in the L2LP. 
+This scenario is predicted by both models to be difficult for the L2 learner. 
+On the other hand, the PAM and the L2LP predict that the case when two L1 sounds correspond well to two L2 sounds that discrimination of these sounds will be relatively easier. 
+This is referred to as a single category assimilation in PAM and a similar scenario in the L2LP. 
+The final scenario of the L2LP is the subset scenario. 
+In this case, a single L2 phoneme is perceived as two L1 categories. 
+The same case is referred to as uncategorized or categorized-uncategorized in the PAM, and both models predict that discrimination of these sounds will be better than the case of new scenarios, but not as good as discrimination of subset scenarios. 
+
+Empirical support has been found for these predictions. 
+In two-category assimilation/similar scenario, @escudero_bridging_2004, native Dutch speakers assimilated the Spanish /i/ to their native Dutch /i/, and the Spanish /e/ to their Dutch /I/. 
+However, the L2LP predicts that the similar (two-category assimilation) scenario may lead to inappropriate lexical contrasts, and argues that pre-lexical and lexical contrasts should be taken into account when it comes to sound discrimination. 
+Evidence for this claim stems from studies which found that L2 learners could not perceive a contrast in lexical items that they could discriminate outside of lexical items [@curtin_phonological_1998]. 
+Other studies show that some lexical items can also be reliably distinguished by L2 learners that could not be told apart pre-lexically [@cutler_asymmetric_2006; @weber_lexical_2004].
+As a result, an important tenet of the revised L2LP [@van_leussen_learning_2015] is that meaning-driven learning predicts the developmental path of L2 phoneme perception. 
+The L2LP simulates the entire trajectory of L2 learning based on the various learning scenarios. 
+In the revised L2LP, @van_leussen_learning_2015 suggest that category reduction is possible when it is driven by meaning based learning. 
+
+The predictions of the L2LP which are important for the present dissertation are the Full Copying hypothesis. 
+If L3 phonological learning is another instance of L2 learning, then the L2LP and the TPM should share the prediction that the initial state of L3 learning is the end state of either L1 or L2 learning, but not both. 
+In this view, bilingual participants who are first exposed to an L3 should produce and categorize L3 sounds as similarly to a single language, rather than producing or perceiving some sounds as L1-like and others as L2-like. 
+Additionally, these participants' behavior on the experimental tasks should a) resemble either their own L2 behavior or L1 behavior or b) in the case of L1 influence, resemble a monolingual comparison group who is first exposed to an L2 (e.g. Spanish L1, English L2, exposed to German, and Spanish L1 exposed to German should behave similarly if Spanish is language which is "fully copied" at first exposure.)
+
+# Previous literature in L3 phonology
+
+In the research to date, L3 models have focused largely on empirical results stemming from experiments in morpho-syntax to derive predictions about how the L1 and L2 affect L3 acquisition. 
+Fewer studies have been conducted in L3 phonology, and it remains unclear whether L3 models make specific predictions for phonology and morphosyntax.
+Despite this lack of specificity in the models when it comes to phonology, some trends have emerged in the body of research.
+Specifically, it appears that the L1 and L2 likely both affect L3 perception and production, with the L2 often providing a greater level of influence in the beginning stages of acquisition, even when it is not facilitative. 
+This trend cannot readily be accounted for by the TPM, the L2SF, the CEM nor the Scalpel Model, leaving only the LPM which can predict co-activation of all languages known by a bilingual in L3 acquisition. 
+The following sections cover the empirical studies that have been done in L3 production studies across L3 proficiency levels, and the fewer studies carried out in L3 perception, as well as their relevance to L3 models. <!-- maybe avoid the repetition of "done" kp: replaced second "done"--> 
+
+## L3 Production Studies 
+
+The findings in empirical studies of L3 phonological cross-linguistic influence have varied. 
+One of the first studies to examine progressive influence of the L1 or L2 on L3 production was the seminal case study of williams_language_1998. 
+This study elicited the production of an adult L1 British English, L2 German, and L3 Swedish speaker in the L2 and L3 upon her arrival to Sweden. 
+The speech samples were rated for native-likeness by native speakers of German and Swedish respectively, with low ratings (i.e. non-nativeness) being elaborated upon.
+In the event of non-native speech, the raters guessed where the speaker in the recording might be from. 
+The informant was rated as having near native productions in her L2 German, while her L3 Swedish was rated as being non-native like and to be German-accented. 
+The experiment was repeated after 6 months in Sweden, however, and the Swedish raters then judged the informant's Swedish to be British English accented. 
+
+This study constituted evidence of an L2 status effect in the initial stages of L3 phonological acquisition, in which the second learned language influence L3 production, but also provided evidence that this effect diminishes as L3 proficiency increases.
+This notion has been called the ‘foreign language effect’ [@meisel_transfer_1983], which refers to the idea that speakers who learn a second non-native language are biased to sound unlike a native speaker of their native language. 
+
+The default L2 status effect has received some empirical support in the L3 phonology literature.
+In a study of global accent production, heavier L2 influence in L3 productions was found by L1 Polish, L2 German and L3 English speakers based on ratings of EFL instructors [@wrembel_l2-accented_2010]. 
+Similar findings have also been reported in vowel production [@kamiyama_acquisition_2007] and vowel reduction and speech rhythm [@gut_cross-linguistic_2010].
+L2 influence has also been found in VOT productions.
+@llama_influence_2010 examined L3 Spanish VOT production by French-English mirror-image bilingual groups and found that both groups had L2-like productions of the L3. 
+
+Other findings in L3 production, however, have yielded mixed results. 
+Several studies have found that acoustic properties of the participants' productions fall between L1 and L3 values, suggesting that both the L1 and the L2 have some influence on L3 productions, rather than solely one language. 
+For instance, [@wrembel_vot_2014] measured VOT and aspiration in all languages of participants with two different language combinations: L1 Polish, L2 English, and L3 French; (2) L1 Polish, L2 English, and L3 German. 
+The results showed that each language had a specific stop-value, and that the L3 VOT productions were intermediate, falling between the L1 and L2 values. 
+Similarly, [@wrembel_cross-linguistic_2011] examined thirty-two learners of L3 French with L1 Polish and L2 English who were recorded reading lists of words in carrier phrases. 
+As in previous studies [@wrembel_vot_2014], combined transfer from the L1 and the L2 in VOT productions was found. 
+Findings of combined L1 and L2 influence in VOT productions were also reported by @wunder_phonological_2010 in L3 Spanish speakers, and by @blank_transferencia_2009 in L3 English speakers who spoke L1 Brazilian Portuguese and L2 French. 
+Other studies have found an L1 influence on production despite L3 proficiency [@cabrelli_amaro_foreign_2012], or in advanced L3 learners [@llama_revisiting_2018].
+Importantly, these studies report L3 VOT values which fall between L1 and L2 values. 
+Following the suspicion that intermediate values might have to do with either sampling issues or proficiency effects, @parrish_relative_2021 examined Mexican Spanish-English bilinguals who produced voiceless stop-initial French words in isolation at first exposure to the language. 
+The results found that the relative VOT of the L3 fell between their own L1 and L2 values, in line with previous research, and that suggested that intermediate values were less likely to have been seen in previous studies as a result of small samples or proficiency effects. 
+However, a subsequent analysis of the data suggested that wide individual variation existed, in which some participants produced L3 French as L1 Spanish like, and other produced intermediate, L2-like values. <!-- data data data kp: reduced to one data--> 
+This result suggests that higher samples could reveal group trends and provide better insights into individual variation in crosslinguistic influence, as opposed to assuming that a single group trend exists.                  
+
+## L3 Perception studies 
+
+Overall, studies in L3 perception have been much more scarce relative to studies in production.
+These few studies have often used methods found in L2 speech acquisition research, such as studies testing the predictions of the Perceptual Assimilation Model.
+For instance, @wrembel_extending_2019 examined the categorization and discrimination of L3 vowels by 10 young trilinguals who spoke L1 German-L2 English-L3 Polish.
+To test categorization, a cross-linguistic similarity task was used in which participants heard minimal pairs of sounds and had to rate how similar sounds were on a 1-7 Likert scale. 
+The results showed evidence that participants assimilated L3 sounds to both L1 and L2 categories, but preferred the L2. 
+In a second experiment, and AX discrimination task was given to participants to evaluate whether retroflex and palato-alveolar silibant discrimination, a feature of Polish, could be accessed in L3 words.
+The results revealed that discrimination of the L1 Polish contrast was very good (84% accuracy), suggesting that L3 learners retain access to L1 sound contrasts in L3 words.
+Additionally, this language specific phonetic discrimination was attended to by even L3 beginners. 
+@balas_non-native_2018 also used the PAM as a perceptual framework to work in and adapted it to L3 learners. 
+The study recruited three groups of Polish L1 speakers, including two L3 groups (L1 Polish-L2 English-L3 Dutch and L1 Polish-L2 English-L3 Dutch). 
+The third group spoke only English as an L2. 
+All three groups were listened to Dutch vowels and were asked to categorize them given Polish vowel categories. 
+Unfortunately, the L3 groups were not given L2 English categories as options during this task, so the results of this study cannot directly provide evidence that L3 learners categorize L3 sounds using both the L1 and L2.
+The same study also conducted an AXB discrimination task of 8 Dutch vowels and found that discrimination was at ceiling for all vowels involved.
+
+An additional line of research in L3 perception studies has pondered whether L3 learners have a general perceptual advantage over their L2 learning counterparts. 
+In an early study, @werker_effect_1986 investigated mono, bi and multilingual participants' discrimination of non-native perceptual contrasts and did not find any evidence that the bi or multilingual group had any perceptual advantage. 
+@patihis_phoneme_2015 examined Korean stops by naive mono and multilingual listeners and found that phoneme discrimination was feature dependent, rather than bilingualism providing a general advantage. 
+@antoniou_focusing_2013 investigated the contrast of Ma'di stops by early English-Greek bilinguals, English monolinguals and Greek monolinguals.
+The researchers wanted to know whether language model affected categorization and discrimination. 
+They found that categorization is modulated by language mode, but discrimination of novel sounds was not.
+In particular, the Greek monolingual group was most successful in the discrimination of the novel contrast, where the English monolingual group was the least accurate. 
+The bilingual group, regardless of language mode, displayed intermediate ability to discriminate the novel sounds.
+In a further study, @antoniou_bilingual_2015 taught mono and bilingual participants an artificial language based on either English or Mandarin.
+The results revealed that bilingual participants outlearned the monolingual groups overall, but universally more difficult unfamiliar L3 segments do no seem to be learned more easily by bilinguals. 
+@wrembel_cross-linguistic_2020 also found that cross-linguistic influence is structure dependent and varies among individuals. 
+@onishi_effects_2016 reported a bilingual advantage, but, rather than feature dependent, suggested that this advantage was global.
+The study involved speakers of Korean who spoke L2 English and L3 Japanese.
+The author found a correlation between successful discrimination of L3 contrasts and L2 experience, and argued that this correlation is evidence for a bilingual advantage.
+
+These findings suggest that crosslinguistic similarity of both a bilingual's languages play a role in the ease of acquiring a novel, L3 sound.
+Additionally, research focused on a bilingual advantage in phonetic learning can inform L3 models, since it implies that bilinguals have access to the phonetic categories in both languages that they speak, even at first exposure, whether or not the advantages of bilingualism on phonetic learning are global or feature dependent. 
+Few studies have investigated the role of VOT in L3 perception. 
+On such study is  @liu_effects_2019, which examined the perceptual boundary of a VOT continuum in L1 Mandarin, L2 English and L3 Spanish.
+Using a /pi-bi/ continuum, the authors found that the perceptual boundaries of each language were 28ms for Chinese, 24.6ms for English and 23ms for Spanish.
+Despite the goal of the study being to examine regressive transfer and to compare the L3 speakers to monolinguals, descriptive evidence of L2 effects can be inferred from the reported means.
+Additionally, @liu_cross-linguistic_2021 examined perception and production of word-initial voiced and voiceless stops in speakers of L1 Mandarin, L2 English and L3 Russian or Japanese.
+The authors found that voiced stops were effectively perceived, but not reliably produced, where voiceless stops were both successfully perceived and produced. 
+
+# Methods and anylsis in previous work 
+
+The widely varied findings in previous work do not have a clear plausible correlate, but may be related to issues related to sampling issues combined with methodological choices. 
+In this subsection, an overview of sample sizes in previous work will be given, followed by potential issues related to small samples. 
+Subsequently, common methods in the body of research used to analyze L3 data will be discussed, followed by their potential shortcomings.
+Finally, the manner in which the present dissertation addresses these issues will be covered.
+
+Overall, it is unclear whether sufficient sample sizes have been used in the body of research to date. 
+Of the empirical studies reported in the present dissertation, none used a power analysis or otherwise justified their sample size per group. 
+Unfortunately, the tradition in L3 research has involved model building with small samples. 
+The use of small samples are associated with higher sampling error, and, as a result, a higher risk of type 1 error [@brysbaert_power_2020]. <!-- include a ref here kp: added --> 
+In other words, a single study with a small sample cannot rule out the possibility that their results are due to sampling error, or a non-representative pool of participants from an assumed population distribution. 
+As @brysbaert_power_2020 argues, low samples lead to low statistical power, and in turn provide a metaphorically blurred picture of our desired outcome. <!-- metaphorical or metaphorically? 🤔 kp: fixed --> 
+
+In addition to issues associated with low sample size, L3 research to date has used statistical methods which provide dubious evidence for their claims. 
+Among these issues is the interpretation of the results of various inferential statistical methods, such as the lack of a main effect in an ANOVA, as a basis for determining whether groups or individuals perform experiment tasks in a practically equivalent manner rather than a statistical Test of Equivalence [@lakens_equivalence_2017]. <!-- I wouldn't focus this on the use of ANOVA... ANOVA isn't the problem. The issue is using a null effect as evidence for the null. That's a big difference. --> 
+At the heart of this issue is a criticism which may apply to frequentist methods of statistical analysis in general; testing against the null hypothesis. 
+If the null hypothesis is rejected, evidence is provided that the difference between or within groups is non-zero. 
+On the other hand, if a non-zero difference is not found, there is not evidence for practical equivalence. Such as assumption has been made in the L3 literature, and in particular in L3 model building. <!-- There it is. Focus on this. Don't hate on ANOVA (even though we hate it)... no point in pissing off more people than necessary kp: reworded to take the focus off of ANOVA - I did still mention it to give a specific example of what I mean, though. But I tried to remove the emphasis --> 
+
+For example, in his seminal article introducing the Typological Primacy Model, Rothman (2011) concluded that two groups of L3 learners did not perform differently on the L3 Brazilian Portuguese acceptability judgment task and took this as evidence for similar performance between the groups, and evidence of typological similarity effects in L3 judgments. 
+There are two possible issues with this conclusion. 
+Firstly, the lack of a power analysis does not rule out sampling error.
+It cannot be argued that the sample used in this study was high enough to reliably detect an effect (or lacktherof). 
+Secondly, a wide confidence interval from the low sample size would make providing evidence for statistical equivalence in a test of equivalence likely impossible.
+Unfortunately, the reporting of results in many L3 studies to date do not allow for post-hoc power analyses to be run, since means and standard deviations are seldom reported. <!-- Always? Maybe say "are seldom reported" kp: added "seldom"--> 
+It remains unclear whether studies in L3 research are sufficiently powered to be able to generalize, and, by extension, to build models. <!-- A study is powered, not the sample size. The sample size is just one variable in determining power kp: I understand. I changed "sample size" to "study"--> 
+
+Despite the lack of empirical data available to evaluate the statistical power of L3 studies to date, it is probable that the sample sizes used are not statistically powered.
+@brysbaert_power_2020 argues that, for between group comparisons, samples of at least 80 per group are often necessary, but a power analysis should be carried out to justify sample size. 
+To the present author's knowledge, no L3 study has been able to recruit this many participants per group. <!-- The author of brysbaert? or you? Say the present author if you are referring to yourself. kp: fixed, was referring to me--> 
+For instance, the seminal study motivating the TPM [@rothman_l3_2011] recruited just 11 and 15 in two groups. <!-- Is it really necessary to single this one out? If you think so, frame it in a way in which your are talking about the model... such as "the seminal study motivating the TPE (or whichever model is his) only included X participants" kp: It might not be necessary, but this model has gained a lot of traction and I wanted to point out that its evidence is pretty questionable, to the point that it might actually be actively claiming to have empirical support where there might not be much. I reworded as you suggested. --> 
+@plonsky_advancing_2015 suggests that combating issues associated with low sample size is possible in ways other than simply increasing sample size. 
+For instance, he suggests that the use of descriptive statistics, including effect sizes and confidence intervals, would be an improvement in L2 research in general. 
+This advice is in line with the idea that frequentist analysis, and linguistic research, has relied on p-values to determine the presence of a so-called significant statistical difference. 
+@plonsky_advancing_2015, along with others, have argued that the use of p-value alone to make real-world inferences in problematic due to issues associated with sampling error and the presence of the magnitude of an effect. 
+
+In order to address these potential issues, the present dissertation recruited bilinguals, rather than trilinguals, at first exposure to a third language in order to pull from a likely higher and more homogeneous population of participants. 
+This higher sample, coupled with the use of Bayesian inference allow for both a categorical and gradient interpretation of the data. <!-- why the frequentist tests of equivalence? kp: after thinking, I suppose it makes more sense to use the ROPE in a Bayesian linear regression --> 
+In doing so, less reliance is put on a narrative interpretation of the results, and the results lend themselves to a more objective outcome. 
+
+## Bringing L2 speech models and L3 models together and evaluating predictions 
+
+By using the methods used to test the prediction of models of L2 phonological acquisition (The SLM, the PAM, and the L2LP), more nuanced evidence may be obtained to evaluate the predictive power of L3 models. 
+With the revision of the SLM, at least three L2 speech models advocate for the study of naive or beginning learners in L2 speech learning research. 
+The present dissertation adopts this point of view and applies it in a third-language context in perception and production. 
+By measuring the perception and production patterns of the first (or, at least, very early) exposure to a third language, coupled with measurements in each language, and the variation of cross-linguistic influence can be observed/studied in L3 perception and production.
+If, as the SLM-r predicts, category formation is driven by input and retuning of L1 categories in L2 acquisition, and the same mechanisms that are used in L1 phonetic category formation in L2 phonetic category formation, then it is reasonable to suppose that the SLM would predict that those same mechanisms are at play in L3 phonetic category formation, and that this process is guided by L3 input. <!-- it is likely the SLM would predict? Seems like a weird thing to say... as if you were waiting to find out what the prediction is... perhaps you mean something like "it is reasonable to suppose the SLM would predict..." kp: reworded per the suggestions--> 
+
+Following this logic, the question becomes whether L1 or L2 categories, or a combination of both, are retuned to L3 categories.
+Additionally, it is unclear what conditions determine which language category, whether L1 or L2, is initially chosen and its rate of retuning to become more target (L3) like as L3 input exposure increases.<!-- I think you can make this sentence more clear kp: added a new sentence to try and be more clear --> 
+The present dissertation focuses on which category is chosen as the initial L3 category, while the rate of change in these categories is left for future research. 
+One possibility which may influence whether an L1 or L2 category influences an L3 is the acoustic similarity of the L3 segment relative to an individuals' L1 and L2 phonetic categories.
+The TPM predicts that phonetic cues do play a role in L3 input parsing, in that they are parsed and used in order to make a decision of which language system to holistically transfer. 
+However, the TPM would (likely) not predict that two segments would be assimilated to two distinct language categories.
+Additionally, if one language holistically impacts the acquisition of a third at first exposure, then the behavior of L3 learners should resemble L2 learners, provided the L1 is the source of influence in L3 acquisition, or should be practically equivalent in a within-subject comparison. 
+In the case of the predicted behavior of L2 influence on L3 productions, L2 production and perception should be practically equivalent in a within-subject comparison. 
+The predictions of the Linguistic Proximity Model would be able to account for the same L3 sound being categorized differently by the same subject, and by different subjects, and for two different L3 sounds being categorized as an L1 and L2 category respectively.  

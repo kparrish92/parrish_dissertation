@@ -1,0 +1,17 @@
+﻿check.keys,check.rt,key_resp_7.keys,key_resp_7.rt,key_resp_2.keys,key_resp_2.rt,slider.response,slider.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stim,participant,session,date,expName,psychopyVersion,OS,frameRate,key_resp_5.keys,key_resp_5.rt,key_resp.keys,key_resp.rt,slider_2.response,slider_2.rt,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials_2.ran
+2,3.342,space,20.108,4,19.364,3.968888889,5.429,0,0,0,6,1,stim/feuf_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,1,13.242,1.004444444,3.414,0,1,1,3,1,stim/p_schwa_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,3,8.002,4.844444444,5.346,0,2,2,5,1,stim/fief_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,3,14.736,2.057777778,2.746,0,3,3,1,1,stim/pief_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,2,17.181,2.995555556,1.847,0,4,4,4,1,stim/fof_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,4,14.514,4,1.647,0,5,5,0,1,stim/pof_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,1,5.013,3.986666667,3.047,0,6,6,7,1,stim/f_schwa_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,4,11.329,2.995555556,1.33,0,7,7,2,1,stim/peuf_g.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,,,,,,,,,,stim/fof_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,space,2.624,1,6.075,4.986666667,2.528,0,0,0,4,1
+,,,,,,,,,,,,,stim/pof_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,1,7.362,3.986666667,1.347,0,1,1,0,1
+,,,,,,,,,,,,,stim/pif_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,3,6.044,3.986666667,0.93,0,2,2,1,1
+,,,,,,,,,,,,,stim/p_schwa_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,1,17.734,3,1.711,0,3,3,3,1
+,,,,,,,,,,,,,stim/feuf_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,4,22.428,2.013333333,1.313,0,4,4,6,1
+,,,,,,,,,,,,,stim/f_schwa_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,1,6.679,3.968888889,1.531,0,5,5,7,1
+,,,,,,,,,,,,,stim/fif_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,3,4.933,4.986666667,3.696,0,6,6,5,1
+,,,,,,,,,,,,,stim/peuf_f.wav,60ff03a9e0ba586ee08bb557,001,2022-03-29_15h19.10.874,exp_mono_eng,2021.2.3,MacIntel,62.5,,,4,14.286,2.977777778,1.463,0,7,7,2,1

@@ -1,0 +1,705 @@
+\chapter{The Perception of the new language vowels by Spanish-English bilinguals}
+
+```{r, include = FALSE}
+
+source(here::here("scripts", "perception", "00_libs.R"))
+source(here::here("scripts", "perception", "03_load_data.R"))
+
+```
+
+# Introduction 
+
+The body of research on phonetic and phonological learning has uncovered a crucial role for the proximity of the native language of a given speaker and the language they are learning.
+For example, the empirical basis for two major models of L2 phonology, the Speech Learning Model, and the Perceptual Assimilation Model, posit key roles for the native phonological structure of a speaker when predicting the ease or difficulty of acquiring specific L2 sounds. 
+For example, it has been shown that speakers of languages with a long-short lag VOT distinction in stop consonants have difficulty acquiring native-like VOT values in their L2 if it is a true voicing language.  
+Additionally, it is difficult for speakers to "break up" a category into two smaller categories, such as Spanish speakers who have difficulty acquiring the /i/-/\textsci/ contrast [@flege1997effects]. 
+Both of these difficulties arise, presumably, due to the native language structure of the learner.
+
+These models do not address whether this native phonological structure has a special status relative to later acquired phonemes.
+Specifically, it is not clear whether both the native and L2 phonological systems may both be possible sources of influence during new language learning. 
+The present chapter tests whether this is the case by carrying out two experiments. 
+In the first experiment, German and French vowels are categorized given both English and Spanish categories. 
+The vowel categorization task is designed to determine whether bilingual speakers will account for new language sounds using both English and Spanish. 
+In experiment 2, the discrimination of English vowel contrasts in L3 words are tested.
+This experiment avoids categorization and measures discrimination of sounds with the aim of showing whether phonetic discrimination is possible in a new language when the sound contrast exists in either the L1 or the L2.
+If speakers of categorize and discriminate new language sounds using both Spanish and English phonology, this would suggest that it is not simply native language phonology which predicts new language learning, but that all previously known languages may play a role in the learning of a new language sound system.
+
+## Perception/perceptual assimilation in L2 and L3 speech 
+
+Previous research has found that the ease of learning sounds in a new language depends upon your language background and experience. 
+In particular, it has been found that the phonemic and phonetic qualities of ones native language can predict the ease or difficulty of sound contrast perception in both accented L1 and L2 speech. 
+For example, when they were asked to categorize vowel sounds of  Standard Southern British English (SSBE), speakers of Salento Italian categorized three SSBE vowel sounds as their native /a/ (/\ae/, /\textscripta/ and /\textturnv/), and also did not discriminate these three sounds efficiently [@escudero_effect_2014].
+This finding suggests that experience with Italian, a 5-vowel system, makes the discrimination of languages with larger vowel inventories more difficult than it would be for a speaker of a language with a similarly large vowel system. 
+Other language pairings also show evidence for this phenomenon, such as Spanish listeners categorized Dutch /a/ and /a:/ as their Spanish /a/ [@escudero_cross-language_2011], and Spanish speakers categorizing Canadian English /\ae/ and /\textepsilon/ to Spanish /a/ [@escudero_cross-language_2011], where speakers of languages with a smaller vowel inventory would categorize more than one vowel sound in another language as one in their native language. 
+In other cases, speakers have matched two novel-language vowels to two of their native categories. 
+@escudero_spanish_2010 found that Spanish speakers assimilated English vowel sounds to their Spanish /a/ and /e/, although they assimilated British /\ae/ to their Spanish /a/ and English /\ae/ to their Spanish /e/, while matching /a/ in both dialects to their Spanish /a/.
+Taken together, these studies suggest that native language categories impact the categorization of sounds in a new language. 
+
+Best and Tyler formalized the idea that the ease of the perception of any new language is driven by the phonemic and phonetic differences between the inventories of the speaker's native language and an unknown language. 
+Originally, proposed to account for non-native (foreign accented) speech perception, the Perceptual Assimilation Model (*PAM; @bohn_nonnative_2007) has also been extended to L2 learning (PAM-L2). 
+The model predicts that when languages (the one known and the one being learned) are more similar in terms of how sounds contrast, then they will be easier to effectively perceive.
+For instance, in what the PAM calls Two-Category Assimilation, two L1 categories would be hypothetically matched to two L2 categories, and discrimination of that L2 contrast would be predicted to be very good.
+On the other hand, in the event that one L1 category corresponds to two L2 categories, discrimination is predicted to be poor (Single-category Assimilation). 
+
+Despite the general empirical support for the model, the PAM has not explicitly discussed whether bilingual language learners approach learning new-language sounds differently than monolinguals.
+In their 2007 chapter, Best and Tyler state that "the relative ease or difficulty of a given contrast varies according to the listener's native language" (p. 16), but make no mention of bilingual listeners.
+It is not clear whether, if given the option, speakers could be guided by both their native and subsequently learned languages when asked to categorize new language sounds.
+Very little research exists testing whether this is the case. 
+@wrembel_extending_2019 examined the categorization of L3 German vowels by 10 multilingual L1 Polish, L2 English, L3 German speakers, given L1 and L2 categories from which they could choose. 
+They found that the speakers assimilated L3 sounds to both their L1 and L2, with a preference for L2 sounds, suggesting that subsequently learned languages might guide subsequent language perception in addition to the native language. 
+@onishi_effects_2016 examined the impact of L2 experience on L3 contrast perception ability in speakers of L1 Korean, L2 English and L3 Japanese and found that better experience with specific L2 contrasts correlated to better perception of those same contrasts in the L3 contrasts, but only in some cases.
+These studies provide evidence that speakers may draw upon more than simply their native language when accounting for new language sounds. 
+However, since the Wrembel et al. (2019) and Onishi (2016) both examined the perceptual assimilation of L3 sounds to L1 and L2 sounds, it is more difficult to disentangle whether their assimilation choices might be a result of L3 acquisition or previous language influence.
+For example, the target like contrast performance by the L3 Japanese speakers, while correlated to L2 performance contrast, does not provide evidence that these speakers began their development with an advantage due to their L2 knowledge. 
+
+The present chapter adds to the scarce work done in L3 perception in at least two meaningful ways. 
+First, naive bilingual speakers were recruited, rather than actual multilingual speakers.
+This approach offers valuable information about the absolute starting point in L3 phonological acquisition, while controlling for (in the L3) the wide variation that one would expect in variables that have been shown to impact language learning outcomes, such as language proficiency, use, and learning context. 
+That is, if these speakers assimilate new language sounds to both their L1 and L2 it would provide evidence that multilinguals not only seem to have access to their L1 and L2 later in development, but that they also begin with this access.
+This distinction is important in the context of L3 models, which debate whether speakers maintain access to both their known languages throughout development. 
+
+## Overview of experiments
+
+The goal of the experiments is to examine how participants categorize and discriminate vowel sounds in a new language.
+For this reason, two experiments were created.
+The first experiment, designed to measure categorization, was a vowel categorization task.
+During the vowel categorization task, participants heard a single new-language vowel sound and their task was to match the played sound to the most similar vowel sound.
+The methodology resembles studies carried out in L2 phonology to test the predictions of the PAM-L2.
+Differently from the L2 studies, the present study included both L1 and L2 categories and tested bilinguals rather than functional monolinguals. 
+
+The second experiment was an AX discrimination task.
+It examined how all groups discriminated English vowel contrasts when they are in new language words.
+Specifically, a seven step vowel quality continuum ranging from /i/ to /\textsci/ was created. 
+During a trial, participants heard two steps on the continuum back to back and had to determine whether the sounds they heard were the same or different.
+This task allowed for the examination of perception in a purely phonetic, rather than phonemic, context, since categorization was not explicitly involved in this task.
+
+# Experiment 1 - L3 Perceptual Assimilation Task 
+
+Experiment one examined the initial state of categorization of the vowels of two unknown languages, French and German, by Spanish-English bilinguals, Spanish monolinguals and English monolinguals. 
+Each participant completed a background questionnaire and a perceptual assimilation task.
+
+## Participants 
+
+A total of `r nrow(eng_blp) + nrow(span_blp) + length(unique(pct_eng_mono$participant)) + length(unique(pct_span_mono$participant))` participants took part in the present study, after the removal of the data of 10 total participants who self-reported being bilingual yet not feeling comfortable speaking or understanding their second language.
+The present sample includes L1 Mexican Spanish - L2 English speakers (n = `r nrow(span_blp)`) and L1 English - L2 Spanish speakers (n = `r nrow(eng_blp)`).
+The monolingual participants included `r length(unique(pct_span_mono$participant))` Mexican Spanish monolinguals and `r length(unique(pct_eng_mono$participant))` American English speakers.
+All participants were recruited on prolific and were pre-screened according to criteria detailed below.
+In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile [@birdsong_bilingual_2012].
+All participants who answered 'no' to the question "Do you speak a language other than English and Spanish" were permitted to continue the experiment. 
+
+### Bilinguals 
+
+Screening data and experiment-initial questionnaires were used to find bilingual participants who began learning their L2 later in life and reported not having learned a language aside from English and Spanish.
+The English L1 group came from all over the 
+United States while Spanish L1 group came from Mexico.
+Each groups mean age, L2 use, self-reported oral and perceptive  proficiency are seen in figure \@ref(fig:aoa).
+As can be seen from the figures, The English L1-Spanish L2 group began L2 learning later on average, while they also felt comfortable in their L2 at a later age than the Spanish L1-English L2 group. 
+The participants also rated their L2 proficiency. 
+They were given a 0-6 Likert-type scale in which they answered the questions "How well do you speak [their L2]?" and "How well do you understand [their L2]?".
+"0" corresponded to "not very well at all", where "6" corresponded to "very well" (Figure \@ref(fig:prof))
+
+```{r, 'aoa', echo=FALSE, fig.cap="Age of Onset and Age of Acquisition in each bilingual group"}
+knitr::include_graphics(here::here("sections", "figs", "ao_aoa_combined.png"))
+
+```
+
+```{r, 'prof', echo=FALSE, fig.cap="Self-rated 1-6 proficiency in production and perception"}
+knitr::include_graphics(here::here("sections", "figs", "proficiency_combined.png"))
+
+```
+
+## Materials 
+
+### Target phrases/conditions 
+
+The participants heard and categorized a total of 4 vowel conditions per language given 7 total carrier words to choose from. 
+The 4 vowel conditions included the /i/, /y/, /o/, and /\textturnv/.
+The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /pVf/ frames and played a total of 5 times each. 
+Thus, each participant categorized 40 tokens per language (5 repetitions x 2 frames x 4 vowel conditions), given 7 carrier words from which they chose.
+The 7 word choices included 3 English carrier word choices intended to represent the phonemes /i/, schwa/wedge, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
+The remaining 3 choices were Spanish carrier words intended to represent the phonemes /i/, /u/ and /o/ (*fin*, *su*, *son*).
+The screen that the participants saw \@ref(fig:vct) shows an instance of the selection trail.
+
+The vowel sounds included in both experiments were intended to bring about four distinct cross-linguistic situations. 
+First, the L3 phoneme /i/ was included to create a conflict in which both source languages, Spanish and English, have a similar sound /i/. 
+The phoneme /i/ was given in the Spanish word *fin* and the English word *feel*.
+Next, the L3 phoneme, referred to as either the wedge or (schwa depending upon lexical stress) was given in an attempt to bias the selection of English. 
+This condition was intended to be assimilated to the English choice *fun*.
+Third, the phoneme /o/ was included to bias the same Spanish category, where a rounded /o/ does not exist in American English. 
+The intended choice in this case was the Spanish word *son*, but the English word *thought* was also provided as an alternative. 
+Finally, the phoneme /y/ was added to explore how a sound that is not present in either language will be categorized. 
+Given that /y/ is a high-front vowel, it is possible that it could be assimilated to other high vowels, either /i/ as in *feel* or *fin*, or /u/, as provided in *fool* or *su*. 
+Additionally, after making each selection, the participants then rated their pick for goodness of fit by clicking a 1-5 continuous Likert scale (\@ref(fig:likert).
+
+
+```{r, 'vct', echo=FALSE, fig.cap="Example screen of the vowel categorization task"}
+knitr::include_graphics(here::here("sections", "figs", "vct.png"))
+
+```
+
+```{r, 'likert', echo=FALSE, fig.cap="Example of the likert style rating after each selection"}
+knitr::include_graphics(here::here("sections", "figs", "likert.png"))
+
+```
+
+### Stimuli 
+
+The stimuli were recorded by adult, female L1 speakers of French and German respectively and was also collected online.
+The speakers were given each vowel in a word or non-word in both a fricative and bilabial frame. 
+In the event a non-word was provided, a real word containing that vowel sound was included to aid the informant in producing the intended pronunciation of the vowel. 
+Once the stimuli were recorded, one of the two tokens provided by the speaker for each vowel was selected and re-synthesized adding the appropriate onset and coda. 
+In total, 8 stimuli were created per language. 
+Figure \@ref(fig:stim) shows the formant values of the included stimuli in German and French in comparison to similar sounds in English and Spanish. 
+For the purpose of this Figure, an adult female speaker of Madrid Spanish and an adult female American English speaker provided vowel tokens of the answer choices in the present study by producing the carrier words while being recorded in PRAAT (*son*, *su* and *fin* in Spanish and *fought*, *feel*, *fool*, and *fun* in English).
+
+```{r, 'stim', echo=FALSE, fig.cap="Formant values of the model speakers"}
+knitr::include_graphics(here::here("sections", "figs", "stimuli.png"))
+
+```
+
+\begin{table}[h]
+  \begin{center}
+  \caption[Another table caption here]{Written stimuli used to elicit the auditory stimuli from the native German and French speakers. \label{stim_a}}
+  \vspace{0.3in}
+    \begin{tabular}{ccc}
+      \hline 
+      \hline
+Written stimulus & Language & Intended Phoneme \\ 
+  \hline
+Pief, Fief & German & /i/ \\ 
+Pof, Fof & German & /o/ \\ 
+Püf, Füf & German & /y/ \\ 
+Puff, Fuff & German & /\textturnv/ \\ 
+Pif, Fif & French & /i/ \\ 
+Pof, Fof & French & /o/ \\ 
+Puf, Fuf & French & /y/ \\ 
+Puff, Fuff & French & /\textturnv/  \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+## Procedure 
+
+All participants first completed the adapted Bilingual Language Profile [@birdsong_bilingual_2012] online.
+An English and Spanish version of the questionnaire was adapted and given to the participants based on their L1. 
+All participants who answered "no" to the question "Besides English and Spanish, do you speak a third language?" were invited to take part in the experimental task.
+The vowel categorization task was given to participants online. An English and Spanish version of this task was also created, in which all instructions were given in either English or Spanish. 
+During the task, all participants heard French first, followed by a brief pause, and then heard German sounds.
+The order of the stimuli was counterbalanced and the two tasks were given in a single session with a brief pause between them. 
+The experiments were programmed in Psychopy 
+[@peirce_psychopy2_2019] and made available online via Pavlovia. 
+
+## Statistical Analysis 
+
+For the vowel categorization tasks, the data were analyzed using a series of Bayesian multilevel multinomial logistic regression model in R @[R-base].
+The models were fit using the R package `brms` 
+[@burkner2017brms].
+A model was run for each of 4 groups: L1 Spanish, L1 English, monolingual English and monolingual Spanish.
+In each model, the outcome variable was word choice. 
+In the bilingual groups, this consisted of 7 total options (3 Spanish words: *fin*, *su*, *son* and 4 English words: *fun*, *fought*, *feel*, and *fool*.)
+Thus, outcome of the bilingual models estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
+The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/), stimulus language (French or German) and Lextale score (continuous and transformed to a z-score) and all higher order interactions. Random effects included a random intercept for participant to take into account the nested structure of the data. 
+
+The monolingual models modeled word choice as a function of phoneme and stimulus language, again with a random intercept for participant to take into account the nested structure of the data. 
+In this case, language choice was more limited in each group limited, with the Spanish monolingual group only having 3 options: *fin*, *su*, *son*, while the English group had 4 word choices: *fun*, *fought*, *feel*, and *fool*.
+The model included regularizing, weakly informative priors [@gelman_prior_2017], 
+which were normally distributed and centered at 0 with a standard deviation of 8 for all population-level parameters.
+The region of practical equivalence (ROPE) was set to 0.18, as the outcome variable was in log-odds (see @kruschke_rejecting_2018). 
+All models were fit with 2000 iterations (1000 warm-up). 
+Markov-chain Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
+
+## Results of the L3 Perceptual Assimilation Task
+
+Table \ref{tab1} shows the overall percentage of each word choice (out of 4 possible in English), given each of the 4 phonemes in both French and Spanish by the English monolingual group.
+The bold numbers are cases in which a word received at least 33 percent of choices.
+
+\begin{table}[h]
+  \begin{center}
+  \caption[Another table caption here]{The percentage of categorizations of phonemes in the English monolinguals group.. \label{tab1}}
+  \vspace{0.3in}
+    \begin{tabular}{cccccc}
+      \hline 
+      \hline
+Stimulus Language & choice & i & o & \textturnv & y \\ 
+  \hline
+German & feel & \textbf{0.93} & 0.01 & 0.01 & 0.06 \\ 
+German & fool & 0.02 & \textbf{0.45} & - & \textbf{0.78} \\ 
+German & fought & 0.05 & \textbf{0.52} & \textbf{0.42} & 0.11 \\ 
+German & fun & - & 0.02 & \textbf{0.57} & 0.05 \\ 
+French & feel & \textbf{0.90} & - & 0.14 & 0.04 \\ 
+French & fool & 0.04 & 0.07 & 0.03 & \textbf{0.69} \\ 
+French & fought & 0.04 & \textbf{0.38} & 0.31 & 0.21 \\ 
+French & fun & 0.02 & \textbf{0.54} & \textbf{0.52} & 0.06 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\begin{equation}
+\label{eq:bayes}
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+\end{equation}
+
+
+Figure \@ref(fig:condprobeng) shows the probability of each word choice given a language and phoneme in the monolingual group and compares it to the conditional probability of the same conditions in the bilingual group.
+These estimates were derived from the parameter estimates of the Bayesian Multinomial model, in which log odds were converted to probability.
+The bilinguals' conditional probability was calculated by dividing the probability from the full model by all categories of that language and shows the probability of a particular selection given that its language has been chosen. 
+This calculation allows for the direct comparability between the monolingual and bilingual groups, since the bilinguals had both English and Spanish categories to choose from. 
+In other words, the calculation of conditional probability tells us whether bilinguals behave similarly to monolinguals when they choose their L1 to categorize L3 sounds.
+The equation \Ref{eq:bayes} illustrates the formula used to calculate the conditional probability of a word choice given that its language has been chosen. 
+
+The triangular shaped points represent the monolingual group and the circular points represent the conditional probability of the bilingual group in the event they chose and English category. 
+The color of each point represents each word choice.
+In each panel of the figure, it is of interest whether the same color points of different shapes are close to one another, as this would indicate that the bilingual and monolingual groups are assimilating new language sounds to English similarly. 
+
+
+```{r, 'condprobeng', echo=FALSE, fig.cap="A comparison of the probability and conditional probability of each word choice per stimulus per language in the English monolingual group and English L1 bilingual group."}
+knitr::include_graphics(here::here("sections", "figs", "cond_prob_eng.png"))
+```
+
+Tables \ref{tab2}, \ref{tab3}, \ref{tab4} and \ref{tab5} show the most probable responses of each group given a particular phoneme and language in both the bilingual and monolingual groups.
+The 2.5% and 97.5% columns represent the extremes of the 95% Highest Density Interval (HDI), in which 95% of the most probable parameter estimates fell. 
+There were some differences between the monolingual and bilingual groups, which other categorizations were rather consistent. 
+As inspection of Table \ref{tab2} indicates that the phoneme /i/ was categorized similarly as *feel* by monolinguals and bilinguals when they chose an English category, regardless of L3.
+On the other hand, Table \ref{tab3} shows that responses to /o/ saw some variation between groups. 
+In particular, both *fought* and *fool* were probable responses by the monolingual group in German, while *fun* and *fought* were probable responses in French.  
+The bilingual group, however, preferred *fool* in German, and *fun* in French. 
+Responses to /\textturnv/ sound also varied. 
+In German, the monolingual group preferred the choice *fun*, but *fought* was also a probable response.
+In French, the monolingual group preferred *fun*.
+The bilingual group preferred *fun* in both German and French. 
+Finally, categorizations of /y/ were, like /i/, consistent between the groups and languages.
+Both groups assimilated /y/ to *fool* in both French and German. 
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /i/ in French and German by L1 English monolinguals and L1 English bilinguals. \label{tab2}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+i & feel & German & monolingual & 0.96 & 0.91 & 0.98 \\ 
+i & feel & French & monolingual & 0.92 & 0.86 & 0.96 \\ 
+i & feel & German & bilingual & 0.98 & 0.96 & 0.99 \\ 
+i & feel & French & bilingual & 0.97 & 0.95 & 0.98 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /o/ in French and German by L1 English monolinguals and L1 English bilinguals. \label{tab3}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline 
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+o & fought & German & monolingual & 0.53 & 0.39 & 0.67 \\ 
+o & fool & German & monolingual & 0.44 & 0.31 & 0.58 \\ 
+o & fun & French & monolingual & 0.57 & 0.45 & 0.68 \\ 
+o & fought & French & monolingual & 0.36 & 0.25 & 0.49 \\ 
+o & fool & German & bilingual & 0.73 & 0.67 & 0.79 \\ 
+o & fun & French & bilingual & 0.83 & 0.75 & 0.89 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /\textturnv/ in French and German by L1 English monolinguals and L1 English bilinguals. \label{tab4}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline 
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+/\textturnv/ & fun & German & monolingual & 0.59 & 0.45 & 0.72\\ 
+/\textturnv/ & fought & German & monolingual & 0.40 & 0.28 & 0.54 \\ 
+/\textturnv/ & fun & French & monolingual & 0.54 & 0.44 & 0.65 \\ 
+/\textturnv/ & fun & German & bilingual & 0.83 & 0.76 & 0.88 \\ 
+/\textturnv/ & fun & French & bilingual & 0.82 & 0.74 & 0.88 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /y/ in French and German by L1 English monolinguals and L1 English bilinguals. \label{tab5}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline 
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+y & fool & German & monolingual & 0.82 & 0.73 & 0.89 \\ 
+y & fool & French & monolingual & 0.73 & 0.63 & 0.82 \\ 
+y & fool & German & bilingual & 0.92 & 0.88 & 0.96 \\ 
+y & fool & French & bilingual & 0.91 & 0.87 & 0.94 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+### Monolingual Spanish assimilations 
+
+Unlike the English groups, the Spanish monolingual group and Spanish bilingual group showed evidence of similar categorization patterns overall when the Spanish bilingual group picked a Spanish category to categorize an L3 sound.
+Table \ref{sl1_fr} shows the percentage of choices given a phoneme in the Spanish monolingual group in both French and German. 
+In each of the four cases, the bilinguals and monolingual groups chose the same word the highest percentage of the time. 
+In particular, given /i/, both groups chose *fin* the most, while both /o/ and the /\textturnv/ were matched to *son*, and /y/ was assimilated to *su* by both groups in both languages. 
+Figure \@ref(fig:condprobsp) visualizes the probabilities generated by the Bayesian Multinomial regression model.
+In all cases, the bilingual and monolingual participants appear to categorize French and German sounds similarly. 
+
+\begin{table}[h]
+  \begin{center}
+  \caption{The percentage of categorizations of phonemes in the Spanish monolinguals group.\label{sl1_fr}}
+  \vspace{0.3in}
+    \begin{tabular}{cccccc}
+      \hline 
+      \hline
+Stimulus Language & choice & i & o & /\textturnv/ & y \\ 
+  \hline
+German & fin & \textbf{0.96} & 0.09 & 0.28 & 0.16 \\ 
+German & son & 0.01 & \textbf{0.59} & \textbf{0.56} & 0.08 \\ 
+German & su & 0.03 & 0.32 & 0.17 & \textbf{0.76} \\  
+French & fin & \textbf{0.83} & 0.13 & 0.25 & 0.20 \\ 
+French & son & 0.03 & \textbf{0.61} & \textbf{0.47} & 0.06 \\ 
+French & su & 0.13 & 0.26 & 0.29 & \textbf{0.74} \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+```{r, 'condprobsp', echo=FALSE, fig.cap="A comparison of the probability and conditional probability of each word choice per stimulus per language in the Spanish monolingual group and Spanish L1 bilingual group."}
+knitr::include_graphics(here::here("sections", "figs", "cond_prob_sp.png"))
+```
+
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /i/ in French and German by L1 Spanish monolinguals and L1 Spanish bilinguals\label{tab6}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+i & fin & German & monolingual & 0.98 & 0.95 & 0.99 \\ 
+i & fin & French & monolingual & 0.87 & 0.80 & 0.92 \\ 
+i & fin & German & bilingual & 0.99 & .98 & 1.00 \\ 
+i & fin & French & bilingual & 0.99 & .98 & 1.00 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /o/ in French and German by L1 Spanish monolinguals and L1 Spanish bilinguals\label{tab7}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+o & son & German & monolingual & 0.62 & 0.46 & 0.76 \\ 
+o & son & French & monolingual & 0.65 & 0.50 & 0.77 \\
+o & son & German & bilingual & 0.74 & 0.69 & 0.77 \\ 
+o & son & French & bilingual & 0.78 & 0.75 & 0.81 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /\textturnv/ in French and German by L1 Spanish monolinguals and L1 Spanish bilinguals\label{tab8}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+\textturnv & son & German & monolingual & 0.58 & 0.44 & 0.72 \\
+\textturnv & son & French & monolingual & 0.48 & 0.34 & 0.62 \\ 
+\textturnv & son & German & bilingual & 0.68 & 0.62 & 0.74 \\  
+\textturnv & son & French & bilingual & 0.66 & 0.63 & 0.69 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\begin{table}[h]
+  \begin{center}
+  \caption{Most probable responses given /y/ in French and German by L1 Spanish monolinguals and L1 Spanish bilinguals\label{tab9}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccccc}
+      \hline 
+      \hline
+Phoneme & Choice & Stimulus Language & Group & Probability & 2.5\% & 97.5\% \\ 
+  \hline
+y & su & German & monolingual & 0.81 & 0.71 & 0.88 \\ 
+y & su & French & monolingual & 0.78 & 0.67 & 0.86 \\ 
+y & su & German & bilingual & 0.77 & 0.75 & 0.78 \\ 
+y & su & French & bilingual & 0.94 & 0.91 & 0.96 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+### English L1 group
+
+```{r, 'engdesc', echo=FALSE, fig.cap="Percentage of each word choice given a phoneme in French and German in the L1 English-L2 Spanish group and Self-reported spoken production"}
+knitr::include_graphics(here::here("sections", "figs", "eng_desc_plot.png"))
+```
+
+Figure \@ref(fig:engdesc) shows the categorization data of the English L1 group of each phoneme in both languages. 
+The shaded bars represent the rating for goodness of fit, where a lighter shade represents a higher average rating. 
+Tables \ref{el1_fr} and \ref{el1_ger} show the numerical values of the French and German categorization in the English L1 group respectively, where the choice with the highest percentage per for each phoneme is in bold. 
+In the event that there were two choices that were above 33%, they are both in bold.
+
+\begin{table}[h]
+  \begin{center}
+  \caption{The percentage of categorizations of French phonemes in the L1 English group.\label{el1_fr}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccc}
+      \hline 
+      \hline
+choice & i & o & /\textturnv/ & y \\ 
+  \hline
+feel & \textbf{0.44} & 0.01 & 0.07 & 0.03 \\ 
+fin & \textbf{0.53} & - & 0.03 & 0.01 \\ 
+fool & 0.02 & 0.08 & 0.04 & \textbf{0.45} \\ 
+fought & - & 0.18 & 0.17 & 0.03 \\ 
+fun & - & \textbf{0.60} & \textbf{0.59} & 0.02 \\ 
+son & - & 0.08 & 0.06 & 0.01 \\ 
+su & 0.01 & 0.05 & 0.04 & \textbf{0.45} \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\begin{table}[h]
+  \begin{center}
+  \caption{The percentage of categorizations of German phonemes in the L1 English group.\label{el1_ger}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccc}
+      \hline 
+      \hline
+choice & i & o & /\textturnv/ & y \\ 
+  \hline
+feel & \textbf{0.52} & 0.01 & 0.02 &  \\ 
+fin & \textbf{0.45} & 0.00 & 0.01 &  \\ 
+fool & 0.01 & \textbf{0.46} & \textbf{0.41} & 0.01 \\ 
+fought & 0.01 & 0.23 & 0.03 & 0.23 \\ 
+fun & 0.00 & 0.04 & 0.02 & \textbf{0.67} \\ 
+son & - & 0.13 & 0.01 & 0.06 \\ 
+su & 0.01 & 0.14 & \textbf{0.51} & 0.02 \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+As can be seen in Tables \ref{el1_fr} and \ref{el1_ger}, the English L1 group, given the L3 French phoneme /i/, chose both their English category /i/ provided in the choice *feel* and their Spanish category /i/ provided in fin *fin*.
+German /i/ was categorized similarly. 
+For /o/ and, this group chose *fun* the most often in both cases in French, while the most chosen word in German for /o/ was *fool*. 
+The wedge in both French in German was most often assimilated to the intended category *fun*
+Finally, both the L3 French and German phonemes /y/ resulted in choices of *fool* and *su*, the English and Spanish categories for /u/. 
+
+### Spanish L1 group 
+
+Figure \@ref(fig:spandesc) shows the percentage that each answer choice was chosen given a particular phoneme in each language.
+Table \ref{sl1_fr} and Table \ref{sl1_ger} similarly report the percentage of each answer choice given a particular phoneme in each language in the Spanish L1 group. 
+The Spanish L1 group had a similar preference to the English L1 group in their categorization of /i/, where both English and Spanish categories were chosen. 
+However, the Spanish L1 group chose the English category given a German stimulus more often than the Spanish category.
+In both French and German, when both /o/ and the wedge were played, the most chosen answer was *fought*.
+Finally, given the phoneme /y/, the Spanish L1 group chose they English *fool* most often in German, and the Spanish *su* most often in French. 
+
+
+\begin{table}[h]
+  \begin{center}
+  \caption{The percentage of categorizations of French phonemes in the L1 Spanish group.\label{sl1_fr}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccc}
+      \hline 
+      \hline
+choice & i & o & /\textturnv/ & y \\ 
+  \hline
+feel & \textbf{0.42} & 0.03 & 0.18 & 0.02 \\ 
+fin & \textbf{0.47} & 0.00 & 0.02 & 0.03 \\ 
+fool & 0.04 & 0.12 & 0.05 & 0.25 \\ 
+fought & 0.04 & \textbf{0.49} & \textbf{0.47} & 0.21 \\ 
+fun & 0.02 & 0.15 & 0.15 & 0.12 \\ 
+son & 0.00 & 0.16 & 0.10 & 0.01 \\ 
+su & 0.01 & 0.05 & 0.04 & \textbf{0.36} \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+```{r, 'spandesc', echo=FALSE, fig.cap="Percentage of each word choice given a phoneme in French and German in the L1 Spanish-English L2 group."}
+knitr::include_graphics(here::here("sections", "figs", "span_desc_plot.png"))
+```
+
+\begin{table}[h]
+  \begin{center}
+  \caption{The percentage of categorizations of German phonemes in the L1 Spanish group.\label{sl1_ger}}
+  \vspace{0.3in}
+    \begin{tabular}{ccccc}
+      \hline 
+      \hline
+choice & i & o & /\textturnv/ & y \\ 
+  \hline
+feel & \textbf{0.59} & 0.01 & 0.02 & 0.08 \\ 
+fin & \textbf{0.39} & 0.00 & 0.01 & 0.04 \\ 
+fool & 0.01 & 0.27 & 0.01 & \textbf{0.38} \\ 
+fought & 0.01 & \textbf{0.54} & \textbf{0.63} & 0.17 \\ 
+fun & 0.00 & 0.04 & 0.27 & 0.12 \\ 
+son & 0.00 & 0.09 & 0.05 & 0.01 \\ 
+su & 0.00 & 0.04 & 0.02 & 0.20 \\ 
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+### Results of the models 
+
+The Bayesian multinomial regression models provided an inferential framework which allows for the quantification of uncertainty and avoids the pitfalls of the over-reliance on so-called "statistical significance". 
+The output of each model was converted from log-odds to probability using a combination of the `conditional_effects` and `make_conditions` functions in the R package `brms` [@burkner2017brms].
+Thus, for each phoneme in each language, the sum of the probability of choosing the categories combined is 1. 
+Figure \@ref(fig:imod) shows the probability of each choice in French and German by both groups when /i/ was the phoneme. 
+Figure \@ref(fig:omod), shows the same set of probabilities when /o/ is played.
+Figures \@ref(fig:schwamod) and \@ref(fig:ymod) represent the probabilities of each response when the wedge and /y/ are played respectively.
+
+```{r, 'imod', echo=FALSE, fig.cap="Probability of each choice given /i/"}
+knitr::include_graphics(here::here("sections", "figs", "i_full.png"))
+```
+
+Figure \@ref(fig:imod) corroborates the trends observed in the descriptive statistics when the participants in both groups were asked to categorize the phoneme /i/ in French and German. 
+In particular, for the English L1 group in both French and German and the Spanish L1 group in French, portions of the credible parameter estimates from the posterior distribution overlap with a probability of .5, suggesting that compelling evidence is not present for a preference for the English or Spanish category. 
+Differently, the Spanish L1 group did show evidence in German of a preference for the English category *feel*, in which the probability of picking *feel* when the stimulus was German was `r cond_df_prob$estimate__[1] %>% round(digits = 2)` (HDI = `r cond_df_prob$lower__[1] %>% round(digits = 2)` - `r cond_df_prob$upper__[1] %>% round(digits = 2)`).
+On the other hand, when phoneme was /i/ in French the probability of choosing *feel* was `r cond_df_prob$estimate__[5] %>% round(digits = 2)` (HDI = `r cond_df_prob$lower__[5] %>% round(digits = 2)` - `r cond_df_prob$upper__[5] %>%  round(digits = 2)`).
+
+After hearing the stimulus /o/, the English L1 group preferred the choice *fun* in French (`r cond_df_prob$estimate__[72] %>% round(digits = 2)` (HDI = `r cond_df_prob$lower__[72] %>% round(digits = 2)` - `r cond_df_prob$upper__[72] %>%  round(digits = 2)`), and *fool* (`r cond_df_prob$estimate__[66] %>% round(digits = 2)` (HDI = `r cond_df_prob$lower__[66] %>% round(digits = 2)` - `r cond_df_prob$upper__[66] %>%  round(digits = 2)`) in German, and the Spanish L1 group preferred *fought* in both languages.
+/\textturnv/ was categorized as the choice *fun* in both French (`r cond_df_prob$estimate__[72] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[72] %>% round(digits = 2)` - `r cond_df_prob$upper__[72] %>%  round(digits = 2)`] and German (`r cond_df_prob$estimate__[84] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[84] %>% round(digits = 2)` - `r cond_df_prob$upper__[84] %>%  round(digits = 2)`]. The Spanish L1 group preferred *fought* in both languages. (French: `r cond_df_prob$estimate__[31] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[31] %>% round(digits = 2)` - `r cond_df_prob$upper__[31] %>%  round(digits = 2)`]; German: `r cond_df_prob$estimate__[27] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[27] %>% round(digits = 2)` - `r cond_df_prob$upper__[27] %>%  round(digits = 2)`].
+
+The English L1 group assimilated /y/ in both French and German to their English and Spanish /u/ (choices *su* and *fool*), without a clear preference for either.
+Probability of the English L1 group's choice of *su* given the phoneme /y/ and the stimulus language German: `r cond_df_prob$estimate__[103] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[103] %>% round(digits = 2)` - `r cond_df_prob$upper__[103] %>%  round(digits = 2)`].
+Probability of the English L1 group's choice of  *fool* given the phoneme /y/ and the stimulus language German: `r cond_df_prob$estimate__[74] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[74] %>% round(digits = 2)` - `r cond_df_prob$upper__[74] %>%  round(digits = 2)`]
+Probability of the English L1 group's choice of *su* given the phoneme /y/ and the stimulus language French: `r cond_df_prob$estimate__[106] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[106] %>% round(digits = 2)` - `r cond_df_prob$upper__[106] %>%  round(digits = 2)`].
+Probability of the English L1 group's choice of  *fool* given the phoneme /y/ and the stimulus language French: `r cond_df_prob$estimate__[78] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[78] %>% round(digits = 2)` - `r cond_df_prob$upper__[78] %>%  round(digits = 2)`]
+The Spanish L1 group, on the other hand, assimilated French /y/ to the Spanish *su*, and the German /y/ to English *fool*. Probability of the Spanish L1 group's choice of *su* given the phoneme /y/ and the stimulus language French: `r cond_df_prob$estimate__[50] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[50] %>% round(digits = 2)` - `r cond_df_prob$upper__[50] %>%  round(digits = 2)`]. Probability of the Spanish L1 group's choice of *fool* given the phoneme /y/ and the stimulus language German: `r cond_df_prob$estimate__[18] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[18] %>% round(digits = 2)` - `r cond_df_prob$upper__[18] %>%  round(digits = 2)`]
+
+```{r, 'omod', echo=FALSE, fig.cap="Probability of each choice given /o/"}
+knitr::include_graphics(here::here("sections", "figs", "o_full.png"))
+```
+
+```{r, 'schwamod', echo=FALSE, fig.cap="Probability of each choice given schwa"}
+knitr::include_graphics(here::here("sections", "figs", "schwa_full.png"))
+```
+
+```{r, 'ymod', echo=FALSE, fig.cap="Probability of each choice given /y/"}
+knitr::include_graphics(here::here("sections", "figs", "y_full.png"))
+```
+
+# Experiment 2 - AX Discrimination Task
+
+Experiment 2 examined whether English vowel contrasts could be discriminated when they are produced in the context of French and German words, by Spanish-English bilinguals and English monolinguals. Spanish monolinguals were not recruited for this experiment, since the focus was on English vowel contrasts, and this population would not have acquired English. 
+Just as in experiment 1, each participant completed a background questionnaire and a perceptual assimilation task.
+
+## Participants
+
+A total of `r length(ax_ids)` participants took part in experiment 2.
+`r ax_did_pct` of these participants also completed experiment 1.
+This total sample was made up of three total groups: L1 Spanish-L2 English speakers (n = `r s_ax`; henceforth the Spanish L1 group), L1 English-L2 Spanish group (n = `r e_ax`; henceforth the English L1 group) and an English monolingual group (n = `r e_mon_ax`).
+All participants were recruited on prolific and were pre-screened according to the same criteria as experiment 1. In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile (Birdsong et al., 2012). All participants who answered ‘no’ to the question “Do you speak a language other than English and Spanish” were permitted to continue the experiment.
+
+## Materials 
+
+### Acoustic continua 
+
+Several 7-step vowel continua were created for this experiment to measure two vowel contrasts in "French" and "German". 
+In each case, a German or French word-pair was produced by a native English speaker by producing the word on both ends of the continuum
+by producing, for example, the sheep-like vowel or the ship-like vowel in the given word.
+Following these productions, the vowel sounds were extracted and a single onset and offset was saved per word.
+Then, using a PRAAT script, the first 3 formants were manipulated to create the continuum, and the vowels were spliced with the saved onsets and offsets, to re-create whole words. 
+
+### 2-alternative Forced Choice Task
+
+
+Different or the same?
+The same word is played twice, with either the same or distinct vowel sounds - participants must choose whether they hear a difference.
+
+eight 7-step continua were created for use in an AX discrimination task, where four were used in French and four were used in German.
+
+French fricative 1: fils - son
+
+French fricative 2: fard - blush/make up
+
+French bilabial 1: pic - peak
+
+French bilabial 2: pas - not
+
+German fricative 1: fisch - fish,
+
+German fricative 2: faden - thread
+
+German bilabial 1: pils - beer
+
+German bilabial 2: paar - pair
+
+Due to an error, the German continuum had three /i/ continua and one /a/ continuum. 
+However, this does not appear to have impacted the results, since discrimination was very poor for every contrast. 
+
+## Results
+
+Overall, the discrimination of every sound contrast was very poor.
+
+
+# Discussion
+
+The present study examined the categorization of vowel sounds in two unknown languages by Spanish-English bilinguals in both orders of acquisition. 
+Although there was an overall preference for English, the results suggested that bilinguals do have access to both their L1 and L2 during L3 perception and categorization, a finding which single-language access models, such as the TPM and L2SF cannot account for.
+In several instances, L3 sounds had a similar probability of being assimilated to English or Spanish sound, such as in 3 out of 4 cases with the phoneme /i/. 
+The results were mixed in terms of whether the L3 that the participants heard impacted their preference for English or Spanish categories. 
+In total, there were three cases in which the L3 did result in the preference for an English or Spanish category out of 16 possible.
+In particular, the Spanish L1 group showed a slight preference for the English /i/ (the choice *feel*) when they heard /i/ in German, but not in French. 
+Additionally, the Spanish L1 group also categorized the phoneme /y/ differently when they heard it in L3 French than when they heard it in L3 German. 
+In particular, the L3 French /y/ was assimilated to Spanish /u/ (*su*) and the L3 German /y/ was assimilated to English /u/ (*fool*). 
+
+These results are best explained by the Linguistic Proximity Model [@westergaard_crosslinguistic_2017;
+@westergaard_microvariation_2021], which suggests that L3 learners have access to categories in both their L1 and L2 during L3 acquisition. 
+On the other hand, The Typological Primacy Model [@rothman_typological_2010;
+@rothman_l3_2011;
+@baauw_cognitive_2013;
+@rothman_linguistic_2015] suggests that, while bilinguals have access to both their languages at first exposure, this access is lost at some point during what the model refers to as the "initial stages" of L3 acquisition. 
+While the present data does not necessarily provide counter-evidence to the TPM, it provides a starting point for future research by providing a picture of the categorization patterns of L3 phonemes in two languages by Spanish-English bilinguals which could be examined in a longitudinal design. If the TPM is correct, a distinct change in categorization would be expected to reflect a bias for a single language's category. 
+The present study provides a basis of comparison, and evidence that bilinguals do have access to both the L1 and L2 at first exposure. 
+However, in 6 our of 8 cases, global typological similarity (English and German vs. French and Spanish), did not result in any obvious bias in categorization. 
+
+It is unclear why the Spanish L1 group seemed to be sensitive to which L3 they heard, where the English L1 group was not.
+It is worth noting that there are differences between the groups in self-rated proficiency and age of onset and acquisition; the Spanish L1 group rated themselves as more proficient on average in spoken and perceptual abilities and had an earlier age of onset and acquisition on average. 
+The role of proficiency has been addressed in L3 models, but its precise role in influence is not yet clear. 
+The TPM has stated that the L2 must be sufficiently proficient to be a source of influence. 
+In the TPM studies to date, this has been taken to mean "advanced proficiency".
+Though the present study was not interested in the effect of L2 proficiency on L3 categorizations, it is worth noting that the group differences in proficiency might have impacted the results, although it is difficult to say exactly how. 
+This notion of the impact of L2 proficiency CLI could be further investigated, in which the more traditional categorical grouping of proficiency (e.g., novice, intermediate, advanced) could also be examined in a continuous fashion and corroborated across measures. 
+In other words, it's unclear for the purpose of the present study, and likely with many proficiency measures, where the TPM's cutoff for "advanced" should be. 
+
+The present study also had limitations. 
+Firstly, online studies offers unique challenges and limitations.
+One potential issue is the lack of the ability to  control the participant's environment outside of the instructions and experiment itself. 
+As a result, language mode effects [@grosjean1998transfer; @casillas_perceptual_2018] cannot be completely ruled out. 
+Additionally, headphone quality, speaker quality, background noise and volume level are all variables within the participant's control that could not be reasonably controlled for in the context of online data collection. 
+Second, self-reported proficiency, while convenient and fast, is a subjective measure of language ability that would likely be improved by a more objective proficiency measure such as the LexTALE [@lemhofer_introducing_2012].
+While the present study did not initially hypothesize that differences in proficiency impact categorization, a look at the data suggests that this is a possibility. 

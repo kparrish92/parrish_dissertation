@@ -1,0 +1,40 @@
+0.7425 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5711 	INFO 	Loaded monitor calibration from ['2021_05_25 17:40']
+5.5839 	WARNING 	User requested fullscreen with size [1920 1200], but screen is actually [1440, 900]. Using actual size
+6.1546 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe76ba2da90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe76b6a4208>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.1548 	EXP 	window1: mouseVisible = True
+6.1548 	EXP 	window1: recordFrameIntervals = False
+6.3206 	EXP 	window1: recordFrameIntervals = True
+6.5578 	WARNING 	t of last frame was 20.44ms (=1/48)
+6.7371 	DEBUG 	Screen (0) actual frame rate measured at 60.44
+6.7371 	EXP 	window1: recordFrameIntervals = False
+7.3583 	INFO 	keyboard.Keyboard is using ptb backend.
+7.3992 	EXP 	Created text_2afc_check = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2afc_check', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.5911 	INFO 	keyboard.Keyboard is using ptb backend.
+7.6169 	EXP 	Sound sound_2afc_stim_trial set volume 1.000
+7.6216 	EXP 	Created text_2afc_response_yes_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_yes_trial', opacity=1, ori=0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='Yes', units='height', win=Window(...), wrapWidth=1)
+7.6240 	EXP 	Created text_2afc_response_no_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_no_trial', opacity=1, ori=0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='No', units='height', win=Window(...), wrapWidth=1)
+7.8182 	INFO 	keyboard.Keyboard is using ptb backend.
+7.8239 	EXP 	Created text_2afc_question_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_question_trial', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Is this a question?', units='height', win=Window(...), wrapWidth=1)
+7.8304 	EXP 	text_2afc_check: autoDraw = True
+8.4619 	DEBUG 	Read csv file with pandas: conditions/conditions_german.csv
+8.4642 	DEBUG 	Clearing unnamed columns from conditions/conditions_german.csv
+8.4660 	EXP 	Imported conditions/conditions_german.csv as conditions, 49 conditions, 6 params
+8.4667 	EXP 	Created sequence: random, trialTypes=49, nReps=1, seed=None
+8.4669 	EXP 	New trial (rep=0, index=0): OrderedDict([('pisch', 'conditions/german/pisch_7_1.wav'), ('fisch', 'conditions/german/fisch_7_1.wav'), ('pake', 'conditions/german/pake_7_1.wav'), ('pike', 'conditions/german/pike_7_1.wav'), ('item_num', 43), ('correct_response', 0)])
+8.4785 	DATA 	Keypress: space
+8.4832 	EXP 	text_2afc_check: autoDraw = False
+8.4832 	EXP 	text_2afc_question_trial: autoDraw = True
+8.7031 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+8.7031 	EXP 	text_2afc_response_no_trial: autoDraw = True
+20.4782 	DATA 	Keypress: 1
+22.3940 	DATA 	Keypress: 2
+22.3984 	DATA 	Keypress: 1
+22.8012 	DATA 	Keypress: 1
+24.3648 	DATA 	Keypress: 1
+24.7463 	DATA 	Keypress: escape
+25.4505 	DATA 	Keypress: escape
+25.6323 	EXP 	window1: mouseVisible = True
+25.6324 	DEBUG 	Saving data for empathy_intonation_perc ExperimentHandler
+25.6343 	INFO 	saved data to /Users/kyleparrish/Documents/exp/data/_empathy_intonation_perc_2022_Mar_23_1501.psydat
+25.6348 	INFO 	saved data to '/Users/kyleparrish/Documents/exp/data/_empathy_intonation_perc_2022_Mar_23_1501.csv'

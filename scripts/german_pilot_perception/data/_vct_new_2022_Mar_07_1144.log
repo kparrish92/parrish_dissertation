@@ -1,0 +1,35 @@
+0.7904 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5420 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+6.1567 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fda6c7989e8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fda6b63e4a8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.1569 	EXP 	window1: mouseVisible = True
+6.1569 	EXP 	window1: recordFrameIntervals = False
+6.3218 	EXP 	window1: recordFrameIntervals = True
+6.8055 	EXP 	window1: recordFrameIntervals = False
+7.7064 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome and press space to begin', units='height', win=Window(...), wrapWidth=1)
+7.7098 	EXP 	Created fun = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fun', opacity=1, ori=0.0, pos=array([-0.5,  0.5]), rgb=UNKNOWN, text='fun', units='height', win=Window(...), wrapWidth=1)
+7.7175 	EXP 	text: autoDraw = True
+8.6689 	DATA 	Keypress: space
+8.6740 	EXP 	text: autoDraw = False
+8.7547 	EXP 	fun: autoDraw = True
+10.3606 	DATA 	Keypress: escape
+10.4736 	EXP 	window1: mouseVisible = True
+0.6737 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.8598 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+4.6457 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdac9cf2a20>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fda8c8924e0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.6463 	EXP 	window1: mouseVisible = True
+4.6463 	EXP 	window1: recordFrameIntervals = False
+4.8113 	EXP 	window1: recordFrameIntervals = True
+5.2776 	EXP 	window1: recordFrameIntervals = False
+6.1435 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome and press space to begin', units='height', win=Window(...), wrapWidth=1)
+6.1471 	EXP 	Created fun = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fun', opacity=1, ori=0.0, pos=array([-0.5 ,  0.25]), rgb=UNKNOWN, text='fun', units='height', win=Window(...), wrapWidth=1)
+6.1538 	EXP 	text: autoDraw = True
+6.8317 	DATA 	Keypress: space
+6.8447 	EXP 	text: autoDraw = False
+6.9119 	EXP 	fun: autoDraw = True
+9.9969 	DATA 	Mouse: Left button down, pos=(269,692)
+10.0966 	DATA 	Mouse:  Left button up, pos=(268,692)
+10.3305 	DATA 	Mouse: Left button down, pos=(269,680)
+10.4296 	DATA 	Mouse:  Left button up, pos=(269,680)
+337.1974 	DATA 	Keypress: space
+337.6731 	DATA 	Keypress: escape
+337.8493 	EXP 	window1: mouseVisible = True

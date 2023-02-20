@@ -1,0 +1,12 @@
+0.8215 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5250 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+6.2617 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f93bbbb3a90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f938e285780>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.2619 	EXP 	window1: mouseVisible = True
+6.2619 	EXP 	window1: recordFrameIntervals = False
+6.4286 	EXP 	window1: recordFrameIntervals = True
+6.6122 	EXP 	window1: recordFrameIntervals = False
+7.2230 	EXP 	window1: mouseVisible = True
+9.8638 	DATA 	Mouse: Left button down, pos=(370,709)
+9.9629 	DATA 	Mouse:  Left button up, pos=(370,709)
+11.3962 	DATA 	Keypress: space
+11.4239 	EXP 	window1: mouseVisible = True

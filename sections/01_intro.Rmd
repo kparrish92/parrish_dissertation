@@ -1,0 +1,105 @@
+\chapter{Introduction}
+
+# Introduction
+
+The difficulty of learning a new language in adulthood has a well documented history.
+This is especially true in the case of phonological acquisition.
+For example, many studies over the course of the past five decades have demonstrated that adult second language (L2) learners often produce and perceive the sounds of the target language in a non-native manner [@flege_imitation_1988; @flege_age_1991]. 
+This difficulty arises, in part, because bilinguals often navigate complex communicative situations in which they produce and perceive speech from both of their languages in real time. 
+Much less is known about the acquisition of a third language (L3A), particularly with regard to L3 production, perception, and phonological learning. 
+The present dissertation explores the production patterns and perceptual categorization routines of adult bilinguals during the initial stages of L3 acquisition. 
+
+Empirical studies in L3 phonological acquisition have found evidence of multi-directional influence in language production [@llama_influence_2010; @llama_revisiting_2018], and have found that the impact of previously learned languages varied in their relative influence on the third language. <!-- "varying" at the end sounds a bit odd kp: reworded it--> 
+In some cases, L2 influence on L3 production has been found, where in others, L1 influence or simultaneous influence of both languages on L3 production has been reported. 
+It is unclear what factors could be at the root of these varied findings. 
+
+At large, empirical studies in L3 acquisition have used low samples and their results have been used as the basis of predictive models.
+An issue with the use of few participants to make generalizations is that it increases the likelihood of false positive and false negative results due to an insufficient quantity of samples from a hypothetical population distribution to reliably infer information about that group. <!-- I dont know that I would call a false negative a type of finding... it's the absense of a finding. Maybe say "...it increases the likelihood of false positives and false negatives" kp: reworded as suggested. --> 
+In addition to low samples, L3 studies typically use analyses such as an ANOVA, t-tests,  non-parametric tests against zero, such as the Kruskal Wallis test.
+An issue with these choices of analyses is the lack of evidence for the null hypothesis within the larger umbrella of the frequentist approach to inferential statistics. 
+That is, in the case of L3 acquisition, where the interest is which of two source languages impacts a third, the researcher is interested in the possibility of providing evidence that L3 performance is either L1 or L2 like.
+Often, the lack of a so-called "significant" p-value in frequentist analysis is taken as evidence of similar performance between groups or within subjects.
+This conclusion is not well justified, since it is unclear if null results are due to low samples with wide confidence intervals and how much noise is expected in the data.
+That is, the lack of a significant p-value alone is not evidence for the null hypothesis.<!-- this is the perfect opportunity to say something to the effect of absence of evidence is not evidence of absence... in other words the lack of a significant p-value is not evidence for the null kp: added a sentence  --> 
+When only a p-value is reported, and not detailed descriptive statistics, it is difficult to establish objective and precise criteria for evidence for practical equivalence. 
+
+Additionally, factors such as L2 and L3 proficiency, language dominance and choices of methods and analysis may play a role in the conclusions drawn by these studies.
+L3 proficiency has varied in the body of literature, with some studies examining beginners, while others study intermediate and advanced learners. 
+Language dominance and use has not always been considered in L3 studies. <!-- "These L3 proficiency has varied" ...missing something kp: removed "these" --> 
+
+The present dissertation aims to address the issue of low sample sizes and varied statistical analyses by, firstly, recruiting bilinguals who do not yet know a third language. 
+Secondly, more fitting statistical analyses are used to evaluate equivalence for within and between group comparisons, such as Bayesian Regression with a region of practical equivalence.
+In terms of sample size, it is probable that low samples in L3 research have occurred as a result of the difficulty in finding subjects with similar enough backgrounds in three languages.
+To work around the issue of low availability in participants, bilinguals' first exposure to a third language is studied in the present dissertation. 
+It is likely that relatively homogeneous populations of bilinguals are in greater supply than trilingual populations, particularly when suggested methodological practices are to be used, such as the use of mirror-image groups (groups with the same L3 but opposite order of acquisition). 
+With the increase in sample size, more precise observations and conclusions may be drawn about the very starting point of L3 phonological acquisition which are far less likely to be explained by statistical limitations such as sampling error. 
+
+Additionally, first exposure to the L3 can be very valuable information when it comes to modeling third language acquisition. 
+Broadly, Third Language Acquisition (L3A) refers to the acquisition of a third language by an individual who already speaks to languages.
+Current models of L3A do not always account for potential individual differences in CLI, and typically are restrictive in their predictions. <!-- did you define L3A yet? kp: added definition--> 
+By investigating first exposure, it is possible to gather evidence regarding whether there is a default state of L1 and L2 CLI at first exposure to an L3, and whether this relative language influence is variable at the individual level. 
+If the goal of L3 models is to predict the trajectory of L3 acquisition, then it seems pivotal to uncover the potential variability of its starting point.
+
+To deal with the potential impact of proficiency and dominance on L3 production and perception, L2 proficiency was measured using the LexTALE in English [@izura_lexical_2016; @lemhofer_lexical_2016] and Spanish [@izura_lexical_2016]. 
+The Bilingual Language Profile (BLP) was used to measure language dominance and background [@birdsong_bilingual_2012].
+Finally, participant groups will be exposed to either German or French, to examine how phonetic similarity across languages may play a role in the first exposure to an L3.
+
+# Cross-lingusitic language features 
+
+In order to gain insights into the relative influence of a first and second language the present dissertation makes use of both (relative) voice-onset time (VOT) in stop production and perception and spectral qualities of vowels, specifically the first and second formants, in vowel perception and production. 
+In the following sections, the vocalic systems of Spanish, English, French, and German, as well as their respective uses of voice-onset time, are overviewed. 
+
+
+## Voice-Onset Time
+
+Voice-onset time (VOT) is a phonetic measure in milliseconds of the release of the closure and its relationship with the onset of the vibration of the vocal folds [@lisker_cross-language_1964]. 
+In particular, when the vocal folds begin to vibrate prior to the release, this is described as pre-voicing and is characterized by a negative VOT value. 
+On the other hand, when the release occurs prior to the onset of voicing, a positive VOT is measured.
+Stops with a positive VOT are considered phonetically voiceless, where a negative VOT is phonetically voiced. <!-- while youre at it you should define phonetically voiced kp:added voiced def.--> 
+VOT has been found to be a primary acoustic cue in the distinction of stop consonants in many of the world's languages. 
+However, the use of VOT to make distinctions between sounds is language specific. 
+For example, Spanish and French belong to a classification of languages referred to as true-voicing languages [@lisker_cross-language_1964].
+This label suggests that the difference between a stop consonant that is phonemically voiced, such as /b/, is also phonetically voiced (negative VOT) and its counterpart that is phonemically voiceless, such as /p/, is also phonetically voiceless (positive VOT). 
+True voicing languages stand in contrast to aspirating languages, such as German and English, in that the phonemic categories /p/ and /b/ exist within these languages, but are distinct in the way that they make use of VOT.
+That is, in aspirating languages, /p/ typically has a long-lag VOT (a longer duration in milliseconds) than the true-voicing languages' /p/.
+In the latter case, /p/ also has positive VOT, but typically with a much shorter duration. 
+The phoneme /b/, on the other hand, is often realized with a short-lag positive VOT in aspirating languages, in which it likely has acoustic/phonetic overlap with the true-voicing language /p/. 
+In other words, true voicing languages, like Spanish and French, use lead (phonetically voiced) and short-lag (phonetically voiceless) VOT to distinguish stop consonants, where aspirating languages (English and German) use short-lag and long-lag VOT.  <!-- The information is all there, but you explain it in a way that seems to make it more complicated than it is. Make it more clear that true voicing languages have lead and short-lag VOT, aspirating languages have short-lag and long-lag VOT. No need to beat around the bush. kp: added an extra sentence with a simple definition as suggested--> 
+Overall, these cross-linguistic differences in VOT provide a useful continuous measure that can provide insights into cross-linguistic influence. 
+
+## Vocalic systems
+
+Another useful language feature to examine cross-linguistic influence is the vowel inventory of each language. <!-- object? kp: I meant "language feature" or part of a language, I changed it. --> 
+Studies examining the articulatory space of vowels typically involve spectral measurements such as formant frequencies. 
+In these studies, the frequency of the at least first and second formants are measured and compared for each vowel. <!-- Id just say frequency (not hertz), because many people use other measures (like mels, ebs, etc.). Also, measure and plotted... I mean yeah, but plotting them isnt really necessary. The key is that the formant frequencies are compared kp: made small edit--> 
+The first formant (F1) is an acoustic correlate for vowel height, with higher values corresponding to lower vowels.
+The second formant (F2) represents vowel frontness, with higher values corresponding to a more fronted vowel. 
+The chosen languages also vary in the size of their vowel inventories.
+The Spanish vowel space is the smallest of the present study and consists of 5 distinct vowel monophthong categorizations [@bradlow_comparative_1995]. 
+English, French and German have larger relative vowel spaces, where English has 11 monophthongs, and German has 14 [@jongman_acoustic_1989; @bradlow_comparative_1995].
+French has as many as 16 phonemic vowel sounds.
+
+Cross-linguistic differences in vowel spaces are important in part due to evidence that language specific L1 categories seem to matter during L2 learning. 
+That is, previous research has identified patterns in learning novel vowel contrasts, where some are easier than others and this ease is driven by cross-linguistic similarity and vowel inventory size between languages. [@escudero_cross-language_2011; @van_leussen_learning_2015]. <!-- maybe a few refs here kp: added a few escudero studies --> 
+
+The main question of the present dissertation is how cross-linguistic acoustic similarity and language status effects interact in L3 acquisition. 
+In other words, it will be examined whether L1 and L2 phonological systems have equal impact on the L3 in perception and production in that they are equally affected by cross-linguistic acoustic similarity, regardless of the most similar acoustic sound to an L3 sound is an L1 or L2 sound. 
+Alternatively, it is possible that a privileged status of either the L1 or L2 could cause perception and production errors, in which L3 learners assimilate L3 sounds to a sound that is not the best acoustic match.
+<!-- I think you need to make this more clear. It also sounds like more than one question. kp: added a few lines to try to be more clear. I want to say that I'm looking at a potential conflict between language status effects and acoustics --> 
+
+<!------ 
+What I want to say:
+L2 phonological learning is hard
+ - cross ling similarity matters 
+Less is known about L3 learning learning 
+ - does cross ling similarity still matter the most when two langs are availabe? 
+Variable findings in L3 phon studies 
+ - L2 influence 
+ - mixed l1 l2 influence 
+ - could be due to low samples or acquisition, unclear 
+I address low samples and influence of other effects by:
+ - Recruiting bilinguals at first exposure to an L3
+ - This way, the role of a) cross linguistic phonetic similarity/phonemic inventory and b) language status effects can be better studied.
+
+
+------>

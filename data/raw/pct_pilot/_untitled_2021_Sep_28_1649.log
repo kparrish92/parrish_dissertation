@@ -1,0 +1,53 @@
+0.6735 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.3432 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd08da3a7b8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd05ac12d68>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.3435 	EXP 	window1: mouseVisible = True
+6.3435 	EXP 	window1: recordFrameIntervals = False
+6.5108 	EXP 	window1: recordFrameIntervals = True
+6.6940 	EXP 	window1: recordFrameIntervals = False
+7.3172 	EXP 	window1: mouseVisible = True
+7.3228 	EXP 	window1: mouseVisible = True
+7.3287 	EXP 	window1: mouseVisible = True
+7.3656 	EXP 	Sound stimulus set volume 1.000
+7.5873 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks! Press SPACE to end.', units='height', win=Window(...), wrapWidth=1)
+7.5937 	EXP 	Imported stim/conditions.csv as conditions, 2 conditions, 2 params
+7.5943 	EXP 	Created sequence: random, trialTypes=2, nReps=5, seed=None
+7.5946 	EXP 	New trial (rep=0, index=0): OrderedDict([('stim', 'stim/o.wav'), ('phone', 'o')])
+10.4771 	DATA 	Mouse: Left button down, pos=(547,692)
+10.5988 	DATA 	Mouse:  Left button up, pos=(547,692)
+10.8652 	DATA 	Mouse: Left button down, pos=(554,696)
+11.0437 	DATA 	Mouse:  Left button up, pos=(554,696)
+11.5108 	DATA 	Mouse: Left button down, pos=(570,718)
+11.5133 	EXP 	New trial (rep=0, index=1): OrderedDict([('stim', 'stim/u.wav'), ('phone', 'u')])
+11.6107 	DATA 	Mouse:  Left button up, pos=(570,718)
+13.6609 	DATA 	Mouse: Left button down, pos=(317,616)
+13.6628 	EXP 	New trial (rep=1, index=0): OrderedDict([('stim', 'stim/u.wav'), ('phone', 'u')])
+13.7610 	DATA 	Mouse:  Left button up, pos=(317,616)
+15.2487 	DATA 	Mouse: Left button down, pos=(339,628)
+15.2615 	EXP 	New trial (rep=1, index=1): OrderedDict([('stim', 'stim/o.wav'), ('phone', 'o')])
+15.3612 	DATA 	Mouse:  Left button up, pos=(339,628)
+16.5776 	DATA 	Mouse: Left button down, pos=(600,724)
+16.5797 	EXP 	New trial (rep=2, index=0): OrderedDict([('stim', 'stim/u.wav'), ('phone', 'u')])
+16.6447 	DATA 	Mouse:  Left button up, pos=(601,724)
+18.1990 	DATA 	Mouse: Left button down, pos=(248,650)
+18.2122 	EXP 	New trial (rep=2, index=1): OrderedDict([('stim', 'stim/o.wav'), ('phone', 'o')])
+18.3450 	DATA 	Mouse:  Left button up, pos=(247,649)
+19.4991 	DATA 	Mouse: Left button down, pos=(601,702)
+19.5123 	EXP 	New trial (rep=3, index=0): OrderedDict([('stim', 'stim/o.wav'), ('phone', 'o')])
+19.5611 	DATA 	Mouse:  Left button up, pos=(601,702)
+20.4771 	DATA 	Mouse: Left button down, pos=(612,707)
+20.4791 	EXP 	New trial (rep=3, index=1): OrderedDict([('stim', 'stim/u.wav'), ('phone', 'u')])
+20.5615 	DATA 	Mouse:  Left button up, pos=(612,707)
+21.8280 	DATA 	Mouse: Left button down, pos=(277,611)
+21.8298 	EXP 	New trial (rep=4, index=0): OrderedDict([('stim', 'stim/o.wav'), ('phone', 'o')])
+21.9278 	DATA 	Mouse:  Left button up, pos=(277,611)
+23.1154 	DATA 	Mouse: Left button down, pos=(629,731)
+23.1291 	EXP 	New trial (rep=4, index=1): OrderedDict([('stim', 'stim/u.wav'), ('phone', 'u')])
+23.2117 	DATA 	Mouse:  Left button up, pos=(629,731)
+24.4488 	DATA 	Mouse: Left button down, pos=(311,654)
+24.5275 	DATA 	Mouse:  Left button up, pos=(311,654)
+24.7781 	DATA 	Mouse: Left button down, pos=(311,637)
+24.7954 	EXP 	text: autoDraw = True
+24.8796 	DATA 	Mouse:  Left button up, pos=(311,637)
+26.2518 	DATA 	Keypress: space
+26.2601 	EXP 	text: autoDraw = False
+26.2781 	EXP 	window1: mouseVisible = True

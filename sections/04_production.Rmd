@@ -1,0 +1,346 @@
+\chapter{The Production of the new language vowels by Spanish-English bilinguals}
+
+```{r, include = FALSE}
+source(here::here("scripts", "production", "r", "00_libs.R"))
+source(here::here("scripts", "production", "r", "01_helpers.R"))
+source(here::here("scripts", "production", "r", "03_load_data.R"))
+
+```
+
+# Context 
+
+More general paragraph.
+
+# What has been done 
+Research in L3 production has yielded mixed results.
+Global accent production - L2 then L1.
+L2 global also found by wrembel in accent judgments.
+
+VOT - intermediate Llama 1, llama 2, Parrish
+
+Vowels -
+
+# What has not been done 
+
+# How this study fills the gap 
+
+New language pairing, and use of first exposure
+
+Hammarberg study. 
+
+The results of this study corroborated the so-called ‘foreign language effect’ first suggested by Meisel (1983)
+
+The informants rated the speaker as having English-accented Swedish. Further studies in L3 phonology yielded mixed results, with some studies reporting L2 status effects (Gut, 2010; Llama et al., 2010; Wrembel, 2010), while others concluded that there was the mixed influence of both the L1 and the L2 (Llama & Cardoso, 2018; Wrembel, 2014).
+
+# Methods 
+
+## Participants 
+
+L1 English bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English bilingual") %>% select(prolific_id)))`)
+
+L1 Spanish bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id)))`)
+
+L1 English monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id)))`)
+
+L1 Spanish monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id)))`)
+
+\@ref(fig:aoaprod) shows the age of Onset (A) and age of acquisition (B) by the L1 English and L1 Spanish bilingual groups.
+
+```{r, 'aoaprod', echo=FALSE, fig.cap=""}
+knitr::include_graphics(here("includes", "figures", "ao_aoa_combined_production.png"),
+         dpi = 1200)
+```
+
+```{r, 'profprod', echo=FALSE, fig.cap="Self-rated spoken and eceptive proficiency by the L1 English and L1 Spanish bilingual groups"}
+knitr::include_graphics(here("includes", "figures", "proficiency_combined_production.png"),
+         dpi = 1200)
+```
+
+## Materials
+
+## Procedure
+
+## Statistical Analysis
+
+A series of Bayesian multilevel regression models were run to determine whether there were differences in vowel height (F1) an and frontness (F2) between groups. 
+In each model, the formant was analyzed as a function of language (4 levels for bilingual groups, 3 levels for monolingual groups), and phoneme (4 levels).
+Random intercepts for token and participant were also included to take into account the nested structure of the data.
+Model priors were the default in `brms`, a student's T distribution with 3 degree of freedom. 
+All models were fit with 4000 iterations (1000 warm-up). 
+Hamiltonian Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
+
+# Results 
+
+## Forced Alignment
+
+A total of `r nrow(full_data_all)` data points were force aligned in the initial analysis using Webmaus basic (*cite*).
+In order to estimate the accuracy of the forced-alignment, about 3 percent of the bilingual data was randomly subset and hand-corrected (`r nrow(bil_sub)/2` tokens).
+Subsetting was done using an R script.
+Figure \@ref(fig:langcorr) shows the quantity of each phoneme in each language that was hand-corrected in the random subset.
+
+Figure \@ref(fig:handcorrect) shows the formant values of hand-corrected tokens and force-aligned tokens.
+An inspection of the figure suggests that /a/, wedge and /o/ were mostly accurately aligned. 
+On the other hand, the tokens for /i/ and /u/ benefited from hand-correction.
+
+```{r, 'langcorr', echo=FALSE, fig.cap="Quantity of Hand-correced tokens per phoneme per language"}
+
+text_df_b = bil_sub %>% 
+  filter(correct == "corrected") %>% 
+  group_by(phoneme, language) %>% 
+  summarize(n = n())
+
+bil_sub %>% 
+  filter(correct == "corrected") %>% 
+  group_by(phoneme, language) %>% 
+  summarize(n = n()) %>% 
+  ggplot(aes(x = n, y = language, fill = phoneme)) + 
+  geom_col(position = position_dodge(width = -.75), color = "black") +
+  scale_fill_manual(values=five_palette) +
+  theme(strip.text.x = element_text(size = 8),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 8),
+        axis.text.y = element_text(size = 8),
+        legend.position="bottom", 
+        legend.text=element_text(size=8),
+        legend.title=element_text(size=8),
+        axis.text=element_text(size=8),
+        axis.title=element_text(size=8,face="bold"),
+        plot.title = element_text(size=12,face="bold")) + 
+  geom_text(data = text_df_b, aes(label = paste0("n = ", n), x = Inf,
+            hjust = "inward"), size = 2.5, position = position_dodge(width = -.75)) + xlim(0,40) + theme_minimal()
+  
+```
+
+```{r, 'handcorrect', echo=FALSE, fig.cap="Hand Corrected versus automated formant values of a subset of the data"}
+knitr::include_graphics(here::here("includes", "figures", "hand_correct.png"))
+```
+
+Figure \@ref(fig:rmdplot) shows the root mean square deviation between the hand-corrected values and force-aligned values.
+Root mean square deviation is an measurement of the difference between predicted and actual values.
+In the present study, these numbers represent Hertz for F1 and F2.
+Each numerical label in the figure represents the root mean square deviation, while the colors represent phonemes.
+The phonemes /i/ and /u/ have the largest root mean square deviation, showing, again, that they were the least accurately force-aligned. 
+
+```{r, 'rmdplot', echo=FALSE, fig.cap="Root Mean Square Deviation for F1 and F2"}
+### RMD plot 
+f1f2_df %>% 
+  ggplot(aes(x = as.numeric(rmd), y = Language, color = Phoneme, 
+             label = rmd)) + 
+  geom_label(size = 2, position = position_dodge(width = -.5), check_overlap = TRUE) +
+  facet_wrap(~Formant) + theme_minimal() 
+```
+
+A total of `r nrow(removed_data)` tokens were removed from the dataset.
+A token was considered an outlier when it was more than plus or minus two standard deviations of the mean of the hand-corrected subset.
+Table \@ref(tab:handcortab) in the appendix shows the mean and standard deviations of each phoneme in each language used to identify outliers in the main dataset.
+Figure \@ref(fig:rmdremoved) shows the number of removed tokens compared to the root mean square deviation.
+The most removed phoneme was German /o/, in which `r f1_f2_m$n[12]` tokens were removed as outliers.
+Table \@ref(tab:remtab) summarizes the total number of each phoneme removed.
+Figure \@ref(fig:totaltokens) shows the the final number of tokens analyzed after removal of outliers (n = `r nrow(full_data)`) broken down by language and phoneme.
+
+
+```{r, remtab, eval=T, echo=F}
+removed_data %>% 
+  group_by(phoneme) %>% 
+  summarize(n = n()) %>% 
+  knitr::kable(format = "pandoc", align = rep("r", 11), 
+        caption = "Total Number of each removed phoneme",
+        label = "remtab")
+```
+
+```{r, 'rmdremoved', echo=FALSE, fig.cap="Root Mean Square Deviation for F1 and F2 versus total removed tokens"}
+## RMD vs removed datapoints 
+
+five_palette = c("#C383BF",
+"#303036",
+"#DAB444",
+"#FFFAFF",
+"#30BCED")
+
+f1_f2_m %>% 
+  ggplot(aes(x = as.numeric(rmd), y = n, color = Language, 
+             label = Phoneme)) + 
+  geom_label(size = 2, position = position_dodge(width = -.5)) +
+  facet_wrap(~Formant) + theme_minimal() 
+```
+
+```{r, 'totaltokens', echo=FALSE, fig.cap="Total Number of Tokens per phoneme and language after removal of outliers"}
+## Remaining data 
+text_df = full_data %>% 
+  group_by(phoneme, language) %>% 
+  summarize(n = n())
+
+full_data %>% 
+  group_by(phoneme, language) %>% 
+  summarize(n = n()) %>% 
+  ggplot(aes(x = n, y = language, fill = phoneme)) +
+  xlim(0,1200) +
+  theme_minimal() +
+  xlab("Number of tokens") +
+  ylab("Language") +
+  scale_fill_manual(values=five_palette) +
+  theme(strip.text.x = element_text(size = 8),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 8),
+        axis.text.y = element_text(size = 8),
+        legend.position="bottom", 
+        legend.text=element_text(size=8),
+        legend.title=element_text(size=8),
+        axis.text=element_text(size=8),
+        axis.title=element_text(size=8,face="bold"),
+        plot.title = element_text(size=12,face="bold")) +
+  geom_col(position = position_dodge(width = -.75), color = "black") + 
+  geom_text(data = text_df, aes(label = paste0("n = ", n), x = Inf,
+            hjust = "inward"), size = 2.5, position = position_dodge(width = -.75))
+```
+
+## Analysis of the included data
+
+Figure \@ref(fig:uplot) shows the productions of each of the four groups for the phonemes /u/ (in Spanish and English) and /y/ (in French and German).
+This condition was intended to explore how Spanish-English bilinguals would produce /y/, which is not present in either Spanish or English.
+An inspection of this figure suggests that /y/ was effectively imitated by all groups.
+In addition, it does not appear that there is much meaningful difference between the French and German imitations of the /y/ sound. 
+
+The models further supported the effective imitation of French and German /y/ by both bilingual groups.
+Figure \@ref(fig:uplots) shows the conditional effects of the F1 and F2 models for /u/ in English and Spanish, and /y/ in French and German.
+Overall, the results of the models suggest that both bilingual groups performed similarly and could effectively imitate the French and German /y/. 
+The models provided evidence that both bilingual groups had more fronted production of French and German /y/ relative to their Spanish and English /u/ (panel b).
+Additionally, although the English /u/ was slightly more fronted than Spanish /u/ by both groups, there was compelling evidence that productions English and Spanish /u/ German and French /y/ were distinct in terms of frontness, since there was no overlap in the posterior distributions.
+
+```{r, 'uplot', echo=FALSE, fig.cap="Productions of /u/ in each language by each group"}
+full_data %>% 
+  filter(phoneme == "u") %>%
+  ggplot(aes(x = f2e, y = f1e, color = language)) + 
+  geom_point(alpha = .1) + scale_x_reverse() +
+  xlab("F2") + ylab("F1") +
+  theme_minimal() + 
+  scale_y_reverse() + stat_ellipse(linetype = "dashed") + 
+  ggtitle("Productions of /u/ and /y/") + 
+  geom_point(aes(y=444.18, x=1776.17), colour="#7cae00") +
+  geom_point(aes(y=411, x=2053), colour="#00BFC4") +
+  theme(strip.text.x = element_text(size = 6),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 6),
+        axis.text.y = element_text(size = 6),
+legend.position="bottom", 
+legend.text=element_text(size=6),
+legend.title=element_text(size=6),
+axis.text=element_text(size=8),
+axis.title=element_text(size=8,face="bold"),
+plot.title = element_text(size=12,face="bold")) +
+  facet_grid(~group)
+```
+
+```{r, 'uplots', echo=FALSE, fig.cap="Conditional effects plot of /u/ for F1 (a) and F2 (b) in the bilingual groups"}
+knitr::include_graphics(here("sections", "figs", "u_plots.png"))
+```
+
+Figure \@ref(fig:oplot) shows the productions of /o/ by all groups in Spanish, French and German, while the English sound was /\textscripta/.
+Although this condition was intended to bias the use of Spanish, this visualization does not imply that this was successful, nor that there were many meaningful differences between groups.
+It appears that all groups distinguish and similarly imitate the French and German /o/ sounds, regardless of whether they are bilingual or monolingual, or whether they differently produce the Spanish /o/ from the English /\textscripta/.
+Figure \@ref(fig:oplots) again shows the conditional effects of the Bayesian models for F1 and F2.
+The models shows that both bilingual groups produced English /\textscripta/ and French /o/ as more fronted than Spanish and German /o/ (panel b), while height varied by both groups as a function of language (panel a).
+
+```{r, 'oplot', echo=FALSE, fig.cap="Productions of /o/ in each language by each group"}
+full_data %>% 
+  filter(phoneme == "o") %>%
+  ggplot(aes(x = f2e, y = f1e, color = language)) + 
+  geom_point(alpha = .1) + scale_x_reverse() +
+  xlab("F2") + ylab("F1") +
+  theme_minimal() + 
+  scale_y_reverse() + stat_ellipse(linetype = "dashed") + 
+  ggtitle("Productions of /o/") + 
+  geom_point(aes(y=598, x=1267), colour="#7cae00") +
+  geom_point(aes(y=417, x=849), colour="#00BFC4") +
+  theme(strip.text.x = element_text(size = 6),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 6),
+        axis.text.y = element_text(size = 6),
+legend.position="bottom", 
+legend.text=element_text(size=6),
+legend.title=element_text(size=6),
+axis.text=element_text(size=8),
+axis.title=element_text(size=8,face="bold"),
+plot.title = element_text(size=12,face="bold")) +
+  facet_grid(~group)
+```
+
+```{r, 'oplots', echo=FALSE, fig.cap="Conditional effects plot of /o/ for F1 (a) and F2 (b) in the bilingual groups"}
+knitr::include_graphics(here("sections", "figs", "o_plots.png"))
+```
+
+Figure \@ref(fig:iplot) shows the productions of /i/ in all languages and all groups.
+This condition was intended to examine how Spanish-English bilinguals produced novel language sounds that were present in both their L1 and L2. 
+The figure does suggest that any of the groups produced /i/ distinctly as a function of language.
+The Bayesian analysis, however, revealed that the English L1 group had a more fronted /i/ in German and English than in Spanish and French (\@ref(fig:iplots), panel a).
+The Spanish L1 group showed less variation in /i/ fronting as a function of language (\@ref(fig:iplots), panel b).
+\@ref(fig:iplots) also shows that both /i/ was slightly higher in German and Spanish by both groups.
+
+```{r, 'iplot', echo=FALSE, fig.cap="Productions of /i/ in each language by each group"}
+full_data %>% 
+  filter(phoneme == "i") %>%
+  ggplot(aes(x = f2e, y = f1e, color = language)) + 
+  geom_point(alpha = .1) + scale_x_reverse() +
+  xlab("F2") + ylab("F1") +
+  theme_minimal() + 
+  scale_y_reverse() + stat_ellipse(linetype = "dashed") + 
+  ggtitle("Productions of /i/") + 
+  geom_point(aes(y=508, x=1966), colour="#7cae00") +
+  geom_point(aes(y=322, x=2533), colour="#00BFC4") +
+  theme(strip.text.x = element_text(size = 6),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 6),
+        axis.text.y = element_text(size = 6),
+legend.position="bottom", 
+legend.text=element_text(size=6),
+legend.title=element_text(size=6),
+axis.text=element_text(size=8),
+axis.title=element_text(size=8,face="bold"),
+plot.title = element_text(size=12,face="bold")) +
+  facet_grid(~group)
+```
+
+```{r, 'iplots', echo=FALSE, fig.cap="Conditional effects plot of /i/ for F1 (a) and F2 (b) in the bilingual groups"}
+knitr::include_graphics(here("sections", "figs", "i_plots.png"))
+```
+
+However, figure \@ref(fig:aplot) shows the production of the wedge in English, French and German and /a/ in Spanish. 
+This condition was intended to bias the production of English-like L3 vowels, with the Spanish /a/ for comparison. 
+The results in this case are not consistent across groups. 
+The L1 English bilingual group appeared to produce the German wedge, the English wedge, and the Spanish /a/ similarly.
+The L1 Spanish group produced the German and English wedge similarly, but diverged slightly in their production of /a/.
+All groups produced the French wedge similarly to one another, and dissimilarly from their own productions of other languages.
+\@ref(fig:schwaplots) shows that both bilingual groups produced vowels similarly in a particular language when they produced the wedge or /a/ (in the case of Spanish).
+
+```{r, 'aplot', echo=FALSE, fig.cap="Productions of /a/ and the wedge in each language by each group"}
+full_data %>% 
+  filter(phoneme == "schwa" | phoneme == "a") %>%
+  ggplot(aes(x = f2e, y = f1e, color = language)) + 
+  geom_point(alpha = .1) + scale_x_reverse() +
+  xlab("F2") + ylab("F1") +
+  theme_minimal() + 
+  scale_y_reverse() + stat_ellipse(linetype = "dashed") + 
+  ggtitle("Productions of /a/ and the wedge") +
+  geom_point(aes(y=601, x=1755), colour="#7cae00") +
+  geom_point(aes(y=736, x=1304), colour="#00BFC4") +
+  theme(strip.text.x = element_text(size = 6),
+        axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size = 6),
+        axis.text.y = element_text(size = 6),
+legend.position="bottom", 
+legend.text=element_text(size=6),
+legend.title=element_text(size=6),
+axis.text=element_text(size=8),
+axis.title=element_text(size=8,face="bold"),
+plot.title = element_text(size=12,face="bold")) +
+  facet_grid(~group)
+```
+
+```{r, 'schwaplots', echo=FALSE, fig.cap="Conditional effects plot of the wedge for F1 (a) and F2 (b) in the bilingual groups"}
+knitr::include_graphics(here("sections", "figs", "schwa_plots.png"))
+```
+## Discussion 
+
+- When bilinguals encounter a new language sound that is not phonemic in their L1 or L2, at least with the German and French /y/, they appear to have no problems imitating this sound, and do not assimilate the sound to their /u/ or /i/ categories in production. 
+
+No clear bilingual advantage was found in the analysis of the data. 
+
+
+
+
+
+

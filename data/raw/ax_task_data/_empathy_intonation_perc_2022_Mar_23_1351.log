@@ -1,0 +1,56 @@
+0.6963 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.2768 	INFO 	Loaded monitor calibration from ['2021_05_25 17:40']
+5.2920 	WARNING 	User requested fullscreen with size [1920 1200], but screen is actually [1440, 900]. Using actual size
+5.8863 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd377d7ba90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd376d70208>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.8865 	EXP 	window1: mouseVisible = True
+5.8865 	EXP 	window1: recordFrameIntervals = False
+6.0533 	EXP 	window1: recordFrameIntervals = True
+6.2361 	DEBUG 	Screen (0) actual frame rate measured at 60.25
+6.2361 	EXP 	window1: recordFrameIntervals = False
+7.1806 	INFO 	keyboard.Keyboard is using ptb backend.
+7.2210 	EXP 	Created text_2afc_check = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2afc_check', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.4628 	INFO 	keyboard.Keyboard is using ptb backend.
+7.4812 	EXP 	Sound sound_2afc_stim_trial set volume 1.000
+7.4858 	EXP 	Created text_2afc_response_yes_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_yes_trial', opacity=1, ori=0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='Yes', units='height', win=Window(...), wrapWidth=1)
+7.4881 	EXP 	Created text_2afc_response_no_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_response_no_trial', opacity=1, ori=0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='No', units='height', win=Window(...), wrapWidth=1)
+7.7305 	INFO 	keyboard.Keyboard is using ptb backend.
+7.7363 	EXP 	Created text_2afc_question_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2afc_question_trial', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Is this a question?', units='height', win=Window(...), wrapWidth=1)
+7.7468 	EXP 	text_2afc_check: autoDraw = True
+9.1219 	DEBUG 	Read excel file with openpyxl: trials/twoafc_trials.xlsx
+9.1339 	EXP 	Imported trials/twoafc_trials.xlsx as conditions, 64 conditions, 10 params
+9.1346 	EXP 	Created sequence: random, trialTypes=64, nReps=1, seed=None
+9.1350 	EXP 	New trial (rep=0, index=0): {'item_num': 26, 'correct_response': 1, 'andalusian': './stim/wavs/andalusian_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'argentine': './stim/wavs/argentine_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'castilian': './stim/wavs/castilian_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'chilean': './stim/wavs/chilean_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'cuban': './stim/wavs/cuban_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'mexican': './stim/wavs/mexican_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'peruvian': './stim/wavs/peruvian_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav', 'puertorican': './stim/wavs/puertorican_match_interrogative-total-yn_Daniel-iba-a-Bolivia.wav'}
+9.1526 	DATA 	Keypress: space
+9.1585 	EXP 	text_2afc_check: autoDraw = False
+9.1585 	EXP 	text_2afc_question_trial: autoDraw = True
+9.4027 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+9.4027 	EXP 	text_2afc_response_no_trial: autoDraw = True
+12.4885 	EXP 	New trial (rep=0, index=1): {'item_num': 22, 'correct_response': 1, 'andalusian': './stim/wavs/andalusian_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'argentine': './stim/wavs/argentine_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'castilian': './stim/wavs/castilian_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'chilean': './stim/wavs/chilean_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'cuban': './stim/wavs/cuban_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'mexican': './stim/wavs/mexican_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'peruvian': './stim/wavs/peruvian_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav', 'puertorican': './stim/wavs/puertorican_match_interrogative-partial-wh_Por-que-ama-la-navidad.wav'}
+12.4967 	DATA 	Keypress: 1
+12.5025 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+12.5025 	EXP 	text_2afc_response_no_trial: autoDraw = False
+12.5025 	EXP 	text_2afc_question_trial: autoDraw = False
+12.5025 	EXP 	text_2afc_question_trial: autoDraw = True
+12.7358 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+12.7358 	EXP 	text_2afc_response_no_trial: autoDraw = True
+14.3047 	EXP 	New trial (rep=0, index=2): {'item_num': 57, 'correct_response': 1, 'andalusian': './stim/wavs/andalusian_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'argentine': './stim/wavs/argentine_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'castilian': './stim/wavs/castilian_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'chilean': './stim/wavs/chilean_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'cuban': './stim/wavs/cuban_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'mexican': './stim/wavs/mexican_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'peruvian': './stim/wavs/peruvian_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav', 'puertorican': './stim/wavs/puertorican_mismatch_interrogative-total-yn_El-bebe-comia-muy-bien.wav'}
+14.3331 	DATA 	Keypress: 1
+14.3372 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+14.3372 	EXP 	text_2afc_response_no_trial: autoDraw = False
+14.3372 	EXP 	text_2afc_question_trial: autoDraw = False
+14.3372 	EXP 	text_2afc_question_trial: autoDraw = True
+14.5697 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+14.5697 	EXP 	text_2afc_response_no_trial: autoDraw = True
+16.7047 	EXP 	New trial (rep=0, index=3): {'item_num': 10, 'correct_response': 0, 'andalusian': './stim/wavs/andalusian_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'argentine': './stim/wavs/argentine_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'castilian': './stim/wavs/castilian_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'chilean': './stim/wavs/chilean_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'cuban': './stim/wavs/cuban_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'mexican': './stim/wavs/mexican_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'peruvian': './stim/wavs/peruvian_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav', 'puertorican': './stim/wavs/puertorican_match_declarative-narrow-focus_Daniel-iba-a-Bolivia.wav'}
+16.7140 	DATA 	Keypress: 1
+16.7194 	EXP 	text_2afc_response_yes_trial: autoDraw = False
+16.7194 	EXP 	text_2afc_response_no_trial: autoDraw = False
+16.7194 	EXP 	text_2afc_question_trial: autoDraw = False
+16.7194 	EXP 	text_2afc_question_trial: autoDraw = True
+16.9540 	EXP 	text_2afc_response_yes_trial: autoDraw = True
+16.9540 	EXP 	text_2afc_response_no_trial: autoDraw = True
+17.5107 	DATA 	Keypress: escape
+18.0547 	EXP 	window1: mouseVisible = True
+18.0548 	DEBUG 	Saving data for empathy_intonation_perc ExperimentHandler
+18.0576 	INFO 	saved data to /Users/kyleparrish/Documents/GitHub/empathy_intonation_perc/exp/empathy_intonation_perc/data/_empathy_intonation_perc_2022_Mar_23_1351.psydat
+18.0588 	INFO 	saved data to '/Users/kyleparrish/Documents/GitHub/empathy_intonation_perc/exp/empathy_intonation_perc/data/_empathy_intonation_perc_2022_Mar_23_1351.csv'

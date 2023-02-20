@@ -1,0 +1,44 @@
+---
+documentclass: ruthesis
+classoption: dissertation
+linkcolor: black
+output:
+  bookdown::pdf_document2: 
+    highlight: zenburn
+    number_sections: yes
+    toc: no
+    includes:
+      in_header: includes/tex/header.tex
+      before_body: includes/tex/doc_prefix.tex
+bibliography: includes/bib/bibs.bib
+csl: includes/bib/apa.csl
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, out.width="100%", warning = FALSE, message = FALSE)
+```
+
+
+<!-- Indent from second paragraph on --> 
+\setlength{\parindent}{0.2in} 
+
+<!-- Include chapters -->
+```{r, child='./sections/01_intro.Rmd'}
+```
+```{r, child='./sections/02_lit_review.Rmd'}
+```
+```{r, child='./sections/03_perception.Rmd'}
+```
+```{r, child='./sections/04_production.Rmd'}
+```
+```{r, child='./sections/conclusion.Rmd'}
+```
+
+<!-- Include appendix -->
+\appendix
+
+```{r, child='./sections/appendices.Rmd'}
+```
+
+<!-- Include references -->
+\increferences{sections/references}

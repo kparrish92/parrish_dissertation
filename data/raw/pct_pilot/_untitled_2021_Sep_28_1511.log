@@ -1,0 +1,51 @@
+0.5466 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.7950 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+4.3919 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fec0c260ac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7febdd229ac8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.3921 	EXP 	window1: mouseVisible = True
+4.3921 	EXP 	window1: recordFrameIntervals = False
+4.5587 	EXP 	window1: recordFrameIntervals = True
+4.7418 	EXP 	window1: recordFrameIntervals = False
+5.3507 	EXP 	window1: mouseVisible = True
+7.4417 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.4606 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.4760 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.4924 	DATA 	Mouse: wheel shift=(0,-2), pos=(303,767)
+7.5085 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.5257 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.5425 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.5576 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.5756 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.6088 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.6090 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.6250 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.6424 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.6589 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.6754 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.6920 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.7090 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.7253 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.7407 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.7589 	DATA 	Mouse: wheel shift=(0,-1), pos=(303,767)
+7.7753 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.7924 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.7942 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.8259 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.8424 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.8595 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+7.8596 	DATA 	Mouse: wheel shift=(0,0), pos=(303,767)
+8.8592 	DATA 	Mouse: Left button down, pos=(316,838)
+8.9420 	DATA 	Mouse:  Left button up, pos=(316,838)
+9.7556 	DATA 	Keypress: space
+9.7817 	EXP 	window1: mouseVisible = True
+0.6018 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.2985 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+4.8388 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb7b8b28ac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb76eb48a90>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.8389 	EXP 	window1: mouseVisible = True
+4.8390 	EXP 	window1: recordFrameIntervals = False
+5.0053 	EXP 	window1: recordFrameIntervals = True
+5.1886 	EXP 	window1: recordFrameIntervals = False
+5.7794 	EXP 	window1: mouseVisible = True
+8.9552 	DATA 	Mouse: Left button down, pos=(410,673)
+9.0221 	DATA 	Mouse:  Left button up, pos=(410,673)
+11.7588 	DATA 	Keypress: escape
+11.8794 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,17 @@
+﻿check.keys,check.rt,key_resp_7.keys,key_resp_7.rt,key_resp_2.keys,key_resp_2.rt,slider.response,slider.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stim,participant,session,date,expName,psychopyVersion,OS,frameRate,key_resp_5.keys,key_resp_5.rt,key_resp.keys,key_resp.rt,slider_2.response,slider_2.rt,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials_2.ran
+2,58.7698,space,12.6048,3,14.0434,2.98072869,9.9255,0,0,0,5,1,stim/fief_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,4,9.9582,2.962471561,6.3725,0,1,1,0,1,stim/pof_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,3,11.118,1.974564233,2.8637,0,2,2,1,1,stim/pief_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,4,14.4044,2.952329004,4.6548,0,3,3,6,1,stim/feuf_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,4,8.3391,3.451353946,3.0494,0,4,4,4,1,stim/fof_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,1,11.0434,1.90559319,1.9821,0,5,5,2,1,stim/peuf_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,1,7.8273,4.957132066,5.3436,0,6,6,3,1,stim/p_schwa_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,1,5.5493,3.919951217,2.1219,0,7,7,7,1,stim/f_schwa_g.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,,,,,,,,,
+,,,,,,,,,,,,,stim/pif_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,space,4.9871,3,5.5126,2.950300643,5.263,0,0,0,1,1
+,,,,,,,,,,,,,stim/peuf_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,4,7.444,2.889443796,4.7117,0,1,1,2,1
+,,,,,,,,,,,,,stim/feuf_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,4,9.5621,1.948193096,1.5651,0,2,2,6,1
+,,,,,,,,,,,,,stim/pof_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,1,8.5425,1.860965112,1.9966,0,3,3,0,1
+,,,,,,,,,,,,,stim/p_schwa_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,3,13.7046,1.262540891,5.6086,0,4,4,3,1
+,,,,,,,,,,,,,stim/f_schwa_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,3,13.8325,1.940078712,3.3371,0,5,5,7,1
+,,,,,,,,,,,,,stim/fif_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,3,4.9599,3.997036833,1.5341,0,6,6,5,1
+,,,,,,,,,,,,,stim/fof_f.wav,60dfd857e293a99dd577f4c8,001,2022-03-29_17h40.27.391,exp_mono_eng,2021.2.3,Linux x86_64,60.04924038,,,1,6.611,2.856987011,2.0623,0,7,7,4,1

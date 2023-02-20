@@ -1,0 +1,5 @@
+﻿key_resp_2.keys,key_resp_2.rt,key_resp_5.keys,key_resp_5.rt,slider_2.response,slider_2.rt,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials_2.ran,stim,participant,session,date,expName,psychopyVersion,OS,frameRate,key_resp_3.keys,key_resp_3.rt,key_resp_4.keys,key_resp_4.rt,slider.response,slider.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran
+space,37.969,y,13.094,3.566666667,3.903,0,0,0,0,1,stim/sis.wav,,001,2021-10-23_15h29.28.464,phoneme_categorization_task,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,q,21.092,4.426666667,2.446,0,1,1,1,1,stim/sos.wav,,001,2021-10-23_15h29.28.464,phoneme_categorization_task,2021.2.3,MacIntel,62.5,,,,,,,,,,,
+,,,,,,,,,,,stim/sys.wav,,001,2021-10-23_15h29.28.464,phoneme_categorization_task,2021.2.3,MacIntel,62.5,space,3.642,v,8.266,3.76,1.645,0,0,0,3,1
+,,,,,,,,,,,stim/sus.wav,,001,2021-10-23_15h29.28.464,phoneme_categorization_task,2021.2.3,MacIntel,62.5,,,p,6.193,5,0.982,0,1,1,2,1

@@ -1,0 +1,51 @@
+
+# Participants 
+
+A total of 33 participants met subset criteria to be included in the VOT analysis (see appendix)
+Only 3 participants were L1 English speakers and 30 were L1 Spanish speakers.
+
+
+
+
+# VOT
+
+In addition to vowels, the tokens which include stop consonants were analyzed for VOT. 
+Each participant produced a total of 12 stops per language by producing three repititions of /pVf/ for the four distinct vowels.
+
+Previous research in multilingualism has found that it is difficult to find a group of multilingual participants who produce sounds betwene languages distinctly enough to determine which language they could have come from, although they may have high proficiency.
+For example, when examining L3 French production by Spanish-Englsih bilingnuals, Parrish (2022) recruited XX Spanish-English bilinguals, but only XX produced English and Spanish distinctly and were included in the study. 
+The inclusion of a given participant in Parrish (2022) was determined by segmenting all data from every participant and running a t-test with a participants Spanish and English.
+When this t-test returned a significant result, the participant was included.
+
+
+Utilizing the context and insights of this previous research, 
+the present dissertation subset participants in an effort to save resources in a replicable way.
+Rather than segmetning and subsquently discarding the acoustic data of discluded participants, the present dissertation used blinded judgment data by the author to determine which pariticpants were producing English and Spanish that were distinct enough to be informative when compared to their French and German productions. 
+In particular, an R script was used to find all sound files that began with /p/ and were produced in each bilingual participant's L2.
+From there, these files were copied to new directory and used to create a 2-alternative forced choice task in Psychopy.
+In total, 774 tokens were included, where 86 total participants (66 Spanish L1, 20 English L1) included 9 of their total 12 tokens each (language specific vowels /x/ and /y/ were discluded)*Foot*.
+
+## Procedure
+
+One at a time, each sound was played, and "English-like" and "Spanish-like" were displayed on the left and right sides of the screen.
+After the sound was played, the researcher chose whether the segment /p/ sounded like an English-like or Spanish-like production of that sound, not knowing whether the speaker was an English or Spanish speaker. 
+Between trials, a cross was displayed for 500ms in the center of the screen.
+
+## Results 
+
+Participants were included when more than half of their utterances were judged correctly.
+In total, 33 participants fit this criteria and had all of their data subsequently segmented (mean correct = 7.2 (SD = 1.5)).
+Overall, 3 of the participants were L1 English speakers and 30 were L1 Spanish speakers.
+
+
+
+*Footnote*
+Although /x/ and /x/ are also language specific, the results of the first production experiment suggest that their production by these bilinguals is not distinct. 
+
+
+
+
+
+# Subset process
+
+
