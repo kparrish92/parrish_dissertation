@@ -154,6 +154,27 @@ all_df = rbind(all_part_gr, all_part_fr) %>%
     id %in% eng_mono$participant_id ~ "English monolingual"
   ))
 
+ax_german %>% 
+  group_by(the_col, type) %>% 
+  summarise(n = n())
+
+  
+
+ax_german %>% 
+  ggplot(aes(x = type, fill = type)) + 
+  geom_bar(color = "black") + 
+  facet_wrap(~the_col) + theme_minimal() +
+  ggsave(here("sections", "figs", "error_type_ger.png"))
+
+
+ax_french %>% 
+  ggplot(aes(x = type, fill = type)) + 
+  geom_bar(color = "black") + 
+  facet_wrap(~the_col_fr) + theme_minimal() +
+  ggsave(here("sections", "figs", "error_type_fr.png"))
+
+
+rbind(ax_german, ax_french)
 
 all_df %>% 
   write.csv(here("data", "tidy", "all_ax.csv"))

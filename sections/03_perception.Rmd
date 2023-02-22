@@ -76,7 +76,9 @@ This task allowed for the examination of perception in a purely phonetic, rather
 # Experiment 1 - L3 Perceptual Assimilation Task 
 
 Experiment one examined the initial state of categorization of the vowels of two unknown languages, French and German, by Spanish-English bilinguals, Spanish monolinguals and English monolinguals. 
-Each participant completed a background questionnaire and a perceptual assimilation task.
+Each participant completed a background questionnaire and a perceptual assimilation task.[^p]
+
+[^p]: The results of Experiment 1 of this dissertation have been published in the peer-reviewed journal *Languages* https://doi.org/10.3390/languages7030226
 
 ## Participants 
 
@@ -92,7 +94,7 @@ All participants who answered 'no' to the question "Do you speak a language othe
 Screening data and experiment-initial questionnaires were used to find bilingual participants who began learning their L2 later in life and reported not having learned a language aside from English and Spanish.
 The English L1 group came from all over the 
 United States while Spanish L1 group came from Mexico.
-Each groups mean age, L2 use, self-reported oral and perceptive  proficiency are seen in figure \@ref(fig:aoa).
+Each groups mean age, L2 use, self-reported oral and perceptive  proficiency are seen in Figure \@ref(fig:aoa).
 As can be seen from the figures, The English L1-Spanish L2 group began L2 learning later on average, while they also felt comfortable in their L2 at a later age than the Spanish L1-English L2 group. 
 The participants also rated their L2 proficiency. 
 They were given a 0-6 Likert-type scale in which they answered the questions "How well do you speak [their L2]?" and "How well do you understand [their L2]?".
@@ -633,38 +635,73 @@ In each case, a German or French word-pair was produced by a native English spea
 by producing, for example, the sheep-like vowel or the ship-like vowel in the given word.
 Following these productions, the vowel sounds were extracted and a single onset and offset was saved per word.
 Then, using a PRAAT script, the first 3 formants were manipulated to create the continuum, and the vowels were spliced with the saved onsets and offsets, to re-create whole words. 
+The carrier words were can be seen in Table \ref{carrier_ax}. 
+Due to an error, the German carrier word were three /i/ continua and one /a/ continuum. 
+However, this does not appear to have impacted the results, since discrimination was very poor for every contrast. 
 
+\begin{table}[h]
+  \begin{center}
+  \caption{Carrier words used in the AX discimination task.\label{carrier_ax}}
+  \vspace{0.3in}
+    \begin{tabular}{cccc}
+      \hline 
+      \hline
+language & frame & word & word type \\ 
+  \hline
+French & fricative 1 & fat & non-word \\
+French & fricative 2 & fit & non-word \\
+French & bilabial 1 & pat & non-word \\
+French & bilabial 2 & pic & non-word \\
+German & fricative 1 & fisch & fish \\
+German & bilabial 1 & pake & non-word \\
+German & bilabial 2 & pike & non-word \\
+German & bilabial 3 & pisch & non-word \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
 ### 2-alternative Forced Choice Task
 
+Each participant also completed a 2-alternative forced choice task, in which they heard two sounds from a given continuum back to back. 
+Their task was to choose whether or not the sounds they heard were the same (by pressing 1) or different (by pressing 0).
+Each participant heard a total of 149 tokens per language, which were randomly sampled from the 4 possible continua.
+German and French were given in individual sessions with a brief break between them. 
 
-Different or the same?
-The same word is played twice, with either the same or distinct vowel sounds - participants must choose whether they hear a difference.
+## Statistical Analysis
 
-eight 7-step continua were created for use in an AX discrimination task, where four were used in French and four were used in German.
+In order to measure sensitivity, d prime (d') was calculated using formula \Ref{eq:dprime}.
+D prime is a tool used to measure a subject's ability to detect a signal, and is generally accepted as being more robust as a measure of sensitivity than accuracy alone.
+The formula uses z(H) and z(F), which are the z-transforms of the hit rate and the false alarm rate.
+The hit rate is any case in which a difference between continuum steps is correctly identified.
+The false alarm rate refers to choosing that there was difference when there was none.
+D prime ranges from 0 (chance) to +/- 4.65 (near-perfect discrimination).
 
-French fricative 1: fils - son
-
-French fricative 2: fard - blush/make up
-
-French bilabial 1: pic - peak
-
-French bilabial 2: pas - not
-
-German fricative 1: fisch - fish,
-
-German fricative 2: faden - thread
-
-German bilabial 1: pils - beer
-
-German bilabial 2: paar - pair
-
-Due to an error, the German continuum had three /i/ continua and one /a/ continuum. 
-However, this does not appear to have impacted the results, since discrimination was very poor for every contrast. 
+\begin{equation}
+\label{eq:dprime}
+d' = z(H) - z(F)
+\end{equation}
 
 ## Results
 
 Overall, the discrimination of every sound contrast was very poor.
+Figures \@ref(fig:germ-ax) and \@ref(fig:fren-ax) show d' as a function of language and group.
+The negative d' value shows that the hit rate was lower than the false alarm rate, as can be seen in Figures \@ref(fig:germ-error-type) and \@ref(fig:fren-error-type). 
 
+```{r, 'germ-ax', echo=FALSE, fig.cap="D' in German carrier words per group"}
+knitr::include_graphics(here::here("sections", "figs", "ax_german.png"))
+```
+
+```{r, 'fren-ax', echo=FALSE, fig.cap="D' in French carrier words per group"}
+knitr::include_graphics(here::here("sections", "figs", "ax_french.png"))
+```
+
+```{r, 'germ-error-type', echo=FALSE, fig.cap="Quantity of repsonse types per carrier word in German"}
+knitr::include_graphics(here::here("sections", "figs", "error_type_ger.png"))
+```
+
+```{r, 'fren-error-type', echo=FALSE, fig.cap="Quantity of repsonse types per carrier word in French"}
+knitr::include_graphics(here::here("sections", "figs", "error_type_fr.png"))
+```
 
 # Discussion
 
