@@ -31,8 +31,7 @@ knitr::opts_chunk$set(echo = FALSE, out.width="100%", warning = FALSE, message =
 ```
 ```{r, child='./sections/04_production.Rmd'}
 ```
-```{r, child='./sections/conclusion.Rmd'}
-```
+
 
 <!-- Include appendix -->
 \appendix

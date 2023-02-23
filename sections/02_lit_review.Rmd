@@ -326,7 +326,7 @@ The following sections cover the empirical studies that have been done in L3 pro
 ## L3 Production Studies 
 
 The findings in empirical studies of L3 phonological cross-linguistic influence have varied. 
-One of the first studies to examine progressive influence of the L1 or L2 on L3 production was the seminal case study of williams_language_1998. 
+One of the first studies to examine progressive influence of the L1 or L2 on L3 production was the seminal case study of @williams_language_1998. 
 This study elicited the production of an adult L1 British English, L2 German, and L3 Swedish speaker in the L2 and L3 upon her arrival to Sweden. 
 The speech samples were rated for native-likeness by native speakers of German and Swedish respectively, with low ratings (i.e. non-nativeness) being elaborated upon.
 In the event of non-native speech, the raters guessed where the speaker in the recording might be from. 

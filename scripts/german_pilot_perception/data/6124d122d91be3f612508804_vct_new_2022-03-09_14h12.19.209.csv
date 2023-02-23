@@ -1,4 +1,0 @@
-﻿key_resp.keys,key_resp.rt,key_resp_2.keys,key_resp_2.rt,slider.response,slider.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stim,participant,session,date,expName,psychopyVersion,OS,frameRate
-space,56.316,4,18.961,2.979166667,15.312,0,0,0,7,1,stim/pof_g.wav,6124d122d91be3f612508804,001,2022-03-09_14h12.19.209,vct_new,2021.2.3,Win32,32
-,,5,28.957,2.489583333,6.828,0,1,1,0,1,stim/f_schwa_g.wav,6124d122d91be3f612508804,001,2022-03-09_14h12.19.209,vct_new,2021.2.3,Win32,32
-,,7,100.132,2.162204724,51.675,0,2,2,5,1,stim/paf_g.wav,6124d122d91be3f612508804,001,2022-03-09_14h12.19.209,vct_new,2021.2.3,Win32,32

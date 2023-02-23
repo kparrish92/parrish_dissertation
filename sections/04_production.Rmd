@@ -7,44 +7,84 @@ source(here::here("scripts", "production", "r", "03_load_data.R"))
 
 ```
 
-# Context 
+# Introduction - L3 Production
 
-More general paragraph.
+The present chapter examines the impact of two previously known languages on the production of a novel language.
+In particular, it examines how Spanish-English bilinguals in both orders of acquisition produce German and French vowel and stop consonants.
+Models of L3 acquisition vary in their prediction regarding how previously known languages influence a third and suggest that typology, language status (L1 or L2) or language activation predict how either language will play a role in L3 development.
+All of these views have received empirical support to some degree, and there is still debate as to why these conflicting findings exist. 
 
-# What has been done 
-Research in L3 production has yielded mixed results.
-Global accent production - L2 then L1.
-L2 global also found by wrembel in accent judgments.
+The typological view, for example, suggests that overall crosslinguistic similariy will result in whole-language influence. 
+For example, a Spanish-English bilingual who learns Portuguese would be predicted to be influenced by their Spanish, given the close historical relationship between Spanish and Portuguese. 
+While this view has been supported in syntax, it has not seen much empirical testing or support in phonology.
+In reality, an increasing number of studies are finding that both languages impact third language phonological development. 
+However, it is still not well understood what impacts the relative degree of influence of the L1 or L2 and whether, while they may not cause whole language influence, whether the factors of language status and typology may still be at play. 
 
-VOT - intermediate Llama 1, llama 2, Parrish
+In order to test this, the present study used a mirror-image design of participants and gave them words from two "third" languages produce (French and German).
+The mirror image design refers to two groups of speakers who speak the same two languages but acquired them in opposite order (e.g., L1 Spanish-L2 English and L1 English-L2 Spanish),
+The mirror image design is intended to reveal whether language status (order of acquisition) affects performance on a particular task, since these speakers theoretically have the same linguistic resources. 
+If the groups perform differently, it could provide evidence that order of acquisition impacts access to linguistic representations in new language learning. 
+The use of two "third" languages at first exposure was chosen to examine whether the same individual would be impacted by the same source language no matter what language they learn, or whether both the source languages known and the language being learned are important. 
+Typological views of L3 acquisition would suggest that, given the historical relationship between French and Spanish and English and German respectively, that these languages would be produced more similarly. 
+Language status views would predict that influence should not vary as a function of which L3 is being learned.
+Finally, views which suggest both languages impact L3 learning have not yet developed enough explanatory power to derive clear prediction related to Spanish-English bilinguals learning French and German.    
 
-Vowels -
+## L3 Production Studies 
 
-# What has not been done 
+The findings in empirical studies of L3 phonological cross-linguistic influence have varied. 
+One of the first studies to examine progressive influence of the L1 or L2 on L3 production was the seminal case study of @williams_language_1998. 
+This study elicited the production of an adult L1 British English, L2 German, and L3 Swedish speaker in the L2 and L3 upon her arrival to Sweden. 
+The speech samples were rated for native-likeness by native speakers of German and Swedish respectively, with low ratings (i.e. non-nativeness) being elaborated upon.
+In the event of non-native speech, the raters guessed where the speaker in the recording might be from. 
+The informant was rated as having near native productions in her L2 German, while her L3 Swedish was rated as being non-native like and to be German-accented. 
+The experiment was repeated after 6 months in Sweden, however, and the Swedish raters then judged the informant's Swedish to be British English accented. 
 
-# How this study fills the gap 
+This study constituted evidence of an L2 status effect in the initial stages of L3 phonological acquisition, in which the second learned language influence L3 production, but also provided evidence that this effect diminishes as L3 proficiency increases.
+This notion has been called the ‘foreign language effect’ [@meisel_transfer_1983], which refers to the idea that speakers who learn a second non-native language are biased to sound unlike a native speaker of their native language. 
 
-New language pairing, and use of first exposure
+The default L2 status effect has received some empirical support in the L3 phonology literature.
+In a study of global accent production, heavier L2 influence in L3 productions was found by L1 Polish, L2 German and L3 English speakers based on ratings of EFL instructors [@wrembel_l2-accented_2010]. 
+Similar findings have also been reported in vowel production [@kamiyama_acquisition_2007] and vowel reduction and speech rhythm [@gut_cross-linguistic_2010].
+L2 influence has also been found in VOT productions.
+@llama_influence_2010 examined L3 Spanish VOT production by French-English mirror-image bilingual groups and found that both groups had L2-like productions of the L3. 
 
-Hammarberg study. 
+Other findings in L3 production, however, have yielded mixed results. 
+Several studies have found that acoustic properties of the participants' productions fall between L1 and L3 values, suggesting that both the L1 and the L2 have some influence on L3 productions, rather than solely one language. 
+For instance, [@wrembel_vot_2014] measured VOT and aspiration in all languages of participants with two different language combinations: L1 Polish, L2 English, and L3 French; (2) L1 Polish, L2 English, and L3 German. 
+The results showed that each language had a specific stop-value, and that the L3 VOT productions were intermediate, falling between the L1 and L2 values. 
+Similarly, [@wrembel_cross-linguistic_2011] examined thirty-two learners of L3 French with L1 Polish and L2 English who were recorded reading lists of words in carrier phrases. 
+As in previous studies [@wrembel_vot_2014], combined transfer from the L1 and the L2 in VOT productions was found. 
+Findings of combined L1 and L2 influence in VOT productions were also reported by @wunder_phonological_2010 in L3 Spanish speakers, and by @blank_transferencia_2009 in L3 English speakers who spoke L1 Brazilian Portuguese and L2 French. 
+Other studies have found an L1 influence on production despite L3 proficiency [@cabrelli_amaro_foreign_2012], or in advanced L3 learners [@llama_revisiting_2018].
+Importantly, these studies report L3 VOT values which fall between L1 and L2 values. 
+Following the suspicion that intermediate values might have to do with either sampling issues or proficiency effects, @parrish_relative_2021 examined Mexican Spanish-English bilinguals who produced voiceless stop-initial French words in isolation at first exposure to the language. 
+The results found that the relative VOT of the L3 fell between their own L1 and L2 values, in line with previous research, and that suggested that intermediate values were less likely to have been seen in previous studies as a result of small samples or proficiency effects. 
+However, a subsequent analysis of the data suggested that wide individual variation existed, in which some participants produced L3 French as L1 Spanish like, and other produced intermediate, L2-like values. <!-- data data data kp: reduced to one data--> 
+This result suggests that higher samples could reveal group trends and provide better insights into individual variation in crosslinguistic influence, as opposed to assuming that a single group trend exists.                  
 
-The results of this study corroborated the so-called ‘foreign language effect’ first suggested by Meisel (1983)
+## The present study
 
-The informants rated the speaker as having English-accented Swedish. Further studies in L3 phonology yielded mixed results, with some studies reporting L2 status effects (Gut, 2010; Llama et al., 2010; Wrembel, 2010), while others concluded that there was the mixed influence of both the L1 and the L2 (Llama & Cardoso, 2018; Wrembel, 2014).
+In order to examine the impact of order of acquisiton and language similarity on cross linguistic influence, the present study utilized word reading and word repetition tasks in order to elicit productions of vowels and stop consonants in 4 total languages in each participant (or 3 in the case of monolingual comparisons).
+
+In particular, the present chapter is guided by the following research questions:
+
+RQ1: When Spanish-English bilinguals produce French and German words at first exposure, to what degree will they be influenced by their known languages?
+
+RQ2: Will source language impact vary as a function of segment (vowel or stop)?
+
+The first research question was examined by extracting formant values from each of the vowels and measuring the VOT of each consonant in each language.
+These acoustic measures were recorded and are assumed to provide insight into a particular segment's representation. 
+That is, by comparing the acoustics of each sound, the present study extrapolates acoustics to phonological representation in each of the languages involved. 
 
 # Methods 
 
 ## Participants 
 
-L1 English bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English bilingual") %>% select(prolific_id)))`)
-
-L1 Spanish bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id)))`)
-
-L1 English monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id)))`)
-
-L1 Spanish monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id)))`)
-
-\@ref(fig:aoaprod) shows the age of Onset (A) and age of acquisition (B) by the L1 English and L1 Spanish bilingual groups.
+A total of X participants participated in the present experiments and made up a total of 4 groups: L1 English bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English bilingual") %>% select(prolific_id)))`), L1 Spanish bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id)))`), L1 English monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id)))`) and L1 Spanish monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id)))`).
+Just as in the perception experiments, the all participants completed the Bilingual Language Profile [@birdsong_bilingual_2012].
+Figure \@ref(fig:aoaprod) shows the age of Onset (A) and age of acquisition (B) by the L1 English and L1 Spanish bilingual groups.
+Figure \@ref(fig:profprod) shows the self-rated proficiency of the same groups.
+All participants who answered 'no' to the question "Do you speak a language other than English and Spanish" were permitted to continue the experiment. 
 
 ```{r, 'aoaprod', echo=FALSE, fig.cap=""}
 knitr::include_graphics(here("includes", "figures", "ao_aoa_combined_production.png"),
@@ -57,6 +97,29 @@ knitr::include_graphics(here("includes", "figures", "proficiency_combined_produc
 ```
 
 ## Materials
+
+### Word Reading Task
+
+/pVf/, /fVf/
+
+English: a, i, o, wedge
+faff, fiff, foff, fuff
+
+Spanish: a, i, o, u
+faf, fif, fof, fuf
+paf, pif, pof, puf
+
+### Word Repitition Task
+
+/pVf/, /fVf/
+
+French: a, i, o, y
+faf, fif, fof, fuf
+paf, pif, pof, puf
+
+German: a, i, o, y
+faf, fif, fof, fuf
+paf, pif, pof, puf
 
 ## Procedure
 

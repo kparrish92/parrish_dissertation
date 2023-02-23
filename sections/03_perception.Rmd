@@ -161,7 +161,7 @@ knitr::include_graphics(here::here("sections", "figs", "stimuli.png"))
 
 \begin{table}[h]
   \begin{center}
-  \caption[Another table caption here]{Written stimuli used to elicit the auditory stimuli from the native German and French speakers. \label{stim_a}}
+  \caption[Written stimuli used to elicit the auditory stimuli from the native German and French speakers]{Written stimuli used to elicit the auditory stimuli from the native German and French speakers. \label{stim_a}}
   \vspace{0.3in}
     \begin{tabular}{ccc}
       \hline 
@@ -218,7 +218,7 @@ The bold numbers are cases in which a word received at least 33 percent of choic
 
 \begin{table}[h]
   \begin{center}
-  \caption[Another table caption here]{The percentage of categorizations of phonemes in the English monolinguals group.. \label{tab1}}
+  \caption[The percentage of categorizations of phonemes in the English monolinguals group]{The percentage of categorizations of phonemes in the English monolinguals group.. \label{tab1}}
   \vspace{0.3in}
     \begin{tabular}{cccccc}
       \hline 
@@ -616,19 +616,53 @@ knitr::include_graphics(here::here("sections", "figs", "y_full.png"))
 
 # Experiment 2 - AX Discrimination Task
 
-Experiment 2 examined whether English vowel contrasts could be discriminated when they are produced in the context of French and German words, by Spanish-English bilinguals and English monolinguals. Spanish monolinguals were not recruited for this experiment, since the focus was on English vowel contrasts, and this population would not have acquired English. 
-Just as in experiment 1, each participant completed a background questionnaire and a perceptual assimilation task.
+Experiment two examined the discrimination of several English vowel contrasts using a resynthesized continua.
+The purpose of this experiment was to determine whether access to English-like vowel contrasts in L3 words in groups in which English was their L1 and when English was the L2. 
 
-## Participants
+## Participants 
 
-A total of `r length(ax_ids)` participants took part in experiment 2.
-`r ax_did_pct` of these participants also completed experiment 1.
-This total sample was made up of three total groups: L1 Spanish-L2 English speakers (n = `r s_ax`; henceforth the Spanish L1 group), L1 English-L2 Spanish group (n = `r e_ax`; henceforth the English L1 group) and an English monolingual group (n = `r e_mon_ax`).
-All participants were recruited on prolific and were pre-screened according to the same criteria as experiment 1. In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile (Birdsong et al., 2012). All participants who answered ‘no’ to the question “Do you speak a language other than English and Spanish” were permitted to continue the experiment.
+A total of `r length(unique(all_df_ax$id))` participants took part in experiment 2.
+The data of 8 participants was removed, who, despite self-reporting being bilingual, also answered that they were not yet comfortable speaking their second language during the BLP.
+The remaining 142 participants made up three total groups:  L1 Mexican Spanish - L2 English speakers (n = `r nrow(span_blp_ax)`), L1 English - L2 Spanish speakers (n = `r nrow(eng_blp_ax)`) and American English monolinguals `r length(unique(eng_mono_ax$id))`.
+Many of the L1 Spanish speakers returned for the second experiment, while very few L1 English speakers returned.
+In total, 8 L1 English-L2 Spanish participants from experiment 1 completed experiment 2, while 44 L1 Spanish-L2 English participants completed both experiment 2. 
+Again, All participants were recruited on prolific and were pre-screened according to criteria detailed below.
+In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile [@birdsong_bilingual_2012].
+All participants who answered 'no' to the question "Do you speak a language other than English and Spanish" were permitted to continue the experiment. 
+
+### Bilinguals 
+
+Exactly as in experiment 1, screening data and experiment-initial questionnaires were used to find bilingual participants who began learning their L2 later in life and reported not having learned a language aside from English and Spanish.
+The English L1 group came from all over the 
+United States while Spanish L1 group came from Mexico.
+Each groups mean age, L2 use, self-reported oral and perceptive  proficiency are seen in figure \@ref(fig:aoaax).
+As can be seen from the figures, The English L1-Spanish L2 group began L2 learning later on average, while they also felt comfortable in their L2 at a later age than the Spanish L1-English L2 group. 
+The participants also rated their L2 proficiency. 
+They were given a 0-6 Likert-type scale in which they answered the questions "How well do you speak [their L2]?" and "How well do you understand [their L2]?".
+"0" corresponded to "not very well at all", where "6" corresponded to "very well" (Figure \@ref(fig:profax)).
+The L1 Spanish group rated themselves higher on average in their L2 spoken proficiency `r mean(span_blp_ax$l2_prof_production) %>% round(digits = 1)` (sd = `r sd(span_blp_ax$l2_prof_production) %>% round(digits = 1)`) than the English group `r mean(eng_blp_ax$l2_prof_production) %>% round(digits = 1)` (sd =`r sd(eng_blp_ax$l2_prof_production) %>% round(digits = 1)`).
+The same trend was observed in perception. The L1 Spanish group rated their proficiency in perception as `r mean(span_blp_ax$l2_prof_perception) %>% round(digits = 1)` (sd = `r sd(span_blp_ax$l2_prof_perception) %>% round(digits = 1)`) and English group rated their L2 perception as `r mean(eng_blp_ax$l2_prof_perception) %>% round(digits = 1)` (sd = `r sd(eng_blp_ax$l2_prof_perception) %>% round(digits = 1)`).
+
+
+```{r, 'aoaax', echo=FALSE, fig.cap="Age of Onset and Age of Acquisition in each bilingual group (AX)"}
+knitr::include_graphics(here::here("sections", "figs", "ao_aoa_combined_ax.png"))
+
+```
+
+```{r, 'profax', echo=FALSE, fig.cap="Self-rated 1-6 proficiency in production and perception (AX)"}
+knitr::include_graphics(here::here("sections", "figs", "proficiency_combined_ax.png"))
+```
+
 
 ## Materials 
 
 ### Acoustic continua 
+
+Participants completed two AX discrimination tasks, one in French and one in German. 
+During the task, the participants heard two words or psuedowords played back to back and were asked whether they heard a difference between the two words.
+These words only differed in a single vowel sound.
+This vowel drawn from a seven step continuum for each vowel contrast. 
+Each task contained 149 total trials and was designed to measure the discrimination of two English vowel contrasts: /i-I/ and /a-ae/ and was embedded into a French or German carrier word.
 
 Several 7-step vowel continua were created for this experiment to measure two vowel contrasts in "French" and "German". 
 In each case, a German or French word-pair was produced by a native English speaker by producing the word on both ends of the continuum
@@ -660,11 +694,12 @@ German & bilabial 3 & pisch & non-word \\
     \end{tabular}
   \end{center}
 \end{table}
-### 2-alternative Forced Choice Task
 
-Each participant also completed a 2-alternative forced choice task, in which they heard two sounds from a given continuum back to back. 
+### Procedure
+
+During the AX discrimination task, participants heard two sounds from a given continuum back to back. 
 Their task was to choose whether or not the sounds they heard were the same (by pressing 1) or different (by pressing 0).
-Each participant heard a total of 149 tokens per language, which were randomly sampled from the 4 possible continua.
+Each participant heard a total of 149 tokens per language, which were randomly sampled from the 4 possible continua per language.
 German and French were given in individual sessions with a brief break between them. 
 
 ## Statistical Analysis
@@ -705,8 +740,8 @@ knitr::include_graphics(here::here("sections", "figs", "error_type_fr.png"))
 
 # Discussion
 
-The present study examined the categorization of vowel sounds in two unknown languages by Spanish-English bilinguals in both orders of acquisition. 
-Although there was an overall preference for English, the results suggested that bilinguals do have access to both their L1 and L2 during L3 perception and categorization, a finding which single-language access models, such as the TPM and L2SF cannot account for.
+The present study examined the categorization and discrimination of vowel sounds in two unknown languages by Spanish-English bilinguals in both orders of acquisition. 
+Although, in categorization, there was an overall preference for English, the results suggested that bilinguals do have access to both their L1 and L2 during L3 perception and categorization, a finding which single-language access models, such as the TPM and L2SF cannot account for.
 In several instances, L3 sounds had a similar probability of being assimilated to English or Spanish sound, such as in 3 out of 4 cases with the phoneme /i/. 
 The results were mixed in terms of whether the L3 that the participants heard impacted their preference for English or Spanish categories. 
 In total, there were three cases in which the L3 did result in the preference for an English or Spanish category out of 16 possible.
@@ -733,10 +768,28 @@ Though the present study was not interested in the effect of L2 proficiency on L
 This notion of the impact of L2 proficiency CLI could be further investigated, in which the more traditional categorical grouping of proficiency (e.g., novice, intermediate, advanced) could also be examined in a continuous fashion and corroborated across measures. 
 In other words, it's unclear for the purpose of the present study, and likely with many proficiency measures, where the TPM's cutoff for "advanced" should be. 
 
+The results for discrimination were inconclusive, since accuracy on all continua were very low.
+It is possible that the nature of online data collection was associated with this poor performance across groups.
+For instance, it may be that inconsistent speaker quality, varied speaker attention levels and inconsistent use of headphones all contributed to poor performance. 
+Future experiments for AX discrimination should take place in a lab setting in which these variables can be properly controlled.
+
+It is also possible that the task instructions played a role in the results as well. 
+In particular, the instructions given to participants read "press 1 if you hear a difference between the two *words*". 
+It may be that the use of the term "word" caused the participants to tap into phonological processes, rather than sub-phonemic phonetic details.
+Ideally, the AX discrimination task should avoid phonology (categorization) as much as possible in order to determine whether acoustic variation that does NOT make a word distinction is attended to by the listener.
+
 The present study also had limitations. 
-Firstly, online studies offers unique challenges and limitations.
+Firstly, as briefly mentioned in reference to the AX discrimination task, online studies offers unique challenges and limitations.
 One potential issue is the lack of the ability to  control the participant's environment outside of the instructions and experiment itself. 
 As a result, language mode effects [@grosjean1998transfer; @casillas_perceptual_2018] cannot be completely ruled out. 
 Additionally, headphone quality, speaker quality, background noise and volume level are all variables within the participant's control that could not be reasonably controlled for in the context of online data collection. 
 Second, self-reported proficiency, while convenient and fast, is a subjective measure of language ability that would likely be improved by a more objective proficiency measure such as the LexTALE [@lemhofer_introducing_2012].
-While the present study did not initially hypothesize that differences in proficiency impact categorization, a look at the data suggests that this is a possibility. 
+Future research could aim to test categorization and discrimination at at L3 first exposure in a better controlled lab setting.
+
+# Conclusion
+
+This chapter presented two experiments that analyzed the categorization and discrimination of novel language sounds by bilinguals.
+In particular, this chapter was concerned with how Spanish-English bilinguals categorized French and German vowels given both of their language categories, and whether discrimination of English-like vowels would be successful in the new languages.
+Primarily, the purpose of these experiments was to determine whether bilinguals would show bias toward either their L1 or L2 when they perceive new language vowels based on typology or language status.
+The experiments showed that the categorization of both French and German vowels were matched to the most appropriate English or Spanish category, and there was not evidence of typological or language status effects blocking access to a given language. 
+The results for discrimination were very poor and are considered inconclusive, and likely associated with the experimental setting or design.
