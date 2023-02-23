@@ -1,7 +1,3 @@
 # Parrish Dissertation
 
-This is my dissertation repo. 
-
-## Contents 
-
-I'll come back and explain the structure of my dissertation repo....eventually.
+This is the repo for my dissertation manuscript - it contains data, scripts and the .rmd files used to create the dissertation.
