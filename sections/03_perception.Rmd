@@ -33,10 +33,10 @@ This finding suggests that experience with Italian, a 5-vowel system, makes the 
 Other language pairings also show evidence for this phenomenon, such as Spanish listeners categorized Dutch /a/ and /a:/ as their Spanish /a/ [@escudero_cross-language_2011], and Spanish speakers categorizing Canadian English /\ae/ and /\textepsilon/ to Spanish /a/ [@escudero_cross-language_2011], where speakers of languages with a smaller vowel inventory would categorize more than one vowel sound in another language as one in their native language. 
 In other cases, speakers have matched two novel-language vowels to two of their native categories. 
 @escudero_spanish_2010 found that Spanish speakers assimilated English vowel sounds to their Spanish /a/ and /e/, although they assimilated British /\ae/ to their Spanish /a/ and English /\ae/ to their Spanish /e/, while matching /a/ in both dialects to their Spanish /a/.
-Taken together, these studies suggest that native language categories impact the categorization of sounds in a new language. 
+Taken together, these studies suggest that native language categories impact the categorization of sounds in a new language, although they did not explicitly investigate whether second language sounds may have a similar effect. 
 
 Best and Tyler formalized the idea that the ease of the perception of any new language is driven by the phonemic and phonetic differences between the inventories of the speaker's native language and an unknown language. 
-Originally, proposed to account for non-native (foreign accented) speech perception, the Perceptual Assimilation Model (*PAM; @bohn_nonnative_2007) has also been extended to L2 learning (PAM-L2). 
+Originally, proposed to account for non-native (foreign accented) speech perception, the Perceptual Assimilation Model (*PAM*; @bohn_nonnative_2007) has also been extended to L2 learning (PAM-L2). 
 The model predicts that when languages (the one known and the one being learned) are more similar in terms of how sounds contrast, then they will be easier to effectively perceive.
 For instance, in what the PAM calls Two-Category Assimilation, two L1 categories would be hypothetically matched to two L2 categories, and discrimination of that L2 contrast would be predicted to be very good.
 On the other hand, in the event that one L1 category corresponds to two L2 categories, discrimination is predicted to be poor (Single-category Assimilation). 
@@ -69,7 +69,7 @@ Differently from the L2 studies, the present study included both L1 and L2 categ
 
 The second experiment was an AX discrimination task.
 It examined how all groups discriminated English vowel contrasts when they are in new language words.
-Specifically, a seven step vowel quality continuum ranging from /i/ to /\textsci/ was created. 
+Specifically, several seven step vowel quality continuum ranging from /i/ to /\textsci/ and /a/ to  /\ae/–/\textscripta/ was created.
 During a trial, participants heard two steps on the continuum back to back and had to determine whether the sounds they heard were the same or different.
 This task allowed for the examination of perception in a purely phonetic, rather than phonemic, context, since categorization was not explicitly involved in this task.
 
@@ -95,10 +95,12 @@ Screening data and experiment-initial questionnaires were used to find bilingual
 The English L1 group came from all over the 
 United States while Spanish L1 group came from Mexico.
 Each groups mean age, L2 use, self-reported oral and perceptive  proficiency are seen in Figure \@ref(fig:aoa).
-As can be seen from the figures, The English L1-Spanish L2 group began L2 learning later on average, while they also felt comfortable in their L2 at a later age than the Spanish L1-English L2 group. 
+As can be seen from the figures, the English L1-Spanish L2 group began L2 learning later on average, while they also felt comfortable in their L2 at a later age than the Spanish L1-English L2 group. 
 The participants also rated their L2 proficiency. 
 They were given a 0-6 Likert-type scale in which they answered the questions "How well do you speak [their L2]?" and "How well do you understand [their L2]?".
-"0" corresponded to "not very well at all", where "6" corresponded to "very well" (Figure \@ref(fig:prof))
+"0" corresponded to "not very well at all", where "6" corresponded to "very well" (Figure \@ref(fig:prof)).
+On average, the Spanish L1 group rated themselves as more proficient in both speaking and listening than the English L1 group.
+
 
 ```{r, 'aoa', echo=FALSE, fig.cap="Age of Onset and Age of Acquisition in each bilingual group"}
 knitr::include_graphics(here::here("sections", "figs", "ao_aoa_combined.png"))
@@ -146,7 +148,7 @@ knitr::include_graphics(here::here("sections", "figs", "likert.png"))
 
 ### Stimuli 
 
-The stimuli were recorded by adult, female L1 speakers of French and German respectively and was also collected online.
+The stimuli were recorded by adult, female L1 speakers of French and German respectively and was also collected online via Prolific.
 The speakers were given each vowel in a word or non-word in both a fricative and bilabial frame. 
 In the event a non-word was provided, a real word containing that vowel sound was included to aid the informant in producing the intended pronunciation of the vowel. 
 Once the stimuli were recorded, one of the two tokens provided by the speaker for each vowel was selected and re-synthesized adding the appropriate onset and coda. 
@@ -183,7 +185,7 @@ Puff, Fuff & French & /\textturnv/  \\
 
 ## Procedure 
 
-All participants first completed the adapted Bilingual Language Profile [@birdsong_bilingual_2012] online.
+First, all participants first completed the adapted Bilingual Language Profile [@birdsong_bilingual_2012] online.
 An English and Spanish version of the questionnaire was adapted and given to the participants based on their L1. 
 All participants who answered "no" to the question "Besides English and Spanish, do you speak a third language?" were invited to take part in the experimental task.
 The vowel categorization task was given to participants online. An English and Spanish version of this task was also created, in which all instructions were given in either English or Spanish. 
@@ -194,24 +196,27 @@ The experiments were programmed in Psychopy
 
 ## Statistical Analysis 
 
-For the vowel categorization tasks, the data were analyzed using a series of Bayesian multilevel multinomial logistic regression model in R @[R-base].
+The data were analyzed using a series of Bayesian multilevel multinomial logistic regression model in R @[R-base].
 The models were fit using the R package `brms` 
 [@burkner2017brms].
 A model was run for each of 4 groups: L1 Spanish, L1 English, monolingual English and monolingual Spanish.
 In each model, the outcome variable was word choice. 
 In the bilingual groups, this consisted of 7 total options (3 Spanish words: *fin*, *su*, *son* and 4 English words: *fun*, *fought*, *feel*, and *fool*.)
 Thus, outcome of the bilingual models estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
-The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/), stimulus language (French or German) and Lextale score (continuous and transformed to a z-score) and all higher order interactions. Random effects included a random intercept for participant to take into account the nested structure of the data. 
+The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/), stimulus language (French or German). 
+Random effects included a random intercept for participant to take into account the nested structure of the data. 
 
-The monolingual models modeled word choice as a function of phoneme and stimulus language, again with a random intercept for participant to take into account the nested structure of the data. 
+The monolingual models modeled word choice as a function of phoneme and stimulus language, again with a random intercept for participant. 
 In this case, language choice was more limited in each group limited, with the Spanish monolingual group only having 3 options: *fin*, *su*, *son*, while the English group had 4 word choices: *fun*, *fought*, *feel*, and *fool*.
-The model included regularizing, weakly informative priors [@gelman_prior_2017], 
+All models included regularizing, weakly informative priors [@gelman_prior_2017], 
 which were normally distributed and centered at 0 with a standard deviation of 8 for all population-level parameters.
 The region of practical equivalence (ROPE) was set to 0.18, as the outcome variable was in log-odds (see @kruschke_rejecting_2018). 
 All models were fit with 2000 iterations (1000 warm-up). 
 Markov-chain Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
 
 ## Results of the L3 Perceptual Assimilation Task
+
+### English speaking group comparison
 
 Table \ref{tab1} shows the overall percentage of each word choice (out of 4 possible in English), given each of the 4 phonemes in both French and Spanish by the English monolingual group.
 The bold numbers are cases in which a word received at least 33 percent of choices.
@@ -616,7 +621,8 @@ knitr::include_graphics(here::here("sections", "figs", "y_full.png"))
 
 # Experiment 2 - AX Discrimination Task
 
-Experiment two examined the discrimination of several English vowel contrasts using a resynthesized continua.
+Experiment two examined the discrimination of two English vowel contrasts using a resynthesized continua.
+In particular, the discrimination of the /i/ to /\textsci/ and /\ae/–/\textscripta/
 The purpose of this experiment was to determine whether access to English-like vowel contrasts in L3 words in groups in which English was their L1 and when English was the L2. 
 
 ## Participants 
@@ -662,9 +668,11 @@ Participants completed two AX discrimination tasks, one in French and one in Ger
 During the task, the participants heard two words or psuedowords played back to back and were asked whether they heard a difference between the two words.
 These words only differed in a single vowel sound.
 This vowel drawn from a seven step continuum for each vowel contrast. 
-Each task contained 149 total trials and was designed to measure the discrimination of two English vowel contrasts: /i-I/ and /a-ae/ and was embedded into a French or German carrier word.
+Each task contained 149 total trials and was designed to measure the discrimination of two English vowel contrasts: /i/ to /\textsci/ and /\ae/–/\textscripta/ and was embedded into a French or German carrier word.
 
-Several 7-step vowel continua were created for this experiment to measure two vowel contrasts in "French" and "German". 
+Eight total 7-step vowel continua were created for this experiment to measure two vowel contrasts in "French" and "German". 
+It it important to note that, although French and German do not necessarily make use of these English vowel contrasts, this is not important since these speakers do not yet speak either French or German.
+As a result, the use of English-like vowels in what we refer to as "French" or "German", while they may not be authentic, serve the purpose of identifying whether or not these speakers have access to their language-specific discrimination routines in what they believe is a new language, and whether this ability varies as a function of which language they believe that they are hearing.
 In each case, a German or French word-pair was produced by a native English speaker by producing the word on both ends of the continuum
 by producing, for example, the sheep-like vowel or the ship-like vowel in the given word.
 Following these productions, the vowel sounds were extracted and a single onset and offset was saved per word.
@@ -710,6 +718,7 @@ The formula uses z(H) and z(F), which are the z-transforms of the hit rate and t
 The hit rate is any case in which a difference between continuum steps is correctly identified.
 The false alarm rate refers to choosing that there was difference when there was none.
 D prime ranges from 0 (chance) to +/- 4.65 (near-perfect discrimination).
+Given the poor outcome of the descriptive results, inferential statistics were not run on the AX discrimination data.
 
 \begin{equation}
 \label{eq:dprime}
@@ -720,7 +729,9 @@ d' = z(H) - z(F)
 
 Overall, the discrimination of every sound contrast was very poor.
 Figures \@ref(fig:germ-ax) and \@ref(fig:fren-ax) show d' as a function of language and group.
-The negative d' value shows that the hit rate was lower than the false alarm rate, as can be seen in Figures \@ref(fig:germ-error-type) and \@ref(fig:fren-error-type). 
+These figures suggest that all groups struggled to discriminate the sound contrasts in both languages and across tokens.
+The negative d' value shows that the hit rate was lower than the false alarm rate, as can be seen in Figures \@ref(fig:germ-error-type) and \@ref(fig:fren-error-type) shows the total quantity of each of the four possible outcomes of the a given trial: False alarm, hit, miss, and correct rejection. 
+Overall, the rate of false alarms and misses was much highers than hits and correct rejections. 
 
 ```{r, 'germ-ax', echo=FALSE, fig.cap="D' in German carrier words per group"}
 knitr::include_graphics(here::here("sections", "figs", "ax_german.png"))
@@ -772,7 +783,6 @@ The results for discrimination were inconclusive, since accuracy on all continua
 It is possible that the nature of online data collection was associated with this poor performance across groups.
 For instance, it may be that inconsistent speaker quality, varied speaker attention levels and inconsistent use of headphones all contributed to poor performance. 
 Future experiments for AX discrimination should take place in a lab setting in which these variables can be properly controlled.
-
 It is also possible that the task instructions played a role in the results as well. 
 In particular, the instructions given to participants read "press 1 if you hear a difference between the two *words*". 
 It may be that the use of the term "word" caused the participants to tap into phonological processes, rather than sub-phonemic phonetic details.
