@@ -514,3 +514,58 @@ run_ind_plot = function(participant)
   return(plot)
 }
 
+
+plot_ind_eng = function(model, participant) 
+{
+  vot_dg_e = vot_data_t_e %>%
+    filter(participant == participant) %>% 
+    data_grid(language) %>%
+    add_fitted_draws(model, dpar = TRUE, category = "vot",
+                     re_formula = NA) %>% 
+    mutate(language = case_when(
+      language == "english" ~ "English",
+      language == "spanish" ~ "Spanish",
+      language == "German" ~ "German",
+      language == "french" ~ "French"
+    ))
+  
+  
+  table = conditional_effects(model)[["language"]] %>% 
+    rename("estimate" = "estimate__") %>% 
+    rename("lower" = "lower__") %>% 
+    rename("upper" = "upper__") %>% 
+    select(language, estimate, lower, upper) %>% 
+    mutate(language = case_when(
+      language == "english" ~ "English",
+      language == "spanish" ~ "Spanish",
+      language == "German" ~ "German",
+      language == "french" ~ "French"
+    ))
+  
+  table$estimate = round(table$estimate)
+  
+  table$lower = round(table$lower)
+  table$upper = round(table$upper)
+  
+  plot = vot_dg_e %>% 
+    ggplot(aes(x = .value, fill = language)) +
+    stat_halfeye(slab_colour = "black", slab_alpha =  .8) +
+    scale_size_continuous(guide = "none") +
+    theme_minimal() +
+    xlab("VOT") + ylab("") + 
+    theme(legend.position = "bottom") +
+    theme(legend.key = element_rect(fill = "white", colour = "black")) +
+    theme(axis.text.y = element_blank(), 
+          axis.ticks = element_blank()) +
+    guides(fill = guide_legend("Language", 
+                               override.aes = list(linetype = 0, 
+                                                   shape = NA))) +
+    annotate(geom = "table",
+             x = Inf,
+             y = 2,
+             label = list(table))
+  
+  return(plot)
+}  
+
+

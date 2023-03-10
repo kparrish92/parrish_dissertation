@@ -1,6 +1,14 @@
 source(here::here("scripts", "production", "r", "00_libs.R"))
 source(here::here("scripts", "production", "r", "01_helpers.R"))
 
+vot_grp = read.csv(here("data", "production", "tidy",
+               "vot_groups.csv")) %>% 
+  rename(participant = file_word)
+
+
+vot_data = read.csv(here("data", "production", 
+                         "tidy", "vot_data_tidy.csv")) %>% 
+  left_join(vot_grp, by = "participant")
 
 bil_sub = read.csv(here("data", "production", "tidy", 
                         "bilingual_subset.csv")) %>% 
@@ -212,3 +220,7 @@ l1_s_list_match = unique(full_data %>% filter(group == "L1 Spanish bilingual") %
                            select(prolific_id, participant)) %>% 
   write.csv(here("data", "production", "tidy", "sl1_list.csv"))
 
+tot_prod = sum(nrow(unique(full_data %>% filter(group == "L1 English bilingual") %>% select(prolific_id))),
+nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id))),
+nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id))),
+nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id))))

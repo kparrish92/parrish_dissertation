@@ -44,6 +44,10 @@ is_correct_participant = vot_disq_tidy %>%
   mutate(group = 
            case_when(
              file_word %in% el1$participant ~ "English L1",
-             file_word %in% sl1$participant ~ "Spanish L1"))
+             file_word %in% sl1$participant ~ "Spanish L1")) %>% 
+  write.csv(here("data", "production", "tidy",
+                 "vot_groups.csv"))
 
+is_correct_participant %>% 
+  ggplot(aes(y = group, x = n)) + geom_point()
 

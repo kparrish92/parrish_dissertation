@@ -7,14 +7,14 @@ source(here::here("scripts", "production", "r", "03_load_data.R"))
 
 ```
 
-# Introduction - L3 Production
+# Introduction
 
 The present chapter examines the impact of two previously known languages on the production of a novel language.
 In particular, it examines how Spanish-English bilinguals in both orders of acquisition produce German and French vowel and stop consonants.
 Models of L3 acquisition vary in their prediction regarding how previously known languages influence a third and suggest that typology, language status (L1 or L2) or language activation predict how either language will play a role in L3 development.
 All of these views have received empirical support to some degree, and there is still debate as to why these conflicting findings exist. 
 
-The typological view, for example, suggests that overall crosslinguistic similariy will result in whole-language influence. 
+The typological view, for example [see e.g. @rothmanrothman_l3_2011], suggests that overall crosslinguistic similarity will result in whole-language influence. 
 For example, a Spanish-English bilingual who learns Portuguese would be predicted to be influenced by their Spanish, given the close historical relationship between Spanish and Portuguese. 
 While this view has been supported in syntax, it has not seen much empirical testing or support in phonology.
 In reality, an increasing number of studies are finding that both languages impact third language phonological development. 
@@ -23,7 +23,7 @@ However, it is still not well understood what impacts the relative degree of inf
 In order to test this, the present study used a mirror-image design of participants and gave them words from two "third" languages produce (French and German).
 The mirror image design refers to two groups of speakers who speak the same two languages but acquired them in opposite order (e.g., L1 Spanish-L2 English and L1 English-L2 Spanish),
 The mirror image design is intended to reveal whether language status (order of acquisition) affects performance on a particular task, since these speakers theoretically have the same linguistic resources. 
-If the groups perform differently, it could provide evidence that order of acquisition impacts access to linguistic representations in new language learning. 
+If the groups perform differently, it could provide evidence that order of acquisition impacts access to linguistic representations in new language learning, while similar performance would be predicted by the typological view. 
 The use of two "third" languages at first exposure was chosen to examine whether the same individual would be impacted by the same source language no matter what language they learn, or whether both the source languages known and the language being learned are important. 
 Typological views of L3 acquisition would suggest that, given the historical relationship between French and Spanish and English and German respectively, that these languages would be produced more similarly. 
 Language status views would predict that influence should not vary as a function of which L3 is being learned.
@@ -31,7 +31,7 @@ Finally, views which suggest both languages impact L3 learning have not yet deve
 
 ## L3 Production Studies 
 
-The findings in empirical studies of L3 phonological cross-linguistic influence have varied. 
+The findings in empirical studies of cross-linguistic influence in L3 production have varied. 
 One of the first studies to examine progressive influence of the L1 or L2 on L3 production was the seminal case study of @williams_language_1998. 
 This study elicited the production of an adult L1 British English, L2 German, and L3 Swedish speaker in the L2 and L3 upon her arrival to Sweden. 
 The speech samples were rated for native-likeness by native speakers of German and Swedish respectively, with low ratings (i.e. non-nativeness) being elaborated upon.
@@ -59,12 +59,12 @@ Other studies have found an L1 influence on production despite L3 proficiency [@
 Importantly, these studies report L3 VOT values which fall between L1 and L2 values. 
 Following the suspicion that intermediate values might have to do with either sampling issues or proficiency effects, @parrish_relative_2021 examined Mexican Spanish-English bilinguals who produced voiceless stop-initial French words in isolation at first exposure to the language. 
 The results found that the relative VOT of the L3 fell between their own L1 and L2 values, in line with previous research, and that suggested that intermediate values were less likely to have been seen in previous studies as a result of small samples or proficiency effects. 
-However, a subsequent analysis of the data suggested that wide individual variation existed, in which some participants produced L3 French as L1 Spanish like, and other produced intermediate, L2-like values. <!-- data data data kp: reduced to one data--> 
+However, a subsequent analysis of the data suggested that wide individual variation existed, in which some participants produced L3 French as L1 Spanish like, and other produced intermediate, L2-like values. 
 This result suggests that higher samples could reveal group trends and provide better insights into individual variation in crosslinguistic influence, as opposed to assuming that a single group trend exists.                  
 
 ## The present study
 
-In order to examine the impact of order of acquisiton and language similarity on cross linguistic influence, the present study utilized word reading and word repetition tasks in order to elicit productions of vowels and stop consonants in 4 total languages in each participant (or 3 in the case of monolingual comparisons).
+In order to examine the impact of order of acquisiton and language similarity on cross linguistic influence, the present study utilized pseduoword reading and pseudoword repetition tasks in order to elicit productions of vowels and stop consonants in 4 total languages in each participant (or 3 in the case of monolingual comparisons).
 
 In particular, the present chapter is guided by the following research questions:
 
@@ -76,11 +76,11 @@ The first research question was examined by extracting formant values from each 
 These acoustic measures were recorded and are assumed to provide insight into a particular segment's representation. 
 That is, by comparing the acoustics of each sound, the present study extrapolates acoustics to phonological representation in each of the languages involved. 
 
-# Methods 
+# Vowel Production 
 
 ## Participants 
 
-A total of X participants participated in the present experiments and made up a total of 4 groups: L1 English bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English bilingual") %>% select(prolific_id)))`), L1 Spanish bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id)))`), L1 English monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id)))`) and L1 Spanish monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id)))`).
+A total of `r tot_prod` participants participated in the present experiments and made up a total of 4 groups: L1 English bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English bilingual") %>% select(prolific_id)))`), L1 Spanish bilingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id)))`), L1 English monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id)))`) and L1 Spanish monolingual (n = `r nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id)))`).
 Just as in the perception experiments, the all participants completed the Bilingual Language Profile [@birdsong_bilingual_2012].
 Figure \@ref(fig:aoaprod) shows the age of Onset (A) and age of acquisition (B) by the L1 English and L1 Spanish bilingual groups.
 Figure \@ref(fig:profprod) shows the self-rated proficiency of the same groups.
@@ -98,30 +98,34 @@ knitr::include_graphics(here("includes", "figures", "proficiency_combined_produc
 
 ## Materials
 
-### Word Reading Task
+### Pseudoword Reading Task
 
-/pVf/, /fVf/
-
-English: a, i, o, wedge
-faff, fiff, foff, fuff
-
-Spanish: a, i, o, u
-faf, fif, fof, fuf
-paf, pif, pof, puf
+All participants completed a psuedoword reading task in Spanish and English in the event that they knew both languages.
+The pseudowords were comprised of the same vowel sounds tested in Chapter 3 in bilabial and fricative frames (/pVf/, /fVf/) and repeated 3 times each per frame. 
+As a result, each participant produced 24 tokens in English and Spanish (4 vowels x 2 frames x 3 repetitions).
+In the same screen, audio was submitted using a similar widget, which contains a button to record, playback, and submit.
+The playback button allowed for participants to verify that they were submitting working audio.
+The English vowels /a/, /i/, /o/, wedge were solicited via the following orthographic prompts: faff, fiff, foff, fuff.
+The Spanish vowels /a/, /i/, /o/, /u/ were solicited using
+faf, fif, fof, fuf (or p-initial minimal pairs for each of the pseudo words in both languages).
 
 ### Word Repitition Task
 
-/pVf/, /fVf/
-
-French: a, i, o, y
-faf, fif, fof, fuf
-paf, pif, pof, puf
-
-German: a, i, o, y
-faf, fif, fof, fuf
-paf, pif, pof, puf
+In order to elicit French and German psuedowords, the same tokens used in the elicited production task in Chapter 3 (described in section X) were provided to participants to repeat. 
+During a given trail, participants saw an orthographic representation of a pseudoword on their screen, together with a an audio widget which allowed the participants to play the audio production of the given word at will.
+Participants could play this audio as many times as they wished. 
+In the same screen, audio was submitted using a similar widget, which contains a button to record, playback, and submit.
+The playback button allowed for participants to verify that they were submitting working audio.
+Again, four vowel contexts per condition were produced in two frames : /pVf/, /fVf/.
+As a result, the French vowels wedge, /i/, /o/, and /y/ were represented in the psuedocarrier words: faf, fif, fof, fuf, paf, pif, pof, puf.
+The German words German: wedge, i, o, y were elicited in the pseudocarrier words: faf, fif, fof, fuf
+paf, pif, pof, puf.
 
 ## Procedure
+
+Language order was randomized for each participant, and all languages were produced in the same session and administered using Labvanced in browser via prolific.co.
+Participants were only allowed to participate via laptop or desktop computer and were instructed to use headphones or high quality speakers with a microphone in a quiet, distraction free environment.
+Participants completed the Bilingual Language Profile in a separate session.
 
 ## Statistical Analysis
 
@@ -132,11 +136,11 @@ Model priors were the default in `brms`, a student's T distribution with 3 degre
 All models were fit with 4000 iterations (1000 warm-up). 
 Hamiltonian Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
 
-# Results 
+## Results 
 
-## Forced Alignment
+### Forced Alignment
 
-A total of `r nrow(full_data_all)` data points were force aligned in the initial analysis using Webmaus basic (*cite*).
+A total of `r nrow(full_data_all)` data points were force aligned in the initial analysis using Webmaus basic [@schiel1999automatic].
 In order to estimate the accuracy of the forced-alignment, about 3 percent of the bilingual data was randomly subset and hand-corrected (`r nrow(bil_sub)/2` tokens).
 Subsetting was done using an R script.
 Figure \@ref(fig:langcorr) shows the quantity of each phoneme in each language that was hand-corrected in the random subset.
@@ -255,9 +259,10 @@ full_data %>%
             hjust = "inward"), size = 2.5, position = position_dodge(width = -.75))
 ```
 
-## Analysis of the included data
+### Analysis of the included data
 
 Figure \@ref(fig:uplot) shows the productions of each of the four groups for the phonemes /u/ (in Spanish and English) and /y/ (in French and German).
+The raw data points are plotted together with the dashed circular shapes that represent a 95 percent confidence interval ellipse generated by the ggplot function in R. 
 This condition was intended to explore how Spanish-English bilinguals would produce /y/, which is not present in either Spanish or English.
 An inspection of this figure suggests that /y/ was effectively imitated by all groups.
 In addition, it does not appear that there is much meaningful difference between the French and German imitations of the /y/ sound. 
@@ -396,13 +401,146 @@ plot.title = element_text(size=12,face="bold")) +
 ```{r, 'schwaplots', echo=FALSE, fig.cap="Conditional effects plot of the wedge for F1 (a) and F2 (b) in the bilingual groups"}
 knitr::include_graphics(here("sections", "figs", "schwa_plots.png"))
 ```
-## Discussion 
 
-- When bilinguals encounter a new language sound that is not phonemic in their L1 or L2, at least with the German and French /y/, they appear to have no problems imitating this sound, and do not assimilate the sound to their /u/ or /i/ categories in production. 
+## Interim Discussion 
 
-No clear bilingual advantage was found in the analysis of the data. 
+Based on the data of the present experiment, vowel imitation production appears to be relatively easy for bilingual and monolingual participants alike.
+When these speakers encounter a new language sound that is not phonemic in their L1 or L2, at least with the German and French /y/, they appear to have no problems imitating this sound, and do not assimilate the sound to their /u/ or /i/ categories in production. 
+
+These results have implications for L3 models, which largely cannot account for the results reported here.
+The TPM is largely not supported by the preset data, since it would predict that in the case of a new sounds like /y/, the initial state of L3 acquisition is the final state of either a participants L1 or L2, and thus should be guided by L1 or L2 categories. 
+This was clearly not the case, since participants appear to effectively imitate /y/ at first exposure, regardless of whether it is contained in a German or French sound. 
+That is, in terms of vowels, there appears to be no effect of global structure similarity or typology. 
+L2 status also cannot account for these results, since there were no meaningful differences found between bilingual groups and because the L3 sounds did not appear to be assimilated to L2 sounds. 
+Finally, the LPM also has trouble explaining successful production of /y/ at first exposure.
+Firstly, the LPM does not make specific predictions regarding sounds which are not present in the L1 or L2 in the L3, but would likely not predict successful imitation at first exposure, given that L1 and L2 categories are thought to impact the L3. 
+
+<!---- Could include: The finding no clear bilingual advantage was found in the analysis of the data also has implications for the bilingual advantage hypothesis. But... I don't care that much about
+this hypothesis and it's not directly releated to my 
+RQs, so leaving it out. --->
 
 
+# VOT Production 
+
+In addition to the analysis of vowels, the p-initial tokens from the pseudoword reading and pseudoword repetition tasks were analyzed for VOT.
+Half of the tokens for each participant began with /p/ and totaled 12 per language (4 vocalic contexts x 3 repetitions).
+Unlike vowel production, a subset of the stop consonants were force-aligned and subsequently hand corrected.
+
+Previous research in multilingualism has found that it is difficult to find a group of multilingual participants who produce sounds between languages distinctly enough to determine which language they could have come from, although they may have high proficiency.
+For example, when examining L3 French production by Spanish-English bilinguals, Parrish (2022) only a subset of participants produced English and Spanish distinctly and were included in the study. 
+The inclusion of a given participant in Parrish (2022) was determined by segmenting all data from every participant and running a t-test with a participants Spanish and English.
+When this t-test returned a significant result, the participant was included.
+
+Utilizing the context and insights of this previous research, 
+the present dissertation subset participants in an effort to save resources in a replicable way.
+Rather than segmenting and subsequently discarding the acoustic data of discluded participants, the present dissertation used blinded judgment data by the author to determine which participants were producing English and Spanish that were distinct enough to be informative when compared to their French and German productions. 
+In particular, an R script was used to find all sound files that began with /p/ and were produced in each bilingual participant's L2.
+From there, these files were copied to new directory and used to create a 2-alternative forced choice task in Psychopy.
+In total, 774 tokens were included, where 86 total participants (66 Spanish L1, 20 English L1) included 9 of their total 12 tokens each.
+
+## Subset Procedure
+
+One at a time, each sound was played, and "English-like" and "Spanish-like" were displayed on the left and right sides of the screen.
+After the sound was played, the researcher chose whether the segment /p/ sounded like an English-like or Spanish-like production of that sound, not knowing whether the speaker was an English or Spanish speaker. 
+Between trials, a cross was displayed for 500ms in the center of the screen.
+
+### Results 
+
+Participants were included when more than half of their utterances were judged correctly.
+In total, 33 participants fit this criteria and had all of their data subsequently segmented (mean correct = 7.2 (SD = 1.5)),  of which only 3 were L1 English speakers.
+Overall, 3 of the participants were L1 English speakers and 30 were L1 Spanish speakers.
+The data of an additional 5 participants were also removed due to poor audio quality, which made segmenting the voice onset time impossible or very difficult to do reliably. 
+As a result, the final dataset contains 28 bilingual participants (25 L1 Spanish and 3 L1 English speakers)
+
+## Statistical Analysis
+
+For the L1 Spanish group, a Bayesian multilevel regression model was run in which VOT was the outcome variable.
+In the model, language was the sole fixed factor (4 levels: Spanish, English, French and German).
+Random intercepts for token and participant were also included to take into account the nested structure of the data.
+Due to the low number of L1 English participants, a single model was fit to each of them.
+That is, 3 additional models were fit where VOT was the continuous outcome variable and the fixed effect was language.
+In this case, only a random intercept for token was included.
+All model priors were the default in `brms`, a student's T distribution with 3 degree of freedom. 
+All models were fit with 4000 iterations (1000 warm-up). 
+Hamiltonian Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
+
+## Results
+
+### L1 English Speakers 
+
+Figure \@ref(fig:eng-vot) shows the VOT of each of the 3 included L1 English participants in all 4 languages.
+```{r, 'eng-vot', echo=FALSE, fig.cap="The VOT of /p/ for each individual L1 English-L2 Spanish speaker"}
+knitr::include_graphics(here("sections", "figs", "eng_vot.png"))
+```
+
+Figures \@ref(fig:eng-part-one), \@ref(fig:eng-part-two) and \@ref(fig:eng-part-three) show the adjusted credible intervals for each L1 English speaker. 
+In both, figure \@ref(fig:eng-part-one) and figure \@ref(fig:eng-part-three), it is plausible to conclude that French productions of these participants were mere Spanish-like, while German productions were more English-like.
+On the other hand, figure \@ref(fig:eng-part-two) suggests that this participant did not produce distinct VOT as a function of language.
+
+```{r, 'eng-part-one', echo=FALSE, fig.cap="Adjusted credible intervals of all plausible values of VOT as a function of Language for participant 492828"}
+knitr::include_graphics(here("sections", "figs", "e_492828.png"))
+```
+
+```{r, 'eng-part-two', echo=FALSE, fig.cap="Adjusted credible intervals of all plausible values of VOT as a function of Language for participant 493072"}
+knitr::include_graphics(here("sections", "figs", "e_493072.png"))
+```
+
+```{r, 'eng-part-three', echo=FALSE, fig.cap="Adjusted credible intervals of all plausible values of VOT as a function of Languagefor participant 500265"}
+knitr::include_graphics(here("sections", "figs", "e_500265.png"))
+```
+
+### L1 Spanish Speakers 
+
+Figure \@ref(fig:span-vot) shows the VOT of each language at the group level for the L1 Spanish speakers.
+
+```{r, 'span-vot', echo=FALSE, fig.cap="The VOT of /p/ for L1 Spanish-L2 English group"}
+knitr::include_graphics(here("sections", "figs", "span_vot.png"))
+```
+
+\@ref(fig:vod-mod) shows the adjusted posterior distributions for each language in the L1 Spanish group.
+The range of plausible estimates for both French and German fell between English and Spanish, with German being closer to English than French.
+
+```{r, 'vod-mod', echo=FALSE, fig.cap="Adjusted credible intervals of all plausible values of VOT as a function of Language"}
+knitr::include_graphics(here("sections", "figs", "vot_mod.png"))
+```
+
+# Discussion 
+
+These results replicated previous work (Parrish 2022), which found that L3 French VOT was intermediate of L1 and L2 VOT when those languages are Spanish and English.
+Unlike previous research, the present work gave initial exposure learners two "L3s" to repeat, making a within subjects comparison possible.
+The German results were higher on average than French, but still fell intermediate of L1 and L2 values in the L1 Spanish group.
+Taken together, the results in VOT suggest that, while both the L1 and L2 influence L3 production at first exposure, the phonetic properties of the L3 that is being learned should also be taken into account. 
+
+At the same time, the results for VOT and vowels were distinct. 
+Largely, successful imitation was obtained for novel vowel formants, while VOT was far less successful.
+There are at least three possible reasons for this finding.
+First, it is possible that, since the VOT of stop consonants is less salient than vowels quality, that VOT distinctions fall below the level of consciousness and are therefor harder to imitate at first exposure. 
+Secondly, task demands may have impacted the results.
+The fact the multiple vowel conditions and a rather long production task were utilized might introduced a heavy processing load in participants that made it too difficult to attend to VOT.
+In other words, if VOT were the focus and the vocalic context was held constant, it is plausible that more target-like VOT would be produced.  
+
+Just as with vowels, the present data on stops informs L3 models. 
+If the VOT data were taken alone, the LPM best fits the data, since it explicitly predicts the L3 values will fall intermediate of L1 and L2 values.
+The TPM and L2 Status Factor cannot readily explain intermediate VOT that has been found here or in previous research, since these models would predict whole language influence of either the typogically closer language or the second learned language respectively.
+
+Taken together, the results of the same participants' productions in stops and vowels suggest that L1 and L2 influence are not consistent across segments.
+This conclusion, however, should be interpreted with caution. 
+The participants of the present study simply heard and imitated a new language sound, and were not actually in the process of acquiring a third language.
+The purpose of including these participants was to examine the starting point of L3 phonology.
+Future research could benefit from using a longitudenal design and multiple segments to more fully support that idea that L3 learners are differently impacted by the L1 and L2 depending upon the segment and how this may change during L3 development.
+Past research has reported a difference in L1 or L2 influence on L3 production as a function of test time.
+In their seminal case study, @williams_language_1998 reported heavy L2-influence in L3 production by their speaker, but, upon re-examination after 6 months in the L3 country the speaker's L3 speech was rated as heavily L1-accented.
+Using a similar design to @williams_language_1998, but using multiple segments and more subjects would create an ideal situation to examine L3 development as it relates to influence from previously learned languages.
+
+# Conclusion
+
+The present chapter examined the production of vowels and stop consonants in German and French by Spanish-English bilinguals in both orders of acquisition. 
+Importantly, in order to examine the initial state of typologically distinct "third" languages, these subjects did not speak French and German and produced the target words using a pseudoword imitation task.
+The results of the analyses of stops and vowels revealed distinct performance.
+In particular, vowels were often successfully imitated while stops were not.
+French and German stops fell between L1 and L2 values, presumably due to L1 and L2 influence.
+Overall, these results suggest that L3 phonology cannot accurately be accounted for in the current models of L3 acquisition. 
+Future work should consider the role of the segment, stage of development, and typological similarity of the involved languages as subjects that may impact L3 production.f
 
 
 

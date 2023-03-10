@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.8)  22 FEB 2023 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.8)  10 MAR 2023 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,11 +628,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [5
 
-])
+] [6])
 \tf@toc=\write3
 \openout3 = `index.toc'.
 
-[6] (./index.lot
+[7] (./index.lot
 LaTeX Font Info:    Trying to load font information for T3+lmr on input line 8.
 
 LaTeX Font Info:    No file T3lmr.fd. on input line 8.
@@ -645,15 +645,15 @@ LaTeX Font Warning: Font shape `T3/lmr/m/n' undefined
 \tf@lot=\write4
 \openout4 = `index.lot'.
 
-[7
+[8
 
-] (./index.lof [8
+] (./index.lof [9
 
 ])
 \tf@lof=\write5
 \openout5 = `index.lof'.
 
-[9]
+[10]
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -680,63 +680,55 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 836.
 [38]
-<sections/figs/ao_aoa_combined.png, id=510, 8431.5pt x 8431.5pt>
+<sections/figs/ao_aoa_combined.png, id=539, 8431.5pt x 8431.5pt>
 File: sections/figs/ao_aoa_combined.png Graphic file (type png)
 <use sections/figs/ao_aoa_combined.png>
 Package pdftex.def Info: sections/figs/ao_aoa_combined.png  used on input line 
-861.
+862.
 (pdftex.def)             Requested size: 433.56454pt x 433.56454pt.
-<sections/figs/proficiency_combined.png, id=512, 6690.9975pt x 5034.81pt>
+<sections/figs/proficiency_combined.png, id=541, 6690.9975pt x 5034.81pt>
 File: sections/figs/proficiency_combined.png Graphic file (type png)
 <use sections/figs/proficiency_combined.png>
 Package pdftex.def Info: sections/figs/proficiency_combined.png  used on input 
-line 865.
+line 866.
 (pdftex.def)             Requested size: 433.60286pt x 326.27542pt.
 [39] [40 <./sections/figs/ao_aoa_combined.png>] [41 <./sections/figs/proficienc
 y_combined.png>]
-<sections/figs/vct.png, id=534, 979.66pt x 417.56pt>
+<sections/figs/vct.png, id=562, 979.66pt x 417.56pt>
 File: sections/figs/vct.png Graphic file (type png)
 <use sections/figs/vct.png>
-Package pdftex.def Info: sections/figs/vct.png  used on input line 894.
+Package pdftex.def Info: sections/figs/vct.png  used on input line 895.
 (pdftex.def)             Requested size: 433.60791pt x 184.81647pt.
-<sections/figs/likert.png, id=535, 936.49875pt x 253.94875pt>
+<sections/figs/likert.png, id=563, 936.49875pt x 253.94875pt>
 File: sections/figs/likert.png Graphic file (type png)
 <use sections/figs/likert.png>
-Package pdftex.def Info: sections/figs/likert.png  used on input line 898.
+Package pdftex.def Info: sections/figs/likert.png  used on input line 899.
 (pdftex.def)             Requested size: 433.62404pt x 117.58507pt.
 [42 <./sections/figs/vct.png>]
-<sections/figs/stimuli.png, id=544, 6690.9975pt x 5034.81pt>
+<sections/figs/stimuli.png, id=572, 6690.9975pt x 5034.81pt>
 File: sections/figs/stimuli.png Graphic file (type png)
 <use sections/figs/stimuli.png>
-Package pdftex.def Info: sections/figs/stimuli.png  used on input line 913.
+Package pdftex.def Info: sections/figs/stimuli.png  used on input line 914.
 (pdftex.def)             Requested size: 433.60286pt x 326.27542pt.
 [43 <./sections/figs/likert.png>] [44 <./sections/figs/stimuli.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
-54.
+55.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [45] [46]
-<sections/figs/cond_prob_eng.png, id=576, 2002.48125pt x 1141.26375pt>
+<sections/figs/cond_prob_eng.png, id=606, 2002.48125pt x 1141.26375pt>
 File: sections/figs/cond_prob_eng.png Graphic file (type png)
 <use sections/figs/cond_prob_eng.png>
 Package pdftex.def Info: sections/figs/cond_prob_eng.png  used on input line 10
-15.
+20.
 (pdftex.def)             Requested size: 433.61118pt x 247.12576pt.
-[47 <./sections/figs/cond_prob_eng.png>]
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1036--1047
+[47]
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1041--1052
  [] 
  []
 
 
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1054--1067
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1074--1086
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1059--1072
  [] 
  []
 
@@ -744,25 +736,30 @@ Overfull \hbox (5.71701pt too wide) in paragraph at lines 1074--1086
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1093--1104
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1079--1091
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48]
+
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1098--1109
+ [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<sections/figs/cond_prob_sp.png, id=596, 2002.48125pt x 1141.26375pt>
+[48 <./sections/figs/cond_prob_eng.png>] [49]
+<sections/figs/cond_prob_sp.png, id=630, 2002.48125pt x 1141.26375pt>
 File: sections/figs/cond_prob_sp.png Graphic file (type png)
 <use sections/figs/cond_prob_sp.png>
-Package pdftex.def Info: sections/figs/cond_prob_sp.png  used on input line 113
-8.
+Package pdftex.def Info: sections/figs/cond_prob_sp.png  used on input line 114
+3.
 (pdftex.def)             Requested size: 433.61118pt x 247.12576pt.
 
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1145--1156
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1150--1161
  [] 
  []
 
@@ -770,7 +767,7 @@ Overfull \hbox (5.71701pt too wide) in paragraph at lines 1145--1156
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1163--1174
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1168--1179
  [] 
  []
 
@@ -778,7 +775,7 @@ Overfull \hbox (5.71701pt too wide) in paragraph at lines 1163--1174
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1181--1192
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1186--1197
  [] 
  []
 
@@ -786,20 +783,19 @@ Overfull \hbox (5.71701pt too wide) in paragraph at lines 1181--1192
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.71701pt too wide) in paragraph at lines 1199--1210
+Overfull \hbox (5.71701pt too wide) in paragraph at lines 1204--1215
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<sections/figs/eng_desc_plot.png, id=597, 6690.9975pt x 5034.81pt>
+<sections/figs/eng_desc_plot.png, id=631, 6690.9975pt x 5034.81pt>
 File: sections/figs/eng_desc_plot.png Graphic file (type png)
 <use sections/figs/eng_desc_plot.png>
 Package pdftex.def Info: sections/figs/eng_desc_plot.png  used on input line 12
-17.
+22.
 (pdftex.def)             Requested size: 433.60286pt x 326.27542pt.
-[49]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -811,395 +807,433 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<sections/figs/span_desc_plot.png, id=629, 6690.9975pt x 5034.81pt>
+<sections/figs/span_desc_plot.png, id=659, 6690.9975pt x 5034.81pt>
 File: sections/figs/span_desc_plot.png Graphic file (type png)
 <use sections/figs/span_desc_plot.png>
 Package pdftex.def Info: sections/figs/span_desc_plot.png  used on input line 1
-305.
+310.
 (pdftex.def)             Requested size: 433.60286pt x 326.27542pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<sections/figs/i_full.png, id=634, 7327.375pt x 4583.1225pt>
+[53] [54 <./sections/figs/span_desc_plot.png>]
+<sections/figs/i_full.png, id=675, 7327.375pt x 4583.1225pt>
 File: sections/figs/i_full.png Graphic file (type png)
 <use sections/figs/i_full.png>
-Package pdftex.def Info: sections/figs/i_full.png  used on input line 1340.
+Package pdftex.def Info: sections/figs/i_full.png  used on input line 1345.
 (pdftex.def)             Requested size: 433.58598pt x 271.19911pt.
-[53] [54 <./sections/figs/span_desc_plot.png>] [55] [56]
-<sections/figs/o_full.png, id=655, 7327.375pt x 4583.1225pt>
+[55] [56]
+<sections/figs/o_full.png, id=687, 7327.375pt x 4583.1225pt>
 File: sections/figs/o_full.png Graphic file (type png)
 <use sections/figs/o_full.png>
-Package pdftex.def Info: sections/figs/o_full.png  used on input line 1359.
+Package pdftex.def Info: sections/figs/o_full.png  used on input line 1364.
 (pdftex.def)             Requested size: 433.58598pt x 271.19911pt.
-<sections/figs/schwa_full.png, id=656, 7327.375pt x 4583.1225pt>
+<sections/figs/schwa_full.png, id=688, 7327.375pt x 4583.1225pt>
 File: sections/figs/schwa_full.png Graphic file (type png)
 <use sections/figs/schwa_full.png>
-Package pdftex.def Info: sections/figs/schwa_full.png  used on input line 1363.
+Package pdftex.def Info: sections/figs/schwa_full.png  used on input line 1368.
 
 (pdftex.def)             Requested size: 433.58598pt x 271.19911pt.
-<sections/figs/y_full.png, id=657, 1864.9675pt x 1274.7625pt>
+<sections/figs/y_full.png, id=689, 1864.9675pt x 1274.7625pt>
 File: sections/figs/y_full.png Graphic file (type png)
 <use sections/figs/y_full.png>
-Package pdftex.def Info: sections/figs/y_full.png  used on input line 1367.
+Package pdftex.def Info: sections/figs/y_full.png  used on input line 1372.
 (pdftex.def)             Requested size: 433.60046pt x 296.37921pt.
 [57] [58 <./sections/figs/i_full.png>] [59 <./sections/figs/o_full.png> <./sect
 ions/figs/schwa_full.png>] [60 <./sections/figs/y_full.png>]
-<sections/figs/ao_aoa_combined_ax.png, id=684, 7661.62375pt x 5637.06pt>
+<sections/figs/ao_aoa_combined_ax.png, id=714, 7661.62375pt x 5637.06pt>
 File: sections/figs/ao_aoa_combined_ax.png Graphic file (type png)
 <use sections/figs/ao_aoa_combined_ax.png>
 Package pdftex.def Info: sections/figs/ao_aoa_combined_ax.png  used on input li
-ne 1403.
+ne 1409.
 (pdftex.def)             Requested size: 433.60738pt x 319.02777pt.
-<sections/figs/proficiency_combined_ax.png, id=685, 8431.5pt x 8431.5pt>
+<sections/figs/proficiency_combined_ax.png, id=715, 8431.5pt x 8431.5pt>
 File: sections/figs/proficiency_combined_ax.png Graphic file (type png)
 <use sections/figs/proficiency_combined_ax.png>
 Package pdftex.def Info: sections/figs/proficiency_combined_ax.png  used on inp
-ut line 1407.
+ut line 1413.
 (pdftex.def)             Requested size: 433.56454pt x 433.56454pt.
 [61] [62 <./sections/figs/ao_aoa_combined_ax.png>] [63 <./sections/figs/profici
-ency_combined_ax.png>] [64]
-<sections/figs/ax_german.png, id=718, 1864.9675pt x 1274.7625pt>
+ency_combined_ax.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[64] [65]
+<sections/figs/ax_german.png, id=754, 1864.9675pt x 1274.7625pt>
 File: sections/figs/ax_german.png Graphic file (type png)
 <use sections/figs/ax_german.png>
-Package pdftex.def Info: sections/figs/ax_german.png  used on input line 1484.
+Package pdftex.def Info: sections/figs/ax_german.png  used on input line 1495.
 (pdftex.def)             Requested size: 433.60046pt x 296.37921pt.
-<sections/figs/ax_french.png, id=719, 1864.9675pt x 1274.7625pt>
+<sections/figs/ax_french.png, id=755, 1864.9675pt x 1274.7625pt>
 File: sections/figs/ax_french.png Graphic file (type png)
 <use sections/figs/ax_french.png>
-Package pdftex.def Info: sections/figs/ax_french.png  used on input line 1488.
+Package pdftex.def Info: sections/figs/ax_french.png  used on input line 1499.
 (pdftex.def)             Requested size: 433.60046pt x 296.37921pt.
-<sections/figs/error_type_ger.png, id=720, 1864.9675pt x 1274.7625pt>
+<sections/figs/error_type_ger.png, id=756, 1864.9675pt x 1274.7625pt>
 File: sections/figs/error_type_ger.png Graphic file (type png)
 <use sections/figs/error_type_ger.png>
 Package pdftex.def Info: sections/figs/error_type_ger.png  used on input line 1
-492.
+503.
 (pdftex.def)             Requested size: 433.60046pt x 296.37921pt.
-<sections/figs/error_type_fr.png, id=721, 1864.9675pt x 1274.7625pt>
+<sections/figs/error_type_fr.png, id=757, 1864.9675pt x 1274.7625pt>
 File: sections/figs/error_type_fr.png Graphic file (type png)
 <use sections/figs/error_type_fr.png>
-Package pdftex.def Info: sections/figs/error_type_fr.png  used on input line 14
-96.
+Package pdftex.def Info: sections/figs/error_type_fr.png  used on input line 15
+07.
 (pdftex.def)             Requested size: 433.60046pt x 296.37921pt.
-[65] [66 <./sections/figs/ax_german.png>] [67 <./sections/figs/ax_french.png>] 
-[68 <./sections/figs/error_type_ger.png>] [69 <./sections/figs/error_type_fr.pn
-g>] [70] [71] [72]
+[66 <./sections/figs/ax_german.png>] [67 <./sections/figs/ax_french.png>] [68 <
+./sections/figs/error_type_ger.png>] [69 <./sections/figs/error_type_fr.png>] [
+70] [71] [72]
 Chapter 4.
 [73
 
-] [74] [75]
+] [74] [75] [76]
 
-LaTeX Warning: Reference `fig:aoaprod' on page 76 undefined on input line 1635.
+LaTeX Warning: Reference `fig:aoaprod' on page 77 undefined on input line 1645.
 
 
-[76]
-<includes/figures/ao_aoa_combined_production.png, id=788, 6071.68375pt x 4867.1
+<includes/figures/ao_aoa_combined_production.png, id=818, 6071.68375pt x 4867.1
 8375pt>
 File: includes/figures/ao_aoa_combined_production.png Graphic file (type png)
 <use includes/figures/ao_aoa_combined_production.png>
 Package pdftex.def Info: includes/figures/ao_aoa_combined_production.png  used 
-on input line 1640.
+on input line 1650.
 (pdftex.def)             Requested size: 433.58476pt x 347.57025pt.
-<includes/figures/proficiency_combined_production.png, id=789, 6071.68375pt x 4
+<includes/figures/proficiency_combined_production.png, id=819, 6071.68375pt x 4
 867.18375pt>
 File: includes/figures/proficiency_combined_production.png Graphic file (type p
 ng)
 <use includes/figures/proficiency_combined_production.png>
 Package pdftex.def Info: includes/figures/proficiency_combined_production.png  
-used on input line 1643.
+used on input line 1653.
 (pdftex.def)             Requested size: 433.58476pt x 347.57025pt.
 [77 <./includes/figures/ao_aoa_combined_production.png>] [78 <./includes/figure
-s/proficiency_combined_production.png>] [79]
-<index_files/figure-latex/langcorr-1.pdf, id=816, 453.695pt x 313.17pt>
+s/proficiency_combined_production.png>] [79] [80]
+<index_files/figure-latex/langcorr-1.pdf, id=852, 453.695pt x 313.17pt>
 File: index_files/figure-latex/langcorr-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/langcorr-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/langcorr-1.pdf  used on input
- line 1703.
+ line 1717.
 (pdftex.def)             Requested size: 433.62463pt x 299.3161pt.
-<includes/figures/hand_correct.png, id=817, 1550.79375pt x 1191.45125pt>
+<includes/figures/hand_correct.png, id=853, 1550.79375pt x 1191.45125pt>
 File: includes/figures/hand_correct.png Graphic file (type png)
 <use includes/figures/hand_correct.png>
 Package pdftex.def Info: includes/figures/hand_correct.png  used on input line 
-1707.
+1721.
 (pdftex.def)             Requested size: 433.60405pt x 333.1314pt.
-[80 <./index_files/figure-latex/langcorr-1.pdf>] [81 <./includes/figures/hand_c
-orrect.png>]
-<index_files/figure-latex/rmdplot-1.pdf, id=836, 453.695pt x 310.15875pt>
+<index_files/figure-latex/rmdplot-1.pdf, id=855, 453.695pt x 310.15875pt>
 File: index_files/figure-latex/rmdplot-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/rmdplot-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/rmdplot-1.pdf  used on input 
-line 1717.
+line 1731.
 (pdftex.def)             Requested size: 433.62463pt x 296.43806pt.
-[82 <./index_files/figure-latex/rmdplot-1.pdf>]
-<index_files/figure-latex/rmdremoved-1.pdf, id=852, 451.6875pt x 310.15875pt>
+[81 <./index_files/figure-latex/langcorr-1.pdf>] [82 <./includes/figures/hand_c
+orrect.png>] [83 <./index_files/figure-latex/rmdplot-1.pdf>]
+<index_files/figure-latex/rmdremoved-1.pdf, id=887, 451.6875pt x 310.15875pt>
 File: index_files/figure-latex/rmdremoved-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/rmdremoved-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/rmdremoved-1.pdf  used on inp
-ut line 1747.
+ut line 1761.
 (pdftex.def)             Requested size: 433.64264pt x 297.76794pt.
-<index_files/figure-latex/totaltokens-1.pdf, id=853, 459.7175pt x 310.15875pt>
+<index_files/figure-latex/totaltokens-1.pdf, id=888, 459.7175pt x 310.15875pt>
 File: index_files/figure-latex/totaltokens-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/totaltokens-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/totaltokens-1.pdf  used on in
-put line 1751.
+put line 1765.
 (pdftex.def)             Requested size: 433.64267pt x 292.56677pt.
-[83 <./index_files/figure-latex/rmdremoved-1.pdf>] [84 <./index_files/figure-la
-tex/totaltokens-1.pdf>]
-<index_files/figure-latex/uplot-1.pdf, id=880, 459.7175pt x 304.13625pt>
+[84] [85 <./index_files/figure-latex/rmdremoved-1.pdf>] [86 <./index_files/figu
+re-latex/totaltokens-1.pdf>]
+<index_files/figure-latex/uplot-1.pdf, id=921, 459.7175pt x 304.13625pt>
 File: index_files/figure-latex/uplot-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/uplot-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/uplot-1.pdf  used on input li
-ne 1769.
+ne 1784.
 (pdftex.def)             Requested size: 433.64267pt x 286.88586pt.
-<sections/figs/u_plots.png, id=881, 1333.98375pt x 1212.53pt>
+<sections/figs/u_plots.png, id=922, 1333.98375pt x 1212.53pt>
 File: sections/figs/u_plots.png Graphic file (type png)
 <use sections/figs/u_plots.png>
-Package pdftex.def Info: sections/figs/u_plots.png  used on input line 1773.
+Package pdftex.def Info: sections/figs/u_plots.png  used on input line 1788.
 (pdftex.def)             Requested size: 433.621pt x 394.14159pt.
-<index_files/figure-latex/oplot-1.pdf, id=884, 459.7175pt x 304.13625pt>
+[87 <./index_files/figure-latex/uplot-1.pdf>] [88 <./sections/figs/u_plots.png>
+]
+<index_files/figure-latex/oplot-1.pdf, id=947, 459.7175pt x 304.13625pt>
 File: index_files/figure-latex/oplot-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/oplot-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/oplot-1.pdf  used on input li
-ne 1783.
+ne 1798.
 (pdftex.def)             Requested size: 433.64267pt x 286.88586pt.
-<sections/figs/o_plots.png, id=885, 1333.98375pt x 1212.53pt>
+<sections/figs/o_plots.png, id=948, 1333.98375pt x 1212.53pt>
 File: sections/figs/o_plots.png Graphic file (type png)
 <use sections/figs/o_plots.png>
-Package pdftex.def Info: sections/figs/o_plots.png  used on input line 1787.
+Package pdftex.def Info: sections/figs/o_plots.png  used on input line 1802.
 (pdftex.def)             Requested size: 433.621pt x 394.14159pt.
-[85] [86 <./index_files/figure-latex/uplot-1.pdf>] [87 <./sections/figs/u_plots
-.png>] [88 <./index_files/figure-latex/oplot-1.pdf>] [89 <./sections/figs/o_plo
-ts.png>]
-<index_files/figure-latex/iplot-1.pdf, id=938, 459.7175pt x 304.13625pt>
+<index_files/figure-latex/iplot-1.pdf, id=953, 459.7175pt x 304.13625pt>
 File: index_files/figure-latex/iplot-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/iplot-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/iplot-1.pdf  used on input li
-ne 1798.
+ne 1813.
 (pdftex.def)             Requested size: 433.64267pt x 286.88586pt.
-<sections/figs/i_plots.png, id=939, 1333.98375pt x 1212.53pt>
+<sections/figs/i_plots.png, id=954, 1333.98375pt x 1212.53pt>
 File: sections/figs/i_plots.png Graphic file (type png)
 <use sections/figs/i_plots.png>
-Package pdftex.def Info: sections/figs/i_plots.png  used on input line 1802.
+Package pdftex.def Info: sections/figs/i_plots.png  used on input line 1817.
 (pdftex.def)             Requested size: 433.621pt x 394.14159pt.
-[90 <./index_files/figure-latex/iplot-1.pdf>] [91 <./sections/figs/i_plots.png>
-]
-<index_files/figure-latex/aplot-1.pdf, id=963, 459.7175pt x 304.13625pt>
+[89 <./index_files/figure-latex/oplot-1.pdf>] [90 <./sections/figs/o_plots.png>
+] [91 <./index_files/figure-latex/iplot-1.pdf>] [92 <./sections/figs/i_plots.pn
+g>]
+<index_files/figure-latex/aplot-1.pdf, id=1000, 459.7175pt x 304.13625pt>
 File: index_files/figure-latex/aplot-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/aplot-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/aplot-1.pdf  used on input li
-ne 1814.
+ne 1829.
 (pdftex.def)             Requested size: 433.64267pt x 286.88586pt.
-<sections/figs/schwa_plots.png, id=964, 1333.98375pt x 1212.53pt>
+<sections/figs/schwa_plots.png, id=1001, 1333.98375pt x 1212.53pt>
 File: sections/figs/schwa_plots.png Graphic file (type png)
 <use sections/figs/schwa_plots.png>
-Package pdftex.def Info: sections/figs/schwa_plots.png  used on input line 1818
+Package pdftex.def Info: sections/figs/schwa_plots.png  used on input line 1833
 .
 (pdftex.def)             Requested size: 433.621pt x 394.14159pt.
-[92 <./index_files/figure-latex/aplot-1.pdf>] [93 <./sections/figs/schwa_plots.
-png>]
+[93 <./index_files/figure-latex/aplot-1.pdf>] [94 <./sections/figs/schwa_plots.
+png>] [95] [96]
+<sections/figs/eng_vot.png, id=1037, 1864.9675pt x 1283.79625pt>
+File: sections/figs/eng_vot.png Graphic file (type png)
+<use sections/figs/eng_vot.png>
+Package pdftex.def Info: sections/figs/eng_vot.png  used on input line 1907.
+(pdftex.def)             Requested size: 433.60046pt x 298.47954pt.
+<sections/figs/e_492828.png, id=1044, 1864.9675pt x 1283.79625pt>
+File: sections/figs/e_492828.png Graphic file (type png)
+<use sections/figs/e_492828.png>
+Package pdftex.def Info: sections/figs/e_492828.png  used on input line 1915.
+(pdftex.def)             Requested size: 433.60046pt x 298.47954pt.
+<sections/figs/e_493072.png, id=1045, 1864.9675pt x 1283.79625pt>
+File: sections/figs/e_493072.png Graphic file (type png)
+<use sections/figs/e_493072.png>
+Package pdftex.def Info: sections/figs/e_493072.png  used on input line 1919.
+(pdftex.def)             Requested size: 433.60046pt x 298.47954pt.
+<sections/figs/e_500265.png, id=1046, 1864.9675pt x 1283.79625pt>
+File: sections/figs/e_500265.png Graphic file (type png)
+<use sections/figs/e_500265.png>
+Package pdftex.def Info: sections/figs/e_500265.png  used on input line 1923.
+(pdftex.def)             Requested size: 433.60046pt x 298.47954pt.
+<sections/figs/span_vot.png, id=1048, 1864.9675pt x 1283.79625pt>
+File: sections/figs/span_vot.png Graphic file (type png)
+<use sections/figs/span_vot.png>
+Package pdftex.def Info: sections/figs/span_vot.png  used on input line 1932.
+(pdftex.def)             Requested size: 433.60046pt x 298.47954pt.
+[97] [98 <./sections/figs/eng_vot.png>] [99 <./sections/figs/e_492828.png>] [10
+0 <./sections/figs/e_493072.png>] [101 <./sections/figs/e_500265.png>]
+<sections/figs/vot_mod.png, id=1081, 1864.9675pt x 1283.79625pt>
+File: sections/figs/vot_mod.png Graphic file (type png)
+<use sections/figs/vot_mod.png>
+Package pdftex.def Info: sections/figs/vot_mod.png  used on input line 1939.
+(pdftex.def)             Requested size: 433.60046pt x 298.47954pt.
+[102 <./sections/figs/span_vot.png>] [103 <./sections/figs/vot_mod.png>] [104] 
+[105]
 Appendix A.
-<index_files/figure-latex/plot-bdown-cap-1.pdf, id=989, 457.71pt x 315.1775pt>
+<index_files/figure-latex/plot-bdown-cap-1.pdf, id=1105, 457.71pt x 315.1775pt>
+
 File: index_files/figure-latex/plot-bdown-cap-1.pdf Graphic file (type pdf)
 <use index_files/figure-latex/plot-bdown-cap-1.pdf>
 Package pdftex.def Info: index_files/figure-latex/plot-bdown-cap-1.pdf  used on
- input line 1847.
+ input line 1997.
 (pdftex.def)             Requested size: 433.63475pt x 298.59935pt.
-[94
+[106
 
- <./index_files/figure-latex/plot-bdown-cap-1.pdf>] [95] [96]
+ <./index_files/figure-latex/plot-bdown-cap-1.pdf>] [107] [108]
 Appendix B.
-[97
+[109
 
-] [98]
+] [110]
 Including your file sections/references.tex for the references.
 (./sections/references.tex)
-Underfull \hbox (badness 1622) in paragraph at lines 1959--1961
+Underfull \hbox (badness 1622) in paragraph at lines 2109--2111
  []\T1/lmr/m/n/12 (+20) Best, C. T., & Tyler, M. D. (2007). Non-na-tive and sec
 ond-language
  []
 
-[99
+[111
 
 ]
-Underfull \hbox (badness 1715) in paragraph at lines 1980--1982
+Underfull \hbox (badness 1715) in paragraph at lines 2130--2132
  \T1/lmr/m/n/12 (+20) to step up our game. \T1/lmr/m/it/12 (+20) Bilin-gual-ism
 : Lan-guage and Cog-ni-tion\T1/lmr/m/n/12 (+20) , 1--6.
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 1983--1985
+Underfull \hbox (badness 3471) in paragraph at lines 2133--2135
  []\T1/lmr/m/n/12 (+20) Bürkner, P.-C. (2017). \T1/lmr/bx/n/12 (+20) Brms \T1/l
 mr/m/n/12 (+20) : An \T1/lmr/m/it/12 (+20) r \T1/lmr/m/n/12 (+20) Pack-age for 
 Bayesian Mul-
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 1983--1985
+Underfull \hbox (badness 3792) in paragraph at lines 2133--2135
  \T1/lmr/m/n/12 (+20) ti-level Mod-els Us-ing \T1/lmr/m/it/12 (+20) stan\T1/lmr
 /m/n/12 (+20) . \T1/lmr/m/it/12 (+20) Jour-nal of Sta-tis-ti-cal Soft-ware\T1/l
 mr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 80\T1/lmr/m/n/12 (+20) (1).
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 1986--1988
+Underfull \hbox (badness 1728) in paragraph at lines 2136--2138
  []\T1/lmr/m/n/12 (+20) Casillas, J. V., & Si-monet, M. (2018). Per-cep-tual ca
 t-e-go-riza-tion and
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 1986--1988
+Underfull \hbox (badness 5563) in paragraph at lines 2136--2138
  \T1/lmr/m/n/12 (+20) bilin-gual lan-guage modes: As-sess-ing the dou-ble phone
 -mic bound-
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1986--1988
+Underfull \hbox (badness 2012) in paragraph at lines 2136--2138
  \T1/lmr/m/n/12 (+20) ary in early and late bilin-guals. \T1/lmr/m/it/12 (+20) 
 Jour-nal of Pho-net-ics\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 71\T1/lmr/m
 /n/12 (+20) , 51--64.
  []
 
-[100]
-Underfull \hbox (badness 4001) in paragraph at lines 1995--1997
+[112]
+Underfull \hbox (badness 4001) in paragraph at lines 2145--2147
  []\T1/lmr/m/n/12 (+20) Escudero, P., & Boersma, P. (2004). BRIDG-ING THE GAP B
 E-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 1995--1997
+Underfull \hbox (badness 6859) in paragraph at lines 2145--2147
  \T1/lmr/m/n/12 (+20) TWEEN L2 SPEECH PER-CEP-TION RE-SEARCH AND PHONO-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 1995--1997
+Underfull \hbox (badness 1377) in paragraph at lines 2145--2147
  \T1/lmr/m/n/12 (+20) LOG-I-CAL THE-ORY. \T1/lmr/m/it/12 (+20) Stud-ies in Sec-
 ond Lan-guage Ac-qui-si-tion\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 26\T1/
 lmr/m/n/12 (+20) (04).
  []
 
-[101]
-Underfull \hbox (badness 2818) in paragraph at lines 2037--2039
+[113]
+Underfull \hbox (badness 2818) in paragraph at lines 2187--2189
  []\T1/lmr/m/n/12 (+20) García Mayo, M. del P., & Slabakova, R. (2015). Ob-ject
  drop in
  []
 
-[102]
-Underfull \hbox (badness 7704) in paragraph at lines 2049--2051
+[114]
+Underfull \hbox (badness 7704) in paragraph at lines 2199--2201
  []\T1/lmr/m/n/12 (+20) Gut, U. (2010). Cross-linguistic in-flu-ence in L3 phon
 o-log-i-cal ac-
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 2049--2051
+Underfull \hbox (badness 7433) in paragraph at lines 2199--2201
  \T1/lmr/m/n/12 (+20) qui-si-tion. \T1/lmr/m/it/12 (+20) In-ter-na-tional Jour-
 nal of Mul-ti-lin-gual-ism\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 7\T1/lmr
 /m/n/12 (+20) (1), 19--38.
  []
 
-[103]
-Underfull \hbox (badness 1052) in paragraph at lines 2091--2093
+[115]
+Underfull \hbox (badness 1052) in paragraph at lines 2241--2243
  \T1/lmr/m/n/12 (+20) Ac-qui-si-tion of Stop Con-trasts. \T1/lmr/m/it/12 (+20) 
 SAGE Open\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 11\T1/lmr/m/n/12 (+20) (1
 ), 215824402098551.
  []
 
-[104]
-Underfull \hbox (badness 2005) in paragraph at lines 2109--2111
+[116]
+Underfull \hbox (badness 2005) in paragraph at lines 2259--2261
  \T1/lmr/m/n/12 (+20) sion in the L3 ac-qui-si-tion of Brazil-ian Por-tuguese: 
 Struc-tural sim-i-
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 2109--2111
+Underfull \hbox (badness 1132) in paragraph at lines 2259--2261
  \T1/lmr/m/n/12 (+20) lar-ity mat-ters for trans-fer. \T1/lmr/m/it/12 (+20) Sec
 -ond Lan-guage Re-search\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 27\T1/lmr/
 m/n/12 (+20) (1), 21--58.
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 2112--2114
+Underfull \hbox (badness 7064) in paragraph at lines 2262--2264
  []\T1/lmr/m/n/12 (+20) Onishi, H. (2016). The ef-fects of L2 ex-pe-ri-ence on 
 L3 per-cep-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2114
+Underfull \hbox (badness 10000) in paragraph at lines 2262--2264
  \T1/lmr/m/n/12 (+20) tion. \T1/lmr/m/it/12 (+20) In-ter-na-tional Jour-nal of 
 Mul-ti-lin-gual-ism\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 13\T1/lmr/m/n/1
 2 (+20) (4), 459--475.
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 2118--2120
+Underfull \hbox (badness 3989) in paragraph at lines 2268--2270
  []\T1/lmr/m/n/12 (+20) Parma, A. (2017). Cross-Linguistic Trans-fer of Ob-ject
  Clitic Struc-
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 2118--2120
+Underfull \hbox (badness 3168) in paragraph at lines 2268--2270
  \T1/lmr/m/n/12 (+20) ture: A Case of L3 Brazil-ian Por-tuguese. \T1/lmr/m/it/1
 2 (+20) Lan-guages\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 2\T1/lmr/m/n/12 
 (+20) (3), 14.
  []
 
-[105]
-Underfull \hbox (badness 4792) in paragraph at lines 2151--2153
+[117]
+Underfull \hbox (badness 4792) in paragraph at lines 2304--2306
  []\T1/lmr/m/n/12 (+20) Slabakova, R. (2017). The scalpel model of third lan-gu
 age ac-qui-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2151--2153
+Underfull \hbox (badness 10000) in paragraph at lines 2304--2306
  \T1/lmr/m/n/12 (+20) si-tion. \T1/lmr/m/it/12 (+20) In-ter-na-tional Jour-nal 
 of Bilin-gual-ism\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 21\T1/lmr/m/n/12 
 (+20) (6), 651--665.
  []
 
-[106]
-Underfull \hbox (badness 2753) in paragraph at lines 2154--2156
+[118]
+Underfull \hbox (badness 2753) in paragraph at lines 2307--2309
  []\T1/lmr/m/n/12 (+20) Slabakova, R., & Gar-cía Mayo, M. D. P. (2015). The L3 
 syntax--
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 2169--2171
+Underfull \hbox (badness 2726) in paragraph at lines 2322--2324
  \T1/lmr/m/n/12 (+20) word recog-ni-tion. \T1/lmr/m/it/12 (+20) Jour-nal of Mem
 -ory and Lan-guage\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 50\T1/lmr/m/n/12
  (+20) (1), 1--25.
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 2172--2174
+Underfull \hbox (badness 6608) in paragraph at lines 2325--2327
  []\T1/lmr/m/n/12 (+20) Werker, J. F. (1986). The ef-fect of mul-ti-lin-gual-is
 m on pho-netic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2172--2174
+Underfull \hbox (badness 10000) in paragraph at lines 2325--2327
  \T1/lmr/m/n/12 (+20) per-cep-tual flex-i-bil-ity. \T1/lmr/m/it/12 (+20) Ap-pli
 ed Psy-cholin-guis-tics\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 7\T1/lmr/m/
 n/12 (+20) (2), 141--155.
  []
 
-[107]
-Underfull \hbox (badness 2302) in paragraph at lines 2199--2201
+[119]
+Underfull \hbox (badness 2302) in paragraph at lines 2352--2354
  []\T1/lmr/m/n/12 (+20) Wrembel, M., Gut, U., Kope£ková, R., & Balas, A. (2020)
 . Cross-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 2199--2201
+Underfull \hbox (badness 1163) in paragraph at lines 2352--2354
  \T1/lmr/m/n/12 (+20) Linguistic In-ter-ac-tions in Third Lan-guage Ac-qui-si-t
 ion: Ev-i-dence from
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 2199--2201
+Underfull \hbox (badness 2600) in paragraph at lines 2352--2354
  \T1/lmr/m/n/12 (+20) Multi-Feature Anal-y-sis of Speech Per-cep-tion. \T1/lmr/
 m/it/12 (+20) Lan-guages\T1/lmr/m/n/12 (+20) , \T1/lmr/m/it/12 (+20) 5\T1/lmr/m
 /n/12 (+20) (4), 52.
  []
 
-[108] [109] (./index.aux)
+[120] [121] (./index.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1211,11 +1245,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15518 strings out of 478994
- 234210 string characters out of 5858185
- 607934 words of memory out of 5000000
- 32051 multiletter control sequences out of 15000+600000
- 471861 words of font info for 175 fonts, out of 8000000 for 9000
+ 15627 strings out of 478994
+ 236314 string characters out of 5858185
+ 608030 words of memory out of 5000000
+ 32112 multiletter control sequences out of 15000+600000
+ 471990 words of font info for 176 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,12n,116p,971b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
@@ -1233,10 +1267,10 @@ m/lmri12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/tipa/tipa12.pfb>
-Output written on index.pdf (119 pages, 9192927 bytes).
+Output written on index.pdf (132 pages, 9950638 bytes).
 PDF statistics:
- 1573 PDF objects out of 1728 (max. 8388607)
- 1347 compressed objects within 14 object streams
- 408 named destinations out of 1000 (max. 500000)
- 31400 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1711 PDF objects out of 1728 (max. 8388607)
+ 1459 compressed objects within 15 object streams
+ 448 named destinations out of 1000 (max. 500000)
+ 31462 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,0 +1,60 @@
+\chapter{The perception-production link in the intitial stage of L3 acquisition}
+
+```{r, include = FALSE}
+#source(here::here("scripts", "both", "r", "00_libs.R"))
+#source(here::here("scripts", "both", "r", "01_helpers.R"))
+#source(here::here("scripts", "both", "r", "03_load_data.R"))
+```
+
+# Introduction
+
+Previous theories of L2 acquisition of phonetics and phonology have debated the relationship between production and perception in new language learning. 
+Some theories, such as Motor Theory **cite** and Direct Realist Theory **cite** , predict that perception is a prerequisite for production
+The PAM and PAM-L2 are based on DRT and also thus suggests that the perception of sound contrasts predicts the acquisition of new-language sounds.
+The SLM predicts that non-native sounds that are salient in perception are more easily acquired in production.
+
+The perception production link has yet to be explicitly explored in L3 acquisition. 
+It arguably has meaning not just for L3 phonology, but for models of L3 acquisition which debate whether whole language transfer occurs. 
+
+# Analysis 
+
+The goal of this analysis was to create a situation in which the production and perception data from previous chapters could be compared and subsequently carry out that analysis.
+Specifically, the production data of vowels was transformed such that it matched the perception data and was binary, rather than continuous. 
+The perception data used in the vowel categorization task was chosen and used as it was reported in section 3.2.
+In this task, French and German vowel sounds were categorized using English and Spanish categories.
+Thus, for each vowel token, either a Spanish or English category was chosen.
+The production data of these is continuous in two dimensions (F1 and F2).
+
+A pipeline was devised to convert the continuous production data into binary data, essentially simulated a forced-choice judgment of English-like or Spanish like on all French and German data points.
+For each data point, the euclidian distance was measured to both the spectral centroid of corresponding Spanish phoneme and English phoneme. 
+These distances were used to calculate relative distance in the two dimensional space from a given data point to both centroids using the following equation.
+
+\begin{equation}
+  probability_s = distance_e/distance_e + distance_s 
+\end{equation}
+
+"Distance_e" refers to the euclidian distaince from a point to the English spectral centroid, and "distance_s" is the distance from that same point to the Spanish centroid.
+The equation produces "probability_s", which in this case is the probability of that token being categorized as Spanish-like.
+For example, if the euclidian distance from a datapoint to the English centroid was 2, and the distance from the Spanish centroid was 1, then the probability of choosing a Spanish category 2/2+1 = .66.
+To find the probability of an English category, one can subtract (1 - probability_s).
+
+From here, using the probability derived from the euclidian distance of each datapoint, the `rbinom` generated either a 1 (Spanish selection) or a 0 (English selection).
+The datasets from the vowel categorization and pseudoword repitition task were then combined. 
+
+To analyze the newly formed dataset, two Bayesian logistic regression models were run.
+
+<!--- model_span <- brm(formula = language_chosen ~ phoneme*mode + (1 | prolific_id),  
+             data=comb_df %>% filter(L1 == "Spanish"), 
+             family = bernoulli(link = "logit"))
+
+model_eng <- brm(formula = language_chosen ~ phoneme*mode + (1 | prolific_id),  
+                  data=comb_df %>% filter(L1 == "English"), 
+                  family = bernoulli(link = "logit")) --->
+
+# Results
+
+Figure X shows the Spanish and English centroids 
+
+# Discussion 
+
+# Conclusion
