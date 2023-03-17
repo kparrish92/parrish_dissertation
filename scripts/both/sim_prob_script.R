@@ -32,12 +32,6 @@ centroid_df_eng = full_data_b %>%
   filter(group != "L1 Spanish monolingual") %>% 
   select(group, phoneme, mean_f1_e, mean_f2_e)
 
-centroid_df_both = full_data_b %>%
-  group_by(language, group, phoneme) %>% 
-  summarize(mean_f1_e = mean(f1e),
-            mean_f2_e = mean(f2e)) %>% 
-  filter(language == "English" | language == "Spanish")
-
 centroid_df_span = full_data_b %>%
   group_by(language, group, phoneme) %>% 
   summarize(mean_f1_s = mean(f1e),
@@ -69,10 +63,6 @@ centroid_df_eng %>%
 #                                             "centroid.png"))
 
 
-e_dist = function(x1, x2, y1, y2)
-{
-  d = sqrt((x1 - x2)^2  + (y1 - y2)^2)
-  return(d)}
 
 ## Join centroid df to full data 
 
@@ -81,11 +71,6 @@ e_dist = function(x1, x2, y1, y2)
 
 # join by group, phoneme
 
-calc_prob = function(dist1, dist2)
-{
-  sim_prob = dist1/(dist1 + dist2)
-  return(sim_prob)
-}
 
 full_data_g_f = full_data_b %>% 
   filter(language == "German" | language == "French") %>% 

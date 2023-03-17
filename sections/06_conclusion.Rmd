@@ -1,0 +1,78 @@
+\chapter{Conclusion}
+
+# Introduction
+
+The present work investigated the initial state of L3 perception and production by Spanish-English bilinguals. 
+The primary goal of the experiments used in the present dissertation were to determine how the known languages of a bilingual influence the perception and production of sounds in a new, third, language.
+Specifically, the chapters of the present work examined the production of vowel sounds and stop consonants of French and German by the same bilingual individual.
+Additionally, the discrimination and categorization of vowel sounds were tested. 
+This chapter summarizes the results of the previous chapters and discusses its contribution to the field of third language acquisition.
+Additionally, the implications for models of L2 phonetics and phonology are discussed, followed by recommendations for the future.
+
+# Summary of main findings 
+
+The present dissertation provides evidence that bilinguals have access to both their known languages at near first exposure to a new language. 
+This relative access to the L1 and L2 varies by individual, segment, modality and which third language is being learned. 
+Taken together, the evidence provided by each chapter of the present dissertation suggest that L3 phonology should continue to test new hypotheses in order to progress and uncover what factors might be associated with the large degree of individual variability present in the data.
+
+Chapter 3 examined the categorization and discrimination of vowel sounds in a third language.
+The analysis revealed that bilingual speakers categorize new language sounds using categories from both their first and second languages, but that discrimination of English sounds in L3 words was poor.
+The categorization found no evidence of a language bias when both Spanish and English contained the same L3 phoneme.
+Additionally, the English-like vowel sounds in the L3 were more often categorized using an English category, but so was the Spanish like vowel sound /o/, indicating an overall bias for English categories in both vowel sounds designed to elicit English and Spanish categories. 
+
+Chapter 4 studied the production of both vowel sounds and stop consonants. 
+For English and Spanish, pseudoword tokens were elicited using a pseudoword reading task.
+For French and German, a pseudoword reptition task was used. 
+The results revealed that most participants were able to effectively imitate vowel tokens, but not stop consonants. 
+Specifically, the vowel /y/, which is present in French and German but not Spanish or English, was effectively imitated by bilinguals and monolinguals alike.
+
+Chapter 5 analyzed perception and production of vowels together to determine whether there were differences in the relative influence of the bilingual's known languages on a new language between the two modalities.
+Using a formula, the continuous production data was probabilistically converted to binary data.  
+The results showed that the English bias present for some segments in perception did not transfer to production, where the probability of a more English-like or a more Spanish-like production was close to chance.
+
+# Implications for L3 models
+
+The present dissertation provides several contributions to L3 models. First, it provides evidence that bilinguals have access to both languages during the L3 initial state.
+This finding complicates the predictions of full transfer models, such as the L2 Status Factor (L2SF) and the Typological Primacy Model (TPM).
+The L2SF would predict that the L2 of participants would influence the L3 by default, where the TPM would choose the more typologically close source language to influence the L3.
+The L2SF argues that L2 status arises from the cognitive similarity of the L2 and L3 in late learners of languages. 
+The main argument for full transfer in the TPM is cognitive economy. 
+In other words, the TPM suggests that unilingual processing is less cognitively taxing than bilingual processing, and the that the mind subconsciously chooses only one source language when processing L3 input.
+Neither of these views holds up to the perception nor production experiments of the present dissertation.
+In perception, both bilingual groups categorized French and German sounds using both Spanish and English categories. 
+In production, vowels were effectively imitated and stops were typically intermediate of L1 and L2 categories. 
+
+Additionally, the results of the experiments suggest that the similarity between known languages does play role in cross-language influence at the initial state.
+Primary evidence for this conclusion can be seen in the analysis of VOT production in Chapter 4.
+The German tokens were produced with longer VOT than French tokens, which cannot be accounted for by language status. 
+Additionally, while a typological account of L3 acquisition would predict that the more similar language would impact the L3, it cannot account for intermediate productions, which were observed in both French and German tokens.
+Finally, the disparity between perception and production suggest that the relative cross-linguistic influence of the L1 and the L2 on the L3 vary by these modalities. 
+Full transfer models do not have a clear explanation for this case, while partial transfer models also do not explicitly make predictions for production and perception on new language phonology.
+
+The Linguistic proximity model best explains the results, but did not predict them.
+Overall, these results point to the need for the development of a phonology-specific model of third language acquisition, which must take into account the relationship between perception and production, language typology.
+In addition to these factors, future work should consider what other factors might impact language access during new language learning.
+The current body of literature and the factors examined in the present work do not adequately account for the wide individual variation that was observed.
+
+# Implications for L2 phonetics and phonology
+
+The present data also informs models of L2 phonetics and phonology, primarily by providing evidence that L3 learning is not simply another case of L2 learning.
+
+The PAM could be revised or rephrased to state that *all* known languages, rather than simply the native phonology, impacts subsequent language learning.
+
+The SLM-R is not supported - perception differs from production 
+
+# Future Research
+
+Although the present dissertation produced informative findings, many of them should be interpreted with caution when it comes to L3 acquisition.
+It is important to note that the "L3" learners here were not actually in the process of acquiring a third language.
+Rather, they were bilingual speakers who did not yet speak French or German, and they were recruited to explore what the starting point is for L3 acquisition.
+Based on the present data, the starting point of L3 acquisition is not the same as L2 acquisition. 
+In order to gain a deeper understanding of how source languages influence a third language over time, longitudinal designs should be encouraged.  
+
+Despite its benefits, longitudinal research arguably poses several logistical issues.
+One potential issue is participant attrition over the course of a study, leading to a low sample size and an potentially underpowered research.
+In L3 acquisition, where providing evidence for equivalence can be as important as finding differences, high power becomes important, since the probability of a false negative finding increases as power goes down.
+A possible compromise is to increase repeated measures in studies with few participants to increase the reliability of the estimates obtained between participants. 
+
+# Conclusion

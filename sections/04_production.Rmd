@@ -14,7 +14,7 @@ In particular, it examines how Spanish-English bilinguals in both orders of acqu
 Models of L3 acquisition vary in their prediction regarding how previously known languages influence a third and suggest that typology, language status (L1 or L2) or language activation predict how either language will play a role in L3 development.
 All of these views have received empirical support to some degree, and there is still debate as to why these conflicting findings exist. 
 
-The typological view, for example [see e.g. @rothmanrothman_l3_2011], suggests that overall crosslinguistic similarity will result in whole-language influence. 
+The typological view, for example [see e.g. @rothman_l3_2011], suggests that overall crosslinguistic similarity will result in whole-language influence. 
 For example, a Spanish-English bilingual who learns Portuguese would be predicted to be influenced by their Spanish, given the close historical relationship between Spanish and Portuguese. 
 While this view has been supported in syntax, it has not seen much empirical testing or support in phonology.
 In reality, an increasing number of studies are finding that both languages impact third language phonological development. 
