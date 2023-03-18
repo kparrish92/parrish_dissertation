@@ -1,0 +1,150 @@
+\addvspace {5\p@ }
+\contentsline {chapter}{ABSTRACT}{ii}{chapter*.1}%
+\addvspace {5\p@ }
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{iii}{chapter*.2}%
+\addvspace {5\p@ }
+\contentsline {chapter}{DEDICATION}{iv}{chapter*.3}%
+\addvspace {5\p@ }
+\contentsline {chapter}{TABLE OF CONTENTS}{v}{chapter*.4}%
+\addvspace {5\p@ }
+\contentsline {chapter}{LIST OF TABLES}{viii}{chapter*.5}%
+\addvspace {5\p@ }
+\contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.6}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Chapter \numberline {1:}Introduction}{1}{chapter.1}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {1.2}Cross-lingusitic language features}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Voice-Onset Time}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Vocalic systems}{5}{subsection.1.2.2}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Chapter \numberline {2:}Literature Review}{6}{chapter.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {2.1}Models of third language acquisition}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}The Cumulative Enhancement Model}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The L2 Status Factor Model}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}The Typological Primacy Model}{9}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}The Linguistic Proximity Model}{14}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}The Scalpel Model}{18}{subsection.2.1.5}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {2.2}Models of L2 phonological acquisition}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The Speech Learning Model}{19}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}The revised SLM}{20}{subsubsection.2.2.1.1}%
+\contentsline {subsection}{\numberline {2.2.2}The Perceptual Assimilation Model}{21}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The Second Language Linguistic Perception Model}{22}{subsection.2.2.3}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {2.3}Previous literature in L3 phonology}{24}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}L3 Production Studies}{25}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}L3 Perception studies}{27}{subsection.2.3.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {2.4}Methods and anylsis in previous work}{29}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Bringing L2 speech models and L3 models together and evaluating predictions}{32}{subsection.2.4.1}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Chapter \numberline {3:}The Perception of the new language vowels by Spanish-English bilinguals}{34}{chapter.3}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {3.1}Introduction}{34}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Perception/perceptual assimilation in L2 and L3 speech}{35}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Overview of experiments}{37}{subsection.3.1.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {3.2}Experiment 1 - L3 Perceptual Assimilation Task}{38}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Participants}{38}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Bilinguals}{39}{subsubsection.3.2.1.1}%
+\contentsline {subsection}{\numberline {3.2.2}Materials}{39}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Target phrases/conditions}{39}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Stimuli}{42}{subsubsection.3.2.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Procedure}{45}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Statistical Analysis}{45}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Results of the L3 Perceptual Assimilation Task}{46}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}English speaking group comparison}{46}{subsubsection.3.2.5.1}%
+\contentsline {subsubsection}{\numberline {3.2.5.2}Monolingual Spanish assimilations}{49}{subsubsection.3.2.5.2}%
+\contentsline {subsubsection}{\numberline {3.2.5.3}English L1 group}{50}{subsubsection.3.2.5.3}%
+\contentsline {subsubsection}{\numberline {3.2.5.4}Spanish L1 group}{51}{subsubsection.3.2.5.4}%
+\contentsline {subsubsection}{\numberline {3.2.5.5}Results of the models}{53}{subsubsection.3.2.5.5}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {3.3}Experiment 2 - AX Discrimination Task}{58}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Participants}{58}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Bilinguals}{61}{subsubsection.3.3.1.1}%
+\contentsline {subsection}{\numberline {3.3.2}Materials}{61}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Acoustic continua}{64}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Procedure}{65}{subsubsection.3.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.3}Statistical Analysis}{65}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Results}{66}{subsection.3.3.4}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {3.4}Discussion}{70}{section.3.4}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {3.5}Conclusion}{72}{section.3.5}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Chapter \numberline {4:}The Production of the new language vowels by Spanish-English bilinguals}{73}{chapter.4}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {4.1}Introduction}{73}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}L3 Production Studies}{74}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}The present study}{76}{subsection.4.1.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {4.2}Vowel Production}{77}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Participants}{77}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Materials}{79}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Pseudoword Reading Task}{79}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Word Repitition Task}{79}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Procedure}{80}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Statistical Analysis}{80}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Results}{80}{subsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.5.1}Forced Alignment}{80}{subsubsection.4.2.5.1}%
+\contentsline {subsubsection}{\numberline {4.2.5.2}Analysis of the included data}{84}{subsubsection.4.2.5.2}%
+\contentsline {subsection}{\numberline {4.2.6}Interim Discussion}{93}{subsection.4.2.6}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {4.3}VOT Production}{95}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Subset Procedure}{96}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Results}{96}{subsubsection.4.3.1.1}%
+\contentsline {subsection}{\numberline {4.3.2}Statistical Analysis}{97}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Results}{97}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}L1 English Speakers}{97}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}L1 Spanish Speakers}{102}{subsubsection.4.3.3.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {4.4}Discussion}{102}{section.4.4}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {4.5}Conclusion}{105}{section.4.5}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Chapter \numberline {5:}The perception-production link in the intitial stage of L3 acquisition}{106}{chapter.5}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {5.1}Introduction}{106}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Earlier research in the perception-production link}{106}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Recent reserach in the perception-production link}{108}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}L3 reserach in the perception-production link}{109}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}The Present study}{109}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Participants}{110}{subsection.5.1.5}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {5.2}Analysis}{110}{section.5.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {5.3}Results}{114}{section.5.3}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {5.4}Discussion}{120}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Implications for L3 models}{120}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Implications for the perception-production link}{121}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Limitations and future directions}{121}{subsection.5.4.3}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {5.5}Conclusion}{122}{section.5.5}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Chapter \numberline {6:}Conclusion}{124}{chapter.6}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {6.1}Introduction}{124}{section.6.1}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {6.2}Summary of main findings}{124}{section.6.2}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {6.3}Implications for L3 models}{125}{section.6.3}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {6.4}Implications for L2 phonetics and phonology}{127}{section.6.4}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {6.5}Future Research}{127}{section.6.5}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {6.6}Conclusion}{128}{section.6.6}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Appendix \numberline {A:}Sample Appendix}{130}{appendix.A}%
+\addvspace {0\p@ }
+\contentsline {section}{\numberline {A.1}Bookdown style captions}{130}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Figure captions}{130}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Table captions}{130}{subsection.A.1.2}%
+\addvspace {5\p@ }
+\contentsline {chapter}{Appendix \numberline {B:}Another Appendix}{133}{appendix.B}%
+\addvspace {5\p@ }
+\contentsline {chapter}{REFERENCES}{135}{appendix*.7}%

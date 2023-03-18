@@ -56,11 +56,17 @@ The current body of literature and the factors examined in the present work do n
 
 # Implications for L2 phonetics and phonology
 
-The present data also informs models of L2 phonetics and phonology, primarily by providing evidence that L3 learning is not simply another case of L2 learning.
+Although the primary goal of the present dissertation was to inform L3 acquisition, the results have important implications for models of L2 phonological acquisition as well. 
+Firstly, the results of the vowel categorization task from Chapter 3 suggest that bilinguals use all of their full inventory of phonemes across all languages that they know, rather than treating an additional late learned language as another instance of L2 learning, in which novel sounds are categorized according to the native phonology.
+The PAM and PAM-L2 [@bohn_nonnative_2007], which specifically predict that that L2 sound discrimination is predictable based on the *native* phonology could be revised to include L3 learning.
+That is, it could be noted that subsequent language learning may not be the same in the case of L2 learning and L3/Ln learning, since it appears that more than the native phonology impacts language learning.
 
-The PAM could be revised or rephrased to state that *all* known languages, rather than simply the native phonology, impacts subsequent language learning.
-
-The SLM-R is not supported - perception differs from production 
+In addition to the PAM and PAM-L2, the newly revised Speech Learning Model (SLM-R) can also benefit from the results obtained here.
+In particular, the results of the analysis of perception and production in Chapter 5 suggest that L3 perception and production develop at different rates, at least for some segments. 
+Unlike the original Speech Learning Model, which suggests that perception develops prior to production, the SLM-R predicts that the two systems co-evolve.
+The results of Chapter 5 support the original SLM, but not the SLM-R.
+Additionally, like the PAM and PAM-L2 , the SLM and SLM-R do not make explicit conditions for L3 learning. 
+ 
 
 # Future Research
 
@@ -75,4 +81,16 @@ One potential issue is participant attrition over the course of a study, leading
 In L3 acquisition, where providing evidence for equivalence can be as important as finding differences, high power becomes important, since the probability of a false negative finding increases as power goes down.
 A possible compromise is to increase repeated measures in studies with few participants to increase the reliability of the estimates obtained between participants. 
 
+In addition to practices in individual studies, I argue that L3 theory should move forward by collaborating with other fields.
+Specifically, an integration of current L2 models of phonetics and phonology and existing models of L3 acquisition with sound analysis and research methodology would be an optimal path forward.
+The insights from the L2 models consider how a phonological inventory impacts L2 learning, while L3 models posit that previously learned languages may not always be straightforwardly available.
+These theories combined, together with proper interpretations and us statistical tests can improve the chance that research is cumulative and informative.
+
 # Conclusion
+
+The present dissertation investigated the initial state of L3 acquisition by Spanish-English bilingual speakers.
+The studies carried out in this work regarding the perception and production of both stops and vowels add to our understanding of the starting point of L3 acquisition, which appears to differ from L2 acquisition. 
+The data suggest that perception precedes production in L3 acquisition and that bilinguals begin the process of acquiring a novel language with access to both their previously acquired systems, contrary to some previous research. 
+Additionally, previous language influence appears to vary by individual and segment. 
+Future research should be open to all potential explanations and draw insights from other focuses within linguistics or other closely related fields.
+
