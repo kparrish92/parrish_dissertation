@@ -1,4 +1,4 @@
-\chapter{The Perception of the new language vowels by Spanish-English bilinguals}
+\chapter{Perception of non-native vowels by Spanish-English bilinguals}
 
 ```{r, include = FALSE}
 
@@ -10,7 +10,7 @@ source(here::here("scripts", "perception", "03_load_data.R"))
 # Introduction 
 
 The body of research on phonetic and phonological learning has uncovered a crucial role for the proximity of the native language of a given speaker and the language they are learning.
-For example, the empirical basis for two major models of L2 phonology, the Speech Learning Model, and the Perceptual Assimilation Model, posit key roles for the native phonological structure of a speaker when predicting the ease or difficulty of acquiring specific L2 sounds. 
+For example, the empirical basis for two major models of L2 phonology, the Speech Learning Model and the Perceptual Assimilation Model, posit key roles for the native phonological structure of a speaker when predicting the ease or difficulty of acquiring specific L2 sounds. 
 For example, it has been shown that speakers of languages with a long-short lag VOT distinction in stop consonants have difficulty acquiring native-like VOT values in their L2 if it is a true voicing language.  
 Additionally, it is difficult for speakers to "break up" a category into two smaller categories, such as Spanish speakers who have difficulty acquiring the /i/-/\textsci/ contrast [@flege1997effects]. 
 Both of these difficulties arise, presumably, due to the native language structure of the learner.
