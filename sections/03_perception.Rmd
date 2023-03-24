@@ -11,18 +11,18 @@ source(here::here("scripts", "perception", "03_load_data.R"))
 
 The body of research on phonetic and phonological learning has uncovered a crucial role for the proximity of the native language of a given speaker and the language they are learning.
 For example, the empirical basis for two major models of L2 phonology, the Speech Learning Model and the Perceptual Assimilation Model, posit key roles for the native phonological structure of a speaker when predicting the ease or difficulty of acquiring specific L2 sounds. 
-For example, it has been shown that speakers of languages with a long-short lag VOT distinction in stop consonants have difficulty acquiring native-like VOT values in their L2 if it is a true voicing language.  
-Additionally, it is difficult for speakers to "break up" a category into two smaller categories, such as Spanish speakers who have difficulty acquiring the /i/-/\textsci/ contrast [@flege1997effects]. 
-Both of these difficulties arise, presumably, due to the native language structure of the learner.
+For example, it has been shown that speakers of languages with a long-short lag VOT distinction in stop consonants have difficulty acquiring native-like VOT values in their L2 if it is a true voicing language [@reeder1998english; @nagle2019longitudinal].  
+Additionally, it is difficult for speakers to perceive differences in two distinct L2 categories that would both be good exemplars on a native category, such as Spanish speakers who have difficulty acquiring the /i/-/\textsci/ contrast [@flege1997effects]. 
+Both of these difficulties arise, presumably, due to the native phonology of the learner.
 
-These models do not address whether this native phonological structure has a special status relative to later acquired phonemes.
-Specifically, it is not clear whether both the native and L2 phonological systems may both be possible sources of influence during new language learning. 
-The present chapter tests whether this is the case by carrying out two experiments. 
-In the first experiment, German and French vowels are categorized given both English and Spanish categories. 
-The vowel categorization task is designed to determine whether bilingual speakers will account for new language sounds using both English and Spanish. 
-In experiment 2, the discrimination of English vowel contrasts in L3 words are tested.
+These models do not address whether, in addition to one's native phonological structure, additional (L2) categories can also impact the subsequent learning of sounds.
+In other words, it is not clear whether both the native and L2 phonological systems may both be possible sources of influence during new language learning. 
+The present chapter tested whether both the L1 and L2 of a speaker are used in the very initial stage of learning a new, third language. 
+In the first experiment, German and French vowels were categorized given both English and Spanish categories. 
+The vowel categorization task was designed to determine whether bilingual speakers would categorize new language sounds using both English and Spanish, or whether would be biased to one language or the other. 
+In experiment 2, the discrimination of English vowel contrasts in L3 words were tested.
 This experiment avoids categorization and measures discrimination of sounds with the aim of showing whether phonetic discrimination is possible in a new language when the sound contrast exists in either the L1 or the L2.
-If speakers of categorize and discriminate new language sounds using both Spanish and English phonology, this would suggest that it is not simply native language phonology which predicts new language learning, but that all previously known languages may play a role in the learning of a new language sound system.
+If speakers categorized and discriminated new language sounds using both Spanish and English phonology, this would suggest that it is not simply native language phonology that predicts new language learning, but that all previously known languages may play a role in the learning of a new language sound system.
 
 ## Perception/perceptual assimilation in L2 and L3 speech 
 
@@ -52,15 +52,14 @@ These studies provide evidence that speakers may draw upon more than simply thei
 However, since the Wrembel et al. (2019) and Onishi (2016) both examined the perceptual assimilation of L3 sounds to L1 and L2 sounds, it is more difficult to disentangle whether their assimilation choices might be a result of L3 acquisition or previous language influence.
 For example, the target like contrast performance by the L3 Japanese speakers, while correlated to L2 performance contrast, does not provide evidence that these speakers began their development with an advantage due to their L2 knowledge. 
 
-The present chapter adds to the scarce work done in L3 perception in at least two meaningful ways. 
-First, naive bilingual speakers were recruited, rather than actual multilingual speakers.
+The present chapter adds to the scarce work done in L3 perception by recruiting naive bilingual speakers were recruited, rather than actual multilingual speakers.
 This approach offers valuable information about the absolute starting point in L3 phonological acquisition, while controlling for (in the L3) the wide variation that one would expect in variables that have been shown to impact language learning outcomes, such as language proficiency, use, and learning context. 
 That is, if these speakers assimilate new language sounds to both their L1 and L2 it would provide evidence that multilinguals not only seem to have access to their L1 and L2 later in development, but that they also begin with this access.
 This distinction is important in the context of L3 models, which debate whether speakers maintain access to both their known languages throughout development. 
 
 ## Overview of experiments
 
-The goal of the experiments is to examine how participants categorize and discriminate vowel sounds in a new language.
+The goal of the experiments was to examine how participants categorized and discriminated vowel sounds in a new language.
 For this reason, two experiments were created.
 The first experiment, designed to measure categorization, was a vowel categorization task.
 During the vowel categorization task, participants heard a single new-language vowel sound and their task was to match the played sound to the most similar vowel sound.
