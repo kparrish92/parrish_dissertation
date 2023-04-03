@@ -121,12 +121,12 @@ The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /p
 Thus, each participant categorized 40 tokens per language (five repetitions x two frames x four vowel conditions), given seven carrier words from which they chose.
 The seven word choices included three English carrier word choices intended to represent the phonemes /i/, schwa/wedge, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
 The remaining 3 choices were Spanish carrier words intended to represent the phonemes /i/, /u/ and /o/ (*fin*, *su*, *son*).
-The screen that the participants saw \@ref(fig:vct) shows an instance of the selection trail.
+Figure \@ref(fig:vct) shows an example of the trial screen that the participants saw.
 
 The vowel sounds included in both experiments were intended to bring about four distinct cross-linguistic situations. 
 First, the L3 phoneme /i/ was included to create a conflict in which both source languages, Spanish and English, have a similar sound /i/. 
 The phoneme /i/ was given in the Spanish word *fin* and the English word *feel*.
-Next, the L3 phoneme, referred to as either the wedge or (schwa depending upon lexical stress) was given in an attempt to bias the selection of English. 
+Next, a centralized vowel, either wedge or schwa, was included in an attempt to bias the selection of English. 
 This condition was intended to be assimilated to the English choice *fun*.
 Third, the phoneme /o/ was included to bias the same Spanish category, where a rounded /o/ does not exist in American English. 
 The intended choice in this case was the Spanish word *son*, but the English word *thought* was also provided as an alternative. 

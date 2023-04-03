@@ -41,7 +41,7 @@
 \contentsline {section}{\numberline {2.4}Methods and anylsis in previous work}{29}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Bringing L2 speech models and L3 models together and evaluating predictions}{32}{subsection.2.4.1}%
 \addvspace {5\p@ }
-\contentsline {chapter}{Chapter \numberline {3:}The Perception of the new language vowels by Spanish-English bilinguals}{34}{chapter.3}%
+\contentsline {chapter}{Chapter \numberline {3:}Perception of non-native vowels by Spanish-English bilinguals}{34}{chapter.3}%
 \addvspace {0\p@ }
 \contentsline {section}{\numberline {3.1}Introduction}{34}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Perception/perceptual assimilation in L2 and L3 speech}{35}{subsection.3.1.1}%
