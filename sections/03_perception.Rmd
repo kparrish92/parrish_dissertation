@@ -52,9 +52,8 @@ These studies provide evidence that speakers may draw upon more than simply thei
 However, since the @@wrembel_extending_2019 and @onishi_effects_2016 both examined the perceptual assimilation of L3 sounds to L1 and L2 sounds, it is more difficult to disentangle whether their assimilation choices might be a result of L3 acquisition or previous language influence.
 For example, the target like contrast performance by the L3 Japanese speakers, while correlated to L2 performance contrast, does not provide evidence that these speakers began their development with an advantage due to their L2 knowledge. 
 
-The present chapter adds to the scarce work done in L3 perception by recruiting naive bilingual speakers were recruited, rather than actual multilingual speakers.
-This approach offers valuable information about the absolute starting point in L3 phonological acquisition, while controlling for (in the L3) the wide variation that one would expect in variables that have been shown to impact language learning outcomes, such as language proficiency, use, and learning context. 
-That is, if these speakers assimilate new language sounds to both their L1 and L2 it would provide evidence that multilinguals not only seem to have access to their L1 and L2 later in development, but that they also begin with this access.
+The present chapter adds to the scarce work done in L3 perception by recruiting naive bilingual speakers, rather than actual multilingual speakers.
+This approach offers valuable information about the absolute starting point in L3 phonological acquisition by investigating whether novel language sounds are assimilated to both L1 and L2 categories when learning begins, rather than later in development.
 This distinction is important in the context of L3 models, which debate whether speakers maintain access to both their known languages throughout development. 
 
 ## Overview of experiments
