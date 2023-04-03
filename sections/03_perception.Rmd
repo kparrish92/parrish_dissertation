@@ -19,7 +19,7 @@ These models do not address whether, in addition to one's native phonological st
 In other words, it is not clear whether both the native and L2 phonological systems may both be possible sources of influence during new language learning. 
 The present chapter tested whether both the L1 and L2 of a speaker are used in the very initial stage of learning a new, third language. 
 In the first experiment, German and French vowels were categorized given both English and Spanish categories. 
-The vowel categorization task was designed to determine whether bilingual speakers would categorize new language sounds using both English and Spanish, or whether would be biased to one language or the other. 
+The perceptual assimilation task was designed to determine whether bilingual speakers would categorize new language sounds using both English and Spanish, or whether would be biased to one language or the other. 
 In experiment 2, the discrimination of English vowel contrasts in L3 words were tested.
 This experiment avoids categorization and measures discrimination of sounds with the aim of showing whether phonetic discrimination is possible in a new language when the sound contrast exists in either the L1 or the L2.
 If speakers categorized and discriminated new language sounds using both Spanish and English phonology, this would suggest that it is not simply native language phonology that predicts new language learning, but that all previously known languages may play a role in the learning of a new language sound system.
@@ -60,15 +60,15 @@ This distinction is important in the context of L3 models, which debate whether 
 
 The goal of the experiments was to examine how participants categorized and discriminated vowel sounds in a new language.
 For this reason, two experiments were created.
-The first experiment, designed to measure categorization, was a vowel categorization task.
-During the vowel categorization task, participants heard a single new-language vowel sound and their task was to match the played sound to the most similar vowel sound.
+The first experiment, designed to measure categorization, was a perceptual assimilation task.
+During the perceptual assimilation task, participants heard a single new-language vowel sound and their task was to match the played sound to the most similar vowel sound.
 The methodology resembles studies carried out in L2 phonology to test the predictions of the PAM-L2.
 Differently from the L2 studies, the present study included both L1 and L2 categories and tested bilinguals rather than functional monolinguals. 
 
 The second experiment was an AX discrimination task.
 It examined how all groups discriminated English vowel contrasts when they are in new language words.
-Specifically, several seven step vowel quality continuum ranging from /i/ to /\textsci/ and /a/ to  /\ae/–/\textscripta/ was created.
-During a trial, participants heard two steps on the continuum back to back and had to determine whether the sounds they heard were the same or different.
+Specifically, several seven-step vowel quality continua ranging from /i/ to /\textsci/ and /a/ to  /\ae/–/\textscripta/ was created.
+During a trial, participants heard two tokens drawn from the continuum back-to-back and had to determine whether the sounds they heard were the same or different.
 This task allowed for the examination of perception in a purely phonetic, rather than phonemic, context, since categorization was not explicitly involved in this task.
 
 # Experiment 1 - L3 Perceptual Assimilation Task 
@@ -80,8 +80,9 @@ Each participant completed a background questionnaire and a perceptual assimilat
 
 ## Participants 
 
-A total of `r nrow(eng_blp) + nrow(span_blp) + length(unique(pct_eng_mono$participant)) + length(unique(pct_span_mono$participant))` participants took part in the present study, after the removal of the data of 10 total participants who self-reported being bilingual yet not feeling comfortable speaking or understanding their second language.
-The present sample includes L1 Mexican Spanish - L2 English speakers (n = `r nrow(span_blp)`) and L1 English - L2 Spanish speakers (n = `r nrow(eng_blp)`).
+A total of `r nrow(eng_blp) + nrow(span_blp) + length(unique(pct_eng_mono$participant)) + length(unique(pct_span_mono$participant))` participants took part in the present study.
+The data of 10 total participants were removed who self-reported being bilingual yet not feeling comfortable speaking or understanding their second language.
+The present sample includes L1 Mexican Spanish - L2 English speakers (n = `r nrow(span_blp)`) and L1 American English - L2 Spanish speakers (n = `r nrow(eng_blp)`).
 The monolingual participants included `r length(unique(pct_span_mono$participant))` Mexican Spanish monolinguals and `r length(unique(pct_eng_mono$participant))` American English speakers.
 All participants were recruited on prolific and were pre-screened according to criteria detailed below.
 In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile [@birdsong_bilingual_2012].
@@ -92,7 +93,7 @@ All participants who answered 'no' to the question "Do you speak a language othe
 Screening data and experiment-initial questionnaires were used to find bilingual participants who began learning their L2 later in life and reported not having learned a language aside from English and Spanish.
 The English L1 group came from all over the 
 United States while Spanish L1 group came from Mexico.
-Each groups mean age, L2 use, self-reported oral and perceptive  proficiency are seen in Figure \@ref(fig:aoa).
+Each groups' mean age, L2 use, self-reported oral and perceptive  proficiency are seen in Figure \@ref(fig:aoa).
 As can be seen from the figures, the English L1-Spanish L2 group began L2 learning later on average, while they also felt comfortable in their L2 at a later age than the Spanish L1-English L2 group. 
 The participants also rated their L2 proficiency. 
 They were given a 0-6 Likert-type scale in which they answered the questions "How well do you speak [their L2]?" and "How well do you understand [their L2]?".
@@ -114,11 +115,11 @@ knitr::include_graphics(here::here("sections", "figs", "proficiency_combined.png
 
 ### Target phrases/conditions 
 
-The participants heard and categorized a total of 4 vowel conditions per language given 7 total carrier words to choose from. 
-The 4 vowel conditions included the /i/, /y/, /o/, and /\textturnv/.
-The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /pVf/ frames and played a total of 5 times each. 
-Thus, each participant categorized 40 tokens per language (5 repetitions x 2 frames x 4 vowel conditions), given 7 carrier words from which they chose.
-The 7 word choices included 3 English carrier word choices intended to represent the phonemes /i/, schwa/wedge, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
+The participants heard and categorized a total of 4 vowel conditions per language given seven total carrier words to choose from. 
+The four vowel conditions included the /i/, /y/, /o/, and /\textturnv/.
+The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /pVf/ frames and played a total of fice times each. 
+Thus, each participant categorized 40 tokens per language (five repetitions x two frames x four vowel conditions), given seven carrier words from which they chose.
+The seven word choices included three English carrier word choices intended to represent the phonemes /i/, schwa/wedge, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
 The remaining 3 choices were Spanish carrier words intended to represent the phonemes /i/, /u/ and /o/ (*fin*, *su*, *son*).
 The screen that the participants saw \@ref(fig:vct) shows an instance of the selection trail.
 
@@ -134,7 +135,7 @@ Given that /y/ is a high-front vowel, it is possible that it could be assimilate
 Additionally, after making each selection, the participants then rated their pick for goodness of fit by clicking a 1-5 continuous Likert scale (\@ref(fig:likert).
 
 
-```{r, 'vct', echo=FALSE, fig.cap="Example screen of the vowel categorization task"}
+```{r, 'vct', echo=FALSE, fig.cap="Example screen of the perceptual assimilation task"}
 knitr::include_graphics(here::here("sections", "figs", "vct.png"))
 
 ```
@@ -150,7 +151,7 @@ The stimuli were recorded by adult, female L1 speakers of French and German resp
 The speakers were given each vowel in a word or non-word in both a fricative and bilabial frame. 
 In the event a non-word was provided, a real word containing that vowel sound was included to aid the informant in producing the intended pronunciation of the vowel. 
 Once the stimuli were recorded, one of the two tokens provided by the speaker for each vowel was selected and re-synthesized adding the appropriate onset and coda. 
-In total, 8 stimuli were created per language. 
+In total, eight stimuli were created per language. 
 Figure \@ref(fig:stim) shows the formant values of the included stimuli in German and French in comparison to similar sounds in English and Spanish. 
 For the purpose of this Figure, an adult female speaker of Madrid Spanish and an adult female American English speaker provided vowel tokens of the answer choices in the present study by producing the carrier words while being recorded in PRAAT (*son*, *su* and *fin* in Spanish and *fought*, *feel*, *fool*, and *fun* in English).
 
@@ -186,7 +187,7 @@ Puff, Fuff & French & /\textturnv/  \\
 First, all participants first completed the adapted Bilingual Language Profile [@birdsong_bilingual_2012] online.
 An English and Spanish version of the questionnaire was adapted and given to the participants based on their L1. 
 All participants who answered "no" to the question "Besides English and Spanish, do you speak a third language?" were invited to take part in the experimental task.
-The vowel categorization task was given to participants online. An English and Spanish version of this task was also created, in which all instructions were given in either English or Spanish. 
+The perceptual assimilation task was given to participants online. An English and Spanish version of this task was also created, in which all instructions were given in either English or Spanish. 
 During the task, all participants heard French first, followed by a brief pause, and then heard German sounds.
 The order of the stimuli was counterbalanced and the two tasks were given in a single session with a brief pause between them. 
 The experiments were programmed in Psychopy 
@@ -199,7 +200,7 @@ The models were fit using the R package `brms`
 [@burkner2017brms].
 A model was run for each of 4 groups: L1 Spanish, L1 English, monolingual English and monolingual Spanish.
 In each model, the outcome variable was word choice. 
-In the bilingual groups, this consisted of 7 total options (3 Spanish words: *fin*, *su*, *son* and 4 English words: *fun*, *fought*, *feel*, and *fool*.)
+In the bilingual groups, this consisted of sevel total options (three Spanish words: *fin*, *su*, *son* and four English words: *fun*, *fought*, *feel*, and *fool*.)
 Thus, outcome of the bilingual models estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
 The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/), stimulus language (French or German). 
 Random effects included a random intercept for participant to take into account the nested structure of the data. 
@@ -207,10 +208,10 @@ Random effects included a random intercept for participant to take into account 
 The monolingual models modeled word choice as a function of phoneme and stimulus language, again with a random intercept for participant. 
 In this case, language choice was more limited in each group limited, with the Spanish monolingual group only having 3 options: *fin*, *su*, *son*, while the English group had 4 word choices: *fun*, *fought*, *feel*, and *fool*.
 All models included regularizing, weakly informative priors [@gelman_prior_2017], 
-which were normally distributed and centered at 0 with a standard deviation of 8 for all population-level parameters.
+which were normally distributed and centered at 0 with a standard deviation of eight for all population-level parameters.
 The region of practical equivalence (ROPE) was set to 0.18, as the outcome variable was in log-odds (see @kruschke_rejecting_2018). 
 All models were fit with 2000 iterations (1000 warm-up). 
-Markov-chain Monte-Carlo sampling was carried out with 6 chains distributed between 8 processing cores.
+Markov-chain Monte-Carlo sampling was carried out with 6 chains distributed between eight processing cores.
 
 ## Results of the L3 Perceptual Assimilation Task
 
@@ -626,10 +627,10 @@ The purpose of this experiment was to determine whether access to English-like v
 ## Participants 
 
 A total of `r length(unique(all_df_ax$id))` participants took part in experiment 2.
-The data of 8 participants was removed, who, despite self-reporting being bilingual, also answered that they were not yet comfortable speaking their second language during the BLP.
+The data of eight participants was removed, who, despite self-reporting being bilingual, also answered that they were not yet comfortable speaking their second language during the BLP.
 The remaining 142 participants made up three total groups:  L1 Mexican Spanish - L2 English speakers (n = `r nrow(span_blp_ax)`), L1 English - L2 Spanish speakers (n = `r nrow(eng_blp_ax)`) and American English monolinguals `r length(unique(eng_mono_ax$id))`.
 Many of the L1 Spanish speakers returned for the second experiment, while very few L1 English speakers returned.
-In total, 8 L1 English-L2 Spanish participants from experiment 1 completed experiment 2, while 44 L1 Spanish-L2 English participants completed both experiment 2. 
+In total, eight L1 English-L2 Spanish participants from experiment 1 completed experiment 2, while 44 L1 Spanish-L2 English participants completed both experiment 2. 
 Again, All participants were recruited on prolific and were pre-screened according to criteria detailed below.
 In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile [@birdsong_bilingual_2012].
 All participants who answered 'no' to the question "Do you speak a language other than English and Spanish" were permitted to continue the experiment. 
@@ -766,7 +767,7 @@ On the other hand, The Typological Primacy Model [@rothman_typological_2010;
 @rothman_linguistic_2015] suggests that, while bilinguals have access to both their languages at first exposure, this access is lost at some point during what the model refers to as the "initial stages" of L3 acquisition. 
 While the present data does not necessarily provide counter-evidence to the TPM, it provides a starting point for future research by providing a picture of the categorization patterns of L3 phonemes in two languages by Spanish-English bilinguals which could be examined in a longitudinal design. If the TPM is correct, a distinct change in categorization would be expected to reflect a bias for a single language's category. 
 The present study provides a basis of comparison, and evidence that bilinguals do have access to both the L1 and L2 at first exposure. 
-However, in 6 our of 8 cases, global typological similarity (English and German vs. French and Spanish), did not result in any obvious bias in categorization. 
+However, in six our of eight cases, global typological similarity (English and German vs. French and Spanish), did not result in any obvious bias in categorization. 
 
 It is unclear why the Spanish L1 group seemed to be sensitive to which L3 they heard, where the English L1 group was not.
 It is worth noting that there are differences between the groups in self-rated proficiency and age of onset and acquisition; the Spanish L1 group rated themselves as more proficient on average in spoken and perceptual abilities and had an earlier age of onset and acquisition on average. 
