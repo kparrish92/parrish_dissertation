@@ -26,17 +26,17 @@ If speakers categorized and discriminated new language sounds using both Spanish
 
 ## Perception/perceptual assimilation in L2 and L3 speech 
 
-Previous research has found that the ease of learning sounds in a new language depends upon your language background and experience. 
+Previous research has found that the ease of learning sounds in a new language depends upon your language background and experience [@escudero_effect_2014; @escudero_cross-language_2011; @escudero_spanish_2010; @bohn_nonnative_2007]. 
 In particular, it has been found that the phonemic and phonetic qualities of ones native language can predict the ease or difficulty of sound contrast perception in both accented L1 and L2 speech. 
 For example, when they were asked to categorize vowel sounds of  Standard Southern British English (SSBE), speakers of Salento Italian categorized three SSBE vowel sounds as their native /a/ (/\ae/, /\textscripta/ and /\textturnv/), and also did not discriminate these three sounds efficiently [@escudero_effect_2014].
-This finding suggests that experience with Italian, a 5-vowel system, makes the discrimination of languages with larger vowel inventories more difficult than it would be for a speaker of a language with a similarly large vowel system. 
+This finding suggests that experience with Italian, a five vowel system with a quantity distinction, makes the discrimination of languages with larger vowel inventories more difficult than it would be for a speaker of a language with a similarly large vowel system. 
 Other language pairings also show evidence for this phenomenon, such as Spanish listeners categorized Dutch /a/ and /a:/ as their Spanish /a/ [@escudero_cross-language_2011], and Spanish speakers categorizing Canadian English /\ae/ and /\textepsilon/ to Spanish /a/ [@escudero_cross-language_2011], where speakers of languages with a smaller vowel inventory would categorize more than one vowel sound in another language as one in their native language. 
 In other cases, speakers have matched two novel-language vowels to two of their native categories. 
 @escudero_spanish_2010 found that Spanish speakers assimilated English vowel sounds to their Spanish /a/ and /e/, although they assimilated British /\ae/ to their Spanish /a/ and English /\ae/ to their Spanish /e/, while matching /a/ in both dialects to their Spanish /a/.
 Taken together, these studies suggest that native language categories impact the categorization of sounds in a new language, although they did not explicitly investigate whether second language sounds may have a similar effect. 
 
 Best and Tyler formalized the idea that the ease of the perception of any new language is driven by the phonemic and phonetic differences between the inventories of the speaker's native language and an unknown language. 
-Originally, proposed to account for non-native (foreign accented) speech perception, the Perceptual Assimilation Model (*PAM*; @bohn_nonnative_2007) has also been extended to L2 learning (PAM-L2). 
+Originally proposed to account for non-native (foreign accented) speech perception, the Perceptual Assimilation Model (*PAM*; @bohn_nonnative_2007) has also been extended to L2 learning (PAM-L2). 
 The model predicts that when languages (the one known and the one being learned) are more similar in terms of how sounds contrast, then they will be easier to effectively perceive.
 For instance, in what the PAM calls Two-Category Assimilation, two L1 categories would be hypothetically matched to two L2 categories, and discrimination of that L2 contrast would be predicted to be very good.
 On the other hand, in the event that one L1 category corresponds to two L2 categories, discrimination is predicted to be poor (Single-category Assimilation). 
@@ -49,7 +49,7 @@ Very little research exists testing whether this is the case.
 They found that the speakers assimilated L3 sounds to both their L1 and L2, with a preference for L2 sounds, suggesting that subsequently learned languages might guide subsequent language perception in addition to the native language. 
 @onishi_effects_2016 examined the impact of L2 experience on L3 contrast perception ability in speakers of L1 Korean, L2 English and L3 Japanese and found that better experience with specific L2 contrasts correlated to better perception of those same contrasts in the L3 contrasts, but only in some cases.
 These studies provide evidence that speakers may draw upon more than simply their native language when accounting for new language sounds. 
-However, since the Wrembel et al. (2019) and Onishi (2016) both examined the perceptual assimilation of L3 sounds to L1 and L2 sounds, it is more difficult to disentangle whether their assimilation choices might be a result of L3 acquisition or previous language influence.
+However, since the @@wrembel_extending_2019 and @onishi_effects_2016 both examined the perceptual assimilation of L3 sounds to L1 and L2 sounds, it is more difficult to disentangle whether their assimilation choices might be a result of L3 acquisition or previous language influence.
 For example, the target like contrast performance by the L3 Japanese speakers, while correlated to L2 performance contrast, does not provide evidence that these speakers began their development with an advantage due to their L2 knowledge. 
 
 The present chapter adds to the scarce work done in L3 perception by recruiting naive bilingual speakers were recruited, rather than actual multilingual speakers.
