@@ -7,8 +7,8 @@
 
 
 # load data 
-source(here::here("scripts", "00_libs.R"))
-source(here::here("scripts", "03_load_data.R"))
+source(here::here("scripts", "perception", "00_libs.R"))
+source(here::here("scripts", "perception", "03_load_data.R"))
 
 
 prior = c(prior(normal(0, 8), class = Intercept, dpar = mufin),

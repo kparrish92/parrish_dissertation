@@ -11,7 +11,7 @@ source(here::here("scripts", "00_libs.R"))
 # -----------------------------------------------------------------------------
 
 ### English L1 tidy 
-pct_data_g <- dir_ls(here("data", "raw", "english_pct"),
+pct_data_g <- dir_ls(here("data", "perception", "raw", "english_pct"),
                    regexp = "\\.csv$") %>%
   map_dfr(read_csv, .id = "source", 
           col_types = cols(.default = "c")) %>% 

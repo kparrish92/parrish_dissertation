@@ -147,10 +147,10 @@ knitr::include_graphics(here::here("sections", "figs", "likert.png"))
 
 ### Stimuli 
 
-The stimuli were recorded by adult, female L1 speakers of French and German respectively and was also collected online via Prolific.
+The stimuli were recorded by adult, female L1 speakers of French and German, respectively, and were also collected online via Prolific.
 The speakers were given each vowel in a word or non-word in both a fricative and bilabial frame. 
 In the event a non-word was provided, a real word containing that vowel sound was included to aid the informant in producing the intended pronunciation of the vowel. 
-Once the stimuli were recorded, one of the two tokens provided by the speaker for each vowel was selected and re-synthesized adding the appropriate onset and coda. 
+Once the stimuli were recorded, one of the two tokens provided by the speaker for each vowel was selected and spliced adding the appropriate onset and coda. 
 In total, eight stimuli were created per language. 
 Figure \@ref(fig:stim) shows the formant values of the included stimuli in German and French in comparison to similar sounds in English and Spanish. 
 For the purpose of this Figure, an adult female speaker of Madrid Spanish and an adult female American English speaker provided vowel tokens of the answer choices in the present study by producing the carrier words while being recorded in PRAAT (*son*, *su* and *fin* in Spanish and *fought*, *feel*, *fool*, and *fun* in English).
@@ -195,23 +195,23 @@ The experiments were programmed in Psychopy
 
 ## Statistical Analysis 
 
-The data were analyzed using a series of Bayesian multilevel multinomial logistic regression model in R @[R-base].
+The data were analyzed using a series of Bayesian multilevel multinomial logistic regression models in R @[R-base].
 The models were fit using the R package `brms` 
 [@burkner2017brms].
 A model was run for each of 4 groups: L1 Spanish, L1 English, monolingual English and monolingual Spanish.
 In each model, the outcome variable was word choice. 
 In the bilingual groups, this consisted of sevel total options (three Spanish words: *fin*, *su*, *son* and four English words: *fun*, *fought*, *feel*, and *fool*.)
-Thus, outcome of the bilingual models estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
-The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/), stimulus language (French or German). 
+Thus, the bilingual model estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
+The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/) and stimulus language (French or German). 
 Random effects included a random intercept for participant to take into account the nested structure of the data. 
 
-The monolingual models modeled word choice as a function of phoneme and stimulus language, again with a random intercept for participant. 
-In this case, language choice was more limited in each group limited, with the Spanish monolingual group only having 3 options: *fin*, *su*, *son*, while the English group had 4 word choices: *fun*, *fought*, *feel*, and *fool*.
+The monolingual models analyzed word choice as a function of phoneme and stimulus language, again with a random intercept for participant. 
+In this case, language choice was more limited in each group, with the Spanish monolingual group only having 3 options: *fin*, *su*, *son*, while the English group had 4 word choices: *fun*, *fought*, *feel*, and *fool*.
 All models included regularizing, weakly informative priors [@gelman_prior_2017], 
 which were normally distributed and centered at 0 with a standard deviation of eight for all population-level parameters.
 The region of practical equivalence (ROPE) was set to 0.18, as the outcome variable was in log-odds (see @kruschke_rejecting_2018). 
 All models were fit with 2000 iterations (1000 warm-up). 
-Markov-chain Monte-Carlo sampling was carried out with 6 chains distributed between eight processing cores.
+Markov-chain Monte-Carlo sampling was carried out with six chains distributed between six processing cores.
 
 ## Results of the L3 Perceptual Assimilation Task
 
@@ -267,12 +267,12 @@ knitr::include_graphics(here::here("sections", "figs", "cond_prob_eng.png"))
 
 Tables \ref{tab2}, \ref{tab3}, \ref{tab4} and \ref{tab5} show the most probable responses of each group given a particular phoneme and language in both the bilingual and monolingual groups.
 The 2.5% and 97.5% columns represent the extremes of the 95% Highest Density Interval (HDI), in which 95% of the most probable parameter estimates fell. 
-There were some differences between the monolingual and bilingual groups, which other categorizations were rather consistent. 
-As inspection of Table \ref{tab2} indicates that the phoneme /i/ was categorized similarly as *feel* by monolinguals and bilinguals when they chose an English category, regardless of L3.
+There were some differences between the monolingual and bilingual groups, while other categorizations were rather consistent. 
+As inspection of Table \ref{tab2} indicates, the phoneme /i/ was categorized similarly (as *feel*) by monolinguals and bilinguals when they chose an English category, regardless of L3.
 On the other hand, Table \ref{tab3} shows that responses to /o/ saw some variation between groups. 
-In particular, both *fought* and *fool* were probable responses by the monolingual group in German, while *fun* and *fought* were probable responses in French.  
+In particular, both *fought* and *fool* were probable responses by the monolingual group in German, while *fun* and *fought* were probable responses in French.
 The bilingual group, however, preferred *fool* in German, and *fun* in French. 
-Responses to /\textturnv/ sound also varied. 
+Responses to /\textturnv/ also varied. 
 In German, the monolingual group preferred the choice *fun*, but *fought* was also a probable response.
 In French, the monolingual group preferred *fun*.
 The bilingual group preferred *fun* in both German and French. 
@@ -354,18 +354,21 @@ y & fool & French & bilingual & 0.91 & 0.87 & 0.94 \\
   \end{center}
 \end{table}
 
+In sum, the English bilingual and monolingual groups had distinct preferences for some L3 vowels, but not others. 
+This result suggests, at least, that learning a second language could have an impact one's categorization of third language sounds in the event participants are only given single-language categories, as has been done in previous studies.
+
 ### Monolingual Spanish assimilations 
 
-Unlike the English groups, the Spanish monolingual group and Spanish bilingual group showed evidence of similar categorization patterns overall when the Spanish bilingual group picked a Spanish category to categorize an L3 sound.
-Table \ref{sl1_fr} shows the percentage of choices given a phoneme in the Spanish monolingual group in both French and German. 
-In each of the four cases, the bilinguals and monolingual groups chose the same word the highest percentage of the time. 
+Unlike the English groups, the Spanish monolingual group and Spanish bilingual group had similar categorization patterns overall when the Spanish bilingual group picked a Spanish category to categorize.
+Table \ref{sm_fr} shows the percentage of choices given a phoneme in the Spanish monolingual group in both French and German. 
+For all four phonemes, both groups chose the same word the highest percentage of the time. 
 In particular, given /i/, both groups chose *fin* the most, while both /o/ and the /\textturnv/ were matched to *son*, and /y/ was assimilated to *su* by both groups in both languages. 
 Figure \@ref(fig:condprobsp) visualizes the probabilities generated by the Bayesian Multinomial regression model.
 In all cases, the bilingual and monolingual participants appear to categorize French and German sounds similarly. 
 
 \begin{table}[h]
   \begin{center}
-  \caption{The percentage of categorizations of phonemes in the Spanish monolinguals group.\label{sl1_fr}}
+  \caption{The percentage of categorizations of phonemes in the Spanish monolingual group.\label{sm_fr}}
   \vspace{0.3in}
     \begin{tabular}{cccccc}
       \hline 
