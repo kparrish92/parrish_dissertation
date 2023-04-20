@@ -123,8 +123,6 @@ f1_f2_m = f1f2_df %>%
   separate(match, into = c("Language", "Phoneme"))
 
 
-
-
 f1_f2_m %>% 
   ggplot(aes(x = as.numeric(rmd), y = as.numeric(n)), 
          color = Language, label = Phoneme) + 
@@ -134,12 +132,6 @@ f1_f2_m %>%
 f1_f2_m %>% 
   ggplot(aes(x = as.numeric(rmd), y = as.numeric(n)), 
          color = Language, label = Phoneme) + geom_point()
-
-f1_f2_m %>% 
-  ggplot(aes(x = as.numeric(rmd), y = as.numeric(n)), color = Phoneme, 
-         label = rmd) + 
-  geom_label(size = 2, position = position_dodge(width = -.5)) +
-  facet_wrap(~Formant) + theme_minimal() 
 
 f1_f2_m %>% 
   ggplot(aes(x = as.numeric(rmd), y = n, color = Language, 
@@ -224,3 +216,96 @@ tot_prod = sum(nrow(unique(full_data %>% filter(group == "L1 English bilingual")
 nrow(unique(full_data %>% filter(group == "L1 Spanish bilingual") %>% select(prolific_id))),
 nrow(unique(full_data %>% filter(group == "L1 English monolingual") %>% select(prolific_id))),
 nrow(unique(full_data %>% filter(group == "L1 Spanish monolingual") %>% select(prolific_id))))
+
+
+#### VOT reporting data 
+
+mod_492828 = readRDS(here("models", "production", "mod_e_492828.rds"))
+mod_493072 = readRDS(here("models", "production", "mod_e_493072.rds"))
+mod_500265 = readRDS(here("models", "production", "mod_e_500265.rds"))
+vot_mod = readRDS(here("models", "production", "sp_vot_slope.rds"))
+
+
+table_492828 = conditional_effects(mod_492828)[["language"]] %>% 
+  rename("estimate" = "estimate__") %>% 
+  rename("lower" = "lower__") %>% 
+  rename("upper" = "upper__") %>% 
+  select(language, estimate, lower, upper) %>% 
+  mutate(language = case_when(
+    language == "english" ~ "English",
+    language == "spanish" ~ "Spanish",
+    language == "German" ~ "German",
+    language == "french" ~ "French"
+  ))
+
+table_493072 = conditional_effects(mod_493072)[["language"]] %>% 
+  rename("estimate" = "estimate__") %>% 
+  rename("lower" = "lower__") %>% 
+  rename("upper" = "upper__") %>% 
+  select(language, estimate, lower, upper) %>% 
+  mutate(language = case_when(
+    language == "english" ~ "English",
+    language == "spanish" ~ "Spanish",
+    language == "German" ~ "German",
+    language == "french" ~ "French"
+  ))
+
+table_500265 = conditional_effects(mod_500265)[["language"]] %>% 
+  rename("estimate" = "estimate__") %>% 
+  rename("lower" = "lower__") %>% 
+  rename("upper" = "upper__") %>% 
+  select(language, estimate, lower, upper) %>% 
+  mutate(language = case_when(
+    language == "english" ~ "English",
+    language == "spanish" ~ "Spanish",
+    language == "German" ~ "German",
+    language == "french" ~ "French"
+  ))
+
+table_sp = conditional_effects(vot_mod)[["language"]] %>% 
+  rename("estimate" = "estimate__") %>% 
+  rename("lower" = "lower__") %>% 
+  rename("upper" = "upper__") %>% 
+  select(language, estimate, lower, upper) %>% 
+  mutate(language = case_when(
+    language == "english" ~ "English",
+    language == "spanish" ~ "Spanish",
+    language == "German" ~ "German",
+    language == "french" ~ "French"
+  ))
+
+make_cond_df = function(file)
+{
+  path = conditional_effects(
+    readRDS(here("data", "production", "models", 
+                 paste0(file))))[["language:group"]] %>% 
+    mutate(phoneme = file)
+  return(path)
+}
+
+f1_eng_bil = make_cond_df("i_mod_bil_f1.rds")
+f1_eng_mono = make_cond_df("o_mod_bil_f1.rds")
+f1_span_bil = make_cond_df("schwa_mod_bil_f1.rds")
+f1_span_mono = make_cond_df("u_mod_bil_f1.rds")
+
+f2_eng_bil = make_cond_df("i_mod_bil_f2.rds")
+f2_eng_mono = make_cond_df("o_mod_bil_f2.rds")
+f2_span_bil = make_cond_df("schwa_mod_bil_f2.rds")
+f2_span_mono = make_cond_df("u_mod_bil_f2.rds")
+
+### Use for vowel reporting 
+f1_models = rbind(f1_eng_bil, f1_eng_mono, f1_span_bil, f1_span_mono) %>% 
+  mutate(phoneme = case_when(
+    phoneme == "i_mod_bil_f1.rds" ~ "i",
+    phoneme == "o_mod_bil_f1.rds" ~ "o",
+    phoneme == "schwa_mod_bil_f1.rds" ~ "schwa",
+    phoneme == "u_mod_bil_f1.rds" ~ "u"
+  ))
+
+f2_models = rbind(f2_eng_bil, f2_eng_mono, f2_span_bil, f2_span_mono) %>% 
+  mutate(phoneme = case_when(
+    phoneme == "i_mod_bil_f2.rds" ~ "i",
+    phoneme == "o_mod_bil_f2.rds" ~ "o",
+    phoneme == "schwa_mod_bil_f2.rds" ~ "schwa",
+    phoneme == "u_mod_bil_f2.rds" ~ "u"
+  ))

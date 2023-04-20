@@ -14,9 +14,6 @@ dq_vot_qual = c(493453, 499532, 499567)
 vot_data_t = vot_data %>% 
   filter(!participant %in% dq_vot_qual)
 
-length(unique(vot_data$participant))
-length(unique(vot_data_t_s$participant))
-
 vot_data_t_e = vot_data_t %>% 
   filter(group == "English L1")
 
@@ -54,8 +51,8 @@ vot_data_t_s %>%
 
 
 ## Spanish model 
-mod_vot = brm(vot ~ language + (1 | participant) + (1 | word), 
-    data = vot_data_t_s, file = here("models", "production", "sp_vot.rds"))
+mod_vot = brm(vot ~ language + (language | participant) + (1 | word), 
+    data = vot_data_t_s, file = here("models", "production", "sp_vot_slope.rds"))
 
 ## English models 
 mod_vot_e1 = brm(vot ~ language + (1 | word), 
@@ -63,10 +60,16 @@ mod_vot_e1 = brm(vot ~ language + (1 | word),
                                                "492828"),
               file = here("models", "production", "mod_e_492828.rds"))
 
+mod_492828 = readRDS(here("models", "production", "mod_e_492828.rds"))
+round(fixef(mod_492828), digits = 2)
+
 mod_vot_e2 = brm(vot ~ language + (1 | word), 
                  data = vot_data_t_e %>% filter(participant == 
                                                   "493072"),
                  file = here("models", "production", "mod_e_493072.rds"))
+
+mod_493072 = readRDS(here("models", "production", "mod_e_493072.rds"))
+
 
 mod_vot_e3 = brm(vot ~ language + (1 | word), 
                  data = vot_data_t_e %>% filter(participant == 
@@ -138,4 +141,43 @@ vot_dg %>%
            y = 2,
            label = list(table)) +
   ggsave(here("sections", "figs", "vot_mod.png"))
+
+
+#### ES plots 
+library(bayestestR)
+equivalence_test(mod_vot_e1)
+
+equivalence_test(mod_vot_e2)
+
+equivalence_test(mod_vot_e3)
+
+
+
+part = "492828"
+
+mod = mod_vot_e1
+
+data_grid_m = vot_data_t_e %>% 
+  filter(participant == part) %>%
+  data_grid(language) %>%
+  add_fitted_draws(mod_vot_e1, dpar = TRUE, category = "vot",
+                   re_formula = NA) %>%
+  ungroup() %>%
+  select(language, .value, .draw) %>%
+  pivot_wider(names_from = language, values_from = .value) %>% 
+  mutate(spanish_french = spanish - french) %>% 
+  mutate(english_german = english - German)
+
+
+plot_df_m_long = data_grid_m %>% 
+  select(spanish_french, english_german) %>% 
+  pivot_longer(c(spanish_french, english_german), names_to = "effect", 
+               values_to = "VOT_eff")
+
+plot_df_m_long %>% 
+  ggplot(aes(x = VOT_eff, y = effect, fill = after_stat(x < 0))) + 
+  stat_halfeye() +
+  theme_minimal() 
+
+
 

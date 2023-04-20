@@ -10,75 +10,75 @@ full_data_adj_bil = full_data %>%
 # English bilingual model French
 imod_f1_bil <- 
   brm(formula = f1e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "i"),
-      file = here("data", "production", "models", "i_mod_bil_f1.rds"))
+      file = here("data", "production", "models", "i_mod_bil_f1_slopes.rds"))
 
 
 omod_f1_bil <- 
   brm(formula = f1e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "o"),
-      file = here("data", "production", "models", "o_mod_bil_f1.rds"))
+      file = here("data", "production", "models", "o_mod_bil_f1_slopes.rds"))
 
 
 wedge_mod_f1_bil <- 
   brm(formula = f1e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "schwa"),
-      file = here("data", "production", "models", "schwa_mod_bil_f1.rds"))
+      file = here("data", "production", "models", "schwa_mod_bil_f1_slopes.rds"))
 
 
 u_mod_f1_bil <- 
   brm(formula = f1e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "u"),
-      file = here("data", "production", "models", "u_mod_bil_f1.rds"))
+      file = here("data", "production", "models", "u_mod_bil_f1_slopes.rds"))
 
 #######
 
 imod_f2_bil <- 
   brm(formula = f2e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "i"),
-      file = here("data", "production", "models", "i_mod_bil_f2.rds"))
+      file = here("data", "production", "models", "i_mod_bil_f2_slopes.rds"))
 
 
 omod_f2_bil <- 
   brm(formula = f2e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "o"),
-      file = here("data", "production", "models", "o_mod_bil_f2.rds"))
+      file = here("data", "production", "models", "o_mod_bil_f2_slopes.rds"))
 
 
 wedge_mod_f2_bil <- 
   brm(formula = f2e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "schwa"),
-      file = here("data", "production", "models", "schwa_mod_bil_f2.rds"))
+      file = here("data", "production", "models", "schwa_mod_bil_f2_slopes.rds"))
 
 
 u_mod_f2_bil <- 
   brm(formula = f2e ~ language*group +
-        (1 | participant),
+        (language | participant),
       warmup = 1000, iter = 2000, chains = 4, 
       cores = parallel::detectCores(), 
       data = full_data_adj_bil %>% filter(phoneme == "u"),
-      file = here("data", "production", "models", "u_mod_bil_f2.rds"))
+      file = here("data", "production", "models", "u_mod_bil_f2_slopes.rds"))
 
 
 

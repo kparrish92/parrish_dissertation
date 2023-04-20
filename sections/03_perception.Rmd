@@ -119,14 +119,14 @@ The participants heard and categorized a total of 4 vowel conditions per languag
 The four vowel conditions included the /i/, /y/, /o/, and /\textturnv/.
 The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /pVf/ frames and played a total of fice times each. 
 Thus, each participant categorized 40 tokens per language (five repetitions x two frames x four vowel conditions), given seven carrier words from which they chose.
-The seven word choices included three English carrier word choices intended to represent the phonemes /i/, schwa/wedge, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
+The seven word choices included three English carrier word choices intended to represent the phonemes /i/, /\textturnv/, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
 The remaining 3 choices were Spanish carrier words intended to represent the phonemes /i/, /u/ and /o/ (*fin*, *su*, *son*).
 Figure \@ref(fig:vct) shows an example of the trial screen that the participants saw.
 
 The vowel sounds included in both experiments were intended to bring about four distinct cross-linguistic situations. 
 First, the L3 phoneme /i/ was included to create a conflict in which both source languages, Spanish and English, have a similar sound /i/. 
 The phoneme /i/ was given in the Spanish word *fin* and the English word *feel*.
-Next, a centralized vowel, either wedge or schwa, was included in an attempt to bias the selection of English. 
+Next, a centralized vowel, /\textturnv/, was included in an attempt to bias the selection of English. 
 This condition was intended to be assimilated to the English choice *fun*.
 Third, the phoneme /o/ was included to bias the same Spanish category, where a rounded /o/ does not exist in American English. 
 The intended choice in this case was the Spanish word *son*, but the English word *thought* was also provided as an alternative. 
@@ -473,7 +473,8 @@ knitr::include_graphics(here::here("sections", "figs", "eng_desc_plot.png"))
 
 Figure \@ref(fig:engdesc) shows the categorization data of the English L1 group of each phoneme in both languages. 
 The shaded bars represent the rating for goodness of fit, where a lighter shade represents a higher average rating. 
-Tables \ref{el1_fr} and \ref{el1_ger} show the numerical values of the French and German categorization in the English L1 group respectively, where the choice with the highest percentage per for each phoneme is in bold. 
+Tables \ref{el1_fr} and \ref{el1_ger} show the percentage of each word choice given a particular phoneme in French and German in the English L1 group.
+The choice with the highest percentage per for each phoneme is in bold. 
 In the event that there were two choices that were above 33%, they are both in bold.
 
 \begin{table}[h]
@@ -521,8 +522,8 @@ su & 0.01 & 0.14 & \textbf{0.51} & 0.02 \\
 
 As can be seen in Tables \ref{el1_fr} and \ref{el1_ger}, the English L1 group, given the L3 French phoneme /i/, chose both their English category /i/ provided in the choice *feel* and their Spanish category /i/ provided in fin *fin*.
 German /i/ was categorized similarly. 
-For /o/ and, this group chose *fun* the most often in both cases in French, while the most chosen word in German for /o/ was *fool*. 
-The wedge in both French in German was most often assimilated to the intended category *fun*
+For /o/, this group chose *fun* the most often in both cases in French, while the most chosen word in German for /o/ was *fool*. 
+/\textturnv/ in both French in German was most often assimilated to the intended category *fun*
 Finally, both the L3 French and German phonemes /y/ resulted in choices of *fool* and *su*, the English and Spanish categories for /u/. 
 
 ### Spanish L1 group 
@@ -531,7 +532,7 @@ Figure \@ref(fig:spandesc) shows the percentage that each answer choice was chos
 Table \ref{sl1_fr} and Table \ref{sl1_ger} similarly report the percentage of each answer choice given a particular phoneme in each language in the Spanish L1 group. 
 The Spanish L1 group had a similar preference to the English L1 group in their categorization of /i/, where both English and Spanish categories were chosen. 
 However, the Spanish L1 group chose the English category given a German stimulus more often than the Spanish category.
-In both French and German, when both /o/ and the wedge were played, the most chosen answer was *fought*.
+In both French and German, when both /o/ and /\textturnv/ were played, the most chosen answer was *fought*.
 Finally, given the phoneme /y/, the Spanish L1 group chose they English *fool* most often in German, and the Spanish *su* most often in French. 
 
 
@@ -583,12 +584,11 @@ su & 0.00 & 0.04 & 0.02 & 0.20 \\
 
 ### Results of the models 
 
-The Bayesian multinomial regression models provided an inferential framework which allows for the quantification of uncertainty and avoids the pitfalls of the over-reliance on so-called "statistical significance". 
 The output of each model was converted from log-odds to probability using a combination of the `conditional_effects` and `make_conditions` functions in the R package `brms` [@burkner2017brms].
 Thus, for each phoneme in each language, the sum of the probability of choosing the categories combined is 1. 
 Figure \@ref(fig:imod) shows the probability of each choice in French and German by both groups when /i/ was the phoneme. 
 Figure \@ref(fig:omod), shows the same set of probabilities when /o/ is played.
-Figures \@ref(fig:schwamod) and \@ref(fig:ymod) represent the probabilities of each response when the wedge and /y/ are played respectively.
+Figures \@ref(fig:schwamod) and \@ref(fig:ymod) represent the probabilities of each response when /\textturnv/ and /y/ are played respectively.
 
 ```{r, 'imod', echo=FALSE, fig.cap="Probability of each choice given /i/"}
 knitr::include_graphics(here::here("sections", "figs", "i_full.png"))
@@ -603,11 +603,11 @@ After hearing the stimulus /o/, the English L1 group preferred the choice *fun* 
 /\textturnv/ was categorized as the choice *fun* in both French (`r cond_df_prob$estimate__[72] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[72] %>% round(digits = 2)` - `r cond_df_prob$upper__[72] %>%  round(digits = 2)`] and German (`r cond_df_prob$estimate__[84] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[84] %>% round(digits = 2)` - `r cond_df_prob$upper__[84] %>%  round(digits = 2)`]. The Spanish L1 group preferred *fought* in both languages. (French: `r cond_df_prob$estimate__[31] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[31] %>% round(digits = 2)` - `r cond_df_prob$upper__[31] %>%  round(digits = 2)`]; German: `r cond_df_prob$estimate__[27] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[27] %>% round(digits = 2)` - `r cond_df_prob$upper__[27] %>%  round(digits = 2)`].
 
 The English L1 group assimilated /y/ in both French and German to their English and Spanish /u/ (choices *su* and *fool*), without a clear preference for either.
-Probability of the English L1 group's choice of *su* given the phoneme /y/ and the stimulus language German: `r cond_df_prob$estimate__[103] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[103] %>% round(digits = 2)` - `r cond_df_prob$upper__[103] %>%  round(digits = 2)`].
-Probability of the English L1 group's choice of  *fool* given the phoneme /y/ and the stimulus language German: `r cond_df_prob$estimate__[74] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[74] %>% round(digits = 2)` - `r cond_df_prob$upper__[74] %>%  round(digits = 2)`]
-Probability of the English L1 group's choice of *su* given the phoneme /y/ and the stimulus language French: `r cond_df_prob$estimate__[106] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[106] %>% round(digits = 2)` - `r cond_df_prob$upper__[106] %>%  round(digits = 2)`].
-Probability of the English L1 group's choice of  *fool* given the phoneme /y/ and the stimulus language French: `r cond_df_prob$estimate__[78] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[78] %>% round(digits = 2)` - `r cond_df_prob$upper__[78] %>%  round(digits = 2)`]
-The Spanish L1 group, on the other hand, assimilated French /y/ to the Spanish *su*, and the German /y/ to English *fool*. Probability of the Spanish L1 group's choice of *su* given the phoneme /y/ and the stimulus language French: `r cond_df_prob$estimate__[50] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[50] %>% round(digits = 2)` - `r cond_df_prob$upper__[50] %>%  round(digits = 2)`]. Probability of the Spanish L1 group's choice of *fool* given the phoneme /y/ and the stimulus language German: `r cond_df_prob$estimate__[18] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[18] %>% round(digits = 2)` - `r cond_df_prob$upper__[18] %>%  round(digits = 2)`]
+In particular, the probability of the English L1 group's choice of *su* given the phoneme /y/ and the stimulus language German was `r cond_df_prob$estimate__[103] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[103] %>% round(digits = 2)` - `r cond_df_prob$upper__[103] %>%  round(digits = 2)`], while the probability of choosing *fool* was `r cond_df_prob$estimate__[74] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[74] %>% round(digits = 2)` - `r cond_df_prob$upper__[74] %>%  round(digits = 2)`].
+In French, the probability of choosing *su* given the phoneme /y/ was `r cond_df_prob$estimate__[106] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[106] %>% round(digits = 2)` - `r cond_df_prob$upper__[106] %>%  round(digits = 2)`], and the probability of *fool* was `r cond_df_prob$estimate__[78] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[78] %>% round(digits = 2)` - `r cond_df_prob$upper__[78] %>%  round(digits = 2)`].
+
+The Spanish L1 group, on the other hand, assimilated French /y/ to the Spanish *su*, and the German /y/ to English *fool*. The probability of the Spanish L1 group's choice of *su* given the phoneme /y/ and the stimulus language French was `r cond_df_prob$estimate__[50] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[50] %>% round(digits = 2)` - `r cond_df_prob$upper__[50] %>%  round(digits = 2)`]. 
+The probability of the Spanish L1 group's choice of *fool* given the phoneme /y/ and the stimulus language German was `r cond_df_prob$estimate__[18] %>% round(digits = 2)` [HDI = `r cond_df_prob$lower__[18] %>% round(digits = 2)` - `r cond_df_prob$upper__[18] %>%  round(digits = 2)`].
 
 ```{r, 'omod', echo=FALSE, fig.cap="Probability of each choice given /o/"}
 knitr::include_graphics(here::here("sections", "figs", "o_full.png"))
@@ -624,7 +624,7 @@ knitr::include_graphics(here::here("sections", "figs", "y_full.png"))
 # Experiment 2 - AX Discrimination Task
 
 Experiment two examined the discrimination of two English vowel contrasts using a resynthesized continua.
-In particular, the discrimination of the /i/ to /\textsci/ and /\ae/–/\textscripta/
+In particular, the discrimination of the /i/ to /\textsci/ and /\ae/–/\textscripta/ were investigated.
 The purpose of this experiment was to determine whether access to English-like vowel contrasts in L3 words in groups in which English was their L1 and when English was the L2. 
 
 ## Participants 
@@ -634,7 +634,7 @@ The data of eight participants was removed, who, despite self-reporting being bi
 The remaining 142 participants made up three total groups:  L1 Mexican Spanish - L2 English speakers (n = `r nrow(span_blp_ax)`), L1 English - L2 Spanish speakers (n = `r nrow(eng_blp_ax)`) and American English monolinguals `r length(unique(eng_mono_ax$id))`.
 Many of the L1 Spanish speakers returned for the second experiment, while very few L1 English speakers returned.
 In total, eight L1 English-L2 Spanish participants from experiment 1 completed experiment 2, while 44 L1 Spanish-L2 English participants completed both experiment 2. 
-Again, All participants were recruited on prolific and were pre-screened according to criteria detailed below.
+Again, all participants were recruited on prolific and were pre-screened according to criteria detailed below.
 In addition to filters in place from Prolific.co, the participants were screened further using an adapted version of the Bilingual Language Profile [@birdsong_bilingual_2012].
 All participants who answered 'no' to the question "Do you speak a language other than English and Spanish" were permitted to continue the experiment. 
 
@@ -669,18 +669,19 @@ knitr::include_graphics(here::here("sections", "figs", "proficiency_combined_ax.
 Participants completed two AX discrimination tasks, one in French and one in German. 
 During the task, the participants heard two words or psuedowords played back to back and were asked whether they heard a difference between the two words.
 These words only differed in a single vowel sound.
-This vowel drawn from a seven step continuum for each vowel contrast. 
+This vowel was drawn from a seven step continuum for each vowel contrast. 
 Each task contained 149 total trials and was designed to measure the discrimination of two English vowel contrasts: /i/ to /\textsci/ and /\ae/–/\textscripta/ and was embedded into a French or German carrier word.
 
 Eight total 7-step vowel continua were created for this experiment to measure two vowel contrasts in "French" and "German". 
 It it important to note that, although French and German do not necessarily make use of these English vowel contrasts, this is not important since these speakers do not yet speak either French or German.
 As a result, the use of English-like vowels in what we refer to as "French" or "German", while they may not be authentic, serve the purpose of identifying whether or not these speakers have access to their language-specific discrimination routines in what they believe is a new language, and whether this ability varies as a function of which language they believe that they are hearing.
 In each case, a German or French word-pair was produced by a native English speaker by producing the word on both ends of the continuum
-by producing, for example, the sheep-like vowel or the ship-like vowel in the given word.
+by producing, for example, /i/ or /\textsci/ in the given word.
 Following these productions, the vowel sounds were extracted and a single onset and offset was saved per word.
 Then, using a PRAAT script, the first 3 formants were manipulated to create the continuum, and the vowels were spliced with the saved onsets and offsets, to re-create whole words. 
-The carrier words were can be seen in Table \ref{carrier_ax}. 
-Due to an error, the German carrier word were three /i/ continua and one /a/ continuum. 
+The carrier words can be seen in Table \ref{carrier_ax}. 
+Due to an error, the German carrier word were three /i/ continua and one /a/ continuum.
+This error was caused by an erroneous entry in the conditions file of the psychopy experiment used to collect the ends of the continua and was not discovered until after data collection had taken place.
 However, this does not appear to have impacted the results, since discrimination was very poor for every contrast. 
 
 \begin{table}[h]
@@ -709,31 +710,39 @@ German & bilabial 3 & pisch & non-word \\
 
 During the AX discrimination task, participants heard two sounds from a given continuum back to back. 
 Their task was to choose whether or not the sounds they heard were the same (by pressing 1) or different (by pressing 0).
-Each participant heard a total of 149 tokens per language, which were randomly sampled from the 4 possible continua per language.
+Each participant heard a total of 149 tokens per language, which were randomly sampled from the four possible continua per language.
 German and French were given in individual sessions with a brief break between them. 
+All of the step interval combinations were possible, in which a given step one could also be presented with any other step in the continuum.
 
 ## Statistical Analysis
 
-In order to measure sensitivity, d prime (d') was calculated using formula \Ref{eq:dprime}.
-D prime is a tool used to measure a subject's ability to detect a signal, and is generally accepted as being more robust as a measure of sensitivity than accuracy alone.
+In order to measure sensitivity, d prime (d') [@mcnicol2005primer] was calculated using formula \Ref{eq:dprime}.
+D prime is a tool used to measure a subject's ability to detect a signal, and is generally accepted as being more robust as a measure of sensitivity than accuracy alone [@banks1970signal].
 The formula uses z(H) and z(F), which are the z-transforms of the hit rate and the false alarm rate.
 The hit rate is any case in which a difference between continuum steps is correctly identified.
 The false alarm rate refers to choosing that there was difference when there was none.
 D prime ranges from 0 (chance) to +/- 4.65 (near-perfect discrimination).
-Given the poor outcome of the descriptive results, inferential statistics were not run on the AX discrimination data.
 
 \begin{equation}
 \label{eq:dprime}
 d' = z(H) - z(F)
 \end{equation}
 
+In order to determine whether meaningful differences existed between the groups, a Bayesian multilevel model was run.
+The outcome variable of the model was d' and the fixed effect predictors were group (L1 English or L1 Spanish), language (French or German), and continuum type (labeled "a" or "i") and self-rated proficiency (continuous 1-7).
+A random intercept for participant was included to take into account the nested structure of the data.
+Model priors were the default in `brms`, a student's T distribution with 3 degree of freedom. 
+All models were fit with 4000 iterations (1000 warm-up). 
+Hamiltonian Monte-Carlo sampling was carried out with six chains distributed between eight processing cores.
+
 ## Results
 
-Overall, the discrimination of every sound contrast was very poor.
 Figures \@ref(fig:germ-ax) and \@ref(fig:fren-ax) show d' as a function of language and group.
-These figures suggest that all groups struggled to discriminate the sound contrasts in both languages and across tokens.
-The negative d' value shows that the hit rate was lower than the false alarm rate, as can be seen in Figures \@ref(fig:germ-error-type) and \@ref(fig:fren-error-type) shows the total quantity of each of the four possible outcomes of the a given trial: False alarm, hit, miss, and correct rejection. 
-Overall, the rate of false alarms and misses was much highers than hits and correct rejections. 
+The boxplots suggest that the English groups slightly outperformed the Spanish group.
+\@ref(tab:dprimedesc) reports the mean d' and standard deviation in each group for each token.
+Overall, the discrimination of every sound contrast was above chance for the L1 English group, but only around chance for the L1 Spanish group.
+Figures \@ref(fig:germ-error-type) and \@ref(fig:fren-error-type) shows the total quantity of each of the four possible outcomes of the a given trial: false alarm, hit, miss, and correct rejection. 
+Both figures show that false alarms were slightly more frequent than correct rejections, suggesting that discrimination was close to chance overall. 
 
 ```{r, 'germ-ax', echo=FALSE, fig.cap="D' in German carrier words per group"}
 knitr::include_graphics(here::here("sections", "figs", "ax_german.png"))
@@ -741,6 +750,18 @@ knitr::include_graphics(here::here("sections", "figs", "ax_german.png"))
 
 ```{r, 'fren-ax', echo=FALSE, fig.cap="D' in French carrier words per group"}
 knitr::include_graphics(here::here("sections", "figs", "ax_french.png"))
+```
+
+```{r, dprimedesc, eval=T, echo=F}
+all_df_ax %>% 
+  group_by(the_col_fr, group, language) %>% 
+  summarize(Mean = round(mean(d_prime),digits = 2),
+            SD = round(sd(d_prime), digits = 2)) %>% 
+  rename("Token" = the_col_fr) %>%
+  rename("Group" = group) %>% 
+    knitr::kable(format = "pandoc", align = rep("r", 11), 
+        caption = "Mean D' scores and standard deviations for each group and token",
+        label = "dprimedesc")
 ```
 
 ```{r, 'germ-error-type', echo=FALSE, fig.cap="Quantity of repsonse types per carrier word in German"}
@@ -751,46 +772,66 @@ knitr::include_graphics(here::here("sections", "figs", "error_type_ger.png"))
 knitr::include_graphics(here::here("sections", "figs", "error_type_fr.png"))
 ```
 
+Despite the overall near-chance performance, figure \@ref(fig:post-ax) shows an edge for the L1 English participants.
+Specifically, the model estimated that d' for the English group in French was `r report_ax$mean_p[1]` [95% HDI = `r `report_ax$hdi_lo[1]` - `r report_ax$hdi_hi[1]`] and `r report_ax$mean_p[2]` [95% HDI = `r report_ax$hdi_lo[2]` - `r report_ax$hdi_hi[2]`] in German.
+On the other hand, the Spanish group was less sensitive to the contrasts in both French `r report_ax$mean_p[3]` [95% HDI = `r report_ax$hdi_lo[3]` - `r report_ax$hdi_hi[3]`] and German `r report_ax$mean_p[4]` [95% HDI = `r report_ax$hdi_lo[4]` - `r report_ax$hdi_hi[4]`].
+Table \@ref(tab: ax-tab-mod) shows the full model output.
+
+```{r, 'post-ax', echo=FALSE, fig.cap="D-prime as a function of group and language for the AX discrimination task"}
+knitr::include_graphics(here::here("sections", "figs", "ax-post.png"))
+```
+
+```{r, ax-tab-mod, eval=T, echo=F}
+report_ax_table %>% 
+  select(-X) %>% 
+    knitr::kable(format = "pandoc", align = rep("r", 11), 
+        caption = "Full model of the AX discrimination task",
+        label = "ax-tab-mod")
+```
+
 # Discussion
 
-The present study examined the categorization and discrimination of vowel sounds in two unknown languages by Spanish-English bilinguals in both orders of acquisition. 
-Although, in categorization, there was an overall preference for English, the results suggested that bilinguals do have access to both their L1 and L2 during L3 perception and categorization, a finding which single-language access models, such as the TPM and L2SF cannot account for.
+The present study examined the categorization and discrimination of vowel sounds in German and French languages by Spanish-English bilinguals in both orders of acquisition. 
 In several instances, L3 sounds had a similar probability of being assimilated to English or Spanish sound, such as in 3 out of 4 cases with the phoneme /i/. 
 The results were mixed in terms of whether the L3 that the participants heard impacted their preference for English or Spanish categories. 
 In total, there were three cases in which the L3 did result in the preference for an English or Spanish category out of 16 possible.
 In particular, the Spanish L1 group showed a slight preference for the English /i/ (the choice *feel*) when they heard /i/ in German, but not in French. 
 Additionally, the Spanish L1 group also categorized the phoneme /y/ differently when they heard it in L3 French than when they heard it in L3 German. 
 In particular, the L3 French /y/ was assimilated to Spanish /u/ (*su*) and the L3 German /y/ was assimilated to English /u/ (*fool*). 
+Although, in categorization, there was an overall preference for English, the results suggested that bilinguals do have access to both their L1 and L2 during L3 perception and categorization, a finding which single-language access models, such as the TPM and L2SF cannot account for.
 
 These results are best explained by the Linguistic Proximity Model [@westergaard_crosslinguistic_2017;
 @westergaard_microvariation_2021], which suggests that L3 learners have access to categories in both their L1 and L2 during L3 acquisition. 
+The results of the perceptual assimilation task provided evidence that both groups of bilinguals categorized French and German with both English and Spanish categories.
+Only the LPM can account for this result, since other models predict that only one language influences the L3. 
+In these cases, one would expect to see L3 vowels categorized using a single language, rather than both of them.
 On the other hand, The Typological Primacy Model [@rothman_typological_2010;
 @rothman_l3_2011;
 @baauw_cognitive_2013;
 @rothman_linguistic_2015] suggests that, while bilinguals have access to both their languages at first exposure, this access is lost at some point during what the model refers to as the "initial stages" of L3 acquisition. 
 While the present data does not necessarily provide counter-evidence to the TPM, it provides a starting point for future research by providing a picture of the categorization patterns of L3 phonemes in two languages by Spanish-English bilinguals which could be examined in a longitudinal design. If the TPM is correct, a distinct change in categorization would be expected to reflect a bias for a single language's category. 
 The present study provides a basis of comparison, and evidence that bilinguals do have access to both the L1 and L2 at first exposure. 
-However, in six our of eight cases, global typological similarity (English and German vs. French and Spanish), did not result in any obvious bias in categorization. 
+However, in six out of eight cases, global typological similarity (English and German vs. French and Spanish), did not result in any obvious bias in categorization. 
 
 It is unclear why the Spanish L1 group seemed to be sensitive to which L3 they heard, where the English L1 group was not.
 It is worth noting that there are differences between the groups in self-rated proficiency and age of onset and acquisition; the Spanish L1 group rated themselves as more proficient on average in spoken and perceptual abilities and had an earlier age of onset and acquisition on average. 
-The role of proficiency has been addressed in L3 models, but its precise role in influence is not yet clear. 
-The TPM has stated that the L2 must be sufficiently proficient to be a source of influence. 
-In the TPM studies to date, this has been taken to mean "advanced proficiency".
-Though the present study was not interested in the effect of L2 proficiency on L3 categorizations, it is worth noting that the group differences in proficiency might have impacted the results, although it is difficult to say exactly how. 
-This notion of the impact of L2 proficiency CLI could be further investigated, in which the more traditional categorical grouping of proficiency (e.g., novice, intermediate, advanced) could also be examined in a continuous fashion and corroborated across measures. 
+L3 models have suggested that differences in L2 proficiency impact its level of influence on the L3. 
+For example, the TPM has stated that the L2 must be sufficiently proficient to be a source of influence. 
+In this view, a beginning learner of a second languages is not thought to be able to transfer their L2 representations to their L3 initial state and, in many of the TPM studies to date, this has been taken to mean "advanced proficiency".
+Though the present study was not interested in the effect of L2 proficiency on L3 categorizations, it is worth noting that the group differences in proficiency might have impacted the results, although it is difficult to say exactly how, since the cutoff for "advanced" proficiency is subjective and arbitrary.
+This notion of the impact of L2 proficiency on CLI could be further investigated, in which the more traditional categorical grouping of proficiency (e.g., novice, intermediate, advanced) could also be examined in a continuous fashion and corroborated across measures. 
 In other words, it's unclear for the purpose of the present study, and likely with many proficiency measures, where the TPM's cutoff for "advanced" should be. 
 
-The results for discrimination were inconclusive, since accuracy on all continua were very low.
+In discrimination, the L1 English group outperformed the L1 Spanish group, although discrimination was not excellent by either group. 
 It is possible that the nature of online data collection was associated with this poor performance across groups.
 For instance, it may be that inconsistent speaker quality, varied speaker attention levels and inconsistent use of headphones all contributed to poor performance. 
 Future experiments for AX discrimination should take place in a lab setting in which these variables can be properly controlled.
-It is also possible that the task instructions played a role in the results as well. 
-In particular, the instructions given to participants read "press 1 if you hear a difference between the two *words*". 
-It may be that the use of the term "word" caused the participants to tap into phonological processes, rather than sub-phonemic phonetic details.
-Ideally, the AX discrimination task should avoid phonology (categorization) as much as possible in order to determine whether acoustic variation that does NOT make a word distinction is attended to by the listener.
+Despite these potential limitations, the result that the L1 English speakers outperformed the L1 Spanish speakers can still be inform L3 perception.
+The contrasts in the AX discrimination task were English contrasts and, although both groups speak English (as a first or second language), it appears that native language discrimination may play a role in L3 processing.
+This result is surprising based on the predictions of current L3 models, since none of them posit a privileged status for the native language.
+To the author's knowledge, only the work by @hermas2010language has suggested that a speaker's L1 contrains L3 development, and that this view has not been formally modeled.
 
-The present study also had limitations. 
+The present study had additional limitations. 
 Firstly, as briefly mentioned in reference to the AX discrimination task, online studies offers unique challenges and limitations.
 One potential issue is the lack of the ability to  control the participant's environment outside of the instructions and experiment itself. 
 As a result, language mode effects [@grosjean1998transfer; @casillas_perceptual_2018] cannot be completely ruled out. 
