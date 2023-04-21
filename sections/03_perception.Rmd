@@ -11,7 +11,7 @@ source(here::here("scripts", "perception", "03_load_data.R"))
 
 The body of research on phonetic and phonological learning has uncovered a crucial role for the proximity of the native language of a given speaker and the language they are learning.
 For example, the empirical basis for two major models of L2 phonology, the Speech Learning Model and the Perceptual Assimilation Model, posit key roles for the native phonological structure of a speaker when predicting the ease or difficulty of acquiring specific L2 sounds. 
-For example, it has been shown that speakers of languages with a long-short lag VOT distinction in stop consonants have difficulty acquiring native-like VOT values in their L2 if it is a true voicing language [@reeder1998english; @nagle2019longitudinal].  
+For example, it has been shown that speakers of languages with a long-short lag VOT distinction in stop consonants have difficulty acquiring native-like VOT values in their L2 if it is a true voicing language [@reeder1998english; @nagle2019longitudinal].
 Additionally, it is difficult for speakers to perceive differences in two distinct L2 categories that would both be good exemplars on a native category, such as Spanish speakers who have difficulty acquiring the /i/-/\textsci/ contrast [@flege1997effects]. 
 Both of these difficulties arise, presumably, due to the native phonology of the learner.
 
@@ -200,7 +200,8 @@ The models were fit using the R package `brms`
 [@burkner2017brms].
 A model was run for each of 4 groups: L1 Spanish, L1 English, monolingual English and monolingual Spanish.
 In each model, the outcome variable was word choice. 
-In the bilingual groups, this consisted of sevel total options (three Spanish words: *fin*, *su*, *son* and four English words: *fun*, *fought*, *feel*, and *fool*.)
+In the bilingual groups, this consisted of sevel total options (three Spanish words: *fin*, *su*, *son* and four English words: *fun*, *fought*, *feel*, and *fool*).
+Additionally, self-rated proficiency was included in the model as a fixed effect.
 Thus, the bilingual model estimates the log odds of choosing one of the seven choices, and would sum to 1 when converted to probability. 
 The fixed effect predictors of the bilingual models were phoneme (/i/, /\textturnv/, /y/ and /o/) and stimulus language (French or German). 
 Random effects included a random intercept for participant to take into account the nested structure of the data. 

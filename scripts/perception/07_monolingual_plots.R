@@ -6,12 +6,12 @@
 # -------------------------------------------------------
 # Source libs ------------------------------------------
 
-source(here::here("scripts", "00_libs.R"))
+source(here::here("scripts", "perception", "00_libs.R"))
 source(here::here("scripts", "perception", "03_load_data.R"))
 
 # Load monolingual models 
-span_mono_mod = read_rds(here("data", "models", "ns_span_mono.rds"))
-eng_mono_mod = read_rds(here("data", "models", "ns_eng_mono.rds"))
+span_mono_mod = read_rds(here("data", "perception", "models", "ns_span_mono.rds"))
+eng_mono_mod = read_rds(here("data", "perception", "models", "ns_eng_mono.rds"))
 
 # Load conditional probability df of bilingual 
 pct_tidy_mono %>% 

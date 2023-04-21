@@ -41,8 +41,8 @@ mod_eng_g <-
       prior = prior, 
       warmup = 1000, iter = 2000, chains = 4, 
       family = categorical(link = "logit"), 
-  #    cores = parallel::detectCores(), 
-      control = list(adapt_delta = 0.99, max_treedepth = 15), 
+      cores = parallel::detectCores(), 
+#      control = list(adapt_delta = 0.99, max_treedepth = 15), 
       data = english_l1_pct_g,
       file = here("data", "perception", "models", "ns_eng_g_prof.rds"))
 
@@ -53,8 +53,8 @@ mod_span <-
       prior = prior, 
       warmup = 1000, iter = 2000, chains = 4, 
       family = categorical(link = "logit"), 
-  #    cores = parallel::detectCores(), 
-      control = list(adapt_delta = 0.99, max_treedepth = 15), 
+      cores = parallel::detectCores(), 
+   #   control = list(adapt_delta = 0.99, max_treedepth = 15), 
       data = spanish_l1_pct,
       file = here("data", "perception", "models", "ns_span_prof.rds"))
 
@@ -64,8 +64,8 @@ mod_span_g <-
       prior = prior, 
       warmup = 1000, iter = 2000, chains = 4, 
       family = categorical(link = "logit"), 
- #     cores = parallel::detectCores(), 
-      control = list(adapt_delta = 0.99, max_treedepth = 15), 
+      cores = parallel::detectCores(), 
+ #     control = list(adapt_delta = 0.99, max_treedepth = 15), 
       data = spanish_l1_pct_g,
       file = here("data", "perception", "models", "ns_span_g_prof.rds"))
 

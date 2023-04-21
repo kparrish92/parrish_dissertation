@@ -62,80 +62,80 @@
 \contentsline {subsubsection}{\numberline {3.2.5.4}Spanish L1 group}{51}{subsubsection.3.2.5.4}%
 \contentsline {subsubsection}{\numberline {3.2.5.5}Results of the models}{53}{subsubsection.3.2.5.5}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {3.3}Experiment 2 - AX Discrimination Task}{58}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Participants}{58}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Bilinguals}{61}{subsubsection.3.3.1.1}%
-\contentsline {subsection}{\numberline {3.3.2}Materials}{61}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Acoustic continua}{64}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Procedure}{65}{subsubsection.3.3.2.2}%
-\contentsline {subsection}{\numberline {3.3.3}Statistical Analysis}{65}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Results}{66}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.3}Experiment 2 - AX Discrimination Task}{62}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Participants}{62}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Bilinguals}{62}{subsubsection.3.3.1.1}%
+\contentsline {subsection}{\numberline {3.3.2}Materials}{63}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Acoustic continua}{65}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Procedure}{66}{subsubsection.3.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.3}Statistical Analysis}{66}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Results}{67}{subsection.3.3.4}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {3.4}Discussion}{73}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Discussion}{74}{section.3.4}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {3.5}Conclusion}{76}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Conclusion}{77}{section.3.5}%
 \addvspace {5\p@ }
-\contentsline {chapter}{Chapter \numberline {4:}The Production of the new language vowels by Spanish-English bilinguals}{77}{chapter.4}%
+\contentsline {chapter}{Chapter \numberline {4:}The Production of the new language vowels by Spanish-English bilinguals}{78}{chapter.4}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {4.1}Introduction}{77}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}L3 Production Studies}{78}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}The present study}{80}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.1}Introduction}{78}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}L3 Production Studies}{79}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}The present study}{81}{subsection.4.1.2}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {4.2}Vowel Production}{81}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Participants}{81}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Materials}{81}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Pseudoword Reading Task}{81}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Word Repetition Task}{84}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Procedure}{84}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Statistical Analysis}{84}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Results}{85}{subsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.5.1}Forced Alignment}{85}{subsubsection.4.2.5.1}%
-\contentsline {subsubsection}{\numberline {4.2.5.2}Analysis of the included data}{89}{subsubsection.4.2.5.2}%
-\contentsline {subsection}{\numberline {4.2.6}Interim Discussion}{99}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.2}Vowel Production}{82}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Participants}{82}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Materials}{82}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Pseudoword Reading Task}{82}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Word Repetition Task}{85}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Procedure}{85}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Statistical Analysis}{85}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Results}{86}{subsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.5.1}Forced Alignment}{86}{subsubsection.4.2.5.1}%
+\contentsline {subsubsection}{\numberline {4.2.5.2}Analysis of the included data}{90}{subsubsection.4.2.5.2}%
+\contentsline {subsection}{\numberline {4.2.6}Interim Discussion}{100}{subsection.4.2.6}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {4.3}VOT Production}{101}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Subset Procedure}{102}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Results}{102}{subsubsection.4.3.1.1}%
-\contentsline {subsection}{\numberline {4.3.2}Statistical Analysis}{103}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Results}{103}{subsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.3.1}L1 English Speakers}{103}{subsubsection.4.3.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.3.2}L1 Spanish Speakers}{108}{subsubsection.4.3.3.2}%
+\contentsline {section}{\numberline {4.3}VOT Production}{102}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Subset Procedure}{103}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Results}{103}{subsubsection.4.3.1.1}%
+\contentsline {subsection}{\numberline {4.3.2}Statistical Analysis}{104}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Results}{104}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}L1 English Speakers}{104}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}L1 Spanish Speakers}{109}{subsubsection.4.3.3.2}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {4.4}Discussion}{108}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Discussion}{109}{section.4.4}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {4.5}Conclusion}{113}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Conclusion}{114}{section.4.5}%
 \addvspace {5\p@ }
-\contentsline {chapter}{Chapter \numberline {5:}The perception-production link in the intitial stage of L3 acquisition}{115}{chapter.5}%
+\contentsline {chapter}{Chapter \numberline {5:}The perception-production link in the intitial stage of L3 acquisition}{116}{chapter.5}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {5.1}Introduction}{115}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}The Present study}{118}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Participants}{119}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.1}Introduction}{116}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}The Present study}{119}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Participants}{120}{subsection.5.1.2}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {5.2}Analysis}{119}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Analysis}{120}{section.5.2}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {5.3}Results}{123}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Results}{124}{section.5.3}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {5.4}Discussion}{129}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Implications for L3 models}{129}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Implications for the perception-production link}{130}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Limitations and future directions}{131}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.4}Discussion}{130}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Implications for L3 models}{130}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Implications for the perception-production link}{131}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Limitations and future directions}{132}{subsection.5.4.3}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {5.5}Conclusion}{131}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Conclusion}{132}{section.5.5}%
 \addvspace {5\p@ }
-\contentsline {chapter}{Chapter \numberline {6:}Conclusion}{133}{chapter.6}%
+\contentsline {chapter}{Chapter \numberline {6:}Conclusion}{134}{chapter.6}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {6.1}Introduction}{133}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Introduction}{134}{section.6.1}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {6.2}Summary of main findings}{133}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Summary of main findings}{134}{section.6.2}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {6.3}Implications for L3 models}{135}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Implications for L3 models}{136}{section.6.3}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {6.4}Implications for L2 phonetics and phonology}{137}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Implications for L2 phonetics and phonology}{138}{section.6.4}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {6.5}Future Research}{138}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Future Research}{139}{section.6.5}%
 \addvspace {0\p@ }
-\contentsline {section}{\numberline {6.6}Conclusion}{139}{section.6.6}%
+\contentsline {section}{\numberline {6.6}Conclusion}{140}{section.6.6}%
 \addvspace {5\p@ }
-\contentsline {chapter}{Appendix \numberline {A:}Appendix}{140}{appendix.A}%
+\contentsline {chapter}{Appendix \numberline {A:}Appendix}{141}{appendix.A}%
 \addvspace {5\p@ }
-\contentsline {chapter}{REFERENCES}{141}{appendix*.7}%
+\contentsline {chapter}{REFERENCES}{142}{appendix*.7}%

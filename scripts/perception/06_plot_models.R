@@ -7,10 +7,10 @@
 
 
 # Load 
-mod_span = readRDS(here("data", "perception", "models", "ns_span.rds"))
-mod_span_g = readRDS(here("data", "perception", "models", "ns_span_g.rds"))
-mod_eng = readRDS(here("data", "perception", "models", "ns_eng.rds"))
-mod_eng_g = readRDS(here("data", "perception", "models", "ns_eng_g.rds"))
+mod_span = readRDS(here("data", "perception", "models", "ns_span_prof.rds"))
+mod_span_g = readRDS(here("data", "perception", "models", "ns_span_g_prof.rds"))
+mod_eng = readRDS(here("data", "perception", "models", "ns_eng_g_prof.rds"))
+mod_eng_g = readRDS(here("data", "perception", "models", "ns_eng_g_prof.rds"))
 
 # Tidy
 f = conditional_effects(mod_span, categorical = TRUE) 
@@ -121,46 +121,6 @@ eng_full = rbind(eff_df_e, eff_df_e_g) %>%
   mutate(L1 = "English L1 group")
 
 
-# Plot 
-eff_df %>% 
-  ggplot(aes(y = phoneme, x = estimate__, fill = cats__)) +
-  geom_pointrange(aes(xmin = lower__, xmax = upper__), 
-                  shape = 21, 
-                  position = position_dodge(width = .5)) + 
-  scale_fill_discrete(name = "Choice") +
-  xlim(0,1) +
-  theme(panel.background = element_rect(fill = "white"),
-        panel.grid.major = element_line(
-          size = 0.05, 
-          linetype = 'solid',
-          colour = "blue")) + facet_wrap(~language) +
-  xlab("Probability") + 
-  labs(title = "Probabilty of word choice by phoneme",
-       subtitle = "Spanish L1 group")  + 
-  ggsave(here("data", "plots", "new_sounds", "prob_per_word_spl1.png"),
-         dpi = 1200) 
-
-
-
-eff_df_e %>% 
-  ggplot(aes(y = phoneme, x = estimate__, fill = cats__)) +
-  geom_pointrange(aes(xmin = lower__, xmax = upper__), 
-                  shape = 21, 
-                  position = position_dodge(width = .5)) + 
-  scale_fill_discrete(name = "Choice") +
-  xlim(0,1) +
-  theme(panel.background = element_rect(fill = "white"),
-        panel.grid.major = element_line(
-          size = 0.05, 
-          linetype = 'solid',
-          colour = "blue")) + facet_wrap(~language) +
-  xlab("Probability") + 
-  labs(title = "Probabilty of word choice by phoneme",
-       subtitle = "English L1 group")  + 
-  ggsave(here("data", "plots", "new_sounds", "prob_per_word_enl1.png"),
-         dpi = 1200) 
-
-
 # The palette with grey:
 cbPalette <- c("#999999", "#E69F00", "#56B4E9", 
                "#009E73", "#F0E442", "#0072B2", 
@@ -254,7 +214,7 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) + 
-  ggsave(here("MDPI_template", "figs", "i_full.png"),
+  ggsave(here("sections", "figs", "i_full.png"),
          dpi = 1200)
 
 
@@ -299,7 +259,7 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) + 
-  ggsave(here("MDPI_template", "figs", "o_full.png"),
+  ggsave(here("sections", "figs", "o_full.png"),
          dpi = 1200)
 
 
@@ -343,18 +303,10 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) +
-  ggsave(here("MDPI_template", "figs", "schwa_full.png"),
+  ggsave(here("sections", "figs", "schwa_full.png"),
          dpi = 1200)
 
 
-
-# Load 
-mod_span = readRDS(here("data", "models", "ns_span.rds"))
-mod_span_g = readRDS(here("data", "models", "ns_span_g.rds"))
-mod_eng = readRDS(here("data", "models", "ns_eng.rds"))
-mod_eng_g = readRDS(here("data", "models", "ns_eng_g.rds"))
-
-ex = tab_model(mod_span)
 
 
 
