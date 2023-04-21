@@ -288,7 +288,7 @@ Namely, that these studies have provided evidence that L2 learners experience di
 The authors argue that these results suggest that linguistic experience is at the heart of L2 learning. 
 Specifically, cross-linguistic comparisons of L1 categories and L2 categories are thought to predict the ease of L2 category learning. 
 The L2LP, unlike the PAM and the SLM, also aims to model the entire learning process, rather than the beginning stages of L2 speech learning. 
-This entire learning process is predicted computationally and is based on Stochastic Optimality Theory (Boersma, 1998).
+This entire learning process is predicted computationally and is based on Stochastic Optimality Theory [@boersma2003stochastic].
 
 An important postulate of the L2LP is the optimal perception hypothesis. <!-- tenet of the postulate? --> 
 Essentially, this proposal suggests that the initial perception of L2 sounds is the result of L1 acquisition. 
@@ -301,7 +301,7 @@ In this case, a single L2 phoneme is perceived as two L1 categories.
 The same case is referred to as uncategorized or categorized-uncategorized in the PAM, and both models predict that discrimination of these sounds will be better than the case of new scenarios, but not as good as discrimination of subset scenarios. 
 
 Empirical support has been found for these predictions. 
-In two-category assimilation/similar scenario, @escudero_bridging_2004, native Dutch speakers assimilated the Spanish /i/ to their native Dutch /i/, and the Spanish /e/ to their Dutch /I/. 
+In two-category assimilation/similar scenario, @escudero_bridging_2004, native Dutch speakers assimilated the Spanish /i/ to their native Dutch /i/, and the Spanish /e/ to their Dutch /I/.
 However, the L2LP predicts that the similar (two-category assimilation) scenario may lead to inappropriate lexical contrasts, and argues that pre-lexical and lexical contrasts should be taken into account when it comes to sound discrimination. 
 Evidence for this claim stems from studies which found that L2 learners could not perceive a contrast in lexical items that they could discriminate outside of lexical items [@curtin_phonological_1998]. 
 Other studies show that some lexical items can also be reliably distinguished by L2 learners that could not be told apart pre-lexically [@cutler_asymmetric_2006; @weber_lexical_2004].
@@ -397,7 +397,7 @@ Despite the goal of the study being to examine regressive transfer and to compar
 Additionally, @liu_cross-linguistic_2021 examined perception and production of word-initial voiced and voiceless stops in speakers of L1 Mandarin, L2 English and L3 Russian or Japanese.
 The authors found that voiced stops were effectively perceived, but not reliably produced, where voiceless stops were both successfully perceived and produced. 
 
-# Methods and anylsis in previous work 
+# Methods and analysis in previous work 
 
 The widely varied findings in previous work do not have a clear plausible correlate, but may be related to issues related to sampling issues combined with methodological choices. 
 In this subsection, an overview of sample sizes in previous work will be given, followed by potential issues related to small samples. 

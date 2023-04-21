@@ -477,16 +477,12 @@ knitr::include_graphics(here("sections", "figs", "eng_vot.png"))
 knitr::include_graphics(here("sections", "figs", "e_492828.png"))
 ```
 
-```{r, 'eng-part-two', echo=FALSE, fig.cap= "Credible intervals of all plausible values of VOT as a function of Language for participant 493072"}
-knitr::include_graphics(here("sections", "figs", "e_493072.png"))
-```
-
 ```{r, 'eng-part-three', echo=FALSE, fig.cap= "Credible intervals of all plausible values of VOT as a function of Languagefor participant 500265"}
 knitr::include_graphics(here("sections", "figs", "e_500265.png"))
 ```
 
-```{r, 'eng-part-two', echo=FALSE, fig.cap= "Credible intervals of all plausible values of VOT as a function of Language for participant 492828"}
-knitr::include_graphics(here("sections", "figs", "e_492828.png"))
+```{r, 'eng-part-two', echo=FALSE, fig.cap= "Credible intervals of all plausible values of VOT as a function of Language for participant 493072"}
+knitr::include_graphics(here("sections", "figs", "e_493072.png"))
 ```
 
 Figure \@ref(fig:eng-vot) shows the VOT of each of the 3 included L1 English participants in all 4 languages.
@@ -508,13 +504,13 @@ knitr::include_graphics(here("sections", "figs", "span_vot.png"))
 \@ref(fig:vod-mod) shows the posterior distributions for each language in the L1 Spanish group.
 The range of plausible estimates for both French (`r round(table_sp$estimate[2])` [95% HDI `r round(table_sp$lower[2])` - `r round(table_sp$upper[2])`]) and German (`r round(table_sp$estimate[3])` [95% HDI `r round(table_sp$lower[3])` - `r round(table_sp$upper[3])`]) fell between English (`r round(table_sp$estimate[1])` [95% HDI `r round(table_sp$lower[1])` - `r round(table_sp$upper[1])`]) and Spanish (`r round(table_sp$estimate[4])` [95% HDI `r round(table_sp$lower[4])` - `r round(table_sp$upper[4])`]), with German being closer to English than French.
 
-```{r, 'vod-mod', echo=FALSE, fig.cap="95% credible intervals of all plausible values of VOT as a function of Language"}
+```{r, 'vod-mod', echo=FALSE, fig.cap="Credible intervals of all plausible values of VOT as a function of Language"}
 knitr::include_graphics(here("sections", "figs", "vot_mod.png"))
 ```
 
 # Discussion 
 
-These results replicated previous work [@parrish_production_2022f], which found that L3 French VOT was intermediate of L1 and L2 VOT when those languages are Spanish and English.
+These results replicated previous work [@parrish_production_2022], which found that L3 French VOT was intermediate of L1 and L2 VOT when those languages are Spanish and English.
 Unlike previous research, the present work gave initial exposure learners two "L3s" to repeat, making a within subjects comparison possible.
 The German VOT results (`r round(table_sp$estimate[3])` [95% HDI `r round(table_sp$lower[3])` - `r round(table_sp$upper[3])`]) were higher on average than French, (`r round(table_sp$estimate[2])` [95% HDI `r round(table_sp$lower[2])` - `r round(table_sp$upper[2])`]) but still fell intermediate of L1 (`r round(table_sp$estimate[4])` [95% HDI `r round(table_sp$lower[4])` - `r round(table_sp$upper[4])`]) and L2 (`r round(table_sp$estimate[1])` [95% HDI `r round(table_sp$lower[1])` - `r round(table_sp$upper[1])`]) values in the L1 Spanish group.
 Taken together, the results in VOT suggest that, while both the L1 and L2 influence L3 production at first exposure, the phonetic properties of the L3 that is being learned should also be taken into account.
@@ -545,9 +541,11 @@ In other words, the present data cannot account for whether the relative languag
 One way to examine the development of L3 phonetic representations is longitudinal research.
 For instance, there is evidence that accurate L3 production may vary as a function of segment.
 For example, @wrembel2020cross examined the production of both rhotic and word-final stop consonant devoicing in the L2 and L3 of L1 Polish-L2 English-L3 German children at two test times.
-The results showed that L3 rhotic production accuracy decreased from the first testing session to the second, but that word-final stop consonant devoicing was highly accurate at both sessions.  
+The results showed that L3 rhotic production accuracy decreased from the first testing session to the second, but that word-final stop consonant devoicing was highly accurate at both sessions. 
 As a result, it appears that the acquisition of a given L3 segment can be accurately acquired at a given time point, but this does not confirm that it has permanently been acquired.
-The longitudinal design can establish not only that an L3 segment is produced or perceived accurately, but also that this accuracy is maintained throughout time.
+Further evidence for this time-delayed deterioration of an L3 representation was reported by @kartushina2019third.
+The study examined the impact of study abroad on L3 English vowel quality and found that, though improvement was made by the Spanish-Basque bilingual subjects between the pre-test and post-test, these improvements diminished at a delayed post-test (4 months after study abroad). 
+The results of these studies caution the interpretation of cross-sectional studies, since it appears that even though an L3 segment may be produced or perceived accurately at a given point in time, this ability may fade.
 
 Future longitudinal research also could benefit from using a multiple segments to more fully support that idea that L3 learners are differently impacted by the L1 and L2 depending upon the segment and how this may change during L3 development.
 Past research has reported a difference in L1 or L2 influence on L3 production as a function of test time.

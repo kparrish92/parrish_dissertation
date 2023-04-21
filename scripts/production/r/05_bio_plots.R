@@ -49,6 +49,7 @@ ao = plot_blp %>%
   ggplot(aes(y = l2_ao, fill = L1_group)) + 
   geom_bar(color = "black") + 
   facet_wrap(~L1_group) +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -89,6 +90,7 @@ aoa = plot_blp %>%
   ggplot(aes(y = l2_aoa, fill = L1_group)) + 
   geom_bar(color = "black") +
   facet_wrap(~L1_group) +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -108,6 +110,7 @@ spoken = plot_blp %>%
   geom_bar(color = "black") + 
   xlim(0,7) + facet_wrap(~L1_group) +
   ylab("Count") + xlab("Self-rating") +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -130,6 +133,7 @@ perception = plot_blp %>%
   geom_bar(color = "black") + 
   xlim(0,7) + facet_wrap(~L1_group) +
   ylab("Count") + xlab("Self-rating") +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 

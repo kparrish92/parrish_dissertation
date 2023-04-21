@@ -7,8 +7,8 @@
 
 
 # load data 
-source(here::here("scripts", "00_libs.R"))
-source(here::here("scripts", "03_load_data.R"))
+source(here::here("scripts", "perception", "00_libs.R"))
+source(here::here("scripts", "perception", "03_load_data.R"))
 
 # make summary tables for plots and tables 
 desc_df_eng = english_l1_pct %>% 
@@ -91,6 +91,7 @@ ao = plot_blp %>%
   geom_bar(color = "black") + 
   xlim(0,25) +
   facet_wrap(~L1_group) +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -132,6 +133,7 @@ aoa = plot_blp %>%
   geom_bar(color = "black") + 
   xlim(0,25) +
   facet_wrap(~L1_group) +
+  scale_fill_manual(values = c("seagreen", "tan1")) + 
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -142,7 +144,7 @@ aoa = plot_blp %>%
 
 
 ggarrange(ao, aoa, labels = c('A', 'B')) +
-  ggsave(here("MDPI_template", "figs", "ao_aoa_combined.png"),
+  ggsave(here("sections", "figs", "ao_aoa_combined.png"),
          dpi = 1200)
 
 # Self-rated Production proficiency
@@ -151,6 +153,7 @@ spoken = plot_blp %>%
   geom_bar(color = "black") + 
   xlim(0,7) + facet_wrap(~L1_group) +
   ylab("Count") + xlab("Self-rating") +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -173,6 +176,7 @@ perception = plot_blp %>%
   geom_bar(color = "black") + 
   xlim(0,7) + facet_wrap(~L1_group) +
   ylab("Count") + xlab("Self-rating") +
+  scale_fill_manual(values = c("seagreen", "tan1")) +
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(
           size = 0.05, 
@@ -182,7 +186,7 @@ perception = plot_blp %>%
   ggtitle("Perceptual Ability") 
 
 ggarrange(perception, spoken, labels = c('A', 'B')) +
-  ggsave(here("MDPI_template", "figs", "proficiency_combined.png"),
+  ggsave(here("sections", "figs", "proficiency_combined.png"),
          dpi = 1200)
 
 

@@ -213,7 +213,7 @@ The region of practical equivalence (ROPE) was set to 0.18, as the outcome varia
 All models were fit with 2000 iterations (1000 warm-up). 
 Markov-chain Monte-Carlo sampling was carried out with six chains distributed between six processing cores.
 
-## Results of the L3 Perceptual Assimilation Task
+## Results
 
 ### English speaking group comparison
 
@@ -845,4 +845,5 @@ This chapter presented two experiments that analyzed the categorization and disc
 In particular, this chapter was concerned with how Spanish-English bilinguals categorized French and German vowels given both of their language categories, and whether discrimination of English-like vowels would be successful in the new languages.
 Primarily, the purpose of these experiments was to determine whether bilinguals would show bias toward either their L1 or L2 when they perceive new language vowels based on typology or language status.
 The experiments showed that the categorization of both French and German vowels were matched to the most appropriate English or Spanish category, and there was not evidence of typological or language status effects blocking access to a given language. 
-The results for discrimination were very poor and are considered inconclusive, and likely associated with the experimental setting or design.
+In discrimination, the L1 English speakers better discriminated both English-like vowel contrasts in L3 stimuli than the L1 Spanish speakers.
+

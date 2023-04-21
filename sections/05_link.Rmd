@@ -8,42 +8,29 @@ source(here::here("scripts", "both", "03_load_data.R"))
 
 # Introduction
 
-Historically, it has been debated whether L2 perceptual learning occurs prior to production.
-Previous theories of L2 acquisition of phonetics and phonology have debated the relationship between production and perception in new language learning. 
-Some theories, such as Motor Theory [@liberman1985motor] and Direct Realist Theory [@fowler1986event], predict that perception is a prerequisite for production
-The PAM and PAM-L2 are based [@bohn_nonnative_2007] on DRT and also thus suggests that the perception of sound contrasts predicts the acquisition of new-language sounds.
-In a new revision, The SLM-R [@wayland_revised_2021] now predicts that non-native sounds develop in tandem, rather than perception preceding production.
+Learning to speak a language necessarily entails both effectively perceiving and producing it.
+In first language acquisition, there is evidence that perceptual abilities precede those of production.
+For example, there is evidence that infants are born with the ability to discriminate any of the world's language contrasts [@eimas1971speech], and that language-specific sound discrimination occurs between 6-12 months of age [@kuhl2006infants], while production emerges later, beginning with a babbling stage around 6 months of age [@majorano2014relationship]. In L2 learning, it has also been debated whether perceptual learning occurs prior to production, in which there is less agreement overall.
 
-The perception-production link can also inform L3 acquisition. 
-L3 models differ as to whether full language transfer or property-by-property influence occurs.
-If perception and production develop at different rates, as has been widely reported in the L2 literature, then counter-evidence would be provided for full transfer models. 
-On the other hand, property-by-property models would more readily explain a difference between perception and production.
-
-The present chapter analyzes the perception and production data from Chapters 3 and 4 in tandem with the primary goal of examining whether L1 and L2 influence occurs differently in perception and production. 
-While the primary goal of this analysis was to inform L3 models, these results also have implications for the perception-production link, and studies in L2 phonetic and phonology largely impact the interpretation of the results of the present study.
-
-## Earlier research in the perception-production link
-
-Early research in the perception-production link largely found that perception preceded production in development. 
+Some theories, such as Motor Theory [@liberman1985motor] and Direct Realist Theory [@fowler1986event], predict that perception is a prerequisite for production.
+This finding has received empirical support in several language pairings.
 For example, @flege1993production found that proficient L1 Chinese - L2 English speakers perceived word final differences between /d/ and /t/ better than they were able to produce it.
 In a study examining the perception and production of the English /r/-/l/ contrast, @borden1983production found that perceptual training or higher performance on identification tasks predicted better production of the same contrasts in L1 Korean-L2 English speakers.
 Similar trends were reported in several additional studies, including more recent ones [@flege1997effects; @kissling2014predicts, *inter alia*].
 
 Other research, however, found that production precedes perception or that the two modalities are not related. 
-@goto1971auditory tested Japanese learners of English on their perception and production of English words containing /r/ and /l/ sounds, and found that even participants who achieved relatively high production accuracy still exhibited poor discrimination."
+@goto1971auditory tested Japanese learners of English on their perception and production of English words containing /r/ and /l/ sounds, and found that even participants who achieved relatively high production accuracy still exhibited poor discrimination.
 Also examining /r/-/l/ in L1 Japanese-L2 English, @sheldon1982acquisition, reported similar results to Goto (1971), where the participants were more accurate in production than they were in perception.
 This trend has also been observed in additional language pairings.
 For example, L1 Dutch-L2 English speakers have been found to improve to a higher degree in the production of VOT than their perception [@flege1987production].
 Additionally, 
 @flege1997effects reported better production than perception of /æ/ by L1 German-L2 English speakers.
 
-Finally, it has also been found that the relationship between production and perception is segment-dependent or are autonomously represented altogether.
+It has also been found that the relationship between production and perception is segment-dependent or are autonomously represented altogether.
 For example, @hao2016imitation found that L1 Korean-L2 English speakers were better at perception than production for fricatives, but the opposite trend was observed in stops.
 On the other hand, @hattori2010examination concluded that production and perception are autonomously represented, based on the finding that L1 Japanese L2 English speakers' /r/-/l/ production and perception was weakly correlated across tasks.
 
-## Recent reserach in the perception-production link
-
-Given the history of contradictory results regarding whether the development of production is dependent upon production, more recent research has been conducted with one principle aim to identify rectify issues with previous research that may have contributed to the conflicting results.
+Given the history of contradictory results regarding whether the development of production is dependent upon production, more recent work has aimed to identify and rectify the issues that may have contributed to the conflicting results.
 The trend in recent research seems to be that perception precedes production, although the conflicting results have remained.
 For example, in a study of L1 English speakers of L2 Japanese, @okuno2016perception studied whether perception training would lead to gains in production.
 For one training condition, the authors found that they also improved in production, and argued that this result supported the production-perception link. 
@@ -58,7 +45,15 @@ Additionally, other participants showed evidence of an asymptotic relationship b
 @kim2022relationship analyzed the relationship between perception and production in L1 Korean-L2 English speakers across processing levels (lexical and prelexical) using a myriad of tasks.
 The authors concluded, based on the lack of a clear trend in the data, that perception and production are independent at both the lexical and prelexical level.
 
-## L3 reserach in the perception-production link
+Models of L2 acquisition predict also consider a role for the link between perception and production.
+The PAM and PAM-L2 [@bohn_nonnative_2007], based on DRT, suggest that the perception of sound contrasts predicts the acquisition of new-language sounds.
+The original SLM [@flege1995second] also theorized that accurate perception preceded production also.
+However, in a new revision, The SLM-R [@wayland_revised_2021] now predicts that non-native sounds develop in tandem, rather than perception preceding production.
+
+The perception-production link can also inform L3 acquisition. 
+L3 models differ as to whether full language transfer or property-by-property influence occurs.
+If perception and production develop at different rates, as has been widely reported in the L2 literature, then counter-evidence would be provided for full transfer models. 
+On the other hand, property-by-property models would more readily explain a difference between perception and production, since they suggest that it is possible to partially access a source language as a source of influence.
 
 Only one study examines the perception-production link in L3 acquisition [@wrembel2022relationship].
 The study examined the longitudinal acquisition of rhotic sounds by participants who speak English, German, Polish, with English being their L2, and German and Polish their L1 or L3. 
@@ -68,6 +63,9 @@ Production was measured using a delayed repetition task, where target words were
 The results revealed that, for many participants, L3 perception and production accuracy was low, and a clear link could not be established. 
 
 ## The Present study 
+
+The present chapter analyzes the perception and production data from Chapters 3 and 4 in tandem with the primary goal of examining whether L1 and L2 influence occurs differently in perception and production. 
+While the primary goal of this analysis was to inform L3 models, these results also have implications for the perception-production link, and studies in L2 phonetic and phonology largely impact the interpretation of the results of the present study.
 
 To summarize the literature to date on the perception-production link, there is a trend toward production preceding perception, but this relationship appears to also potentially vary by individual, segment and processing level.
 Additionally, there is very little research on the production-perception link in L3 learners.

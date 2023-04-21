@@ -1,4 +1,4 @@
-\chapter{Sample Appendix\label{apndxA}}
+\chapter{Appendix\label{apndxA}}
 
 ```{r, include = FALSE}
 source(here::here("scripts", "production", "r", "00_libs.R"))

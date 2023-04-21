@@ -79,6 +79,6 @@ mod_ax <-
       data = all_df_ax %>% filter(group != "English monolingual"),
       file = here("data", "perception", "models", "all_df_ax"))
 
-conditional_effects(mod_ax)
+
 
 
