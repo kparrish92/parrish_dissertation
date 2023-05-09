@@ -3,13 +3,13 @@
 \addvspace {5\p@ }
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{iv}{chapter*.2}%
 \addvspace {5\p@ }
-\contentsline {chapter}{DEDICATION}{v}{chapter*.3}%
+\contentsline {chapter}{DEDICATION}{vi}{chapter*.3}%
 \addvspace {5\p@ }
-\contentsline {chapter}{TABLE OF CONTENTS}{vi}{chapter*.4}%
+\contentsline {chapter}{TABLE OF CONTENTS}{vii}{chapter*.4}%
 \addvspace {5\p@ }
-\contentsline {chapter}{LIST OF TABLES}{ix}{chapter*.5}%
+\contentsline {chapter}{LIST OF TABLES}{x}{chapter*.5}%
 \addvspace {5\p@ }
-\contentsline {chapter}{LIST OF FIGURES}{xi}{chapter*.6}%
+\contentsline {chapter}{LIST OF FIGURES}{xii}{chapter*.6}%
 \addvspace {5\p@ }
 \contentsline {chapter}{Chapter \numberline {1:}Introduction}{1}{chapter.1}%
 \addvspace {0\p@ }

@@ -181,3 +181,15 @@ plot_df_m_long %>%
 
 
 
+vot_data_t_s %>% 
+  mutate(language = case_when(
+    language == "english" ~ "English",
+    language == "spanish" ~ "Spanish",
+    language == "German" ~ "German",
+    language == "french" ~ "French"
+  )) %>% 
+  ggplot(aes(x = vot, y = language, fill = language)) + 
+  geom_boxplot(outlier.size = 0) + 
+  theme_minimal() +
+  theme(legend.position = "none") + 
+  facet_wrap(~participant)

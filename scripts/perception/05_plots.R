@@ -227,14 +227,78 @@ comb = rbind(stim_data, stim_data_eng, stim_data_span, stim_data_german)
 comb %>% 
   ggplot(aes(x = f2, y = f1, 
              label = phoneme, color = Language)) + 
-  geom_text() + scale_y_reverse() + scale_x_reverse()  + 
+  geom_text(alpha = .5) + scale_y_reverse() + scale_x_reverse()  + 
   theme(panel.background = element_rect(fill = "white"),
         panel.grid.major = element_line(size = 0.05, 
                                         linetype = 'dashed', colour = "red")) + 
-  ggtitle("Formant values of the stimuli and choices") + 
+  ggtitle("French and German /i/") + 
   theme(legend.position="bottom") +
-  ggsave(here("MDPI_template", "figs", "stimuli.png"),
-         dpi = 1200)
+  annotate("text", x = 1966.73, y = 508, label = "i") +
+  geom_circle(aes(x0 = 1966.73, y0 = 508, r = 60), inherit.aes = FALSE, color = "red") +
+  annotate("text", x = 2533, y = 322, label = "i") +
+  geom_circle(aes(x0 = 2533, y0 = 322, r = 60), inherit.aes = FALSE, color = "blue") +
+  ggsave(here("slides", "img", "i_stim.png"))
+  
+
+comb %>% 
+  ggplot(aes(x = f2, y = f1, 
+             label = phoneme, color = Language)) + 
+  geom_text(alpha = .5) + scale_y_reverse() + scale_x_reverse()  + 
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(size = 0.05, 
+                                        linetype = 'dashed', colour = "red")) + 
+  ggtitle("French and German /o/") + 
+  theme(legend.position="bottom") +
+  annotate("text", x = 1267.28, y = 598.39, label = "o") +
+  geom_circle(aes(x0 = 1267.28, y0 = 598.39, r = 60), inherit.aes = FALSE, color = "blue") +
+  annotate("text", x = 849, y = 417, label = "o") +
+  geom_circle(aes(x0 = 849, y0 = 417, r = 60), inherit.aes = FALSE, color = "red") +
+  ggsave(here("slides", "img", "o_stim.png"))
+
+
+
+comb %>% 
+  ggplot(aes(x = f2, y = f1, 
+             label = phoneme, color = Language)) + 
+  geom_text(alpha = .5) + scale_y_reverse() + scale_x_reverse()  + 
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(size = 0.05, 
+                                        linetype = 'dashed', colour = "red")) + 
+  ggtitle("French and German /^/") + 
+  theme(legend.position="bottom") +
+  annotate("text", x = 1755.68, y = 601.57, label = "^") +
+  geom_circle(aes(x0 = 1755.68, y0 = 601.57, r = 60), inherit.aes = FALSE, color = "blue") +
+  annotate("text", x = 1304, y = 736, label = "^") +
+  geom_circle(aes(x0 = 1304, y0 = 736, r = 60), inherit.aes = FALSE, color = "red") +
+  ggsave(here("slides", "img", "schwa_stim.png"))
+
+
+
+comb %>% 
+  ggplot(aes(x = f2, y = f1, 
+             label = phoneme, color = Language)) + 
+  geom_text(alpha = .5) + scale_y_reverse() + scale_x_reverse()  + 
+  theme(panel.background = element_rect(fill = "white"),
+        panel.grid.major = element_line(size = 0.05, 
+                                        linetype = 'dashed', colour = "red")) + 
+  ggtitle("French and German /y/") + 
+  theme(legend.position="bottom") +
+  annotate("text", x = 1776.17, y = 444.18, label = "y") +
+  geom_circle(aes(x0 = 1776.17, y0 = 444.18, r = 60), inherit.aes = FALSE, color = "blue") +
+  annotate("text", x = 2053, y = 411, label = "y") +
+  geom_circle(aes(x0 = 2053, y0 = 411, r = 60), inherit.aes = FALSE, color = "red") +
+  ggsave(here("slides", "img", "y_stim.png"))
+
+
+stim_data = data.frame(phoneme = c("i", "o", "^", "y"),
+                       f1 = c(508, 598.39, 601.57, 444.18), 
+                       f2 = c(1966.73, 1267.28, 1755.68, 1776.17), 
+                       Language = "French Stimulus")
+
+stim_data_german = data.frame(phoneme = c("o", "i", "y", "^"),
+                              f1 = c(417, 322, 411, 736), 
+                              f2 = c(849, 2533, 2053, 1304), 
+                              Language = "German choices")
 
 
 
@@ -267,6 +331,25 @@ span_desc_plot = rbind(desc_df_span, desc_df_span_g)  %>%
   theme(legend.position = "bottom") +
   ggsave(here("MDPI_template", "figs", "span_desc_plot.png"),
          dpi = 1200)
+
+desc_df_all = rbind(desc_df_eng, desc_df_span)
+
+desc_df_all %>% 
+  filter(phoneme == "o") %>% 
+  ggplot(aes(x = choice, y = percentage, 
+             fill = mean_rating)) +  
+  geom_col(color = "black") +
+  scale_x_discrete(limits=c("fin", "su", "son",
+                            "fool", "fought", "fun",
+                            "feel")) + 
+  theme(panel.background = element_rect(fill = "white"),
+        legend.position = "bottom") +
+  facet_wrap(~L1) +  
+  ylim(0,1) +
+  geom_hline(yintercept = 1/7, linetype = "dashed") +
+  ggtitle("Categorizations of /o/") + 
+  ggsave(here("data", "plots", "new_sounds", "desc_o.png"),
+         dpi = 1200) 
 
 ## Descriptive tables of spanish 
 

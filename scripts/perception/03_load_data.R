@@ -41,6 +41,7 @@ pct_eng_mono = pct_tidy_mono %>%
 pct_span_mono = pct_tidy_mono %>% 
   filter(L1 == "Spanish_mono")
 
+count_df = read.csv(here("data", "perception", "tidy", "count.csv"))
 
 
 english_l1_pct = pct_tidy %>% 

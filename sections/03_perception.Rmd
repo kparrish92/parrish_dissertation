@@ -117,7 +117,7 @@ knitr::include_graphics(here::here("sections", "figs", "proficiency_combined.png
 
 The participants heard and categorized a total of 4 vowel conditions per language given seven total carrier words to choose from. 
 The four vowel conditions included the /i/, /y/, /o/, and /\textturnv/.
-The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /pVf/ frames and played a total of fice times each. 
+The four sounds were embedded in both a fricative /fVf/ and bilabial /pVp/ or /pVf/ frames and played a total of five times each. 
 Thus, each participant categorized 40 tokens per language (five repetitions x two frames x four vowel conditions), given seven carrier words from which they chose.
 The seven word choices included three English carrier word choices intended to represent the phonemes /i/, /\textturnv/, /u/ and /a/ (*feel*, *fun*, *fool* and *thought*).
 The remaining 3 choices were Spanish carrier words intended to represent the phonemes /i/, /u/ and /o/ (*fin*, *su*, *son*).

@@ -21,6 +21,19 @@ prior = c(prior(normal(0, 8), class = Intercept, dpar = mufin),
 
 
 
+ef = rbind(english_l1_pct,english_l1_pct_g, spanish_l1_pct,spanish_l1_pct_g)
+
+mod_all <- 
+  brm(formula = choice ~ stim_language*phoneme*L1 + l2_prof_perception +
+        (1 | participant) + (1 | stim),
+            prior = prior, 
+            warmup = 1000, iter = 2000, chains = 4, 
+            family = categorical(link = "logit"), 
+            cores = parallel::detectCores(), 
+            #   control = list(adapt_delta = 0.99, max_treedepth = 15), 
+            data = ef,
+            file = here("data", "perception", "models", "all_model_pct.rds"))
+      
 # English bilingual model French
 mod_eng <- 
   brm(formula = choice ~ phoneme + l2_prof_perception +

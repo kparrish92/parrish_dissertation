@@ -9,7 +9,7 @@
 # Load 
 mod_span = readRDS(here("data", "perception", "models", "ns_span_prof.rds"))
 mod_span_g = readRDS(here("data", "perception", "models", "ns_span_g_prof.rds"))
-mod_eng = readRDS(here("data", "perception", "models", "ns_eng_g_prof.rds"))
+mod_eng = readRDS(here("data", "perception", "models", "ns_eng_prof.rds"))
 mod_eng_g = readRDS(here("data", "perception", "models", "ns_eng_g_prof.rds"))
 
 # Tidy
@@ -167,7 +167,7 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) + 
-  ggsave(here("sections", "figs", "y_full.png"))
+  ggsave(here("slides", "img", "y_full.png"))
 
 
 
@@ -214,8 +214,7 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) + 
-  ggsave(here("sections", "figs", "i_full.png"),
-         dpi = 1200)
+  ggsave(here("slides", "img", "i_full.png"))
 
 
 
@@ -259,7 +258,7 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) + 
-  ggsave(here("sections", "figs", "o_full.png"),
+  ggsave(here("slides", "img", "o_full.png"),
          dpi = 1200)
 
 
@@ -303,8 +302,7 @@ rbind(eng_full, span_full) %>%
   theme(panel.spacing = unit(.05, "lines"),
         panel.border = element_rect(color = "black", fill = NA, size = 1), 
         strip.background = element_rect(color = "black", size = 1)) +
-  ggsave(here("sections", "figs", "schwa_full.png"),
-         dpi = 1200)
+  ggsave(here("slides", "img", "schwa_full.png"))
 
 
 
